@@ -1,4 +1,27 @@
 {
   "brokenLinks": [],
-  "errors": []
+  "errors": [],
+  "viewportWidths": [
+    375,
+    430,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "routes": [
+    "/",
+    "/about",
+    "/services",
+    "/industries",
+    "/countries",
+    "/employers",
+    "/process",
+    "/contact",
+    "/privacy-policy",
+    "/terms"
+  ],
+  "hindiCheckedAtWidth": 375,
+  "reducedMotion": true,
+  "consoleErrorsCaptured": true
 }

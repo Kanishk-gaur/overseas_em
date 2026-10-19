@@ -23,8 +23,7 @@ export function Photo({ src, alt, className = "", priority = false, sizes = "(ma
 export function PageHero({ eyebrow, title, description, image, imageAlt }: { eyebrow: string; title: string; description: string; image?: string; imageAlt?: string }) {
   const { d } = useLocale();
   return <section className={`page-hero ${image ? "page-hero-image" : ""}`}>
-    {image && <Image src={image} alt={imageAlt || ""} fill priority sizes="100vw" />}
-    <div className="container page-hero-content"><div className="breadcrumbs"><Link href="/">{d.nav[0]}</Link><ChevronRight size={12} /><span>{eyebrow}</span></div><Reveal><Eyebrow light>{eyebrow}</Eyebrow><h1>{title}</h1><p className="page-hero-description">{description}</p></Reveal></div>
-    <div className="page-hero-index" aria-hidden="true">{site.name.toUpperCase()} / {site.descriptor}</div>
+    {image && <div className="page-hero-visual"><Image src={image} alt={imageAlt || ""} fill priority sizes="(max-width: 767px) 100vw, 38vw" /></div>}
+    <div className="container page-hero-content"><div className="breadcrumbs"><Link href="/">{d.nav[0]}</Link><ChevronRight size={12} /><span>{eyebrow}</span></div><Reveal className="page-hero-editorial"><div><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1></div><p className="page-hero-description">{description}</p></Reveal><div className="page-hero-signature">{site.tagline}</div></div>
   </section>;
 }

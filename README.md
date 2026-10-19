@@ -1,6 +1,6 @@
 # GlobalPath Overseas
 
-A complete, bilingual corporate recruitment website built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React and Lucide. All ten pages are statically exported. The site is frontend only: there are no accounts, databases, payments, job listings or contact-submission endpoints.
+A complete, bilingual corporate recruitment website built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React and Lucide. All ten pages are statically exported. The visual identity uses a custom path mark, editorial typography, documentary-style workforce images and varied layouts rather than repeated feature cards. The site is frontend only: there are no accounts, databases, payments, job listings or contact-submission endpoints.
 
 ## Run locally
 
@@ -63,7 +63,8 @@ The website is suitable for private review now. **Before offering live recruitme
 - `src/data/process.ts`: the recruitment timeline.
 - `src/data/faq.ts`: all nine bilingual FAQs.
 - `src/components/pages/`: additional bilingual editorial and legal content.
-- `src/app/globals.css`: visual system and responsive compositions.
+- `src/app/globals.css`: base layout primitives.
+- `src/app/editorial.css`: the refined editorial visual system, typography and independent tablet/mobile compositions.
 
 The language switch changes real content, updates the document language and remembers the preference in browser local storage. It also works for the current session when browser storage is unavailable. Language-specific URLs are not introduced; search metadata remains in English.
 
@@ -71,7 +72,7 @@ The language switch changes real content, updates the document language and reme
 
 Optimized, project-local WebP images live in **`public/images/`**. Replace them with the same filenames or update the `images` object in the site configuration. Asset provenance and the generated hero prompt are recorded in **`docs/ASSETS.md`**.
 
-`next/image` provides sizing, loading behaviour, alt text and hero priority. Because this is a static export, runtime image optimization is disabled; the included files are already resized and compressed to WebP. The main 1942px hero is about 110 KB. No external image service is needed when visiting the site.
+`next/image` provides sizing, loading behaviour, alt text and hero priority. Because this is a static export, runtime image optimization is disabled; the included files are already resized and compressed to WebP. The current 1448px documentary-style hero is about 134 KB. No external image service is needed when visiting the site.
 
 Photography is illustrative and does not imply endorsement by the people, employers or places shown. Replace illustrative photography with authorised company photography when available.
 
@@ -83,7 +84,7 @@ npm run lint
 npm run build
 ```
 
-Browser QA checked all ten routes, canonical metadata, images, internal links and anchors, English/Hindi switching and persistence, mobile menu navigation, employer deep links, native fallback dialogs and FAQ interactions. Home layouts were tested at 375, 430, 768, 1024, 1440 and 1920 pixels; internal routes were additionally checked at 375 and 768 pixels. Reduced motion, keyboard controls, focus indicators, native accordions and dialog focus handling are supported. Sticky mobile actions have reserved footer space.
+Browser QA checked all ten routes, canonical metadata, images, internal links and anchors, English/Hindi switching and persistence, mobile menu navigation, employer deep links, native fallback dialogs and FAQ interactions. All ten routes were checked at 375, 430, 768, 1024, 1440 and 1920 pixels. Hindi layouts were additionally checked at 375 pixels on every route. Reduced motion, keyboard controls, focus indicators, native accordions and dialog focus handling are supported. Sticky mobile actions have reserved footer space.
 
 `scripts/browser-qa.mjs` is a repeatable integration check. It expects a local Chrome debugging session on port 9222 and the website on port 3000, or a `QA_ORIGIN` environment variable. It saves screenshots and its report under `/tmp/`; it is not shipped in the static site.
 

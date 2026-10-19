@@ -18,7 +18,8 @@ export const site = {
 };
 
 export const images = {
-  hero: "/images/hero-workers.webp",
+  hero: "/images/hero-workshop.webp",
+  portrait: "/images/worker-portrait.webp",
   about: "/images/workforce.webp",
   construction: "/images/construction.webp",
   manufacturing: "/images/manufacturing.webp",
