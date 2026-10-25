@@ -1,0 +1,147 @@
+/* Additional content uses the existing GlobalPath palette and typography. */
+.recruitment-tracks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 80px; }
+.recruitment-tracks > article + article { border-left: 1px solid var(--border); padding-left: 70px; }
+.recruitment-tracks h2 { font-size: clamp(30px, 3vw, 43px); }
+.recruitment-list { margin: 24px 0; display: grid; gap: 12px; color: var(--muted); font-size: 14px; line-height: 1.8; }
+.recruitment-list li { padding-left: 18px; position: relative; }
+.recruitment-list li::before { content: ""; width: 4px; height: 4px; background: var(--gold-dark); position: absolute; left: 0; top: .75em; }
+.recruitment-filters { display: flex; flex-wrap: wrap; align-items: end; gap: 20px; border-block: 1px solid var(--border); padding: 24px 0; margin: 30px 0 20px; }
+.recruitment-filters label { display: flex; flex-direction: column; gap: 10px; min-width: 0; flex: 1; font-size: 12px; }
+.recruitment-filters label.recruitment-search { flex: 2; }
+.recruitment-filters input, .recruitment-filters select { width: 100%; min-height: 48px; border: 1px solid var(--border); border-radius: 0; padding: 12px 14px; background: #fff; color: var(--navy); font: inherit; font-size: 14px; }
+.recruitment-search > div { position: relative; }
+.recruitment-search > div > svg { position: absolute; left: 14px; top: 15px; color: var(--muted); }
+.recruitment-search > div > input { padding-left: 42px; }
+.recruitment-count { color: var(--muted); font-size: 12px; margin-bottom: 30px; }
+.workforce-grid, .resource-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px 30px; }
+.workforce-profile, .resource-article { min-width: 0; border-bottom: 1px solid var(--border); }
+.workforce-profile .photo, .resource-article .photo { height: 240px; min-height: 0; }
+.workforce-profile-copy, .resource-article-copy { padding: 24px 0 30px; }
+.workforce-profile h3 { font-size: 25px; margin-bottom: 15px; }
+.workforce-profile p, .resource-article p { color: var(--muted); font-size: 14px; line-height: 1.85; }
+.recruitment-meta { display: flex; justify-content: space-between; gap: 14px; font-size: 10px; line-height: 1.7; color: var(--gold-dark); margin-bottom: 18px; }
+.profile-details { margin: 22px 0; border-block: 1px solid var(--border); }
+.profile-details summary { list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 15px; cursor: pointer; padding: 17px 0; font-size: 13px; color: var(--navy); }
+.profile-details summary::-webkit-details-marker { display: none; }
+.profile-details summary::after { content: "+"; font-size: 20px; font-weight: 400; color: var(--gold-dark); }
+.profile-details[open] summary::after { content: "−"; }
+.profile-details > p:last-child { padding-bottom: 18px; }
+.recruitment-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
+.recruitment-tags li { background: var(--paper); border: 1px solid var(--border); padding: 5px 9px; font-size: 10px; line-height: 1.6; }
+.recruitment-empty { padding: 65px 20px; text-align: center; background: var(--paper); }
+.recruitment-empty p { margin: 16px 0; }
+.recruitment-empty .button { margin-top: 18px; }
+.recruitment-closing { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; border-top: 1px solid var(--border); padding-top: 30px; margin-top: 45px; }
+.recruitment-closing p { color: var(--muted); font-size: 14px; }
+.recruitment-closing + .button-row { margin-top: 25px; }
+.team-directory { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+.team-directory .photo { height: 345px; min-height: 0; background: var(--paper); }
+.team-directory .photo img { object-position: center top; }
+.team-member-copy { padding-top: 26px; }
+.team-member-copy .eyebrow { font-size: 9px; margin-bottom: 14px; }
+.team-member-copy h2 { font-size: 26px; letter-spacing: -.8px; line-height: 1.3; }
+.team-member-copy p { color: var(--muted); font-size: 13px; margin-top: 12px; }
+.team-member-copy p.team-role { color: var(--gold-dark); font-size: 12px; }
+.hiring-steps { list-style: none; padding: 0; margin: 35px 0 0; }
+.hiring-steps li { display: flex; align-items: flex-start; gap: 23px; padding: 25px 0; border-top: 1px solid var(--border); }
+.hiring-steps li > span { color: var(--gold-dark); font-size: 12px; padding-top: 5px; }
+.hiring-steps h3 { font-size: 20px; line-height: 1.5; }
+.hiring-steps p { color: var(--muted); font-size: 14px; margin-top: 12px; }
+.recruitment-process { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 80px; margin-top: 40px; }
+.recruitment-process article { border-top: 1px solid var(--border); padding: 32px 0; }
+.recruitment-process .editorial-number { margin-bottom: 18px; }
+.recruitment-process h2, .recruitment-process h3 { font-size: 25px; line-height: 1.4; letter-spacing: -.7px; }
+.recruitment-process p { color: var(--muted); font-size: 15px; margin-top: 18px; }
+.resource-article h2 { font-size: 25px; line-height: 1.4; letter-spacing: -.8px; }
+.resource-article p { margin: 18px 0 22px; }
+.article-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 100px; align-items: start; }
+.article-layout aside { position: sticky; top: 145px; }
+.article-layout aside p { font-size: 12px; color: var(--muted); margin-bottom: 18px; }
+.article-layout aside .text-link { margin-top: 14px; }
+.article-content { max-width: 800px; }
+.article-content > p { color: var(--muted); font-size: 17px; line-height: 1.95; margin-bottom: 27px; }
+.article-content > h2 { font-size: 29px; letter-spacing: -.8px; margin: 38px 0 22px; }
+.article-content > .article-note { font-size: 12px; background: var(--paper); border-left: 2px solid var(--gold); padding: 24px; margin-top: 38px; }
+.case-directory { display: grid; gap: 90px; }
+.case-feature { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 70px; padding-bottom: 70px; border-bottom: 1px solid var(--border); align-items: start; }
+.case-feature .photo { height: 440px; position: sticky; top: 145px; }
+.case-feature h2 { font-size: 38px; }
+.case-feature h3 { font-size: 19px; margin: 24px 0 10px; }
+.case-feature p { color: var(--muted); font-size: 14px; }
+.case-facts { display: flex; flex-wrap: wrap; gap: 12px 20px; margin: 23px 0; font-size: 11px; color: var(--gold-dark); }
+.glossary-directory { margin: 35px 0; }
+.glossary-directory > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 75px; padding: 35px 0; border-top: 1px solid var(--border); }
+.glossary-directory dt { font-family: var(--heading); font-size: 23px; line-height: 1.45; }
+.glossary-directory dt .eyebrow { margin-bottom: 14px; }
+.glossary-directory dd { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.9; }
+.detail-roles { background: var(--paper); padding: 40px; }
+.detail-roles p { margin-top: 20px; color: var(--muted); }
+.detail-roles .text-link { margin-top: 20px; }
+.detail-roles .recruitment-closing { margin-top: 25px; }
+.selected-workforce-role { margin-bottom: 45px; }
+.job-category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 35px; margin: 45px 0 30px; }
+.job-category-grid li { display: flex; align-items: baseline; gap: 17px; padding: 22px 0; border-top: 1px solid var(--border); font-size: 14px; line-height: 1.6; }
+.footer-resources { border-top: 1px solid #ffffff20; padding: 30px 0; margin-top: 44px; }
+.footer-resources h3 { font-size: 12px; font-weight: 500; margin-bottom: 20px; }
+.footer-resources ul { display: flex; flex-wrap: wrap; gap: 15px 30px; }
+.footer-resources a { font-size: 11px; color: #b5c2cb; }
+.footer-resources a:hover { color: #d3b27c; }
+.nav-group { align-self: stretch; display: flex; align-items: center; position: relative; }
+.nav-group details { height: 100%; }
+.nav-group summary { list-style: none; display: flex; align-items: center; height: 100%; gap: 5px; font-size: 12px; color: #4b5962; cursor: pointer; white-space: nowrap; }
+.nav-group summary::-webkit-details-marker { display: none; }
+.nav-group summary.active { color: var(--navy); }
+.nav-group summary.active::after { content: ""; position: absolute; bottom: 28px; left: 0; right: 0; height: 1px; background: var(--gold); }
+.nav-dropdown { position: absolute; left: -22px; top: calc(100% - 8px); min-width: 255px; background: #fff; border: 1px solid var(--border); box-shadow: 0 12px 30px #07162912; padding: 12px 22px; z-index: 50; }
+.nav-dropdown a { display: flex; align-items: center; justify-content: space-between; gap: 22px; padding: 13px 0; font-size: 12px; line-height: 1.7; border-bottom: 1px solid var(--border); }
+.nav-dropdown a:last-child { border: 0; }
+.nav-dropdown a:hover { color: var(--gold-dark); }
+.mobile-nav .mobile-resources-title { padding-bottom: 8px; color: var(--gold-dark); }
+.country-detail-copy .button-row { margin-top: 24px; }
+
+@media (max-width: 1280px) {
+  .nav-group summary { font-size: 11px; }
+  .team-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 50px 30px; }
+  .team-directory .photo { height: 420px; }
+  .recruitment-tracks { gap: 45px; }
+  .recruitment-tracks > article + article { padding-left: 40px; }
+  .article-layout { gap: 50px; grid-template-columns: 200px minmax(0, 1fr); }
+  .case-feature { gap: 40px; }
+}
+@media (max-width: 1023px) {
+  .workforce-grid, .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .recruitment-process { column-gap: 40px; }
+  .job-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .glossary-directory > div { gap: 40px; }
+}
+@media (max-width: 767px) {
+  .recruitment-tracks, .recruitment-process, .workforce-grid, .resource-grid, .team-directory, .case-feature, .article-layout, .glossary-directory > div { grid-template-columns: minmax(0, 1fr); }
+  .recruitment-tracks { gap: 40px; }
+  .recruitment-tracks > article + article { padding: 40px 0 0; border-left: 0; border-top: 1px solid var(--border); }
+  .recruitment-tracks h2 { font-size: 32px; }
+  .recruitment-filters { gap: 17px; }
+  .recruitment-filters label.recruitment-search { flex-basis: 100%; }
+  .recruitment-filters label { flex-basis: 40%; }
+  .recruitment-filters input, .recruitment-filters select { font-size: 16px; }
+  .workforce-grid, .resource-grid { gap: 35px; }
+  .workforce-profile .photo, .resource-article .photo { height: 245px; }
+  .recruitment-closing { align-items: flex-start; flex-direction: column; margin-top: 32px; }
+  .team-directory .photo { height: 410px; }
+  .team-directory { gap: 45px; }
+  .team-member-copy h2 { font-size: 28px; }
+  .article-layout { gap: 35px; }
+  .article-layout aside, .case-feature .photo { position: static; }
+  .article-content > p { font-size: 16px; }
+  .case-directory { gap: 55px; }
+  .case-feature { gap: 30px; padding-bottom: 45px; }
+  .case-feature .photo { height: 270px; }
+  .case-feature h2 { font-size: 32px; }
+  .glossary-directory > div { gap: 20px; padding: 28px 0; }
+  .detail-roles { padding: 28px; }
+  .job-category-grid { gap: 0 20px; }
+  .job-category-grid li { flex-direction: column; gap: 8px; font-size: 12px; }
+  .footer-resources ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-details, .nav-dropdown { scroll-behavior: auto; }
+}

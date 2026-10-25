@@ -1,0 +1,42 @@
+[
+  {
+    "file": "public/images/recruitment/generated/driver.webp",
+    "original": "/Users/kanishkgaur/.codex/generated_images/01a16c66-15a5-7b32-bd2a-7612939a1b66/exec-850f067e-6b90-4f3d-8ff9-a2bf1b0213ce.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 76272,
+    "tool": "built-in image_gen.imagegen"
+  },
+  {
+    "file": "public/images/recruitment/generated/security.webp",
+    "original": "/Users/kanishkgaur/.codex/generated_images/01a16c66-15a5-7b32-bd2a-7612939a1b66/exec-1bf263b1-b5f6-439a-9570-35ad26f57447.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 74326,
+    "tool": "built-in image_gen.imagegen"
+  },
+  {
+    "file": "public/images/recruitment/generated/agriculture.webp",
+    "original": "/Users/kanishkgaur/.codex/generated_images/01a16c66-15a5-7b32-bd2a-7612939a1b66/exec-1b003c43-8eb5-40f2-8054-f7b0e2a2ba98.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 158620,
+    "tool": "built-in image_gen.imagegen"
+  },
+  {
+    "file": "public/images/recruitment/generated/food-processing.webp",
+    "original": "/Users/kanishkgaur/.codex/generated_images/01a16c66-15a5-7b32-bd2a-7612939a1b66/exec-9e01928e-22f1-4774-8a88-2939c52162dc.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 94896,
+    "tool": "built-in image_gen.imagegen"
+  },
+  {
+    "file": "public/images/recruitment/generated/retail.webp",
+    "original": "/Users/kanishkgaur/.codex/generated_images/01a16c66-15a5-7b32-bd2a-7612939a1b66/exec-a3aaaf0b-8616-4176-a138-bc5de13e26f3.png",
+    "width": 1280,
+    "height": 853,
+    "bytes": 117142,
+    "tool": "built-in image_gen.imagegen"
+  }
+]

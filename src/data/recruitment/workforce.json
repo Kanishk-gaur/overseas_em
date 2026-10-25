@@ -1,0 +1,382 @@
+{
+  "workforce": [
+    {
+      "title": "Welder",
+      "category": "Construction",
+      "industry": "Construction",
+      "type": "Non-Technical",
+      "experience": "2+ years",
+      "description": "Structural, pipe and fabrication welding, with process-specific skills assessed for the role.",
+      "details": "Discuss the welding processes and positions used in previous work, drawing interpretation, fit-up and safety practices. Confirm the employer’s practical test and any required certification; competence must be assessed for each candidate.",
+      "skills": [
+        "SMAW / TIG / MIG",
+        "3G · 4G · 6G positions",
+        "Blueprint reading",
+        "Fit-up & grinding"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi Arabia",
+        "Qatar",
+        "Russia",
+        "Poland"
+      ]
+    },
+    {
+      "title": "Electrician",
+      "category": "Construction",
+      "industry": "Construction",
+      "type": "Non-Technical",
+      "experience": "2+ years",
+      "description": "Electrical installation, maintenance and testing for industrial, commercial or residential settings.",
+      "details": "Relevant experience may include conduit, cable trays, panels, lighting, power circuits and testing. Confirm the permitted scope of work, local licensing requirements and the employer’s safety and assessment expectations.",
+      "skills": [
+        "Panel & DB wiring",
+        "Cable tray / conduit",
+        "Testing & commissioning",
+        "IEC standards"
+      ],
+      "markets": [
+        "UAE",
+        "Qatar",
+        "Saudi Arabia",
+        "Germany",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Construction Worker",
+      "category": "Construction",
+      "industry": "Construction",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Site support across building, civil and infrastructure work.",
+      "details": "Discuss experience in masonry support, shuttering, steel fixing, concreting and site preparation. The brief should specify physical tasks, supervision, protective equipment and site induction.",
+      "skills": [
+        "Shuttering & steel fixing",
+        "Concreting",
+        "Masonry support",
+        "PPE & site safety"
+      ],
+      "markets": [
+        "Saudi Arabia",
+        "Israel",
+        "Russia",
+        "Qatar",
+        "Poland"
+      ]
+    },
+    {
+      "title": "Site Engineer",
+      "category": "Construction",
+      "industry": "Construction",
+      "type": "Technical",
+      "experience": "3+ years",
+      "description": "Engineering coordination, supervision and quality review on construction projects.",
+      "details": "Describe the discipline, project stage, drawings, reporting duties and contractor coordination needed. Review qualifications and relevant project evidence, with any local registration requirements checked separately.",
+      "skills": [
+        "Site supervision",
+        "QA/QC & inspections",
+        "AutoCAD / drawings",
+        "Progress reporting"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi Arabia",
+        "Qatar",
+        "Poland"
+      ]
+    },
+    {
+      "title": "Mechanical Engineer",
+      "category": "Manufacturing",
+      "industry": "Manufacturing",
+      "type": "Technical",
+      "experience": "3+ years",
+      "description": "Mechanical engineering roles in equipment, maintenance and production environments.",
+      "details": "Discuss plant maintenance, equipment installation, process improvement and the technical tools used. Review the candidate’s qualification and project experience against the actual duties and destination requirements.",
+      "skills": [
+        "Preventive maintenance",
+        "Root-cause analysis",
+        "AutoCAD / SolidWorks",
+        "Production support"
+      ],
+      "markets": [
+        "Germany",
+        "Russia",
+        "Japan",
+        "UAE"
+      ]
+    },
+    {
+      "title": "Machine Operator",
+      "category": "Manufacturing",
+      "industry": "Manufacturing",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Machine and production-line operations with attention to safety and quality.",
+      "details": "Specify the actual machine, materials, setup duties and quality checks. Operating, programming and maintenance responsibilities should be distinguished, and practical ability assessed against the employer’s equipment.",
+      "skills": [
+        "Machine setup",
+        "Quality checks",
+        "Shift work",
+        "Lock-out / tag-out"
+      ],
+      "markets": [
+        "Poland",
+        "Czech Republic",
+        "Romania",
+        "Russia"
+      ]
+    },
+    {
+      "title": "Factory Worker",
+      "category": "Manufacturing",
+      "industry": "Manufacturing",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Assembly, sorting, packing and production-support roles.",
+      "details": "Describe the workstation, handling tasks, production routine and quality expectations. Confirm shifts, training, protective equipment and any physical or environmental requirements before selection.",
+      "skills": [
+        "Assembly",
+        "Packing & labelling",
+        "Line feeding",
+        "5S housekeeping"
+      ],
+      "markets": [
+        "Poland",
+        "Czech Republic",
+        "Romania",
+        "Germany"
+      ]
+    },
+    {
+      "title": "CNC Technician",
+      "category": "Manufacturing",
+      "industry": "Manufacturing",
+      "type": "Technical",
+      "experience": "2+ years",
+      "description": "Precision machining, machine setup and CNC operation.",
+      "details": "Clarify whether the role involves setup, programming, operation or all three. Discuss relevant machine types, drawing interpretation, tooling and measurement, and agree the practical assessment and qualification requirements.",
+      "skills": [
+        "Fanuc / Siemens controls",
+        "G-code programming",
+        "Tool setting",
+        "Precision measurement"
+      ],
+      "markets": [
+        "Germany",
+        "Czech Republic",
+        "Poland",
+        "Japan"
+      ]
+    },
+    {
+      "title": "Caregiver",
+      "category": "Healthcare",
+      "industry": "Healthcare",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Daily support and companionship in care settings and households.",
+      "details": "Discuss the care setting, mobility support, personal care duties, supervision and the candidate’s training. Confirm the permitted scope, language evidence and occupation-specific employment route; caregiving must not be presented as licensed nursing.",
+      "skills": [
+        "Elderly & dementia care",
+        "Patient handling",
+        "Personal hygiene support",
+        "Basic first aid"
+      ],
+      "markets": [
+        "Japan",
+        "Israel",
+        "Germany"
+      ]
+    },
+    {
+      "title": "Nurse",
+      "category": "Healthcare",
+      "industry": "Healthcare",
+      "type": "Technical",
+      "experience": "2+ years",
+      "description": "Professional nursing roles requiring destination-specific registration.",
+      "details": "Review nursing qualifications, registration status and relevant clinical experience. Recognition, licensing and accepted language evidence must be checked with the destination’s professional regulator and the applicable employment route.",
+      "skills": [
+        "Ward & ICU care",
+        "Medication administration",
+        "Patient documentation",
+        "IELTS / OET / German B1"
+      ],
+      "markets": [
+        "United Kingdom",
+        "Germany",
+        "Saudi Arabia",
+        "Israel"
+      ]
+    },
+    {
+      "title": "Hospitality Staff",
+      "category": "Hospitality",
+      "industry": "Hospitality",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Guest service, housekeeping and food-service roles in hospitality.",
+      "details": "Define the department and duties: reception, restaurant service, rooms or kitchen support. Discuss relevant service experience, hygiene, working language, shifts and any practical assessment.",
+      "skills": [
+        "Guest service",
+        "F&B service",
+        "Housekeeping",
+        "Spoken English"
+      ],
+      "markets": [
+        "UAE",
+        "Qatar",
+        "Saudi Arabia",
+        "Portugal"
+      ]
+    },
+    {
+      "title": "IT Support Engineer",
+      "category": "IT & Engineering",
+      "industry": "IT & Engineering",
+      "type": "Technical",
+      "experience": "2+ years",
+      "description": "Helpdesk, desktop, infrastructure and network-support roles.",
+      "details": "Describe the support level, systems, ticketing tools and escalation responsibilities. Discuss examples of troubleshooting and user support without requesting confidential employer data or access credentials.",
+      "skills": [
+        "Windows / Linux",
+        "Active Directory",
+        "Networking (CCNA)",
+        "Ticketing / ITSM"
+      ],
+      "markets": [
+        "Germany",
+        "Poland",
+        "UAE",
+        "United Kingdom"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "category": "IT & Engineering",
+      "industry": "IT & Engineering",
+      "type": "Technical",
+      "experience": "2+ years",
+      "description": "Web, mobile and enterprise software-development roles.",
+      "details": "Specify the stack, project responsibilities and expected experience. A coding exercise or project discussion can help assess relevant ability; agree the format and protect confidential work and intellectual property.",
+      "skills": [
+        "Java / .NET / Python",
+        "JavaScript & React",
+        "SQL databases",
+        "Git & Agile"
+      ],
+      "markets": [
+        "Germany",
+        "Poland",
+        "Japan",
+        "United Kingdom"
+      ]
+    },
+    {
+      "title": "MEP Technician",
+      "category": "Facilities Management",
+      "industry": "Facilities Management",
+      "type": "Technical",
+      "experience": "2+ years",
+      "description": "Mechanical, electrical and plumbing maintenance for buildings and facilities.",
+      "details": "Clarify the systems involved, such as HVAC, pumps, electrical panels or plumbing. Review practical experience, preventive maintenance and fault reporting, alongside any local licensing and safety requirements.",
+      "skills": [
+        "HVAC & chillers",
+        "Electrical maintenance",
+        "Plumbing & pumps",
+        "PPM schedules"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi Arabia",
+        "Qatar"
+      ]
+    },
+    {
+      "title": "Security Guard",
+      "category": "Facilities Management",
+      "industry": "Facilities Management",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Access control, patrols and incident-reporting roles.",
+      "details": "Specify the site, visitor procedures, monitoring duties and working language. Confirm training, background-check and destination licensing requirements before considering a candidate suitable.",
+      "skills": [
+        "Access control",
+        "CCTV monitoring",
+        "Patrolling",
+        "Incident reporting"
+      ],
+      "markets": [
+        "UAE",
+        "Qatar",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "title": "Driver",
+      "category": "Facilities Management",
+      "industry": "Facilities Management",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Light- or heavy-vehicle driving for transport, delivery and logistics.",
+      "details": "Specify vehicle class, load, route and working pattern. Review relevant driving experience and verify destination licence recognition, local testing and insurance before any appointment.",
+      "skills": [
+        "LMV / HMV licence",
+        "Route planning",
+        "Vehicle checks",
+        "Defensive driving"
+      ],
+      "markets": [
+        "UAE",
+        "Saudi Arabia",
+        "Qatar",
+        "Poland"
+      ]
+    },
+    {
+      "title": "Warehouse Worker",
+      "category": "Logistics & Warehousing",
+      "industry": "Logistics & Warehousing",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Picking, packing, inventory and dispatch operations.",
+      "details": "Discuss scanner use, stock checks, order accuracy and handling duties. Forklift work requires a separate check of relevant training and authorisation; availability or certification is not implied by this example profile.",
+      "skills": [
+        "Picking & packing",
+        "RF scanners / WMS",
+        "Forklift (certified)",
+        "Inventory counts"
+      ],
+      "markets": [
+        "Poland",
+        "Czech Republic",
+        "Germany",
+        "Romania"
+      ]
+    },
+    {
+      "title": "Agriculture Worker",
+      "category": "Agriculture",
+      "industry": "Agriculture",
+      "type": "Non-Technical",
+      "experience": "1+ years",
+      "description": "Farm, greenhouse and seasonal crop-support roles.",
+      "details": "Describe planting, irrigation, harvesting, sorting or packing duties and relevant experience. Confirm season length, weather exposure, transport, housing and how working hours and pay are recorded.",
+      "skills": [
+        "Harvesting",
+        "Greenhouse work",
+        "Irrigation",
+        "Sorting & packing"
+      ],
+      "markets": [
+        "Israel",
+        "Portugal",
+        "Poland",
+        "Romania"
+      ]
+    }
+  ]
+}

@@ -55,3 +55,59 @@ Final portrait prompt:
 > Use case: photorealistic-natural. Asset type: human-centered editorial workforce photograph for a premium Indian international recruitment website. A dignified Indian skilled tradesman in his late thirties standing at a real industrial workshop bench, looking thoughtfully slightly past the camera with a very subtle natural smile. He wears a naturally worn navy work shirt with sleeves rolled to the wrists and plain personal protective equipment appropriate to a workshop, no hardhat indoors. Calloused working hands resting on the bench next to a simple precision metal component. Background has tools and machinery with rich natural material textures, light from tall windows. The person feels specific and human, no model-like corporate glamour, no artificial skin smoothness. Chest-up to waist-up composition, eyes near upper third, the man positioned slightly to the left of center, workshop space surrounding him. Restrained cinematic documentary photography, a 3:2 landscape image, natural soft side lighting, subdued navy and warm grey palette, modest warm highlights. Confident, respectful, human, hopeful. No dramatic sparks, artificial sun flare, text, logo, watermark or implication that this fictional person endorses a real company.
 
 The current brand mark is an original path-and-arrow G symbol in `src/components/shared/brand-mark.tsx`, with a matching favicon. It replaces the earlier globe symbol.
+
+## October 2026 recruitment redesign
+
+The source `overseas` project was read only. The image audit reviewed 266 raster files across both projects (203 byte-distinct files, including alternate formats and placeholder artwork), plus the source's five starter SVGs. Contact sheets and the inventory are reproducible with `node scripts/audit-images.mjs`; output goes into ignored `.review/image-audit`.
+
+### Reused project imagery
+
+27 reviewed scenes from the original project's home, blog and hiring-scenario collections were resized without enlargement and encoded as local WebP files under `public/images/recruitment/editorial/`. The [reuse manifest](./reused-image-manifest.json) records every source path, output path, dimensions and byte size. Original source files were not edited. The source collections' README files identify them as generated imagery:
+
+- `overseas/public/images/home/README.txt`
+- `overseas/public/images/blog/README.txt`
+- `overseas/public/images/case-studies/README.txt`
+
+These are project-provided illustrative assets. No new third-party stock licence or factual company affiliation is asserted for them. Existing generated hero and worker-portrait assets remain in use. The four project-provided team portraits were converted to WebP while preserving their original files and existing profile associations.
+
+| Content | Reviewed replacement |
+| --- | --- |
+| Welder, electrician, construction worker | Matching welding, electrical-panel and construction scenes |
+| Machine, CNC, manufacturing and engineering roles | Machining, factory operators and engineering review |
+| Nurse and caregiver | Nursing portrait and caregiver supporting an older adult |
+| Hospitality | Chef or hotel guest-service scene |
+| Warehouse worker | People checking and packing warehouse orders |
+| MEP / facilities | Technicians inspecting HVAC equipment |
+| Software / office roles | Professionals at computers |
+| Sourcing and employer requirements | Candidate-record review and recruitment coordination |
+| Documents, orientation, deployment, ongoing support | Passport review, classroom, airport and site handover respectively |
+
+The colour-only placeholder sets in the original `home2`, `pages2`, `blog2` and `case-studies2` collections are not used. Existing blog and scenario WebPs remain matched to their articles. The generic building previously used for Israel was replaced with the original caregiving illustration; its alt text describes care work, not a claimed landmark.
+
+### Three newly generated images
+
+Created with the built-in `image_gen.imagegen` tool, reviewed visually, then encoded with Sharp as 1280 × 853 WebPs:
+
+| Asset | Use | File size |
+| --- | --- | --- |
+| `recruitment/generated/driver.webp` | Driver profile and transportation industry | 76,272 bytes |
+| `recruitment/generated/security.webp` | Security guard profile | 74,326 bytes |
+| `recruitment/generated/agriculture.webp` | Farm-worker profile and agriculture industry | 158,620 bytes |
+
+[Exact prompts](./GENERATED-IMAGES.md) and the [generated-image manifest](./generated-image-manifest.json) record the tool, original PNG locations and saved outputs. These scenes depict fictional people, not actual placements, staff or endorsements. The original generated PNGs are preserved. No CLI image-generation fallback was used.
+
+### Destination photography
+
+Previously imported local destination photographs retain the project's documented Unsplash provenance. Additional source URLs carried across with the original country data:
+
+| Local image | Source |
+| --- | --- |
+| `recruitment/russia.jpg` | [Moscow photograph](https://images.unsplash.com/photo-1513326738677-b964603b136d) |
+| `recruitment/portugal.jpg` | [Lisbon tram photograph](https://images.unsplash.com/photo-1585208798174-6cedd86e019a) |
+| `recruitment/czech-republic.jpg` | [Prague photograph](https://images.unsplash.com/photo-1519677100203-a0e668c92439) |
+
+The earlier Unsplash source table is retained as provenance for existing assets, including photographs no longer displayed. See the existing licence reference above; this redesign did not download new stock photography.
+
+### Rendering
+
+Content photography uses `next/image`, explicit aspect containers and responsive `sizes`. Hero images use Next 16's `preload`; other images retain lazy loading. Because the app is a static export with image optimisation disabled at runtime, the local WebP files are prepared before rendering. Scene descriptions and focal positions are centralised in `src/data/photography.ts`. No image-processing runtime or new dependency was added.

@@ -1,0 +1,37 @@
+{
+  "workforceCategories": [
+    {
+      "id": "technical",
+      "icon": "graduation-cap",
+      "title": "Technical Workforce",
+      "tagline": "Degree and diploma-qualified professionals",
+      "description": "Engineers, IT professionals, and diploma-qualified technicians sourced against formal qualifications and verified through credential checks and technical assessment.",
+      "examples": [
+        "Mechanical / Electrical / Civil Engineers (B.Tech, B.E.)",
+        "Software Developers & IT Support Engineers",
+        "CNC & Industrial Machine Technicians (Diploma / ITI)",
+        "Lab & Quality Assurance Technicians",
+        "Network & Systems Engineers"
+      ],
+      "qualificationBasis": "Engineering degree/diploma, technical certification, project or portfolio review",
+      "idealFor": "EU Blue Card (Germany, Poland), Specialist/Engineer visas (Japan), Gulf employment visas (UAE, Saudi Arabia, Qatar)"
+    },
+    {
+      "id": "non-technical",
+      "icon": "wrench",
+      "title": "Non-Technical Workforce",
+      "tagline": "Trade-certified and experience-verified workers",
+      "description": "Skilled and semi-skilled trade workers sourced against hands-on experience, trade certification, and hands-on skill testing rather than formal degrees.",
+      "examples": [
+        "Welders, Electricians & Construction Trades",
+        "Machine Operators & Assembly Line Workers",
+        "Caregivers & Healthcare Support Staff",
+        "Hospitality, Housekeeping & Food Service Staff",
+        "Agriculture & Food Processing Workers"
+      ],
+      "qualificationBasis": "Trade certificate / ITI, verified work experience, hands-on skill test, medical fitness",
+      "idealFor": "SSW & TITP (Japan), skilled worker visas (Germany), labor contracts (Russia, Gulf & Israel)"
+    }
+  ]
+}
+

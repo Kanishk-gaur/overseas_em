@@ -1,0 +1,143 @@
+{
+  "services": [
+    {
+      "id": "sourcing",
+      "icon": "file-text",
+      "title": "Workforce Sourcing & Screening",
+      "body": "We source, screen, and shortlist pre-vetted skilled and semi-skilled workers matched to your exact trade, experience, and headcount requirements.",
+      "included": [
+        "Job order intake and role/qualification mapping",
+        "Sourcing from our pre-screened talent pool",
+        "Shortlist delivered against your headcount and timeline"
+      ]
+    },
+    {
+      "id": "compliance",
+      "icon": "shield-check",
+      "title": "Visa Sponsorship & Compliance",
+      "body": "Complete handling of work permits, visa sponsorship documentation, and legal paperwork required to bring workers into your country of operation.",
+      "included": [
+        "Work permit and visa sponsorship filing",
+        "Qualification recognition support (where required)",
+        "Medical fitness and police clearance coordination"
+      ]
+    },
+    {
+      "id": "readiness",
+      "icon": "languages",
+      "title": "Workforce Readiness Training",
+      "body": "Pre-deployment orientation, basic language training, and cultural readiness sessions so your workforce is productive from day one.",
+      "included": [
+        "Basic language training for the destination country",
+        "Workplace culture and safety orientation",
+        "Role-specific readiness briefing before travel"
+      ]
+    },
+    {
+      "id": "quality",
+      "icon": "badge-check",
+      "title": "Quality & Background Verification",
+      "body": "Every candidate is background-checked, skill-tested, and verified before being shortlisted for your job order.",
+      "included": [
+        "Identity and document verification",
+        "Trade certification or degree/diploma verification",
+        "Hands-on skill test or technical assessment"
+      ]
+    },
+    {
+      "id": "deployment",
+      "icon": "plane",
+      "title": "Bulk Deployment & Logistics",
+      "body": "Ticketing, travel coordination, and on-site handover — built to support both single-role hires and bulk workforce orders.",
+      "included": [
+        "Group or individual travel and ticketing",
+        "Phased deployment scheduling for bulk orders",
+        "Formal on-site or employer handover"
+      ]
+    },
+    {
+      "id": "support",
+      "icon": "handshake",
+      "title": "Dedicated Account Management & Replacement Guarantee",
+      "body": "A single point of contact for your account, ongoing workforce support, and a replacement guarantee if a placed worker doesn't meet expectations.",
+      "included": [
+        "Single point-of-contact account manager",
+        "Post-deployment check-ins and grievance handling",
+        "Replacement guarantee within your service agreement window"
+      ]
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Submit Your Workforce Requirement",
+      "body": "Tell us the roles, headcount, experience level, and target country — online or through your account manager."
+    },
+    {
+      "title": "Sourcing & Shortlisting",
+      "body": "Our desk sources and shortlists pre-screened candidates matched to your job order from our verified talent pool."
+    },
+    {
+      "title": "Skill Test & Client Interview",
+      "body": "Shortlisted candidates undergo skill assessments, with interview access for your team before final selection."
+    },
+    {
+      "title": "Documentation & Visa Sponsorship",
+      "body": "We manage medical checks, police clearance, contracts, and visa sponsorship paperwork on your behalf."
+    },
+    {
+      "title": "Pre-Deployment Training",
+      "body": "Selected workers complete orientation covering language basics, workplace culture, and role expectations."
+    },
+    {
+      "title": "Deployment & On-Site Handover",
+      "body": "We coordinate travel and ticketing, followed by a formal handover to your site or facility."
+    },
+    {
+      "title": "Ongoing Account Support",
+      "body": "Continued support through your dedicated account manager, including our replacement guarantee."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is [Company Name] a licensed manpower supply agency?",
+      "a": "Yes, we are registered and licensed under [License Authority Name], License No. [License No.], and supply workforce in full compliance with recruitment regulations."
+    },
+    {
+      "q": "What is your minimum order size?",
+      "a": "We support both single-role hires and bulk workforce orders. Minimum order size varies by trade and country — your account manager will confirm this during your requirement submission."
+    },
+    {
+      "q": "How long does sourcing and deployment take?",
+      "a": "Timelines vary by country, visa category, and headcount, typically between [X–X] weeks from requirement confirmation to deployment."
+    },
+    {
+      "q": "How do you screen and verify candidates?",
+      "a": "Every candidate is background-checked, skill-tested, and interviewed before shortlisting. Documentation is verified against your job order requirements before deployment."
+    },
+    {
+      "q": "Do you handle visa sponsorship and compliance paperwork?",
+      "a": "Yes. We manage the full documentation cycle — work permits, visa sponsorship, medical checks, and police clearance — for every worker we place."
+    },
+    {
+      "q": "What happens if a placed worker doesn't work out?",
+      "a": "We offer a replacement guarantee for workers who don't meet the agreed job order requirements within the defined support window — details are confirmed in your service agreement."
+    },
+    {
+      "q": "Are there any hidden charges?",
+      "a": "No. All service fees are outlined transparently in your service agreement before sourcing begins."
+    },
+    {
+      "q": "Can you fulfill a job order that mixes technical and non-technical roles?",
+      "a": "Yes. A single job order can combine both — for example, engineers alongside general laborers for a construction project — and we run each role through the appropriate sourcing track in parallel."
+    },
+    {
+      "q": "Can you support hiring across more than one country at once?",
+      "a": "Yes. Client companies with operations in multiple countries can consolidate requirements with a single account manager, even though sourcing and compliance are handled by each country desk separately."
+    },
+    {
+      "q": "Do you support ongoing or recurring workforce orders?",
+      "a": "Yes. Many client companies move to a recurring order model after their first placement, with agreed lead times and headcount ranges built into the service agreement."
+    }
+  ]
+}
+

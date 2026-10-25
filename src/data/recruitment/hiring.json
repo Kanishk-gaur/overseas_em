@@ -1,0 +1,83 @@
+{
+  "hiringTracks": [
+    {
+      "id": "technical",
+      "icon": "graduation-cap",
+      "title": "Technical Hiring Track",
+      "subtitle": "For engineers, IT professionals & diploma-qualified technicians",
+      "steps": [
+        {
+          "title": "Requirement & Qualification Mapping",
+          "body": "We map your role against the specific degree, diploma, or certification the destination country requires."
+        },
+        {
+          "title": "Credential Verification",
+          "body": "Educational and professional credentials are verified and, where required, prepared for recognition (e.g. Germany's qualification recognition process)."
+        },
+        {
+          "title": "Technical Assessment & Client Interview",
+          "body": "Candidates complete a technical assessment or project review, followed by direct interview access for your engineering or IT leads."
+        },
+        {
+          "title": "Visa Sponsorship & Compliance",
+          "body": "We manage EU Blue Card, Specialist/Engineer visa, or equivalent sponsorship documentation on your behalf."
+        },
+        {
+          "title": "Onboarding & Deployment",
+          "body": "Technical readiness briefing and workplace-specific onboarding support, followed by deployment to your site."
+        }
+      ]
+    },
+    {
+      "id": "non-technical",
+      "icon": "wrench",
+      "title": "Non-Technical Hiring Track",
+      "subtitle": "For trade-certified and experience-verified workers",
+      "steps": [
+        {
+          "title": "Requirement & Trade Mapping",
+          "body": "We confirm the exact trade, headcount, and experience level required for your job order."
+        },
+        {
+          "title": "Screening & Trade Certification Check",
+          "body": "Candidates are shortlisted from our verified pool and checked against trade certificates (ITI or equivalent) and prior work experience."
+        },
+        {
+          "title": "Skill Test & Medical Fitness",
+          "body": "Hands-on skill testing and medical fitness checks are completed before candidates are confirmed for your order."
+        },
+        {
+          "title": "Visa & Work Permit Processing",
+          "body": "We handle work permits, police clearance, and all visa documentation required for deployment."
+        },
+        {
+          "title": "Pre-Deployment Training & Deployment",
+          "body": "Language basics, cultural orientation, and workplace safety briefing precede travel and on-site handover."
+        }
+      ]
+    }
+  ],
+  "engagementModels": [
+    {
+      "icon": "package",
+      "title": "Bulk Workforce Orders",
+      "body": "For headcounts of 10 or more, sourced and deployed in phased or single batches aligned to your project timeline."
+    },
+    {
+      "icon": "target",
+      "title": "Single & Specialist Hires",
+      "body": "For individual technical or leadership roles where precise qualification matching matters more than volume."
+    },
+    {
+      "icon": "handshake",
+      "title": "Direct Placement",
+      "body": "Workers are hired directly onto your payroll under your employment contract, with us managing sourcing and compliance only."
+    },
+    {
+      "icon": "repeat",
+      "title": "Ongoing Contract Staffing",
+      "body": "We remain the employer of record for the contract duration, giving you workforce flexibility without direct HR overhead."
+    }
+  ]
+}
+

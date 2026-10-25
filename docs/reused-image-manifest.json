@@ -1,0 +1,218 @@
+[
+  {
+    "file": "/images/recruitment/editorial/consultation.webp",
+    "source": "overseas/public/images/home/webp/about-1.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 95288,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/workforce.webp",
+    "source": "overseas/public/images/home/webp/about-2.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 100058,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/documents.webp",
+    "source": "overseas/public/images/home/webp/about-3.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 46852,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/welder.webp",
+    "source": "overseas/public/images/home/webp/gallery-1.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 106648,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/nurse.webp",
+    "source": "overseas/public/images/home/webp/gallery-2.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 70986,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/electrician.webp",
+    "source": "overseas/public/images/home/webp/gallery-3.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 106012,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/chef.webp",
+    "source": "overseas/public/images/home/webp/gallery-4.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 91882,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/forklift.webp",
+    "source": "overseas/public/images/home/webp/gallery-5.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 119212,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/construction.webp",
+    "source": "overseas/public/images/home/webp/gallery-6.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 103024,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/requirements.webp",
+    "source": "overseas/public/images/home/webp/step-1.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 55202,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/screening.webp",
+    "source": "overseas/public/images/home/webp/step-2.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 63974,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/assessment.webp",
+    "source": "overseas/public/images/home/webp/step-3.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 76994,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/verification.webp",
+    "source": "overseas/public/images/home/webp/step-4.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 64136,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/orientation.webp",
+    "source": "overseas/public/images/home/webp/step-5.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 64202,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/departure.webp",
+    "source": "overseas/public/images/home/webp/step-6.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 99852,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/support.webp",
+    "source": "overseas/public/images/home/webp/step-7.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 80472,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/engineering.webp",
+    "source": "overseas/public/images/home/webp/track-technical.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 76120,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/trades.webp",
+    "source": "overseas/public/images/home/webp/track-non-technical.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 99410,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/team.webp",
+    "source": "overseas/public/images/home/webp/cta-bg.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 76420,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/manufacturing.webp",
+    "source": "overseas/public/images/case-studies/webp/germany-technicians.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 106164,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/caregiver.webp",
+    "source": "overseas/public/images/case-studies/webp/israel-caregivers.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 172302,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/hospitality.webp",
+    "source": "overseas/public/images/case-studies/webp/qatar-hospitality.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 107372,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/facilities.webp",
+    "source": "overseas/public/images/case-studies/webp/uae-facilities.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 121702,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/siteEngineer.webp",
+    "source": "overseas/public/images/case-studies/webp/saudi-engineers.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 127220,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/software.webp",
+    "source": "overseas/public/images/case-studies/webp/germany-developers.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 73582,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/warehouse.webp",
+    "source": "overseas/public/images/case-studies/webp/poland-warehouse.webp",
+    "width": 1280,
+    "height": 960,
+    "bytes": 94226,
+    "provenance": "Existing project-provided illustrative generated photography"
+  },
+  {
+    "file": "/images/recruitment/editorial/machine.webp",
+    "source": "overseas/public/images/blog/webp/germany-visa.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 75100,
+    "provenance": "Existing project-provided illustrative generated photography"
+  }
+]

@@ -1,0 +1,143 @@
+{
+  "jobCategories": [
+    {
+      "id": "construction",
+      "icon": "🏗️",
+      "name": "Construction & Civil Works"
+    },
+    {
+      "id": "electrical-mep",
+      "icon": "🔌",
+      "name": "Electrical & MEP"
+    },
+    {
+      "id": "plumbing-hvac",
+      "icon": "🚿",
+      "name": "Plumbing & HVAC"
+    },
+    {
+      "id": "welding-fabrication",
+      "icon": "🔥",
+      "name": "Welding & Fabrication"
+    },
+    {
+      "id": "carpentry-masonry",
+      "icon": "🪵",
+      "name": "Carpentry & Masonry"
+    },
+    {
+      "id": "heavy-equipment",
+      "icon": "🚜",
+      "name": "Heavy Equipment Operation"
+    },
+    {
+      "id": "manufacturing",
+      "icon": "🏭",
+      "name": "Manufacturing & Production"
+    },
+    {
+      "id": "cnc-machine-operation",
+      "icon": "⚙️",
+      "name": "CNC & Machine Operation"
+    },
+    {
+      "id": "quality-control",
+      "icon": "🔍",
+      "name": "Quality Control & Inspection"
+    },
+    {
+      "id": "warehousing-logistics",
+      "icon": "📦",
+      "name": "Warehousing & Logistics"
+    },
+    {
+      "id": "driving-transport",
+      "icon": "🚚",
+      "name": "Driving & Transportation"
+    },
+    {
+      "id": "hospitality-hotel",
+      "icon": "🛎️",
+      "name": "Hospitality & Hotel Staff"
+    },
+    {
+      "id": "housekeeping-cleaning",
+      "icon": "🧹",
+      "name": "Housekeeping & Cleaning"
+    },
+    {
+      "id": "food-beverage",
+      "icon": "🍽️",
+      "name": "Food & Beverage / Catering"
+    },
+    {
+      "id": "culinary-kitchen",
+      "icon": "👨‍🍳",
+      "name": "Culinary & Kitchen Staff"
+    },
+    {
+      "id": "healthcare-nursing",
+      "icon": "🩺",
+      "name": "Healthcare & Nursing"
+    },
+    {
+      "id": "caregiving",
+      "icon": "🤝",
+      "name": "Caregiving & Home Support"
+    },
+    {
+      "id": "agriculture-farming",
+      "icon": "🌾",
+      "name": "Agriculture & Farming"
+    },
+    {
+      "id": "food-processing",
+      "icon": "🥫",
+      "name": "Food Processing & Packaging"
+    },
+    {
+      "id": "security-services",
+      "icon": "🛡️",
+      "name": "Security Services"
+    },
+    {
+      "id": "retail-sales",
+      "icon": "🛍️",
+      "name": "Retail & Sales"
+    },
+    {
+      "id": "admin-clerical",
+      "icon": "🗂️",
+      "name": "Administrative & Clerical"
+    },
+    {
+      "id": "it-software",
+      "icon": "💻",
+      "name": "IT & Software Development"
+    },
+    {
+      "id": "engineering",
+      "icon": "📐",
+      "name": "Engineering (Mechanical / Electrical / Civil)"
+    },
+    {
+      "id": "oil-gas-facilities",
+      "icon": "🛢️",
+      "name": "Oil, Gas & Facilities Maintenance"
+    }
+  ],
+  "experienceLevels": [
+    "Fresher / No Experience",
+    "Less than 1 Year",
+    "1–2 Years",
+    "3–5 Years",
+    "6–10 Years",
+    "10+ Years"
+  ],
+  "passportStatusOptions": [
+    "I have a valid passport",
+    "Applying for a passport",
+    "I don't have a passport yet"
+  ]
+}
+

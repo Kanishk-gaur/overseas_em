@@ -1,0 +1,153 @@
+{
+  "industries": [
+    {
+      "slug": "construction",
+      "name": "Construction",
+      "icon": "hard-hat",
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&auto=format&fit=crop",
+      "type": "Non-Technical",
+      "roles": "Welders, Electricians, Masons, Site Supervisors",
+      "heading": "Construction Workforce Supply",
+      "body": "We supply skilled and semi-skilled construction workforce for infrastructure, residential, and commercial projects across the Gulf, Europe, and Asia — screened for trade certification, hands-on skill, and site safety readiness.",
+      "technicalRoles": [
+        "Site Engineers",
+        "Civil / Mechanical Engineers",
+        "MEP Technicians"
+      ],
+      "nonTechnicalRoles": [
+        "Welders",
+        "Electricians",
+        "Masons",
+        "Construction Workers",
+        "Site Supervisors"
+      ]
+    },
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "icon": "factory",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop",
+      "type": "Mixed",
+      "roles": "Machine Operators, Quality Inspectors, Assembly Workers",
+      "heading": "Manufacturing Workforce Supply",
+      "body": "From CNC-qualified technicians to assembly line operators, we supply manufacturing workforce matched against machine-specific experience and quality-control training for factories across Europe and Asia.",
+      "technicalRoles": [
+        "Mechanical Engineers",
+        "CNC Technicians",
+        "Quality Assurance Engineers"
+      ],
+      "nonTechnicalRoles": [
+        "Machine Operators",
+        "Assembly Line Workers",
+        "Factory Workers",
+        "Quality Inspectors"
+      ]
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "icon": "stethoscope",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+      "type": "Non-Technical",
+      "roles": "Caregivers, Nurses, Care Assistants",
+      "heading": "Healthcare Workforce Supply",
+      "body": "We source caregivers, nurses, and healthcare support staff for hospitals, care homes, and home-care employers, with credential verification and, where required, language and licensing readiness support.",
+      "technicalRoles": [
+        "Registered Nurses"
+      ],
+      "nonTechnicalRoles": [
+        "Caregivers",
+        "Care Assistants",
+        "Healthcare Support Staff"
+      ]
+    },
+    {
+      "slug": "hospitality",
+      "name": "Hospitality",
+      "icon": "bed",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=1200&auto=format&fit=crop",
+      "type": "Non-Technical",
+      "roles": "Hotel Staff, Chefs, Housekeeping, Restaurant Staff",
+      "heading": "Hospitality Workforce Supply",
+      "body": "We supply hotel, restaurant, and housekeeping staff for hospitality employers across the Gulf and Asia, screened for guest-service experience and, where relevant, culinary or food-safety certification.",
+      "technicalRoles": [
+        "Chefs & Kitchen Supervisors"
+      ],
+      "nonTechnicalRoles": [
+        "Hotel Staff",
+        "Housekeeping",
+        "Restaurant Staff",
+        "Hospitality Staff"
+      ]
+    },
+    {
+      "slug": "it-engineering",
+      "name": "IT & Engineering",
+      "icon": "code",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop",
+      "type": "Technical",
+      "roles": "Software Developers, IT Support, Mechanical/Electrical Engineers",
+      "heading": "IT & Engineering Workforce Supply",
+      "body": "We supply degree-qualified software developers, IT support engineers, and mechanical/electrical engineers, sourced against formal qualifications and verified through technical assessment for employers in Germany, Japan, and the Gulf.",
+      "technicalRoles": [
+        "Software Developers",
+        "IT Support Engineers",
+        "Network & Systems Engineers",
+        "Mechanical / Electrical Engineers"
+      ],
+      "nonTechnicalRoles": []
+    },
+    {
+      "slug": "agriculture",
+      "name": "Agriculture",
+      "icon": "wheat",
+      "image": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=1200&auto=format&fit=crop",
+      "type": "Non-Technical",
+      "roles": "Farm Workers, Food Processing Staff",
+      "heading": "Agriculture Workforce Supply",
+      "body": "We supply farm and food-processing workforce for agricultural employers, screened for hands-on field experience and physical fitness for seasonal and year-round roles.",
+      "technicalRoles": [],
+      "nonTechnicalRoles": [
+        "Farm Workers",
+        "Food Processing Staff",
+        "Agriculture Workers"
+      ]
+    },
+    {
+      "slug": "facilities-management",
+      "name": "Facilities Management",
+      "icon": "wrench",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop",
+      "type": "Mixed",
+      "roles": "MEP Technicians, Security Guards, Cleaners, Drivers",
+      "heading": "Facilities Management Workforce Supply",
+      "body": "We supply MEP technicians, security staff, drivers, and cleaning teams for facilities management contracts across the Gulf, verified for trade certification and, where needed, driving or security licensing.",
+      "technicalRoles": [
+        "MEP Technicians",
+        "Facilities Engineers"
+      ],
+      "nonTechnicalRoles": [
+        "Security Guards",
+        "Cleaners",
+        "Drivers"
+      ]
+    },
+    {
+      "slug": "logistics-warehousing",
+      "name": "Logistics & Warehousing",
+      "icon": "package",
+      "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=1200&auto=format&fit=crop",
+      "type": "Non-Technical",
+      "roles": "Warehouse Workers, Forklift Operators, Loaders",
+      "heading": "Logistics & Warehousing Workforce Supply",
+      "body": "We supply warehouse and logistics workforce — including forklift-certified operators — for distribution and fulfillment employers across Europe's manufacturing and logistics hubs.",
+      "technicalRoles": [],
+      "nonTechnicalRoles": [
+        "Warehouse Workers",
+        "Forklift Operators",
+        "Loaders"
+      ]
+    }
+  ]
+}
+

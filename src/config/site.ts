@@ -1,3 +1,5 @@
+import { photography } from "@/data/photography";
+
 export const site = {
   name: "GlobalPath",
   descriptor: "OVERSEAS",
@@ -20,16 +22,16 @@ export const site = {
 export const images = {
   hero: "/images/hero-workshop.webp",
   portrait: "/images/worker-portrait.webp",
-  about: "/images/workforce.webp",
-  construction: "/images/construction.webp",
-  manufacturing: "/images/manufacturing.webp",
-  technical: "/images/technical.webp",
-  logistics: "/images/logistics.webp",
-  hospitality: "/images/hospitality.webp",
-  healthcare: "/images/healthcare.webp",
-  agriculture: "/images/agriculture.webp",
+  about: photography.welder,
+  construction: photography.construction,
+  manufacturing: photography.manufacturing,
+  technical: photography.engineering,
+  logistics: photography.warehouse,
+  hospitality: photography.chef,
+  healthcare: photography.nurse,
+  agriculture: photography.agriculture,
   energy: "/images/energy.webp",
-  professional: "/images/professional.webp",
+  professional: photography.software,
   dubai: "/images/dubai.webp",
   saudi: "/images/saudi.webp",
   qatar: "/images/qatar.webp",

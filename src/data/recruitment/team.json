@@ -1,0 +1,33 @@
+{
+  "team": [
+    {
+      "name": "Abhijeet Solanki",
+      "role": "Managing Director",
+      "years": "15+ yrs",
+      "specialty": "Workforce supply strategy & client partnerships",
+      "image": "/team/member-1.png"
+    },
+    {
+      "name": "Shubham Agrawal",
+      "role": "Compliance & Documentation Lead",
+      "years": "10+ yrs",
+      "specialty": "Visa sponsorship & work permit processing",
+      "image": "/team/member-2.png"
+    },
+    {
+      "name": "Shivam Singh Chauhan",
+      "role": "Candidate Screening Lead",
+      "years": "4+ yrs",
+      "specialty": "Skill verification & background checks",
+      "image": "/team/member-3.png"
+    },
+    {
+      "name": "Saket Dwivedi",
+      "role": "Key Account Manager",
+      "years": "9+ yrs",
+      "specialty": "Client relationship & bulk order fulfillment",
+      "image": "/team/member-4.png"
+    }
+  ]
+}
+

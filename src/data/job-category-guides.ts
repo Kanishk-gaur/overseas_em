@@ -1,0 +1,30 @@
+import data from "./recruitment/jobCategories.json";
+// Preserve all 25 categories from the original site and connect them to expanded guides.
+const guides: Record<string, [string, string]> = {
+  construction: ["construction", "निर्माण और सिविल कार्य"],
+  "electrical-mep": ["electrical-mechanical", "इलेक्ट्रिकल और MEP"],
+  "plumbing-hvac": ["electrical-mechanical", "प्लंबिंग और HVAC"],
+  "welding-fabrication": ["manufacturing", "वेल्डिंग और फैब्रिकेशन"],
+  "carpentry-masonry": ["construction", "बढ़ई और राजमिस्त्री का काम"],
+  "heavy-equipment": ["construction", "भारी उपकरण संचालन"],
+  manufacturing: ["manufacturing", "उत्पादन और निर्माण कार्य"],
+  "cnc-machine-operation": ["manufacturing", "CNC और मशीन संचालन"],
+  "quality-control": ["engineering", "गुणवत्ता नियंत्रण और निरीक्षण"],
+  "warehousing-logistics": ["logistics", "वेयरहाउस और लॉजिस्टिक्स"],
+  "driving-transport": ["transportation", "ड्राइविंग और परिवहन"],
+  "hospitality-hotel": ["hospitality", "होटल और अतिथि सेवा"],
+  "housekeeping-cleaning": ["facilities", "हाउसकीपिंग और सफाई"],
+  "food-beverage": ["hospitality", "भोजन, पेय और केटरिंग"],
+  "culinary-kitchen": ["hospitality", "पाक कला और रसोई कर्मचारी"],
+  "healthcare-nursing": ["healthcare", "स्वास्थ्य सेवा और नर्सिंग"],
+  caregiving: ["healthcare", "देखभाल और घरेलू सहायता"],
+  "agriculture-farming": ["agriculture", "कृषि और खेती"],
+  "food-processing": ["food-processing", "खाद्य प्रसंस्करण और पैकेजिंग"],
+  "security-services": ["facilities", "सुरक्षा सेवाएँ"],
+  "retail-sales": ["retail-sales", "रिटेल और बिक्री"],
+  "admin-clerical": ["it-professional", "प्रशासनिक और लिपिकीय काम"],
+  "it-software": ["it-professional", "IT और सॉफ़्टवेयर विकास"],
+  engineering: ["engineering", "मैकेनिकल, इलेक्ट्रिकल और सिविल इंजीनियरिंग"],
+  "oil-gas-facilities": ["energy", "तेल, गैस और सुविधा रखरखाव"],
+};
+export const jobCategoryGuides = data.jobCategories.map(item => ({ id: item.id, title: { en: item.name, hi: guides[item.id][1] }, href: `/industries/${guides[item.id][0]}` }));

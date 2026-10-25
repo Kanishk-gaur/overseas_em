@@ -1,0 +1,85 @@
+{
+  "caseStudies": [
+    {
+      "slug": "healthcare-group-japan-caregivers",
+      "industry": "Healthcare",
+      "country": "Japan",
+      "workforceType": "Skilled & operational",
+      "challenge": "A care provider is planning a team for daily care duties in Japan.",
+      "solution": "Define the care responsibilities, then check the relevant SSW field, skills and language requirements. Plan employer interviews and an induction that candidates can understand.",
+      "result": "Confirm the correct route, written terms, supervision and arrival support before agreeing any joining schedule."
+    },
+    {
+      "slug": "engineering-firm-germany-technicians",
+      "industry": "Manufacturing / Engineering",
+      "country": "Germany",
+      "workforceType": "Technical & professional",
+      "challenge": "A manufacturing employer is considering CNC technicians for a German production site.",
+      "solution": "Document the machines, programming or operating duties and qualification needs. Review recognition requirements and arrange a technical discussion with the hiring team.",
+      "result": "Check the working language, assessment criteria and any qualification decisions before setting an arrival target."
+    },
+    {
+      "slug": "construction-firm-russia-bulk-order",
+      "industry": "Construction",
+      "country": "Russia",
+      "workforceType": "Skilled & operational",
+      "challenge": "A contractor is planning welders and electricians across several project sites in Russia.",
+      "solution": "Create a separate role and site brief, agree practical assessments and identify the documents needed for each proposed appointment.",
+      "result": "Confirm the named employer, work permission, protective equipment and accommodation for each site."
+    },
+    {
+      "slug": "it-services-germany-developers",
+      "industry": "IT & Engineering",
+      "country": "Germany",
+      "workforceType": "Technical & professional",
+      "challenge": "An IT company is exploring software hires for a team in Germany.",
+      "solution": "Specify the stack, project responsibilities and qualification expectations. Use technical interviews and check the appropriate employment route for each candidate.",
+      "result": "Confirm eligibility, contract terms, relocation responsibilities and onboarding capacity before making commitments."
+    },
+    {
+      "slug": "facilities-management-uae-bulk-order",
+      "industry": "Facilities Management",
+      "country": "UAE",
+      "workforceType": "Skilled & operational",
+      "challenge": "A facilities business is planning cleaning, security and maintenance coverage in the UAE.",
+      "solution": "Separate the three role types and their training or authorisation needs. Agree assessments, shift coverage and a proposed induction plan.",
+      "result": "Check the written duties, work permissions, housing and transport; avoid treating different occupations as interchangeable."
+    },
+    {
+      "slug": "construction-saudi-arabia-engineers",
+      "industry": "Construction",
+      "country": "Saudi Arabia",
+      "workforceType": "Technical & professional",
+      "challenge": "A contractor is preparing to recruit site engineers for work in Saudi Arabia.",
+      "solution": "Define discipline, project responsibilities and reporting lines. Review degree records, relevant project experience and any applicable professional requirements.",
+      "result": "Confirm the employer, worksite, recognition or registration needs and arrival arrangements before finalising the schedule."
+    },
+    {
+      "slug": "logistics-poland-warehouse-workers",
+      "industry": "Logistics",
+      "country": "Poland",
+      "workforceType": "Skilled & operational",
+      "challenge": "A logistics operator is considering a warehouse team for a site in Poland.",
+      "solution": "Document picking, packing, stock-control and equipment duties separately. Plan assessments and use the current official document checklist.",
+      "result": "Confirm the specific work permission, shift pattern, housing costs and capacity for phased induction."
+    },
+    {
+      "slug": "hospitality-qatar-staff",
+      "industry": "Hospitality",
+      "country": "Qatar",
+      "workforceType": "Skilled & operational",
+      "challenge": "A hotel is preparing a staffing plan for a property in Qatar.",
+      "solution": "Separate kitchen, housekeeping, guest-service and maintenance needs. Discuss practical assessments, communication and induction with the department leads.",
+      "result": "Check the contract, work permissions, meals, housing and arrival contact; a target opening date does not determine approval timing."
+    },
+    {
+      "slug": "care-services-israel-caregivers",
+      "industry": "Healthcare",
+      "country": "Israel",
+      "workforceType": "Skilled & operational",
+      "challenge": "A care provider is exploring experienced caregivers for work in Israel.",
+      "solution": "Define the care setting and duties, review relevant experience and confirm the occupation-specific official procedure before progressing documents.",
+      "result": "Check the written terms, supervision, rest arrangements and current official travel advice before any travel commitment."
+    }
+  ]
+}

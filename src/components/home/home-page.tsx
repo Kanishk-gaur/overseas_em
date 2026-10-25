@@ -1,85 +1,67 @@
 "use client";
-import Image from "next/image";
+import { useState } from "react";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight, Check, CircleCheck, ShieldCheck } from "lucide-react";
-import { motion, useReducedMotion } from "motion/react";
+import { ArrowDown, ArrowUpRight, BookOpen, ClipboardCheck, Globe2, HeartHandshake, MessageSquareText, UserRound, Users, Wrench } from "lucide-react";
+import { EmployerPreview } from "./employer-preview";
+import { WorkerPreview } from "./worker-preview";
 import { images } from "@/config/site";
 import { industries } from "@/data/industries";
-import { services } from "@/data/services";
 import { countries } from "@/data/countries";
-import { processSteps } from "@/data/process";
+import { photography, roleImages } from "@/data/photography";
+import recruitmentData from "@/data/recruitment/workforce.json";
 import { useLocale } from "@/components/shared/locale-provider";
 import { Button, Eyebrow, Photo, Reveal, TextLink } from "@/components/shared/ui";
 import { ContactCTA } from "@/components/shared/contact-cta";
 import { FAQ } from "@/components/shared/faq";
+import { RecruitmentFlow } from "@/components/shared/recruitment-flow";
+
+function ServiceStory() {
+  const { t } = useLocale();
+  const [active, setActive] = useState(0);
+  const items = [
+    { title: t("Find the right people", "उपयुक्त लोगों की खोज"), heading: t("Good recruitment starts\nwith understanding.", "अच्छी भर्ती की शुरुआत\nसमझने से होती है।"), text: t("We start with the role, the workplace and the people. Sourcing, screening and skill assessments bring relevant candidates and employer requirements together.", "हम भूमिका, कार्यस्थल और लोगों को समझने से शुरू करते हैं। खोज, स्क्रीनिंग और कौशल परीक्षण से नियोक्ता की ज़रूरत से मेल बैठता है।"), image: photography.screening, slug: "overseas-recruitment", tags: [t("Role-based sourcing", "भूमिका के अनुसार खोज"), t("Screening & skill checks", "स्क्रीनिंग और कौशल जाँच")] },
+    { title: t("Prepare the paperwork", "दस्तावेज़ों की तैयारी"), heading: t("Clear documents.\nInformed decisions.", "स्पष्ट दस्तावेज़।\nसमझदारी से फैसले।"), text: t("Understand the records, written terms and checks needed for your role. Documentation and work-permit coordination follow the requirements of the destination.", "अपनी भूमिका के ज़रूरी दस्तावेज़, लिखित शर्तें और जाँच समझें। देश के नियमों के अनुसार दस्तावेज़ और कार्य अनुमति का समन्वय होता है।"), image: photography.documents, slug: "candidate-guidance", tags: [t("Document guidance", "दस्तावेज़ मार्गदर्शन"), t("Written terms", "लिखित शर्तें")] },
+    { title: t("Get ready for the role", "नई भूमिका की तैयारी"), heading: t("Arrive informed.\nStart with confidence.", "जानकारी के साथ पहुँचें।\nआत्मविश्वास से शुरू करें।"), text: t("Preparation goes beyond the job title. Discuss workplace expectations, safety, basic language needs and the day-to-day realities of a new destination.", "काम की अपेक्षाओं, सुरक्षा, भाषा और नए देश के रोज़मर्रा के जीवन के बारे में जानें।"), image: photography.orientation, slug: "readiness", tags: [t("Pre-departure orientation", "यात्रा से पहले तैयारी"), t("Workplace readiness", "कार्यस्थल की तैयारी")] },
+    { title: t("Coordinate the next chapter", "अगली शुरुआत में सहयोग"), heading: t("A coordinated journey.\nA continuing conversation.", "व्यवस्थित सफर।\nलगातार बातचीत।"), text: t("Travel planning, employer handover and ongoing contact keep the important details connected. The scope of support is set out in the agreed service terms.", "यात्रा योजना, नियोक्ता को हैंडओवर और नियमित संपर्क से ज़रूरी बातें जुड़ी रहती हैं। सहयोग का दायरा सेवा समझौते में तय होता है।"), image: photography.departure, slug: "deployment", tags: [t("Travel coordination", "यात्रा समन्वय"), t("Ongoing account support", "लगातार सहयोग")] },
+  ];
+  const item = items[active];
+  return <section className="section services-studio"><div className="container">
+    <Reveal className="section-heading"><div><Eyebrow>{t("RECRUITMENT, WITH CARE", "ध्यान और समझ के साथ भर्ती")}</Eyebrow><h2>{t("More than a placement.\nSupport for the journey.", "नियुक्ति से आगे।\nपूरे सफर में सहयोग।")}</h2></div><TextLink href="/services">{t("Explore all services", "सभी सेवाएँ देखें")}</TextLink></Reveal>
+    <div className="service-studio-layout"><div className="service-tabs" role="tablist" aria-label={t("Recruitment services", "भर्ती सेवाएँ")} aria-orientation="vertical">{items.map((service, i) => <button type="button" role="tab" aria-selected={active === i} aria-controls="home-service-panel" id={"service-tab-" + i} tabIndex={active === i ? 0 : -1} key={service.slug} onClick={() => setActive(i)} onKeyDown={e => { const key = e.key; if (!["ArrowDown", "ArrowUp", "Home", "End"].includes(key)) return; e.preventDefault(); const next = key === "Home" ? 0 : key === "End" ? items.length - 1 : (i + (key === "ArrowDown" ? 1 : -1) + items.length) % items.length; setActive(next); document.getElementById("service-tab-" + next)?.focus(); }}><span>0{i + 1}</span><strong>{service.title}</strong><ArrowUpRight size={19} /></button>)}</div>
+      <div className="service-studio-panel" id="home-service-panel" role="tabpanel" aria-labelledby={"service-tab-" + active} tabIndex={0}><Photo src={item.image} alt={item.title} /><div className="service-studio-copy"><div className="service-tags">{item.tags.map(tag => <span key={tag}>{tag}</span>)}</div><h3>{item.heading}</h3><p>{item.text}</p><TextLink href={"/services#" + item.slug}>{t("See how we can help", "जानें हम कैसे मदद कर सकते हैं")}</TextLink></div></div>
+    </div>
+  </div></section>;
+}
 
 export function HomePage() {
   const { d, t, local } = useLocale();
-  const reduced = useReducedMotion();
-  const featuredIndustries = [industries[0], industries[1], industries[2], industries[3], industries[5], industries[6]];
-  const destinationSelection = [countries[0], countries[6], countries[7]];
-  const whyItems = [
-    [t("Expertise across industries", "कई उद्योगों की समझ"), t("From hands-on trades to professional expertise, an inclusive workforce outlook.", "व्यावहारिक काम से पेशेवर विशेषज्ञता तक, हर तरह के हुनर पर ध्यान।")],
-    [t("Your ambitions matter", "आपके सपने मायने रखते हैं"), t("Conversations that start with your skills, circumstances and aspirations.", "आपके हुनर, परिस्थिति और लक्ष्य से शुरू होने वाली बातचीत।")],
-    [t("Clarity, from the start", "शुरुआत से स्पष्ट जानकारी"), t("Straightforward guidance, so you can ask questions and make informed decisions.", "सरल मार्गदर्शन ताकि आप सवाल पूछें और सोच-समझकर फैसला लें।")],
-    [t("A process you understand", "एक प्रक्रिया जिसे आप समझें"), t("Know the stages, the requirements and the questions to ask at every step.", "हर कदम पर चरण, ज़रूरतें और पूछने वाले सवाल जानें।")],
-    [t("Respect for every worker", "हर कामगार का सम्मान"), t("Practical experience deserves the same care as professional qualifications.", "व्यावहारिक अनुभव की उतनी ही कद्र जितनी पेशेवर योग्यता की।")],
-    [t("Guidance for the journey", "सफर में मार्गदर्शन"), t("Understand documentation, interviews and the transition to overseas work.", "दस्तावेज़, इंटरव्यू और विदेश में काम की शुरुआत को समझें।")],
+  const featuredIndustries = ["construction", "manufacturing", "electrical-mechanical", "healthcare", "hospitality", "logistics"].map(slug => industries.find(item => item.slug === slug)!);
+  const destinationSelection = ["uae", "germany", "japan", "saudi-arabia"].map(slug => countries.find(item => item.slug === slug)).filter((item): item is typeof countries[number] => Boolean(item));
+  const roles = recruitmentData.workforce.filter(role => ["Welder", "CNC Technician", "Nurse", "Driver"].includes(role.title));
+  const values = [
+    { icon: Wrench, title: t("Skill comes first", "हुनर को प्राथमिकता"), text: t("Practical assessments, relevant experience and credential review help build a clearer picture of suitability.", "व्यावहारिक परीक्षण, संबंधित अनुभव और प्रमाणपत्रों की समीक्षा से उपयुक्तता की स्पष्ट समझ मिलती है।") },
+    { icon: MessageSquareText, title: t("Clarity at every step", "हर कदम पर स्पष्टता"), text: t("Discuss duties, pay, hours and living arrangements, then review the complete written terms before agreeing.", "काम, वेतन, समय और रहने की व्यवस्था पर बात करें, फिर सहमति से पहले पूरी लिखित शर्तें पढ़ें।") },
+    { icon: HeartHandshake, title: t("Respect for every worker", "हर कामगार का सम्मान"), text: t("Your circumstances, ambitions and family’s questions matter.", "आपकी परिस्थितियाँ, सपने और परिवार के सवाल मायने रखते हैं।") },
+    { icon: ClipboardCheck, title: t("A considered process", "सोच-समझकर प्रक्रिया"), text: t("Role requirements guide the screening, interviews and preparation.", "भूमिका की ज़रूरतों के अनुसार जाँच, इंटरव्यू और तैयारी।") },
   ];
   return <>
-    <section className="home-hero">
-      <div className="container hero-inner">
-        <motion.div className="hero-copy" initial={false} animate={{ opacity: [0, 1], y: [12, 0] }} transition={{ duration: reduced ? 0 : .7 }}>
-          <Eyebrow>{d.heroNote}</Eyebrow>
-          <h1>{d.heroLine1}<br />{d.heroLine2}<br /><span>{d.heroLine3}</span></h1>
-          <p>{d.heroDescription}</p>
-          <div className="button-row"><Button href="/services" variant="navy">{d.explore}</Button><Link className="hero-secondary" href="/contact">{d.speak}<ArrowUpRight size={18} /></Link></div>
-          <a className="hero-discover" href="#who-we-are"><span><ArrowDown size={16} /></span>{t("A human approach to moving forward", "आगे बढ़ने में आपका साथ")}</a>
-        </motion.div>
-      </div>
-      <figure className="hero-visual">
-        <Image src={images.hero} alt={t("Indian manufacturing professionals inspecting a precision component together", "एक सटीक पुर्ज़े की जाँच करते भारतीय तकनीकी पेशेवर")} fill priority sizes="(max-width: 767px) 100vw, 52vw" />
-        <figcaption><span>{t("BUILT ON SKILL. DRIVEN BY AMBITION.", "हुनर की ताकत। आगे बढ़ने की चाह।")}</span><span className="hero-visual-line" /><span>{t("INDIA → WORLDWIDE", "भारत → दुनिया भर में")}</span></figcaption>
-      </figure>
-    </section>
-    <div className="trust-strip"><div className="container"><p>{t("ONE PURPOSE. A WIDER HORIZON.", "एक उद्देश्य। नई दिशाएँ।")}</p>{[t("People-first recruitment", "लोगों को प्राथमिकता"),t("Expertise across industries", "कई उद्योगों में सहयोग"),t("Clear guidance, at every step", "हर कदम पर स्पष्ट मार्गदर्शन")].map((item,i)=><div key={item}><span className="trust-number">0{i+1}</span><span>{item}</span></div>)}</div></div>
-
-    <section className="section about-home" id="who-we-are"><div className="container about-grid">
-      <Reveal className="about-visual"><Photo src={images.about} alt={t("A skilled metalworker carefully welding in a workshop", "वर्कशॉप में ध्यान से वेल्डिंग करता एक कुशल कामगार")} /><div className="image-note"><span className="note-line" /><p>{t("Practical skill.", "व्यावहारिक हुनर।")}<br /><strong>{t("Extraordinary potential.", "बेहतरीन संभावनाएँ।")}</strong></p><ArrowUpRight size={27} strokeWidth={1} /></div><span className="vertical-caption">{t("THE PEOPLE WHO MAKE PROGRESS POSSIBLE", "वे लोग जो प्रगति को मुमकिन बनाते हैं")}</span></Reveal>
-      <Reveal className="about-copy"><Eyebrow>{d.who}</Eyebrow><h2>{d.whoTitle}</h2><p className="body-copy">{d.whoBody}</p><p className="body-copy">{d.whoBody2}</p><div className="principles">{[d.principle1,d.principle2,d.principle3].map(p=><span key={p}><CircleCheck size={17} />{p}</span>)}</div><TextLink href="/about">{d.aboutCta}</TextLink></Reveal>
+    <section className="launch-hero"><div className="container launch-grid">
+      <div className="launch-copy"><Eyebrow light>{t("INDIAN TALENT. GLOBAL OPPORTUNITIES.", "भारतीय प्रतिभा। दुनिया भर में अवसर।")}</Eyebrow><h1>{t("Your skills.", "आपका हुनर।")}<br />{t("A world of", "दुनिया भर में")}<br /><em>{t("possibilities.", "संभावनाएँ।")}</em></h1><p>{t("Connecting skilled people from India with international employers. Clear guidance. Thoughtful recruitment. A next step that starts with you.", "भारत के हुनरमंद लोगों और विदेशी नियोक्ताओं को जोड़ना। स्पष्ट मार्गदर्शन। सोच-समझकर भर्ती। आपके साथ एक नई शुरुआत।")}</p><div className="button-row"><Button href="/find-a-job">{t("Explore overseas work", "विदेश में काम की संभावना देखें")}</Button><Link className="launch-employer" href="/request-workforce">{t("I’m hiring talent", "मुझे कामगार चाहिए")}<ArrowUpRight size={17} /></Link></div><a href="#who-we-are" className="launch-scroll"><ArrowDown size={16} />{t("People at the heart of progress", "प्रगति के केंद्र में लोग")}</a></div>
+      <div className="launch-art"><Photo src={images.hero} priority alt={t("Two Indian manufacturing professionals inspecting a component at a workshop", "वर्कशॉप में पुर्ज़े की जाँच करते दो भारतीय तकनीकी पेशेवर")} sizes="(max-width: 767px) 100vw, 50vw" /><div className="launch-caption"><span>{t("BUILT ON SKILL", "हुनर की ताकत")}</span><p>{t("The experience you bring.\nThe future you can build.", "आपका अनुभव।\nआपका आने वाला कल।")}</p><span className="launch-round-arrow"><ArrowUpRight size={25} /></span></div><div className="launch-route"><Globe2 size={19} /><span>{t("FROM INDIA", "भारत से")}</span><span className="route-rule" /><span>{t("TO YOUR NEXT CHAPTER", "आपकी अगली शुरुआत तक")}</span></div></div>
     </div></section>
-
-    <section className="section services-home surface"><div className="container">
-      <Reveal className="section-heading"><div><Eyebrow>{d.services}</Eyebrow><h2>{d.servicesTitle}</h2></div><div><p>{d.servicesBody}</p><TextLink href="/services">{d.allServices}</TextLink></div></Reveal>
-      <div className="service-editorial">
-        <Reveal><Link href={`/services#${services[0].slug}`} className="service-feature"><Photo src={images.technical} alt={t("A technician inspecting precision industrial equipment", "औद्योगिक उपकरण की जाँच करता तकनीशियन")} /><div className="service-feature-copy"><span className="editorial-number">01</span><div><h3>{local(services[0].title)}</h3><p>{local(services[0].short)}</p></div><ArrowUpRight size={24} /></div></Link></Reveal>
-        <div className="service-rows">{services.slice(1,4).map((service,i)=><Reveal key={service.slug} delay={i*.06}><Link href={`/services#${service.slug}`} className="service-row"><span className="editorial-number">0{i+2}</span><div><h3>{local(service.title)}</h3><p>{local(service.short)}</p></div><ArrowUpRight size={22} /></Link></Reveal>)}</div>
-      </div>
-    </div></section>
-
-    <section className="section industries-home"><div className="container">
-      <Reveal className="section-heading"><div><Eyebrow>{d.industries}</Eyebrow><h2>{d.industriesTitle}</h2></div><div><p>{d.industriesBody}</p><TextLink href="/industries">{d.allIndustries}</TextLink></div></Reveal>
-      <div className="industry-bento">{featuredIndustries.map((industry,i)=><Link className={`industry-tile industry-tile-${i}`} href={`/industries#${industry.slug}`} key={industry.slug}><Image src={industry.image} alt={local(industry.title)} fill sizes={i===0?"(max-width: 767px) 100vw, 50vw":"(max-width: 767px) 50vw, 35vw"} /><div className="tile-shade" /><div className="industry-tile-copy"><h3>{local(industry.title)}</h3><ArrowUpRight size={22} /></div></Link>)}</div>
-      <div className="industry-more"><span>{t("ALSO WITHIN OUR FOCUS", "हमारे अन्य कार्य क्षेत्र")}</span>{industries.filter(x=>!featuredIndustries.includes(x)).map(x=><Link href={`/industries#${x.slug}`} key={x.slug}>{local(x.title)}<ArrowUpRight size={14} /></Link>)}</div>
-    </div></section>
-
-    <section className="section reach-home"><div className="container">
-      <Reveal className="section-heading"><div><Eyebrow light>{d.reach}</Eyebrow><h2>{d.reachTitle}</h2></div><div><p>{d.reachBody}</p><TextLink href="/countries" light>{d.allCountries}</TextLink></div></Reveal>
-      <div className="destination-grid">{destinationSelection.map((country,i)=><Link className="destination-card" href={`/countries#${country.slug}`} key={country.slug}><div className="destination-image"><Image src={country.image} alt={local(country.name)} fill sizes="(max-width: 767px) 86vw, 33vw" /></div><div className="destination-copy"><span>{local(country.region)}</span><h3>{local(country.name)}</h3><ArrowUpRight size={21} /></div><span className="destination-index" aria-hidden="true">0{i+1}</span></Link>)}</div>
-      <div className="destination-foot"><div>{["Saudi Arabia","Qatar","Oman","Kuwait","Bahrain","Poland","Romania","United Kingdom"].map(name=>{const country=countries.find(c=>c.name.en===name)!;return <Link key={name} href={`/countries#${country.slug}`}>{local(country.name)}</Link>})}<Link href="/countries#other-destinations">{t("& beyond", "और आगे")}</Link></div><p>{d.destinationNote}</p></div>
-    </div></section>
-
-    <section className="section process-home"><div className="container">
-      <Reveal className="section-heading"><div><Eyebrow>{d.process}</Eyebrow><h2>{d.processTitle}</h2></div><div><p>{d.processBody}</p><TextLink href="/process">{d.processCta}</TextLink></div></Reveal>
-      <div className="process-grid">{processSteps.map((step,i)=><Reveal key={step.title.en} delay={(i%4)*.05} className="process-step"><div className="process-marker"><span>{String(i+1).padStart(2,"0")}</span><span className="process-line" /></div><h3>{local(step.title)}</h3><p>{local(step.description)}</p></Reveal>)}</div>
-      <p className="process-footnote"><ShieldCheck size={17} />{t("Every journey is individual. Selection and approvals are never guaranteed.", "हर सफर अलग है। चयन और अनुमतियों की गारंटी नहीं दी जाती।")}</p>
-    </div></section>
-
-    <section className="section why-home"><div className="container why-layout"><Reveal className="why-heading"><Eyebrow>{d.why}</Eyebrow><h2>{d.whyTitle}</h2><p>{t("An international move is a personal decision. Our approach gives your questions, your circumstances and your ambitions the attention they deserve.", "विदेश जाने का फैसला व्यक्तिगत होता है। हम आपके सवालों, परिस्थितियों और सपनों को ध्यान से समझने पर ज़ोर देते हैं।")}</p><TextLink href="/about">{t("The principles behind our work", "हमारे काम के सिद्धांत")}</TextLink></Reveal><div className="why-grid">{whyItems.map(([title,body],i)=><Reveal key={title} className="why-item"><span className="editorial-number">0{i+1}</span><div><h3>{title}</h3><p>{body}</p></div></Reveal>)}</div></div></section>
-
-    <section className="story-home"><div className="story-portrait"><Image src={images.portrait} alt={t("An Indian skilled tradesman at his workshop bench", "अपनी वर्कशॉप में एक भारतीय कुशल कारीगर")} fill sizes="(max-width: 767px) 100vw, 50vw" /><span>{t("THE PERSON BEHIND THE PROFESSION", "हर पेशे के पीछे एक इंसान")}</span></div><Reveal className="story-copy"><Eyebrow>{d.storyEyebrow}</Eyebrow><h2>{d.storyTitle}</h2><p>{d.storyBody}</p><TextLink href="/about">{t("People are our starting point", "हमारी शुरुआत लोगों से होती है")}</TextLink></Reveal></section>
-
-    <section className="employer-home"><div className="employer-photo"><Image src={images.manufacturing} alt={t("Precision machinery on an industrial production floor", "औद्योगिक उत्पादन में सटीक मशीनरी")} fill sizes="(max-width: 767px) 100vw, 45vw" /></div><div className="container"><Reveal className="employer-copy"><Eyebrow light>{d.employerEyebrow}</Eyebrow><h2>{d.employerTitle}</h2><p>{d.employerBody}</p><div className="employer-tags">{[t("Skilled & technical", "कुशल और तकनीकी"),t("Industrial & general", "औद्योगिक और सामान्य"),t("Cross-sector support", "कई क्षेत्रों में सहयोग")].map(x=><span key={x}><Check size={15} />{x}</span>)}</div><Button href="/employers">{d.employerCta}</Button></Reveal></div></section>
-    <FAQ /><ContactCTA />
+    <nav className="journey-strip" aria-label={t("Start your journey", "अपना सफर शुरू करें")}><div className="container">{[
+      { href: "/find-a-job", icon: UserRound, label: t("For job seekers", "काम तलाशने वालों के लिए"), text: t("Put your experience to work", "अपने अनुभव को आगे बढ़ाएँ") },
+      { href: "/request-workforce", icon: Users, label: t("For employers", "नियोक्ताओं के लिए"), text: t("Build your next team", "अपनी अगली टीम बनाएँ") },
+      { href: "/how-we-work", icon: BookOpen, label: t("Understand the process", "प्रक्रिया समझें"), text: t("Know what comes next", "जानें अगला कदम क्या है") },
+    ].map(item => <Link href={item.href} key={item.href}><item.icon strokeWidth={1.4} size={24} /><div><span>{item.label}</span><strong>{item.text}</strong></div><ArrowUpRight size={20} /></Link>)}</div></nav>
+    <section className="section people-intro" id="who-we-are"><div className="container people-intro-grid"><Reveal className="people-collage"><Photo src={photography.consultation} alt="Recruitment consultation" className="people-main-photo" /><Photo src={photography.workforce} alt="Workforce professionals" className="people-inset-photo" sizes="(max-width: 767px) 45vw, 24vw" /><div className="people-caption"><span>INDIA → WORLD</span><p>{t("Every profession.\nA person with potential.", "हर पेशे के पीछे।\nसंभावनाओं से भरा एक इंसान।")}</p></div></Reveal><Reveal className="people-intro-copy"><Eyebrow>{d.who}</Eyebrow><h2>{t("Behind every skill,\nthere’s a story\nworth knowing.", "हर हुनर के पीछे,\nएक कहानी है\nजिसे समझना ज़रूरी है।")}</h2><p className="body-copy">{d.whoBody}</p><p className="body-copy">{t("A well-learned trade. Years on the shop floor. A professional qualification. We help people and employers understand the possibilities—and the preparation each next step needs.", "सीखा हुआ ट्रेड। वर्षों का व्यावहारिक अनुभव। पेशेवर योग्यता। हम लोगों और नियोक्ताओं को संभावनाएँ और अगले कदम की तैयारी समझने में मदद करते हैं।")}</p><TextLink href="/about">{t("Get to know GlobalPath", "GlobalPath के बारे में जानें")}</TextLink></Reveal></div></section>
+    <ServiceStory />
+    <section className="section sector-studio"><div className="container"><Reveal className="section-heading"><div><Eyebrow>{t("SKILLS THAT KEEP THE WORLD MOVING", "दुनिया को आगे बढ़ाने वाला हुनर")}</Eyebrow><h2>{t("Find your field.\nSee where it could take you.", "अपना क्षेत्र चुनें।\nनई संभावनाएँ जानें।")}</h2></div><div><p>{t("From construction sites to care settings, explore the industries and roles within our recruitment focus.", "निर्माण स्थलों से देखभाल केंद्रों तक, हमारे भर्ती क्षेत्रों और भूमिकाओं को जानें।")}</p><TextLink href="/industries">{t("Explore all industries", "सभी उद्योग देखें")}</TextLink></div></Reveal><div className="sector-grid">{featuredIndustries.map((industry, i) => <Link className={"sector-card sector-card-" + i} href={"/industries/" + industry.slug} key={industry.slug}><Photo src={industry.image} alt={local(industry.title)} sizes="(max-width: 600px) 100vw, (max-width: 1023px) 50vw, 33vw" /><div className="sector-card-copy"><span>{String(i + 1).padStart(2, "0")} / {t("INDUSTRY", "उद्योग")}</span><h3>{local(industry.title)}</h3><ArrowUpRight size={22} /></div></Link>)}</div><div className="sector-other">{industries.filter(industry => !featuredIndustries.includes(industry)).map(industry => <Link href={"/industries/" + industry.slug} key={industry.slug}>{local(industry.title)}<ArrowUpRight size={13} /></Link>)}</div></div></section>
+    <section className="section talent-studio"><div className="container"><Reveal className="section-heading"><div><Eyebrow>{t("THE PEOPLE BEHIND THE PROGRESS", "प्रगति के पीछे के लोग")}</Eyebrow><h2>{t("Practical skills.\nExtraordinary potential.", "व्यावहारिक हुनर।\nबेहतरीन संभावनाएँ।")}</h2></div><div><p>{t("Explore the experience, skills and destination focus of 18 workforce profiles.", "18 कामगार प्रोफाइल के अनुभव, हुनर और प्रमुख देशों के बारे में जानें।")}</p><TextLink href="/workforce">{t("Meet the workforce profiles", "कामगार प्रोफाइल देखें")}</TextLink></div></Reveal><div className="talent-preview-grid">{roles.map(role => <Link href={"/request-workforce?role=" + encodeURIComponent(role.title)} className="talent-preview" key={role.title}><Photo src={roleImages[role.title]} alt={role.title} sizes="(max-width: 600px) 85vw, (max-width: 1023px) 50vw, 25vw" /><div><span lang="en">{role.industry}</span><h3 lang="en">{role.title}</h3><p lang="en">{role.experience} {t("experience focus", "अनुभव का आधार")}</p><ArrowUpRight size={20} /></div></Link>)}</div><p className="studio-note">{t("Profiles describe our sourcing focus. Availability and requirements are confirmed for each employer brief.", "प्रोफाइल हमारे भर्ती क्षेत्रों को बताती हैं। हर नियोक्ता की ज़रूरत के अनुसार उपलब्धता और शर्तों की पुष्टि होती है।")}</p></div></section>
+    <RecruitmentFlow />
+    <section className="section world-studio"><div className="container"><Reveal className="section-heading"><div><Eyebrow>{t("A WIDER HORIZON", "नई दिशाएँ")}</Eyebrow><h2>{t("Different destinations.\nYour individual journey.", "अलग-अलग देश।\nआपका अपना सफर।")}</h2></div><div><p>{t("Start with your skills. Explore the destinations, role requirements and questions to consider.", "अपने हुनर से शुरू करें। देशों, काम की शर्तों और ज़रूरी सवालों को जानें।")}</p><TextLink href="/countries">{t("Explore all destinations", "सभी देश देखें")}</TextLink></div></Reveal><div className="world-grid">{destinationSelection.map((country, i) => <Link href={"/countries/" + country.slug} className={"world-card world-card-" + i} key={country.slug}><Photo src={country.image} alt={local(country.name)} sizes="(max-width: 600px) 100vw, (max-width: 1023px) 50vw, 25vw" /><div><span>{local(country.region)}</span><h3>{local(country.name)}</h3><ArrowUpRight size={21} /></div></Link>)}</div><div className="world-links">{countries.filter(country => !destinationSelection.includes(country)).map(country => <Link href={"/countries/" + country.slug} key={country.slug}>{local(country.name)}<ArrowUpRight size={13} /></Link>)}</div><p className="studio-note">{d.destinationNote}</p></div></section>
+    <section className="section care-studio"><div className="container care-studio-grid"><Reveal className="care-intro"><Eyebrow light>{t("WHY GLOBALPATH", "GLOBALPATH क्यों")}</Eyebrow><h2>{t("A human approach\nto moving forward.", "आगे बढ़ने में\nएक मानवीय नज़रिया।")}</h2><p>{t("An international move is a personal decision. It deserves honest conversations and attention to the details that matter to you.", "विदेश जाने का फैसला व्यक्तिगत है। इसके लिए ईमानदार बातचीत और आपके ज़रूरी सवालों पर ध्यान देना अहम है।")}</p><Photo src={images.portrait} alt={t("A skilled Indian tradesman at his workshop bench", "वर्कशॉप की मेज़ पर भारतीय कुशल कामगार")} /><TextLink href="/about" light>{t("The principles behind our work", "हमारे काम के सिद्धांत")}</TextLink></Reveal><div className="care-values">{values.map(item => <Reveal key={item.title}><item.icon size={29} strokeWidth={1.25} /><h3>{item.title}</h3><p>{item.text}</p></Reveal>)}</div></div></section>
+    <EmployerPreview />
+    <WorkerPreview /><FAQ /><ContactCTA />
   </>;
 }

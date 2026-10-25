@@ -1,0 +1,657 @@
+{
+  "/images/bahrain.webp": {
+    "folder": "/images/responsive/279f02a0d26b6e",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/dubai.webp": {
+    "folder": "/images/responsive/9f612ebfa8a895",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/energy.webp": {
+    "folder": "/images/responsive/ac44a72d2f8566",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/germany.webp": {
+    "folder": "/images/responsive/5d099b3a7f9e63",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/hero-workshop.webp": {
+    "folder": "/images/responsive/1a8f5f3f2498f8",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/japan.webp": {
+    "folder": "/images/responsive/c7ac589cde4db6",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/kuwait.webp": {
+    "folder": "/images/responsive/724aaf763592b6",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/oman.webp": {
+    "folder": "/images/responsive/79cea3edb7cdd5",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/poland.webp": {
+    "folder": "/images/responsive/2b9fc0740d9a8b",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/qatar.webp": {
+    "folder": "/images/responsive/b5c35753320685",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/recruitment/blog/webp/bulk-orders.webp": {
+    "folder": "/images/responsive/4df139e6ec3641",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/common-mistakes.webp": {
+    "folder": "/images/responsive/fd5a6a2890f84b",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/germany-visa.webp": {
+    "folder": "/images/responsive/781fda14ce6c54",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/israel-b1.webp": {
+    "folder": "/images/responsive/7293f6c8022538",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/japan-ssw.webp": {
+    "folder": "/images/responsive/1f8244b3aa2162",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/poland-visa.webp": {
+    "folder": "/images/responsive/cd53acd351d363",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/russia-documents.webp": {
+    "folder": "/images/responsive/f7925960338aab",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/technical-vs-non-technical.webp": {
+    "folder": "/images/responsive/ec99f0c7177abf",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/blog/webp/uae-visa.webp": {
+    "folder": "/images/responsive/b21a50e069e91f",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1672
+    ]
+  },
+  "/images/recruitment/case-studies/webp/germany-developers.webp": {
+    "folder": "/images/responsive/609f79a435b372",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/germany-technicians.webp": {
+    "folder": "/images/responsive/6735972847e53a",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/israel-caregivers.webp": {
+    "folder": "/images/responsive/c667e06d33cfd3",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/japan-caregivers.webp": {
+    "folder": "/images/responsive/d990b25bc74ac1",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/poland-warehouse.webp": {
+    "folder": "/images/responsive/cb81b2cc0ed4da",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/qatar-hospitality.webp": {
+    "folder": "/images/responsive/bd788295d1888b",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/russia-construction.webp": {
+    "folder": "/images/responsive/c2fac24d792c16",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/saudi-engineers.webp": {
+    "folder": "/images/responsive/ab756974c79eb0",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/case-studies/webp/uae-facilities.webp": {
+    "folder": "/images/responsive/74c602508ee8e8",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1448
+    ]
+  },
+  "/images/recruitment/czech-republic.jpg": {
+    "folder": "/images/responsive/cd287e808b1a04",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/recruitment/editorial/assessment.webp": {
+    "folder": "/images/responsive/224ec3f3ec444d",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/caregiver.webp": {
+    "folder": "/images/responsive/efa2c82a0556d7",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/chef.webp": {
+    "folder": "/images/responsive/385b9d24ddd272",
+    "widths": [
+      320,
+      640,
+      960,
+      1254
+    ]
+  },
+  "/images/recruitment/editorial/construction.webp": {
+    "folder": "/images/responsive/9a15d30f21371c",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/consultation.webp": {
+    "folder": "/images/responsive/50bd35bfd718c1",
+    "widths": [
+      320,
+      640,
+      960,
+      1086
+    ]
+  },
+  "/images/recruitment/editorial/departure.webp": {
+    "folder": "/images/responsive/5160363725c3a1",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/documents.webp": {
+    "folder": "/images/responsive/50d23167755172",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/electrician.webp": {
+    "folder": "/images/responsive/567aaf21b88ccb",
+    "widths": [
+      320,
+      640,
+      960,
+      1254
+    ]
+  },
+  "/images/recruitment/editorial/engineering.webp": {
+    "folder": "/images/responsive/aa65c22650280d",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/facilities.webp": {
+    "folder": "/images/responsive/b46fe6d082503e",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/forklift.webp": {
+    "folder": "/images/responsive/da68762ff31fa4",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/hospitality.webp": {
+    "folder": "/images/responsive/4db71b88b806b9",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/machine.webp": {
+    "folder": "/images/responsive/7f789ff096e0ec",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/manufacturing.webp": {
+    "folder": "/images/responsive/0c68b5c626984b",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/nurse.webp": {
+    "folder": "/images/responsive/ae5828f28b39e2",
+    "widths": [
+      320,
+      640,
+      960,
+      1086
+    ]
+  },
+  "/images/recruitment/editorial/orientation.webp": {
+    "folder": "/images/responsive/cdefa55f771ef6",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/requirements.webp": {
+    "folder": "/images/responsive/76f0c4aaa8fb89",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/screening.webp": {
+    "folder": "/images/responsive/e807780396f3e5",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/siteEngineer.webp": {
+    "folder": "/images/responsive/68ac28bb7f8892",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/software.webp": {
+    "folder": "/images/responsive/94041f9112464c",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/support.webp": {
+    "folder": "/images/responsive/a7c7cdcbf415e3",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/team.webp": {
+    "folder": "/images/responsive/f56d79529c76c3",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/trades.webp": {
+    "folder": "/images/responsive/7f73a78d28cb2c",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/verification.webp": {
+    "folder": "/images/responsive/a475cd6927f6cd",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/warehouse.webp": {
+    "folder": "/images/responsive/1122515bfcd239",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/welder.webp": {
+    "folder": "/images/responsive/88455ee59e8683",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/editorial/workforce.webp": {
+    "folder": "/images/responsive/d7f51870454258",
+    "widths": [
+      320,
+      640,
+      960,
+      1254
+    ]
+  },
+  "/images/recruitment/generated/agriculture.webp": {
+    "folder": "/images/responsive/16873026c826be",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/generated/driver.webp": {
+    "folder": "/images/responsive/fe2bf891dabfe6",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/generated/food-processing.webp": {
+    "folder": "/images/responsive/6aa00665b2d2e9",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/generated/retail.webp": {
+    "folder": "/images/responsive/0ed0c115f9a65b",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/generated/security.webp": {
+    "folder": "/images/responsive/292d63f83d221c",
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/images/recruitment/portugal.jpg": {
+    "folder": "/images/responsive/9f376a1515d393",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/recruitment/russia.jpg": {
+    "folder": "/images/responsive/c91330e5e93d78",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/romania.webp": {
+    "folder": "/images/responsive/97a3e11fecb058",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/saudi.webp": {
+    "folder": "/images/responsive/f0a84125940a54",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/uk.webp": {
+    "folder": "/images/responsive/075cbd298c0f87",
+    "widths": [
+      320,
+      640,
+      960,
+      1200
+    ]
+  },
+  "/images/worker-portrait.webp": {
+    "folder": "/images/responsive/71c7150161825b",
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1536
+    ]
+  },
+  "/team/member-1.webp": {
+    "folder": "/images/responsive/95b7c558d93fb7",
+    "widths": [
+      320,
+      640,
+      800
+    ]
+  },
+  "/team/member-2.webp": {
+    "folder": "/images/responsive/cacc1ea4899430",
+    "widths": [
+      320,
+      640,
+      800
+    ]
+  },
+  "/team/member-3.webp": {
+    "folder": "/images/responsive/9e2ea922ba8214",
+    "widths": [
+      320,
+      640,
+      800
+    ]
+  },
+  "/team/member-4.webp": {
+    "folder": "/images/responsive/69178b7fd417d4",
+    "widths": [
+      320,
+      640,
+      800
+    ]
+  }
+}
