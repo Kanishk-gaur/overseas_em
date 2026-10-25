@@ -16,9 +16,20 @@ export function Logo({ light = false }: { light?: boolean }) {
 export function Header() {
   const { d, language, setLanguage, t } = useLocale();
   const pathname = usePathname();
+  const currentPath = pathname.replace(/\/$/, "") || "/";
+  const desktopNav = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const menu = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const closeOutside = (event: PointerEvent) => {
+      if (event.target instanceof Node && !desktopNav.current?.contains(event.target)) {
+        desktopNav.current?.querySelectorAll<HTMLDetailsElement>("details[open]").forEach(item => { item.open = false; });
+      }
+    };
+    document.addEventListener("pointerdown", closeOutside);
+    return () => document.removeEventListener("pointerdown", closeOutside);
+  }, []);
   useEffect(() => {
     if (!open) return;
     const previousOverflow = document.body.style.overflow;
@@ -41,7 +52,7 @@ export function Header() {
   return <>
     <a className="skip-link" href="#main">{t("Skip to content", "मुख्य सामग्री पर जाएँ")}</a>
     <div className="utility-bar"><div className="container"><span>{d.eyebrow}</span><span className="utility-right">{t("Based in India. Looking beyond borders.", "भारत से। सीमाओं के पार संभावनाओं की ओर।")}</span></div></div>
-    <header className="site-header"><div className="container header-inner"><Logo /><nav aria-label={t("Main navigation", "मुख्य नेविगेशन")} className="desktop-nav">{paths.slice(0, 7).map((href, i) => {
+    <header className="site-header"><div className="container header-inner"><Logo /><nav ref={desktopNav} aria-label={t("Main navigation", "मुख्य नेविगेशन")} className="desktop-nav">{paths.slice(0, 7).map((href, i) => {
       const links = i === 1 ? [{ href: "/about", en: d.nav[1], hi: d.nav[1] }, ...resourceLinks.filter(link => ["/team", "/how-we-work", "/blog", "/case-studies", "/compliance", "/glossary"].includes(link.href))] : i === 3 ? [{ href: "/industries", en: d.nav[3], hi: d.nav[3] }, ...resourceLinks.filter(link => ["/workforce", "/find-a-job", "/request-workforce"].includes(link.href))] : i === 6 ? [
         { href: "/find-a-job", en: "Worker preparation guide", hi: "कामगार तैयारी मार्गदर्शिका" },
         { href: "/process", en: "The recruitment journey", hi: "भर्ती का सफर" },
@@ -50,10 +61,10 @@ export function Header() {
         { href: "/find-a-job#candidate-faq", en: "20 practical FAQs", hi: "20 उपयोगी सवाल" },
       ] : null;
       const label = i === 6 ? t("For Workers", "कामगारों के लिए") : d.nav[i];
-      const current = pathname.replace(/\/$/, "") || "/";
-      if (links) return <div className="nav-group" key={href + pathname}><details onKeyDown={event => { if (event.key === "Escape") event.currentTarget.open = false; }}><summary className={links.some(link => current === link.href || current.startsWith(link.href + "/")) ? "active" : ""}>{label}<ChevronDown size={11} /></summary><div className="nav-dropdown">{links.map(link => <Link href={link.href} key={link.href} aria-current={current === link.href ? "page" : undefined} onClick={event => event.currentTarget.closest("details")?.removeAttribute("open")}>{t(link.en, link.hi)}<ArrowUpRight size={14} /></Link>)}</div></details></div>;
+      const current = currentPath;
+      if (links) return <div className="nav-group" key={href + pathname}><details onToggle={event => { if (event.currentTarget.open) desktopNav.current?.querySelectorAll<HTMLDetailsElement>("details[open]").forEach(item => { if (item !== event.currentTarget) item.open = false; }); }} onKeyDown={event => { if (event.key === "Escape") { event.preventDefault(); event.currentTarget.open = false; event.currentTarget.querySelector("summary")?.focus(); } }}><summary className={links.some(link => current === link.href || current.startsWith(link.href + "/")) ? "active" : ""}>{label}<ChevronDown size={11} /></summary><div className="nav-dropdown">{links.map(link => <Link href={link.href} key={link.href} aria-current={current === link.href ? "page" : undefined} onClick={event => event.currentTarget.closest("details")?.removeAttribute("open")}>{t(link.en, link.hi)}<ArrowUpRight size={14} /></Link>)}</div></details></div>;
       return <Link key={href} href={href} className={current === href ? "active" : ""} aria-current={current === href ? "page" : undefined}>{d.nav[i]}</Link>;
     })}</nav><div className="header-actions"><button className="language-switch" onClick={() => setLanguage(language === "en" ? "hi" : "en")} aria-label={language === "en" ? "हिंदी में पढ़ें" : "Read in English"}><Globe2 size={15} /><span>{language === "en" ? "हिंदी" : "English"}</span></button><Link href="/contact" className="button button-navy header-cta">{d.nav[7]}<ArrowUpRight size={16} /></Link><button ref={toggle} className="menu-toggle icon-button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-navigation" aria-label={t(open ? "Close menu" : "Open menu", open ? "मेन्यू बंद करें" : "मेन्यू खोलें")}>{open ? <X /> : <Menu />}</button></div></div>
-    {open && <nav ref={menu} id="mobile-navigation" className="mobile-nav" aria-label={t("Mobile navigation", "मोबाइल नेविगेशन")}><div className="container">{paths.map((href, i) => <Link href={href} key={href} onClick={() => setOpen(false)} aria-current={pathname === href ? "page" : undefined}><span>{d.nav[i]}</span><ArrowUpRight size={17} /></Link>)}<p className="mobile-resources-title">{t("WORKFORCE & RESOURCES", "कामगार और जानकारी")}</p>{resourceLinks.map(link => <Link href={link.href} key={link.href} onClick={() => setOpen(false)}><span>{t(link.en, link.hi)}</span><ArrowUpRight size={17} /></Link>)}<p>{site.tagline}</p></div></nav>}</header>
+    {open && <nav ref={menu} id="mobile-navigation" className="mobile-nav" aria-label={t("Mobile navigation", "मोबाइल नेविगेशन")}><div className="container">{paths.map((href, i) => <Link href={href} key={href} onClick={() => setOpen(false)} aria-current={currentPath === href ? "page" : undefined}><span>{d.nav[i]}</span><ArrowUpRight size={17} /></Link>)}<p className="mobile-resources-title">{t("WORKFORCE & RESOURCES", "कामगार और जानकारी")}</p>{resourceLinks.map(link => <Link href={link.href} key={link.href} onClick={() => setOpen(false)}><span>{t(link.en, link.hi)}</span><ArrowUpRight size={17} /></Link>)}<p>{site.tagline}</p></div></nav>}</header>
   </>;
 }

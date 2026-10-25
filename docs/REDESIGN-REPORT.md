@@ -2,6 +2,21 @@
 
 Reviewed 25 October 2026. Preview: **http://localhost:3000/**, running from the development server in the target project. All work stays local. No commit, push, publication or deployment was performed. The original overseas project was not modified.
 
+## Final precision pass — existing colors locked
+
+The latest refinement preserves the exact color system. A before/after source comparison confirms that all 403 existing color literals, 26 color-token declarations and 16 gradient declarations are unchanged. No imagery, dependency, route or backend was added in this pass.
+
+- Removed an unintended top margin above the hero eyebrow and refined phone image proportions. At 390px, the hero photograph now starts about 42px earlier while retaining the headline, copy and both enquiry paths.
+- Removed duplicate spacing before directory filters: the measured mobile gap drops from 95px to the standard 65px section spacing.
+- Aligned service-card actions, standardized selected card/control radii with the existing tokens, and improved navigation, hero-description and flow text sizing.
+- Replaced long fixed mobile contact labels with “WhatsApp” and “Call us”, retaining complete accessible names and the existing enquiry behavior.
+- Fixed the mobile recruitment-track “OR” label overlapping the second track. It now participates in the layout and stays centered between tracks in both languages. Flow cards remain stationary during section reveals so connectors stay anchored; the original steps, split/merge and return branch are unchanged.
+- Made desktop dropdowns mutually exclusive, added outside-click dismissal, and restored focus to the opening label when Escape is pressed from a dropdown link. Mobile current-page styling now handles trailing slashes correctly.
+- Replaced the workforce disclosure's duplicated arrow/plus treatment with a single consistent expanding icon. Reduced-motion preferences still disable decorative transitions.
+- Replaced the vague arrival-service label with “Coordinate the arrival” and practical supporting wording.
+
+The production build, lint and TypeScript checks pass. Focused browser checks cover the changed controls, both motion settings, and all four service panels across eight widths in both languages. The full route and responsive validation is recorded below.
+
 ## Design refinement
 
 The existing navy, warm-paper, muted-gold and teal identity is preserved. This pass refines the current design rather than replacing it.

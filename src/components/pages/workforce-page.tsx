@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Search, ArrowUpRight } from "lucide-react";
+import { Search, Plus } from "lucide-react";
 import { images } from "@/config/site";
 import recruitmentData1 from "@/data/recruitment/workforce.json";
 import recruitmentData2 from "@/data/recruitment/workforceCategories.json";
@@ -43,7 +43,7 @@ export function WorkforcePage() {
         <Photo src={roleImages[role.title] || images.technical} alt={role.industry + " workplace"} sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw" />
         <div className="workforce-profile-copy"><div className="recruitment-meta"><span>{role.industry}</span><span>{role.experience}</span></div>
           <h3>{role.title}</h3><p>{role.description}</p>
-          <details className="profile-details"><summary>{t("Skills & experience", "कौशल और अनुभव")}<ArrowUpRight size={16} /></summary>
+          <details className="profile-details"><summary>{t("Skills & experience", "कौशल और अनुभव")}<Plus size={17} aria-hidden="true" /></summary>
             <p>{role.details}</p><ul className="recruitment-tags">{role.skills.map(skill => <li key={skill}>{skill}</li>)}</ul>
             <p className="small"><strong>{t("Destination focus", "प्रमुख देश")}</strong><br />{role.markets.join(" · ")}</p>
           </details>

@@ -81,14 +81,14 @@ export function RecruitmentFlow() {
     return () => { active = false; observer.disconnect(); cancelAnimationFrame(frame); };
   }, [language]);
 
-  const card = (step: FlowStep) => <div className={"flow-node flow-node-" + step.id} data-flow-node={step.id} key={step.id}><Reveal className="flow-card-reveal">
+  const card = (step: FlowStep) => <div className={"flow-node flow-node-" + step.id} data-flow-node={step.id} key={step.id}><div className="flow-card-shell">
     <article aria-label={t("Step ", "चरण ") + step.n}>
       <div className="flow-card-top"><span className="flow-number">{step.n}</span><step.icon size={23} strokeWidth={1.45} aria-hidden="true" /></div>
       <h3>{t(...step.title)}</h3><p>{t(...step.body)}</p>
       {flowChecks[step.id] && <details className="flow-more"><summary>{t("What to check", "क्या जाँचें")}<Plus size={14} aria-hidden="true" /></summary><p>{t(...flowChecks[step.id])}</p></details>}
       {step.id === "interview" && <div className="flow-decision"><span>{t("Yes · continue to 08", "हाँ · चरण 08 पर जाएँ")}</span><a href={"#" + id + "-pool"}><CornerUpLeft size={14} />{t("No · return to talent pool", "नहीं · प्रतिभा समूह में वापस जाएँ")}</a></div>}
     </article>
-  </Reveal></div>;
+  </div></div>;
 
   return <section className="section recruitment-flow-section" aria-labelledby={id + "-title"}>
     <div className="container">

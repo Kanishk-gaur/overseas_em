@@ -439,3 +439,53 @@
   .button, .photo img, .text-link > svg, .contact-path > a:last-child > svg, .footer-opening a > svg { transition: none; }
   .button:hover, a:hover > .photo img, .text-link:hover > svg, .contact-path > a:last-child:hover > svg, .footer-opening a:hover > svg { transform: none; }
 }
+
+/* Precision pass: preserve every color; refine proportions, rhythm and controls. */
+.launch-copy > .eyebrow { margin-top: 0; }
+.launch-copy > p:not(.eyebrow), .page-hero-description { text-wrap: pretty; }
+.page-hero .page-hero-description { font-size: 15px; }
+.recruitment-filters:first-child, .section-heading + .recruitment-filters { margin-top: 0; }
+.recruitment-filters input, .recruitment-filters select { border-radius: var(--control-radius); }
+.service-studio-panel, .talent-preview, .recruitment-tracks > article, .enquiry-panel, .flow-node article { border-radius: var(--card-radius); }
+.service-studio-copy { display: flex; flex-direction: column; align-items: flex-start; }
+.service-studio-copy .text-link { margin-top: auto; padding-top: 22px; }
+.profile-details summary::after, .profile-details[open] summary::after { content: none; }
+.profile-details summary > svg { transition: transform .2s ease; }
+.profile-details[open] summary > svg { transform: rotate(45deg); }
+.flow-number, .editorial-number, .detail-number, .recruitment-count { font-variant-numeric: tabular-nums; }
+.flow-node article { transition: border-color .2s ease; }
+.flow-node p { font-size: 13px; }
+.flow-footnote > p { font-size: 12px; }
+.nav-dropdown a { min-height: 44px; }
+.nav-dropdown a > svg { transition: transform .2s ease; }
+.footer-main a, .footer-resources a, .footer-bottom a { text-underline-offset: 4px; }
+@media (min-width: 1200px) {
+  .desktop-nav > a, .nav-group summary { font-size: 12px; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .nav-dropdown a:hover > svg { transform: translate(2px,-2px); }
+  .footer-main a:hover, .footer-resources a:hover, .footer-bottom a:hover { text-decoration: underline; }
+}
+@media (max-width: 767px) {
+  .launch-grid { gap: 28px; padding-top: 36px; }
+  .launch-copy > p:not(.eyebrow) { line-height: 1.8; margin-block: 21px 24px; }
+  .launch-copy .button-row { align-items: center; }
+  .launch-art > .photo { height: auto; aspect-ratio: 1.05; max-height: 420px; }
+  .launch-caption { left: 22px; right: 22px; }
+  .launch-caption p { font-size: 20px; }
+  .page-hero .page-hero-description { font-size: 14px; }
+  .service-studio-copy { min-height: 330px; }
+  .flow-node p { font-size: 14px; }
+  .flow-footnote > p { font-size: 13px; }
+  .mobile-contact-bar .button { font-size: 12px; min-height: 46px; }
+  html[lang=hi] .mobile-contact-bar .button { font-size: 12px; }
+  .mobile-contact-bar .button > svg { width: 17px; height: 17px; }
+}
+@media (max-width: 599px) {
+  .flow-pools { row-gap: 16px; }
+  .flow-or { position: static; inset: auto; transform: none; justify-self: center; padding: 3px 12px; line-height: 1.6; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-details summary > svg, .flow-node article, .nav-dropdown a > svg { transition: none; }
+  .nav-dropdown a:hover > svg { transform: none; }
+}
