@@ -31,6 +31,8 @@ The existing navy, warm-paper, muted-gold and teal identity is preserved. This p
 
 ## Useful content added and corrected
 
+At the owner's request, workforce profiles no longer contain assigned destination lists or minimum-experience badges such as “1+ years”. Both fields were removed from all 18 source profiles, the directory and homepage previews. Related English/Hindi descriptions, search wording and directory metadata now focus on roles and practical skills.
+
 The site now includes 63 public routes, 14 industry guides, 16 destination guides, 18 workforce profiles, all 25 original work-category names, nine articles, nine illustrative hiring-planning briefs, 14 glossary entries and four original team profiles. Alias URLs remain available.
 
 The worker preparation guide adds a six-item document checklist, CV/interview/contract/travel preparation, safe-recruitment guidance and 20 searchable FAQs across four topics. Checklist selections are temporary browser state, not an application or eligibility result. New guidance and navigation support English and Hindi; some imported detailed profiles, articles and glossary text remain in English.
