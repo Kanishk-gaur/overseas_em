@@ -54,7 +54,7 @@ export function Header() {
     <a className="skip-link" href="#main">{t("Skip to content", "मुख्य सामग्री पर जाएँ")}</a>
     <div className="utility-bar"><div className="container"><span>{d.eyebrow}</span><span className="utility-right">{t("Recruiting from India for work abroad", "विदेश में काम के लिए भारत से भर्ती")}</span></div></div>
     <header className="site-header"><div className="container header-inner"><Logo /><nav ref={desktopNav} aria-label={t("Main navigation", "मुख्य नेविगेशन")} className="desktop-nav">{navigationItems.filter(item => item.href !== "/contact").map(({ href, labelIndex: i }) => {
-      const links = i === 1 ? [{ href: "/about", en: d.nav[1], hi: d.nav[1] }, ...resourceLinks.filter(link => ["/team", "/work-certificates", "/how-we-work", "/blog", "/case-studies", "/compliance", "/glossary"].includes(link.href))] : i === 3 ? [{ href: "/industries", en: d.nav[3], hi: d.nav[3] }, ...resourceLinks.filter(link => ["/workforce", "/find-a-job", "/request-workforce"].includes(link.href))] : i === 6 ? [
+      const links = i === 1 ? [{ href: "/about", en: d.nav[1], hi: d.nav[1] }, ...resourceLinks.filter(link => ["/services", "/team", "/work-certificates", "/how-we-work", "/blog", "/case-studies", "/compliance", "/glossary"].includes(link.href))] : i === 3 ? [{ href: "/industries", en: d.nav[3], hi: d.nav[3] }, ...resourceLinks.filter(link => ["/workforce", "/find-a-job", "/request-workforce"].includes(link.href))] : i === 6 ? [
         { href: "/find-a-job", en: "Worker preparation guide", hi: "कामगार तैयारी मार्गदर्शिका" },
         { href: "/process", en: "The recruitment journey", hi: "भर्ती का सफर" },
         { href: "/find-a-job#documents", en: "Document checklist", hi: "दस्तावेज़ सूची" },

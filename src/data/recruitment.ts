@@ -53,6 +53,7 @@ export const caseImages: Record<string, string> = {
 };
 
 export const resourceLinks = [
+  { href: "/services", en: "Services", hi: "सेवाएँ" },
   { href: "/workforce", en: "Workforce directory", hi: "कामगार निर्देशिका" },
   { href: "/find-a-job", en: "Find a job", hi: "नौकरी खोजें" },
   { href: "/request-workforce", en: "Request workforce", hi: "कामगारों की ज़रूरत बताएँ" },
