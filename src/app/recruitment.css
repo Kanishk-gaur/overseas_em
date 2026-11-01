@@ -1,6 +1,6 @@
 /* Additional content uses the existing GlobalPath palette and typography. */
 .recruitment-tracks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 80px; }
-.recruitment-tracks > article + article { border-left: 1px solid var(--border); padding-left: 70px; }
+.recruitment-tracks > article + article { border-inline-start: 1px solid var(--border); padding-inline-start: 70px; }
 .recruitment-tracks h2 { font-size: clamp(30px, 3vw, 43px); }
 .recruitment-list { margin: 24px 0; display: grid; gap: 12px; color: var(--muted); font-size: 14px; line-height: 1.8; }
 .recruitment-list li { padding-left: 18px; position: relative; }
@@ -104,7 +104,7 @@
   .team-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 50px 30px; }
   .team-directory .photo { height: 420px; }
   .recruitment-tracks { gap: 45px; }
-  .recruitment-tracks > article + article { padding-left: 40px; }
+  .recruitment-tracks > article + article { padding-inline-start: 40px; }
   .article-layout { gap: 50px; grid-template-columns: 200px minmax(0, 1fr); }
   .case-feature { gap: 40px; }
 }
@@ -117,7 +117,7 @@
 @media (max-width: 767px) {
   .recruitment-tracks, .recruitment-process, .workforce-grid, .resource-grid, .team-directory, .case-feature, .article-layout, .glossary-directory > div { grid-template-columns: minmax(0, 1fr); }
   .recruitment-tracks { gap: 40px; }
-  .recruitment-tracks > article + article { padding: 40px 0 0; border-left: 0; border-top: 1px solid var(--border); }
+  .recruitment-tracks > article + article { padding: 40px 0 0; border-inline-start: 0; border-top: 1px solid var(--border); }
   .recruitment-tracks h2 { font-size: 32px; }
   .recruitment-filters { gap: 17px; }
   .recruitment-filters label.recruitment-search { flex-basis: 100%; }

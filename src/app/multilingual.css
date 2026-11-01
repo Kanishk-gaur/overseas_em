@@ -1,0 +1,36 @@
+/* Keep the established design, while allowing translated copy to breathe. */
+.brand { direction: ltr; unicode-bidi: isolate; }
+.button svg, .text-link svg, .official-link svg { flex-shrink: 0; }
+.site-header:has(.mobile-nav) .header-actions > .language-picker { visibility: hidden; }
+.language-picker button:focus-visible { outline: 2px solid var(--gold-dark); outline-offset: 3px; }
+html:not([lang=en]) :is(h1,h2,h3,.button,.text-link,.eyebrow) { overflow-wrap: anywhere; }
+html:not([lang=en]) .desktop-nav { gap: 16px; }
+html:not([lang=en]) .desktop-nav :is(a,summary) { white-space: normal; }
+html:not([lang=en]) .header-inner { gap: 20px; }
+html:not([lang=en]) .header-actions { gap: 14px; }
+html[dir=rtl] { --heading: Arial, Tahoma, sans-serif; --body: Arial, Tahoma, sans-serif; }
+html[lang=ja] { --heading: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; --body: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif; }
+html[dir=rtl] :is(h1,h2,h3,.eyebrow,.utility-bar,.recruitment-meta,.flow-node,.button) { letter-spacing: normal; }
+html[lang=ja] :is(h1,h2,h3) { letter-spacing: normal; line-height: 1.5; word-break: normal; overflow-wrap: break-word; }
+html[dir=rtl] :is(.nav-dropdown,.profile-details,.flow-node,.faq-list,.candidate-faq-answers,.service-tab,.contact-dialog) { text-align: start; }
+html[dir=rtl] .nav-dropdown { left: auto; right: -22px; }
+html[dir=rtl] :is(.breadcrumbs,.text-link,.official-link,.mobile-nav) .lucide-arrow-up-right,
+html[dir=rtl] :is(.breadcrumbs .lucide-chevron-right,#countries .lucide-arrow-left,#countries .lucide-arrow-right) { transform: scaleX(-1); }
+html[dir=rtl] :is(input[type=email],input[type=tel],a[href^="tel:"],a[href^="mailto:"]) { direction: ltr; unicode-bidi: isolate; }
+html[dir=rtl] :is(.recruitment-list,.recruitment-tags) { padding-inline-start: 0; }
+html[dir=rtl] .skip-link { left: auto; right: 20px; }
+html[dir=rtl] .recruitment-search > div > svg { left: auto; right: 14px; }
+html[dir=rtl] .recruitment-search > div > input { padding-left: 14px; padding-right: 42px; }
+html[dir=rtl] .recruitment-list li { padding-left: 0; padding-right: 18px; }
+html[dir=rtl] .recruitment-list li::before { left: auto; right: 0; }
+html[dir=rtl] .flow-decision .lucide-corner-up-left { transform: scaleX(-1); }
+html[dir=rtl] .detailed-timeline::before { left: auto; right: 23px; }
+@media(min-width:1200px) and (max-width:1399px) {
+  html:not([lang=en]) .header-inner { gap: 15px; }
+  html:not([lang=en]) .header-cta { max-width: 165px; }
+}
+@media(max-width:767px) {
+  html[dir=rtl] .detailed-timeline::before { right: 20px; }
+  html[dir=rtl] .launch-copy h1 { font-size: clamp(38px,10vw,54px); line-height: 1.25; }
+  html:not([lang=en]) .utility-bar { letter-spacing: .2px; }
+}

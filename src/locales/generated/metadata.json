@@ -1,0 +1,254 @@
+{
+  "/about": {
+    "title": "About Us",
+    "description": "People-focused international recruitment from India. Our purpose, values, international destination guides and approach to connecting workers and employers."
+  },
+  "/blog": {
+    "title": "Insights & Guides",
+    "description": "Recruitment articles and guides for international employers and Indian workers."
+  },
+  "/case-studies": {
+    "title": "Hiring Scenarios",
+    "description": "Illustrative workforce hiring briefs across countries and industries."
+  },
+  "/compliance": {
+    "title": "Recruitment Standards",
+    "description": "Candidate verification, written terms and worker welfare."
+  },
+  "/contact": {
+    "title": "Contact Us",
+    "description": "Talk to GlobalPath Overseas about overseas work or international workforce recruitment. Candidate and employer enquiry options."
+  },
+  "/disclaimer": {
+    "title": "Disclaimer",
+    "description": "Understand the scope of recruitment information, articles and examples."
+  },
+  "/employers": {
+    "title": "For International Employers",
+    "description": "Plan your next team with Indian technical professionals and skilled trades. Explore hiring options, screening, deployment coordination and ongoing workforce support."
+  },
+  "/find-a-job": {
+    "title": "Overseas Work: Candidate Preparation Guide",
+    "description": "Prepare for overseas work with a document checklist, CV and interview guidance, offer verification steps and 20 practical candidate FAQs."
+  },
+  "/glossary": {
+    "title": "Recruitment Glossary",
+    "description": "Understand common visa, documentation and international recruitment terminology."
+  },
+  "/how-we-work": {
+    "title": "How We Work",
+    "description": "Technical and trade hiring tracks, deployment stages and employer engagement models."
+  },
+  "/industries": {
+    "title": "Industries We Serve",
+    "description": "Explore recruitment support across construction, manufacturing, logistics, hospitality, healthcare and other industries."
+  },
+  "/": {
+    "title": "Indian Talent. Global Opportunities.",
+    "description": "Connecting Indian talent with international opportunities through people-focused recruitment at GlobalPath Overseas."
+  },
+  "/privacy-policy": {
+    "title": "Privacy Policy",
+    "description": "Read the privacy policy for the GlobalPath Overseas website."
+  },
+  "/process": {
+    "title": "Our Recruitment Process",
+    "description": "Understand the overseas recruitment process, from your first enquiry to documents, employer interviews, contracts and joining."
+  },
+  "/request-workforce": {
+    "title": "Request Workforce",
+    "description": "Prepare your employer brief for specialist, bulk and ongoing workforce needs."
+  },
+  "/services": {
+    "title": "Our Services",
+    "description": "Overseas manpower recruitment, skilled and technical recruitment, general workforce services and employer hiring support from India."
+  },
+  "/team": {
+    "title": "Our Team",
+    "description": "Meet our workforce strategy, screening, documentation and account management team."
+  },
+  "/terms": {
+    "title": "Terms and Conditions",
+    "description": "Read the terms and conditions for the GlobalPath Overseas website."
+  },
+  "/work-certificates": {
+    "title": "Work Certificates",
+    "description": "GlobalPath’s work in India and its next chapter in international recruitment. Preview draft work completion and service experience certificate designs."
+  },
+  "/workforce": {
+    "title": "Workforce Directory",
+    "description": "Explore 18 workforce profiles, practical skills and roles across industries."
+  },
+  "/countries/russia": {
+    "title": "Russia",
+    "description": "Construction, manufacturing, welding, hospitality and technical trades."
+  },
+  "/countries/portugal": {
+    "title": "Portugal",
+    "description": "Agriculture, hospitality, construction and engineering."
+  },
+  "/countries/czech-republic": {
+    "title": "Czech Republic",
+    "description": "Manufacturing, automotive production, CNC operations and warehousing."
+  },
+  "/countries/israel": {
+    "title": "Israel",
+    "description": "Caregiving, construction and agriculture."
+  },
+  "/countries/uae": {
+    "title": "United Arab Emirates",
+    "description": "Construction, hospitality, logistics and technical services."
+  },
+  "/countries/saudi-arabia": {
+    "title": "Saudi Arabia",
+    "description": "Infrastructure, industrial operations, healthcare and facilities."
+  },
+  "/countries/qatar": {
+    "title": "Qatar",
+    "description": "Hospitality, maintenance, construction and transport services."
+  },
+  "/countries/oman": {
+    "title": "Oman",
+    "description": "Logistics, engineering, hospitality and technical trades."
+  },
+  "/countries/kuwait": {
+    "title": "Kuwait",
+    "description": "Industrial, maintenance, healthcare and service roles."
+  },
+  "/countries/bahrain": {
+    "title": "Bahrain",
+    "description": "Manufacturing, hospitality, construction and business services."
+  },
+  "/countries/germany": {
+    "title": "Germany",
+    "description": "Technical trades, engineering, manufacturing and care-related sectors."
+  },
+  "/countries/japan": {
+    "title": "Japan",
+    "description": "Manufacturing, technical work, food services and caregiving."
+  },
+  "/countries/poland": {
+    "title": "Poland",
+    "description": "Manufacturing, logistics, construction and industrial trades."
+  },
+  "/countries/romania": {
+    "title": "Romania",
+    "description": "Construction, hospitality, production and logistics."
+  },
+  "/countries/united-kingdom": {
+    "title": "United Kingdom",
+    "description": "Professional, technical and qualified healthcare roles, subject to current route eligibility."
+  },
+  "/countries/other-destinations": {
+    "title": "Other destinations",
+    "description": "Discuss other markets and your skills with our team."
+  },
+  "/countries/uk": {
+    "title": "United Kingdom",
+    "description": "Professional, technical and qualified healthcare roles, subject to current route eligibility."
+  },
+  "/industries/construction": {
+    "title": "Construction & Infrastructure",
+    "description": "Building, civil engineering and infrastructure projects need a range of trades, from masonry to site supervision."
+  },
+  "/industries/manufacturing": {
+    "title": "Manufacturing & Industrial",
+    "description": "Production roles cover machine operation, fabrication, assembly and quality checks on the factory floor."
+  },
+  "/industries/electrical-mechanical": {
+    "title": "Electrical & Mechanical",
+    "description": "Practical technical skills for installation, repair and the systems industries rely on."
+  },
+  "/industries/logistics": {
+    "title": "Logistics & Warehousing",
+    "description": "Goods need to be received, stored, packed and dispatched. Explore the roles involved in keeping warehouse operations organised."
+  },
+  "/industries/transportation": {
+    "title": "Transportation & Driving",
+    "description": "Experienced drivers and transport teams. Local licence recognition and driving requirements must be checked for each destination."
+  },
+  "/industries/hospitality": {
+    "title": "Hospitality & Tourism",
+    "description": "Warm service and practical expertise for guest experiences, kitchens and hotel operations."
+  },
+  "/industries/healthcare": {
+    "title": "Healthcare & Caregiving",
+    "description": "Compassionate professionals for care-focused roles. Licensing, credential recognition and language requirements are destination-specific."
+  },
+  "/industries/agriculture": {
+    "title": "Agriculture & Farming",
+    "description": "Practical skills across planting, crop care, harvesting and produce handling."
+  },
+  "/industries/energy": {
+    "title": "Oil, Gas & Energy",
+    "description": "Role-focused recruitment support for energy projects and industrial operations, subject to safety and qualification requirements."
+  },
+  "/industries/facilities": {
+    "title": "Facilities Management",
+    "description": "Maintenance, cleaning and security teams look after workplaces and public spaces."
+  },
+  "/industries/it-professional": {
+    "title": "IT & Professional Services",
+    "description": "Technical and office expertise for organisations with specialised professional requirements."
+  },
+  "/industries/engineering": {
+    "title": "Engineering & Technical",
+    "description": "Design work, technical inspections and project support draw on different engineering skills."
+  },
+  "/industries/food-processing": {
+    "title": "Food Processing & Packaging",
+    "description": "Careful preparation, hygiene and reliable teamwork across food-production and packing environments."
+  },
+  "/industries/retail-sales": {
+    "title": "Retail & Customer Service",
+    "description": "From stockroom handling to customer service, retail work combines organisation with day-to-day customer contact."
+  },
+  "/industries/logistics-warehousing": {
+    "title": "Logistics & Warehousing",
+    "description": "Goods need to be received, stored, packed and dispatched. Explore the roles involved in keeping warehouse operations organised."
+  },
+  "/industries/facilities-management": {
+    "title": "Facilities Management",
+    "description": "Maintenance, cleaning and security teams look after workplaces and public spaces."
+  },
+  "/industries/it-engineering": {
+    "title": "IT & Professional Services",
+    "description": "Technical and office expertise for organisations with specialised professional requirements."
+  },
+  "/blog/japan-ssw-employer-sponsorship-2026": {
+    "title": "Japan SSW: Questions to Resolve Before Hiring",
+    "description": "Start with the field, eligibility and the responsibilities of both employer and candidate."
+  },
+  "/blog/germany-work-visa-sponsorship-guide": {
+    "title": "Hiring for Germany: Qualifications, Roles & Preparation",
+    "description": "Clarify the occupation, recognition requirements and language expectations before planning recruitment."
+  },
+  "/blog/documents-checklist-hiring-workers-russia": {
+    "title": "Preparing a Workforce Brief for Russia",
+    "description": "A practical checklist for the employer, role, documents and working conditions."
+  },
+  "/blog/bulk-workforce-orders-what-employers-should-know": {
+    "title": "Planning a Larger Workforce Requirement",
+    "description": "Turn a headcount into a clear, manageable recruitment brief."
+  },
+  "/blog/common-mistakes-employers-overseas-hiring": {
+    "title": "Overseas Hiring: Details That Deserve an Early Check",
+    "description": "Avoid unclear briefs, unverified contacts and assumptions about arrival arrangements."
+  },
+  "/blog/uae-employment-visa-labor-card-guide": {
+    "title": "UAE Hiring: The Offer, Contract & Work Permission",
+    "description": "Questions to ask before progressing an overseas recruitment requirement."
+  },
+  "/blog/poland-type-d-visa-eu-work-permit": {
+    "title": "Poland: Work-Visa Documents & Employer Checks",
+    "description": "Use the official national-visa guidance and confirm the permission for the specific job."
+  },
+  "/blog/israel-b1-work-visa-guide": {
+    "title": "Israel: Confirming the Correct Work-Visa Procedure",
+    "description": "Check the occupation, prior approval and the current official guidance."
+  },
+  "/blog/technical-vs-non-technical-hiring-guide": {
+    "title": "Matching the Assessment to the Work",
+    "description": "Professional qualifications and practical trade skills need clear, relevant evidence."
+  }
+}

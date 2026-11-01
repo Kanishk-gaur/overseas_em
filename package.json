@@ -8,9 +8,12 @@
     "start": "node scripts/serve.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
+    "i18n:catalog": "node scripts/i18n-catalog.mjs",
+    "i18n:check": "npm run i18n:catalog && node scripts/i18n-check.mjs",
+    "i18n:certificates": "node scripts/i18n-certificates.mjs",
     "images:prepare": "node scripts/prepare-responsive-images.mjs",
     "predev": "npm run images:prepare",
-    "prebuild": "npm run images:prepare"
+    "prebuild": "npm run i18n:check && npm run i18n:certificates && npm run images:prepare"
   },
   "dependencies": {
     "next": "^16.0.0",

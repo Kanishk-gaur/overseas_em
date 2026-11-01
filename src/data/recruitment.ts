@@ -57,6 +57,7 @@ export const resourceLinks = [
   { href: "/find-a-job", en: "Find a job", hi: "नौकरी खोजें" },
   { href: "/request-workforce", en: "Request workforce", hi: "कामगारों की ज़रूरत बताएँ" },
   { href: "/team", en: "Our team", hi: "हमारी टीम" },
+  { href: "/work-certificates", en: "Work certificates", hi: "कार्य प्रमाणपत्र" },
   { href: "/how-we-work", en: "How we work", hi: "हम कैसे काम करते हैं" },
   { href: "/blog", en: "Insights & guides", hi: "लेख और मार्गदर्शन" },
   { href: "/case-studies", en: "Hiring scenarios", hi: "भर्ती के उदाहरण" },

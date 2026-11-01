@@ -83,11 +83,11 @@
 .guide-closing > .container { display: grid; grid-template-columns: 1.35fr .8fr; gap: 110px; align-items: center; }
 .guide-closing h2 { font-size: clamp(34px,3.5vw,47px); }
 .guide-closing .container > div > p:not(.eyebrow) { max-width: 550px; font-size: 14px; line-height: 1.9; color: #bfcdd0; margin: 23px 0 29px; }
-.guide-closing aside { border-left: 1px solid #ffffff29; padding-left: 42px; }
+.guide-closing aside { border-inline-start: 1px solid #ffffff29; padding-inline-start: 42px; }
 .guide-closing aside > svg { color: #d4bb87; margin-bottom: 23px; }
 .guide-closing aside h3 { font-size: 23px; font-weight: 500; margin-bottom: 20px; }
 .guide-closing aside ul { display: grid; gap: 13px; list-style: none; padding: 0; color: #c0cdd0; font-size: 13px; }
-.guide-closing aside li::before { content: "–"; color: #d5ba87; margin-right: 12px; }
+.guide-closing aside li::before { content: "–"; color: #d5ba87; margin-inline-end: 12px; }
 .guide-closing aside > a { display: inline-flex; align-items: center; gap: 15px; color: #d7bf8f; font-size: 12px; margin-top: 27px; }
 .worker-preview { background: #f1f4ef; }
 .worker-preview-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: 85px; align-items: center; }
@@ -206,7 +206,7 @@
   .guide-official-strip { flex-wrap: wrap; }
   .guide-official-strip > div:last-child { max-width: none; margin-left: 47px; display: flex; gap: 20px; flex-wrap: wrap; }
   .guide-closing > .container { gap: 40px; }
-  .guide-closing aside { padding-left: 30px; }
+  .guide-closing aside { padding-inline-start: 30px; }
   .worker-preview-photo > .photo { height: 520px; }
   .worker-preview-photo > div:last-child { padding: 19px; left: 17px; right: 17px; }
   .industry-catalog-grid, .destination-catalog-grid { gap: 23px; }

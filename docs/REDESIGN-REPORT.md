@@ -2,6 +2,16 @@
 
 Reviewed 25 October 2026. Preview: **http://localhost:3000/**, running from the development server in the target project. All work stays local. No commit, push, publication or deployment was performed. The original overseas project was not modified.
 
+## Countries moved to About — 31 October 2026
+
+- Removed Countries from the desktop and mobile navbar. Menu entries retain their correct English/Hindi labels through explicit dictionary indices.
+- Moved all 16 directory entries, original images, descriptions, preparation notes, region filters, search and enquiry CTA into [the About country section](../src/components/shared/countries-section.tsx), anchored at `/about/#countries`.
+- Added native horizontal scrolling with equal-size cards, scroll snapping, touch/trackpad support, desktop arrows, keyboard Arrow/Home/End controls and reduced-motion handling. The existing palette, fonts, image components and country dataset are reused; no dependencies were added.
+- Removed the standalone `/countries/` page and its sitemap entry. Individual `/countries/[slug]/` guides and aliases remain. Homepage, footer and guide return links now point to the About section.
+- Production build, ESLint and TypeScript passed. Chromium checks covered 36 layout states across 360, 390, 768, 1024, 1440 and 1920px in both languages, plus 23 interaction checks. No page overflow, broken images or production console errors were found. All 16 guide links resolve. Touch swiping was checked with browser touch emulation; physical-device Safari/Firefox testing was not performed.
+
+All changes remain local; nothing was committed, pushed or deployed.
+
 ## Final precision pass — existing colors locked
 
 The latest refinement preserves the exact color system. A before/after source comparison confirms that all 403 existing color literals, 26 color-token declarations and 16 gradient declarations are unchanged. No imagery, dependency, route or backend was added in this pass.

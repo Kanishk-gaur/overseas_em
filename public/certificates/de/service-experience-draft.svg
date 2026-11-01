@@ -1,0 +1,47 @@
+<svg lang="de" xml:lang="de" xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img" aria-labelledby="title description">
+<title id="title">Service Experience Certificate — Entwurf, nicht ausgestellt</title>
+<desc id="description">GlobalPath Overseas Zertifikat Design Template. Alle Projekt-, Zustands-, Kunden- und Datumsfelder sind leere Platzhalter. Es wurde keine Unterschrift, Siegel oder Emittentengenehmigung geliefert. Dieser Entwurf ist kein Beweis für abgeschlossene Arbeiten.</desc>
+<rect width="1120" height="790" fill="#f5f4ef"/>
+<rect x="22" y="22" width="1076" height="746" fill="#fff" stroke="#d2b781"/>
+<rect x="36" y="36" width="1048" height="142" fill="#102b3b"/>
+<g transform="translate(68 69) scale(1.45)" fill="none" stroke="#d2b781" stroke-width="2.4">
+<path d="M31.5 9.5C28.8 7.3 25.5 6 21.8 6C13.1 6 6 13.2 6 22S13.1 38 21.8 38C29.8 38 36.4 32 37.5 24.3"/>
+<path d="M15.2 28.8L27.5 16.5H20.4M27.5 16.5V23.6M22 28H37.5V12.5M34 6H38"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="149" y="101" font-size="30" fill="#fff" font-weight="600">GlobalPath<tspan fill="#d2b781">.</tspan></text>
+<text x="151" y="126" font-size="11" fill="#d2b781" letter-spacing="4">OVERSEAS</text>
+<text x="1043" y="86" text-anchor="end" font-size="12.00" letter-spacing="0" fill="#d2b781">Entwurf der Bescheinigung</text>
+<text x="1043" y="116" text-anchor="end" font-size="16.00" fill="#fff">ENTWURF — NICHT AUSGESTELLT</text>
+<text x="1043" y="143" text-anchor="end" font-size="11.00" fill="#dce1dd">Projektdetails &amp; Genehmigung des Emittenten noch ausstehend</text>
+<text x="78" y="220" font-size="11.00" letter-spacing="0" fill="#84632f">LEISTUNGSNACHWEIS</text>
+</g>
+<text x="76" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="48.00" fill="#102b3b">Zertifikat für Serviceerfahrung</text>
+<path d="M78 302H1042" stroke="#dce1dd"/>
+<path d="M78 302H181" stroke="#d2b781" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="78" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Ausstellende Gesellschaft</text>
+<text x="78" y="360" font-size="17.00" fill="#102b3b">[Client / zugelassene ausstellende Gesellschaft]</text>
+<text x="660" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Referenz für Projekt / Arbeitsauftrag</text>
+<text x="660" y="360" font-size="17.00" fill="#102b3b">[Bestätigte Referenz]</text>
+<text x="78" y="395" font-size="11.00" fill="#84632f">Entwurf des Wortlauts für die Überprüfung des Emittenten:</text>
+<text x="78" y="426" font-size="17.00" fill="#102b3b">[Auskunftsgesellschaft] bestätigt, dass [der Auftragnehmer, sein Rechtsname] angegeben ist</text>
+<text x="78" y="453" font-size="17.00" fill="#102b3b">[Dienstleistungen und Verantwortlichkeiten] an [Standorte in Indien] während</text>
+<text x="78" y="480" font-size="17.00" fill="#102b3b">[Dienstzeit], wie in [Auftrags-/Auftragsvermerk] dokumentiert.</text>
+<rect x="78" y="510" width="964" height="74" fill="#f5f4ef"/>
+<text x="98" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Arbeitsplatz</text>
+<text x="98" y="562" font-size="16.00" fill="#102b3b">[Stadt / Bezirk, Staat, Indien]</text>
+<path d="M574 525V568" stroke="#dce1dd"/>
+<text x="597" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Dauer der Dienstleistung</text>
+<text x="597" y="562" font-size="16.00" fill="#102b3b">[Startdatum – Enddatum]</text>
+<path d="M78 634H485M660 634H1042" stroke="#dce1dd"/>
+<text x="78" y="657" font-size="11.00" fill="#586970">[Bewilligter Unterzeichnername und Bezeichnung]</text>
+<text x="78" y="678" font-size="11.00" fill="#586970">Unterschrift: nicht geliefert</text>
+<text x="660" y="657" font-size="10.81" fill="#586970">[Datum der Ausgabe und Kontakt des Emittenten zur Überprüfung]</text>
+<text x="660" y="678" font-size="11.00" fill="#586970">Zulassung des Emittenten: anhängig</text>
+<rect x="36" y="706" width="1048" height="48" fill="#102b3b"/>
+<text x="78" y="735" font-size="11.00" fill="#d2b781" letter-spacing="0">NICHT AUSGESTELLTE VORLAGE</text>
+<text x="1042" y="735" text-anchor="end" font-size="11.00" fill="#fff">Keine Nachweise für abgeschlossene Arbeiten. Alle geklammerten Details erfordern eine Bestätigung.</text>
+</g>
+</svg>
+

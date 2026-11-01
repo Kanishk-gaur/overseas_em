@@ -1,0 +1,47 @@
+<svg lang="ru" xml:lang="ru" xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img" aria-labelledby="title description">
+<title id="title">Сертификат об опыте службы — проект, не выданный</title>
+<desc id="description">Шаблон оформления сертификата GlobalPath Overseas. Все поля проекта, штата Индии, клиента и даты оставлены пустыми. Подпись, печать и одобрение выдающей стороны отсутствуют. Этот черновик не подтверждает выполненную работу.</desc>
+<rect width="1120" height="790" fill="#f5f4ef"/>
+<rect x="22" y="22" width="1076" height="746" fill="#fff" stroke="#d2b781"/>
+<rect x="36" y="36" width="1048" height="142" fill="#102b3b"/>
+<g transform="translate(68 69) scale(1.45)" fill="none" stroke="#d2b781" stroke-width="2.4">
+<path d="M31.5 9.5C28.8 7.3 25.5 6 21.8 6C13.1 6 6 13.2 6 22S13.1 38 21.8 38C29.8 38 36.4 32 37.5 24.3"/>
+<path d="M15.2 28.8L27.5 16.5H20.4M27.5 16.5V23.6M22 28H37.5V12.5M34 6H38"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="149" y="101" font-size="30" fill="#fff" font-weight="600">GlobalPath<tspan fill="#d2b781">.</tspan></text>
+<text x="151" y="126" font-size="11" fill="#d2b781" letter-spacing="4">OVERSEAS</text>
+<text x="1043" y="86" text-anchor="end" font-size="12.00" letter-spacing="0" fill="#d2b781">Конструкция сертификата</text>
+<text x="1043" y="116" text-anchor="end" font-size="16.00" fill="#fff">ПРОЕКТ — НЕ ВЫДАН</text>
+<text x="1043" y="143" text-anchor="end" font-size="11.00" fill="#dce1dd">Подробности проекта и утверждение эмитента ожидают утверждения</text>
+<text x="78" y="220" font-size="11.00" letter-spacing="0" fill="#84632f">Служебная книжка</text>
+</g>
+<text x="76" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="48.00" fill="#102b3b">Свидетельство об опыте работы</text>
+<path d="M78 302H1042" stroke="#dce1dd"/>
+<path d="M78 302H181" stroke="#d2b781" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="78" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Компания-выпускник</text>
+<text x="78" y="360" font-size="17.00" fill="#102b3b">[Клиент/разрешенная компания-эмитент]</text>
+<text x="660" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Ссылка на проект/порядок работы</text>
+<text x="660" y="360" font-size="17.00" fill="#102b3b">[Подтвержденные ссылки]</text>
+<text x="78" y="395" font-size="11.00" fill="#84632f">Проект формулировки для рассмотрения эмитентом:</text>
+<text x="78" y="426" font-size="17.00" fill="#102b3b">[Испрашивающая компания] подтверждает, что [подрядчик, юридическое наименование]</text>
+<text x="78" y="453" font-size="17.00" fill="#102b3b">[услуги и обязанности] в [местоположении/местоположениях в Индии]</text>
+<text x="78" y="480" font-size="17.00" fill="#102b3b">[Продолжительность службы], как это отражено в [ссылке на контракт/заказ-наряд].</text>
+<rect x="78" y="510" width="964" height="74" fill="#f5f4ef"/>
+<text x="98" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Место работы</text>
+<text x="98" y="562" font-size="16.00" fill="#102b3b">[город/район, штат, Индия]</text>
+<path d="M574 525V568" stroke="#dce1dd"/>
+<text x="597" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Период службы</text>
+<text x="597" y="562" font-size="16.00" fill="#102b3b">[Стат-дата — дата окончания]</text>
+<path d="M78 634H485M660 634H1042" stroke="#dce1dd"/>
+<text x="78" y="657" font-size="11.00" fill="#586970">[Условное наименование и наименование подписавшего]</text>
+<text x="78" y="678" font-size="11.00" fill="#586970">Подпись: не представлена</text>
+<text x="660" y="657" font-size="11.00" fill="#586970">[Дата получения &amp; контакта эмитента для проверки]</text>
+<text x="660" y="678" font-size="11.00" fill="#586970">Утверждение эмитента: ожидается</text>
+<rect x="36" y="706" width="1048" height="48" fill="#102b3b"/>
+<text x="78" y="735" font-size="11.00" fill="#d2b781" letter-spacing="0">НЕВЫДАННЫЙ ШАБЛОН</text>
+<text x="1042" y="735" text-anchor="end" font-size="11.00" fill="#fff">Все данные, взятые в квадратные скобки, требуют подтверждения.</text>
+</g>
+</svg>
+

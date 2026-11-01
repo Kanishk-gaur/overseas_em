@@ -1,0 +1,47 @@
+<svg lang="ro" xml:lang="ro" xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img" aria-labelledby="title description">
+<title id="title">Certificat de experiență de serviciu. Proiect, neeliberat</title>
+<desc id="description">Modelul de proiectare a certificatului GlobalPath Overseas. Toate câmpurile de proiect, de stat, client și data sunt deţinători de locuri goale. Nu a fost furnizată nici o semnătură, sigiliu sau aprobare a emitentului. Acest proiect nu este dovada de lucru finalizat.</desc>
+<rect width="1120" height="790" fill="#f5f4ef"/>
+<rect x="22" y="22" width="1076" height="746" fill="#fff" stroke="#d2b781"/>
+<rect x="36" y="36" width="1048" height="142" fill="#102b3b"/>
+<g transform="translate(68 69) scale(1.45)" fill="none" stroke="#d2b781" stroke-width="2.4">
+<path d="M31.5 9.5C28.8 7.3 25.5 6 21.8 6C13.1 6 6 13.2 6 22S13.1 38 21.8 38C29.8 38 36.4 32 37.5 24.3"/>
+<path d="M15.2 28.8L27.5 16.5H20.4M27.5 16.5V23.6M22 28H37.5V12.5M34 6H38"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="149" y="101" font-size="30" fill="#fff" font-weight="600">GlobalPath<tspan fill="#d2b781">.</tspan></text>
+<text x="151" y="126" font-size="11" fill="#d2b781" letter-spacing="4">OVERSEAS</text>
+<text x="1043" y="86" text-anchor="end" font-size="12.00" letter-spacing="0" fill="#d2b781">Proiectarea certificatului</text>
+<text x="1043" y="116" text-anchor="end" font-size="16.00" fill="#fff">PROIECT — NEEMIS</text>
+<text x="1043" y="143" text-anchor="end" font-size="11.00" fill="#dce1dd">Detaliile proiectului și aprobarea emitentului în curs</text>
+<text x="78" y="220" font-size="11.00" letter-spacing="0" fill="#84632f">Dosarul serviciului</text>
+</g>
+<text x="76" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="46.98" fill="#102b3b">Certificat de experiență în serviciu</text>
+<path d="M78 302H1042" stroke="#dce1dd"/>
+<path d="M78 302H181" stroke="#d2b781" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="78" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Societatea emitentă</text>
+<text x="78" y="360" font-size="17.00" fill="#102b3b">[Compania emitentă autorizată/client]</text>
+<text x="660" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Referinţă proiect/ordin de lucru</text>
+<text x="660" y="360" font-size="17.00" fill="#102b3b">[Referință confirmată]</text>
+<text x="78" y="395" font-size="11.00" fill="#84632f">Proiectul de formulare pentru revizuirea emitentului:</text>
+<text x="78" y="426" font-size="17.00" fill="#102b3b">[societate emitentă] confirmă că [contractant.s denumirea juridică] furnizată</text>
+<text x="78" y="453" font-size="17.00" fill="#102b3b">[servicii și responsabilități] la [locul / locațiile din India] în timpul</text>
+<text x="78" y="480" font-size="17.00" fill="#102b3b">[perioada de serviciu], astfel cum este documentată în [contract/ordin de muncă de referință].</text>
+<rect x="78" y="510" width="964" height="74" fill="#f5f4ef"/>
+<text x="98" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Locația de lucru</text>
+<text x="98" y="562" font-size="16.00" fill="#102b3b">[City / District, stat, India]</text>
+<path d="M574 525V568" stroke="#dce1dd"/>
+<text x="597" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Perioada de serviciu</text>
+<text x="597" y="562" font-size="16.00" fill="#102b3b">Data de începere. Data de încheiere</text>
+<path d="M78 634H485M660 634H1042" stroke="#dce1dd"/>
+<text x="78" y="657" font-size="11.00" fill="#586970">[Denumirea și denumirea semnatarului autotorizat]</text>
+<text x="78" y="678" font-size="11.00" fill="#586970">Semnătura: nefurnizată</text>
+<text x="660" y="657" font-size="11.00" fill="#586970">[Issue data și contactul emitentului pentru verificare]</text>
+<text x="660" y="678" font-size="11.00" fill="#586970">Aprobarea emitentului: în curs</text>
+<rect x="36" y="706" width="1048" height="48" fill="#102b3b"/>
+<text x="78" y="735" font-size="11.00" fill="#d2b781" letter-spacing="0">MODEL NEEMIS</text>
+<text x="1042" y="735" text-anchor="end" font-size="11.00" fill="#fff">Nu există dovezi ale lucrărilor finalizate. Toate detaliile grupate necesită confirmare.</text>
+</g>
+</svg>
+

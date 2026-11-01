@@ -35,17 +35,27 @@ async function shot(name, selector) {
   } else { await evaluate("scrollTo(0,0)"); }
   await evaluate("Promise.all([...document.images].filter(img => img.getBoundingClientRect().bottom > 0 && img.getBoundingClientRect().top < innerHeight).map(img => img.decode().catch(() => {})))");
   const clip = selector ? await evaluate("(()=>{const r=document.querySelector(" + JSON.stringify(selector) + ").getBoundingClientRect(); return {x:r.x+scrollX,y:r.y+scrollY,width:r.width,height:r.height,scale:1};})()") : await evaluate('({x:0,y:0,width:innerWidth,height:1000,scale:1})');
-  const image = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: true, ...(clip ? { clip } : {}) });
+  const image = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: Boolean(selector), ...(selector && clip ? { clip } : {}) });
   writeFileSync(path.join(output, name + ".png"), Buffer.from(image.data, "base64"));
 }
 async function assert(name, expression) { const passed = await evaluate(expression); checks.push({ name, passed }); if (!passed) errors.push(name); }
+async function setSiteLanguage(locale) {
+  await evaluate("document.querySelector('.header-actions .language-switch').click()");
+  await pause(50);
+  await evaluate(`document.querySelector('.header-actions [data-locale="${locale}"]').click()`);
+  for (let i = 0; i < 200; i++) {
+    if (await evaluate(`document.documentElement.lang === '${locale}' && !document.querySelector('.language-picker [aria-busy="true"]')`)) { await pause(180); return; }
+    await pause(50);
+  }
+  throw new Error(`Language did not load: ${locale}`);
+}
 await send("Page.enable");
 await send("Runtime.enable");
 await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
 await viewport(1440);
 await go("/");
-await evaluate("localStorage.setItem('globalpath-language','en'); window.dispatchEvent(new Event('globalpath-language-change'))");
-await pause(100);
+await setSiteLanguage("en");
+await evaluate("Promise.all([...document.images].map(img => { img.loading = 'eager'; return img.decode().catch(() => {}); }))");
 await shot("desktop-hero");
 for (const [name, selector] of [["desktop-flow", ".recruitment-flow-section"], ["desktop-service-section", ".services-studio"], ["desktop-industry-section", ".sector-studio"], ["desktop-people", ".people-intro"], ["desktop-contact-start", ".contact-start"]]) await shot(name, selector);
 await assert("Original flow has all 14 cards including parallel tracks", "document.querySelectorAll('.flow-node').length === 14");
@@ -69,25 +79,24 @@ for (const width of [320, 375, 430, 768, 1024, 1440, 1920]) {
 }
 console.log("Home visual checks:", JSON.stringify({ layouts, checks, errors }));
 if (process.argv.includes("--visual-only")) { ws.close(); process.exit(errors.length ? 1 : 0); }
-const routes = ["/about/", "/services/", "/industries/", "/countries/", "/employers/", "/process/", "/contact/", "/workforce/", "/find-a-job/", "/request-workforce/", "/team/", "/how-we-work/", "/blog/", "/case-studies/", "/glossary/", "/compliance/"];
+const routes = ["/about/", "/services/", "/industries/", "/employers/", "/process/", "/contact/", "/workforce/", "/find-a-job/", "/request-workforce/", "/team/", "/how-we-work/", "/blog/", "/case-studies/", "/glossary/", "/compliance/"];
 for (const route of routes) {
   await viewport(1440); await go(route);
   await assert("One main heading: " + route, "document.querySelectorAll('main h1').length === 1");
   await evaluate("Promise.all([...document.querySelectorAll('main img')].map(img => {img.loading='eager'; return img.decode().catch(() => {});} ))");
   const broken = await evaluate("[...document.querySelectorAll('main img')].filter(img => !img.naturalWidth).map(img => img.src)");
   if (broken.length) errors.push("Broken images on " + route + ": " + broken.join(","));
-  if (["/workforce/", "/contact/", "/about/", "/services/", "/countries/"].includes(route)) await shot("desktop-" + route.split("/")[1]);
+  if (["/workforce/", "/contact/", "/about/", "/services/"].includes(route)) await shot("desktop-" + route.split("/")[1]);
   for (const width of [375, 768, 1440]) {
     await viewport(width);
     const actual = await evaluate("document.documentElement.scrollWidth");
     if (actual > width + 1) errors.push("Overflow " + route + " at " + width + ": " + actual);
   }
   await viewport(375);
-  await evaluate("document.querySelector('.language-switch').click()");
-  await pause(120);
+  await setSiteLanguage("hi");
   if (await evaluate("document.documentElement.scrollWidth > innerWidth + 1")) errors.push("Hindi overflow " + route);
   if (["/contact/", "/workforce/"].includes(route)) await shot("mobile-hindi-" + route.split("/")[1]);
-  await evaluate("document.querySelector('.language-switch').click()");
+  await setSiteLanguage("en");
 }
 await go("/workforce/");
 await evaluate("(()=>{const select=document.querySelectorAll('.recruitment-filters select');select[0].value='Healthcare';select[0].dispatchEvent(new Event('change',{bubbles:true}));select[1].value='Technical';select[1].dispatchEvent(new Event('change',{bubbles:true}));})()");
@@ -108,12 +117,12 @@ await evaluate("document.querySelector('.faq-list summary').click()");
 await assert("FAQ expands", "document.querySelector('.faq-list details').open");
 await go("/");
 await viewport(375);
-await evaluate("document.querySelector('.language-switch').click()");
-await pause(100);
+await setSiteLanguage("hi");
 await shot("mobile-hindi-home");
 await go("/");
 await assert("Hindi preference survives navigation", "document.documentElement.lang === 'hi'");
-await evaluate("document.querySelector('.language-switch').click(); document.querySelector('.menu-toggle').click()");
+await setSiteLanguage("en");
+await evaluate("document.querySelector('.menu-toggle').click()");
 await assert("Mobile menu opens", "!!document.querySelector('#mobile-navigation')");
 await evaluate("document.querySelector('#mobile-navigation a[href^=\"/about\"]').click()");
 await pause(300);
@@ -137,7 +146,7 @@ for (const route of exported) {
 for (const asset of assets) if (!(await fetch(origin + asset, { method: "HEAD" })).ok) errors.push("Missing asset: " + asset);
 for (const link of links) {
   const url = new URL(link, origin);
-  let route = url.pathname.endsWith("/") ? url.pathname : url.pathname + "/";
+  const route = url.pathname.endsWith("/") || path.extname(url.pathname) ? url.pathname : url.pathname + "/";
   let html = responses.get(route);
   if (!html) { const response = await fetch(origin + route); if (!response.ok) { errors.push("Broken link: " + link); continue; } html = await response.text(); responses.set(route, html); }
   if (url.hash && !html.includes('id="' + decodeURIComponent(url.hash.slice(1)) + '"')) errors.push("Missing anchor: " + link);

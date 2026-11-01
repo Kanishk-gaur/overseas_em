@@ -2,13 +2,13 @@ import { serviceImages } from "./photography";
 import { images } from "@/config/site";
 import { l } from "./types";
 const coreServices = [
-  { slug: "overseas-recruitment", title: l("Overseas Manpower Recruitment", "विदेशी रोजगार के लिए भर्ती"), short: l("Connecting ambition with opportunity across borders.", "आपकी मेहनत को विदेश की संभावनाओं से जोड़ना।"), description: l("Recruitment coordination that starts with understanding people. We help candidates and international employers discuss roles, requirements and the steps towards working together.", "लोगों को समझने से शुरू होने वाली भर्ती। हम उम्मीदवारों और विदेशी नियोक्ताओं को भूमिका, ज़रूरतें और आगे की प्रक्रिया समझने में मदद करते हैं।"), examples: l("Cross-industry sourcing · Employer coordination · Candidate guidance", "कई उद्योगों में भर्ती · नियोक्ता से समन्वय · उम्मीदवार मार्गदर्शन"), image: images.construction },
-  { slug: "skilled-recruitment", title: l("Skilled & Technical Recruitment", "कुशल और तकनीकी भर्ती"), short: l("Practical expertise. International possibilities.", "व्यावहारिक हुनर। अंतरराष्ट्रीय संभावनाएँ।"), description: l("Role-focused sourcing for experienced tradespeople, supported by coordination of skill assessments and employer interviews. Qualifications and experience requirements vary by role.", "अनुभवी कारीगरों के लिए भूमिका के अनुसार भर्ती और कौशल परीक्षण तथा इंटरव्यू के समन्वय में मदद। योग्यता और अनुभव की शर्तें काम के अनुसार बदलती हैं।"), examples: l("Electricians · Welders · Plumbers · Carpenters", "इलेक्ट्रीशियन · वेल्डर · प्लंबर · बढ़ई"), image: images.technical },
+  { slug: "overseas-recruitment", title: l("Overseas Manpower Recruitment", "विदेशी रोजगार के लिए भर्ती"), short: l("Helping candidates and employers discuss overseas roles.", "विदेशी भूमिकाओं पर उम्मीदवारों और नियोक्ताओं की चर्चा में सहयोग।"), description: l("Recruitment coordination that starts with understanding people. We help candidates and international employers discuss roles, requirements and the steps towards working together.", "लोगों को समझने से शुरू होने वाली भर्ती। हम उम्मीदवारों और विदेशी नियोक्ताओं को भूमिका, ज़रूरतें और आगे की प्रक्रिया समझने में मदद करते हैं।"), examples: l("Cross-industry sourcing · Employer coordination · Candidate guidance", "कई उद्योगों में भर्ती · नियोक्ता से समन्वय · उम्मीदवार मार्गदर्शन"), image: images.construction },
+  { slug: "skilled-recruitment", title: l("Skilled & Technical Recruitment", "कुशल और तकनीकी भर्ती"), short: l("Recruitment informed by practical trade experience.", "व्यावहारिक ट्रेड अनुभव के आधार पर भर्ती।"), description: l("Role-focused sourcing for experienced tradespeople, supported by coordination of skill assessments and employer interviews. Qualifications and experience requirements vary by role.", "अनुभवी कारीगरों के लिए भूमिका के अनुसार भर्ती और कौशल परीक्षण तथा इंटरव्यू के समन्वय में मदद। योग्यता और अनुभव की शर्तें काम के अनुसार बदलती हैं।"), examples: l("Electricians · Welders · Plumbers · Carpenters", "इलेक्ट्रीशियन · वेल्डर · प्लंबर · बढ़ई"), image: images.technical },
   { slug: "semi-skilled-workforce", title: l("General & Semi-Skilled Workforce", "सामान्य और अर्ध-कुशल कामगार"), short: l("Recognising the value in every kind of work.", "हर तरह के काम की अहमियत को समझना।"), description: l("Support for candidates with practical workplace skills and those exploring entry-level roles. We clarify duties, working conditions and the training or experience an employer may require.", "व्यावहारिक कौशल वाले और शुरुआती भूमिकाएँ खोज रहे उम्मीदवारों के लिए सहयोग। हम काम की ज़िम्मेदारियाँ, काम की शर्तें और ज़रूरी अनुभव समझने में मदद करते हैं।"), examples: l("Warehouse staff · Factory assistants · Housekeeping · General workers", "वेयरहाउस कर्मचारी · फैक्ट्री सहायक · हाउसकीपिंग · सामान्य कामगार"), image: images.manufacturing },
   { slug: "employer-staffing", title: l("International Employer Staffing", "विदेशी नियोक्ताओं के लिए भर्ती"), short: l("Indian talent for your workforce requirements.", "आपकी भर्ती ज़रूरतों के लिए भारतीय प्रतिभा।"), description: l("An organised approach to workforce sourcing, candidate screening coordination and interview scheduling, shaped around your sector, role specifications and hiring timelines.", "आपके उद्योग, भूमिका की शर्तों और समय के अनुसार उम्मीदवार खोजने, स्क्रीनिंग और इंटरव्यू के समन्वय की व्यवस्थित प्रक्रिया।"), examples: l("Workforce planning · Candidate shortlisting · Interview coordination", "भर्ती योजना · उम्मीदवारों का चयन · इंटरव्यू समन्वय"), image: images.logistics },
-  { slug: "technical-solutions", title: l("Technical Workforce Solutions", "तकनीकी कामगार समाधान"), short: l("Specialist roles call for considered recruitment.", "विशेषज्ञ भूमिकाओं के लिए सोच-समझकर भर्ती।"), description: l("Coordination for technical and engineering roles with attention to equipment experience, role-specific certifications and the employer’s evaluation process.", "उपकरणों के अनुभव, भूमिका के प्रमाणपत्र और नियोक्ता के मूल्यांकन पर ध्यान देते हुए तकनीकी तथा इंजीनियरिंग भर्ती में समन्वय।"), examples: l("Engineers · CNC operators · Maintenance technicians · IT professionals", "इंजीनियर · CNC ऑपरेटर · रखरखाव तकनीशियन · IT पेशेवर"), image: images.professional },
+  { slug: "technical-solutions", title: l("Technical Workforce Solutions", "तकनीकी कामगार समाधान"), short: l("Equipment knowledge and qualifications shape the search.", "उपकरणों की जानकारी और योग्यताओं के अनुसार उम्मीदवारों की खोज।"), description: l("Coordination for technical and engineering roles with attention to equipment experience, role-specific certifications and the employer’s evaluation process.", "उपकरणों के अनुभव, भूमिका के प्रमाणपत्र और नियोक्ता के मूल्यांकन पर ध्यान देते हुए तकनीकी तथा इंजीनियरिंग भर्ती में समन्वय।"), examples: l("Engineers · CNC operators · Maintenance technicians · IT professionals", "इंजीनियर · CNC ऑपरेटर · रखरखाव तकनीशियन · IT पेशेवर"), image: images.professional },
   { slug: "general-workforce", title: l("General Workforce Recruitment", "सामान्य कामगारों की भर्ती"), short: l("Helping essential teams come together.", "ज़रूरी काम करने वाली टीमों को जोड़ना।"), description: l("Recruitment support for essential operational roles across facilities, hospitality, agriculture and industrial settings, with clear explanations of each employer’s expectations.", "फैसिलिटी, होटल, कृषि और औद्योगिक क्षेत्रों की ज़रूरी भूमिकाओं में भर्ती सहयोग और नियोक्ता की अपेक्षाओं की स्पष्ट जानकारी।"), examples: l("Facilities teams · Kitchen assistants · Farm workers · Production support", "फैसिलिटी टीम · रसोई सहायक · कृषि कामगार · उत्पादन सहायक"), image: images.hospitality },
-  { slug: "candidate-guidance", title: l("Candidate & Documentation Guidance", "उम्मीदवार और दस्तावेज़ मार्गदर्शन"), short: l("Clarity at every important step.", "हर ज़रूरी कदम पर स्पष्ट जानकारी।"), description: l("Understand typical document requirements, interview preparation and the questions to ask before accepting an offer. Any visa or travel coordination is subject to applicable requirements and official decisions.", "ज़रूरी दस्तावेज़, इंटरव्यू की तैयारी और प्रस्ताव स्वीकार करने से पहले पूछने वाले सवाल समझें। वीज़ा और यात्रा संबंधी सहयोग लागू नियमों और आधिकारिक निर्णयों पर निर्भर है।"), examples: l("Document checklists · Interview preparation · Contract awareness", "दस्तावेज़ सूची · इंटरव्यू तैयारी · अनुबंध की जानकारी"), image: images.about },
+  { slug: "candidate-guidance", title: l("Candidate & Documentation Guidance", "उम्मीदवार और दस्तावेज़ मार्गदर्शन"), short: l("Understand the documents and terms an offer involves.", "प्रस्ताव से जुड़े दस्तावेज़ और शर्तें समझें।"), description: l("Understand typical document requirements, interview preparation and the questions to ask before accepting an offer. Any visa or travel coordination is subject to applicable requirements and official decisions.", "ज़रूरी दस्तावेज़, इंटरव्यू की तैयारी और प्रस्ताव स्वीकार करने से पहले पूछने वाले सवाल समझें। वीज़ा और यात्रा संबंधी सहयोग लागू नियमों और आधिकारिक निर्णयों पर निर्भर है।"), examples: l("Document checklists · Interview preparation · Contract awareness", "दस्तावेज़ सूची · इंटरव्यू तैयारी · अनुबंध की जानकारी"), image: images.about },
 ];
 
 // Preserve the premium site’s service anchors while importing the original service scope.
@@ -20,8 +20,8 @@ const importedServices = [
       "hi": "कामगारों की खोज और स्क्रीनिंग"
     },
     "short": {
-      "en": "The right people, matched to a clear brief.",
-      "hi": "स्पष्ट ज़रूरत के अनुसार उपयुक्त लोग।"
+      "en": "Candidate sourcing against agreed role criteria.",
+      "hi": "तय भूमिका की शर्तों के अनुसार उम्मीदवार खोज।"
     },
     "description": {
       "en": "Sourcing and screening against the agreed trade, experience and headcount brief, followed by an employer review of suitable profiles.",
@@ -40,8 +40,8 @@ const importedServices = [
       "hi": "वीज़ा और दस्तावेज़ सहयोग"
     },
     "short": {
-      "en": "Clear documentation at every step.",
-      "hi": "हर कदम पर स्पष्ट दस्तावेज़।"
+      "en": "Work-permit and recruitment paperwork coordinated.",
+      "hi": "कार्य अनुमति और भर्ती दस्तावेज़ों का समन्वय।"
     },
     "description": {
       "en": "Coordination of role-specific work-permit, sponsorship and recruitment documents within the agreed scope. The relevant authorities decide immigration approval.",
@@ -64,8 +64,8 @@ const importedServices = [
       "hi": "पहले दिन के लिए आत्मविश्वास से तैयारी।"
     },
     "description": {
-      "en": "Pre-deployment orientation, basic language training, and cultural readiness sessions so your workforce is productive from day one.",
-      "hi": "यात्रा से पहले भाषा की बुनियादी तैयारी, कार्यस्थल की संस्कृति, सुरक्षा और भूमिका की अपेक्षाओं पर मार्गदर्शन।"
+      "en": "Pre-departure orientation covering basic language, workplace culture and safety to help workers prepare for their role.",
+      "hi": "यात्रा से पहले भाषा की बुनियादी जानकारी, कार्यस्थल की संस्कृति और सुरक्षा पर मार्गदर्शन, ताकि कामगार अपनी भूमिका के लिए तैयारी कर सकें।"
     },
     "examples": {
       "en": "Basic language training for the destination country · Workplace culture and safety orientation · Role-specific readiness briefing before travel",
@@ -80,8 +80,8 @@ const importedServices = [
       "hi": "कौशल और पृष्ठभूमि सत्यापन"
     },
     "short": {
-      "en": "Practical ability. Carefully assessed.",
-      "hi": "व्यावहारिक क्षमता का ध्यान से मूल्यांकन।"
+      "en": "Assessing skills against the work required.",
+      "hi": "काम की ज़रूरत के अनुसार कौशल का मूल्यांकन।"
     },
     "description": {
       "en": "Every candidate is background-checked, skill-tested, and verified before being shortlisted for your job order.",

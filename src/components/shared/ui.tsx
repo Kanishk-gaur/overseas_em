@@ -19,14 +19,14 @@ export function Reveal({ children, className = "", delay = 0 }: { children: Reac
   return <motion.div className={className} initial={false} whileInView={reduced ? undefined : { opacity: [0.65, 1], y: [10, 0] }} viewport={{ once: true, amount: 0.08 }} transition={{ duration: .45, delay, ease: [.22, 1, .36, 1] }}>{children}</motion.div>;
 }
 export function Photo({ src, alt, className = "", priority = false, sizes = "(max-width: 767px) 100vw, 50vw" }: { src: string; alt: string; className?: string; priority?: boolean; sizes?: string }) {
-  const { local } = useLocale();
+  const { local, t } = useLocale();
   const description = imageDescriptions[src];
-  return <div className={`photo ${className}`}><Image src={src} alt={alt && description ? local(description) : alt} fill sizes={sizes} preload={priority} style={{ objectPosition: description?.position }} /></div>;
+  return <div className={`photo ${className}`}><Image src={src} alt={alt && description ? local(description) : t(alt)} fill sizes={sizes} preload={priority} style={{ objectPosition: description?.position }} /></div>;
 }
 export function PageHero({ eyebrow, title, description, image, imageAlt }: { eyebrow: string; title: string; description: string; image?: string; imageAlt?: string }) {
-  const { d, local } = useLocale();
+  const { d, local, t } = useLocale();
   const descriptionImage = image ? imageDescriptions[image] : undefined;
   return <section className={`page-hero ${image ? "page-hero-image" : ""}`}>
-    <div className="container page-hero-content"><div className="breadcrumbs"><Link href="/">{d.nav[0]}</Link><ChevronRight size={12} /><span>{eyebrow}</span></div><div className="page-hero-grid"><div className="page-hero-editorial"><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="page-hero-description">{description}</p><div className="page-hero-signature">{site.tagline}</div></div>{image && <div className="page-hero-visual"><Image src={image} alt={descriptionImage ? local(descriptionImage) : imageAlt || ""} fill preload sizes="(max-width: 767px) 100vw, 42vw" style={{ objectPosition: descriptionImage?.position }} /></div>}</div></div>
+    <div className="container page-hero-content"><div className="breadcrumbs"><Link href="/">{d.nav[0]}</Link><ChevronRight size={12} /><span>{eyebrow}</span></div><div className="page-hero-grid"><div className="page-hero-editorial"><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="page-hero-description">{description}</p><div className="page-hero-signature">{t(site.tagline)}</div></div>{image && <div className="page-hero-visual"><Image src={image} alt={descriptionImage ? local(descriptionImage) : t(imageAlt || "")} fill preload sizes="(max-width: 767px) 100vw, 42vw" style={{ objectPosition: descriptionImage?.position }} /></div>}</div></div>
   </section>;
 }

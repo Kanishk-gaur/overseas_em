@@ -1,0 +1,47 @@
+<svg lang="cs" xml:lang="cs" xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img" aria-labelledby="title description">
+<title id="title">Certifikát servisní zkušenosti, návrh, nevydán</title>
+<desc id="description">Návrhové schéma certifikátu GlobalPath Overseas. Všechny projekty, stav, klient a data jsou prázdné. Nebyla předložena žádná podpisová, pečeť nebo schválení emitenta. Tento návrh není důkazem o dokončené práci.</desc>
+<rect width="1120" height="790" fill="#f5f4ef"/>
+<rect x="22" y="22" width="1076" height="746" fill="#fff" stroke="#d2b781"/>
+<rect x="36" y="36" width="1048" height="142" fill="#102b3b"/>
+<g transform="translate(68 69) scale(1.45)" fill="none" stroke="#d2b781" stroke-width="2.4">
+<path d="M31.5 9.5C28.8 7.3 25.5 6 21.8 6C13.1 6 6 13.2 6 22S13.1 38 21.8 38C29.8 38 36.4 32 37.5 24.3"/>
+<path d="M15.2 28.8L27.5 16.5H20.4M27.5 16.5V23.6M22 28H37.5V12.5M34 6H38"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="149" y="101" font-size="30" fill="#fff" font-weight="600">GlobalPath<tspan fill="#d2b781">.</tspan></text>
+<text x="151" y="126" font-size="11" fill="#d2b781" letter-spacing="4">OVERSEAS</text>
+<text x="1043" y="86" text-anchor="end" font-size="12.00" letter-spacing="0" fill="#d2b781">Návrh osvědčení</text>
+<text x="1043" y="116" text-anchor="end" font-size="16.00" fill="#fff">NÁVRH — NEVYDÁNO</text>
+<text x="1043" y="143" text-anchor="end" font-size="11.00" fill="#dce1dd">Podrobnosti o projektu a schválení emitenta</text>
+<text x="78" y="220" font-size="11.00" letter-spacing="0" fill="#84632f">Záznam o službě</text>
+</g>
+<text x="76" y="278" font-family="Georgia, 'Times New Roman', serif" font-size="48.00" fill="#102b3b">Certifikát servisní zkušenosti</text>
+<path d="M78 302H1042" stroke="#dce1dd"/>
+<path d="M78 302H181" stroke="#d2b781" stroke-width="3"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="78" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Vydávající společnost</text>
+<text x="78" y="360" font-size="17.00" fill="#102b3b">[Klient / autorizovaný vydávající společnost]</text>
+<text x="660" y="336" font-size="10.00" fill="#586970" letter-spacing="0">Referenční číslo projektu / pracovního řádu</text>
+<text x="660" y="360" font-size="17.00" fill="#102b3b">[Potvrzený odkaz]</text>
+<text x="78" y="395" font-size="11.00" fill="#84632f">Návrh znění přezkumu emitenta:</text>
+<text x="78" y="426" font-size="17.00" fill="#102b3b">[Vydávající společnost] potvrzuje, že [dodavatel.s právní název]</text>
+<text x="78" y="453" font-size="17.00" fill="#102b3b">[služby a povinnosti] na [místo / místa v Indii] během</text>
+<text x="78" y="480" font-size="17.00" fill="#102b3b">[doba provozu], jak je zdokumentováno v [odkazu na zakázku / pracovní příkaz].</text>
+<rect x="78" y="510" width="964" height="74" fill="#f5f4ef"/>
+<text x="98" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Pracovní místo</text>
+<text x="98" y="562" font-size="16.00" fill="#102b3b">[City / čtvrť, stát, Indie]</text>
+<path d="M574 525V568" stroke="#dce1dd"/>
+<text x="597" y="537" font-size="10.00" fill="#586970" letter-spacing="0">Provozní doba</text>
+<text x="597" y="562" font-size="16.00" fill="#102b3b">[Start date. End date]</text>
+<path d="M78 634H485M660 634H1042" stroke="#dce1dd"/>
+<text x="78" y="657" font-size="11.00" fill="#586970">[Povolené jméno a označení signatáře]</text>
+<text x="78" y="678" font-size="11.00" fill="#586970">Podpis: nedodáno</text>
+<text x="660" y="657" font-size="11.00" fill="#586970">[Datum vydání a kontakt emitenta k ověření]</text>
+<text x="660" y="678" font-size="11.00" fill="#586970">Schválení vydávajícího orgánu: probíhá</text>
+<rect x="36" y="706" width="1048" height="48" fill="#102b3b"/>
+<text x="78" y="735" font-size="11.00" fill="#d2b781" letter-spacing="0">NEVYDANÁ ŠABLONA</text>
+<text x="1042" y="735" text-anchor="end" font-size="11.00" fill="#fff">Všechny detaily vyžadují potvrzení.</text>
+</g>
+</svg>
+

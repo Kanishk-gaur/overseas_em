@@ -3,6 +3,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { ClipboardList, Search, GraduationCap, Wrench, FileCheck2, ListChecks, Users, FolderCheck, Stethoscope, Plane, BookOpen, Handshake, Headphones, CornerUpLeft, ArrowDown, Plus } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useLocale } from "./locale-provider";
+import { isRTL } from "@/locales/config";
 import { Eyebrow, Reveal, TextLink } from "./ui";
 
 type FlowStep = { id: string; n: string; title: [string, string]; body: [string, string]; icon: LucideIcon };
@@ -69,7 +70,8 @@ export function RecruitmentFlow() {
         return { d: "M " + ax + " " + ay + " V " + mid + " H " + bx + " V " + by };
       });
       const decision = box("interview"), pool = box("pool");
-      paths.push({ d: "M " + (decision.x + decision.width) + " " + (decision.y + decision.height * .64) + " H " + (bounds.width - 3) + " V " + (pool.y - 20) + " H " + (pool.x + pool.width / 2) + " V " + (pool.y - 7), retry: true } as { d: string; retry?: boolean });
+      const rtl = isRTL(language);
+      paths.push({ d: "M " + (rtl ? decision.x : decision.x + decision.width) + " " + (decision.y + decision.height * .64) + " H " + (rtl ? 3 : bounds.width - 3) + " V " + (pool.y - 20) + " H " + (pool.x + pool.width / 2) + " V " + (pool.y - 7), retry: true } as { d: string; retry?: boolean });
       setDrawing({ width: bounds.width, height: bounds.height, paths });
     };
     const schedule = () => { cancelAnimationFrame(frame); frame = requestAnimationFrame(measure); };
@@ -92,7 +94,7 @@ export function RecruitmentFlow() {
 
   return <section className="section recruitment-flow-section" aria-labelledby={id + "-title"}>
     <div className="container">
-      <Reveal className="section-heading"><div><Eyebrow>{t("THE RECRUITMENT FLOW", "भर्ती की पूरी प्रक्रिया")}</Eyebrow><h2 id={id + "-title"}>{t("Every stage.\nA clear next step.", "हर चरण।\nअगला कदम स्पष्ट।")}</h2></div><div><p>{t("From the first requirement to ongoing support. Follow the route for professional qualifications or practical trades, then the shared selection journey.", "पहली ज़रूरत से लगातार सहयोग तक। पेशेवर योग्यता या व्यावहारिक ट्रेड का रास्ता चुनें, फिर साझा चयन प्रक्रिया समझें।")}</p><TextLink href="/find-a-job">{t("Guidance for candidates", "उम्मीदवारों के लिए मार्गदर्शन")}</TextLink></div></Reveal>
+      <Reveal className="section-heading"><div><Eyebrow>{t("THE RECRUITMENT FLOW", "भर्ती की पूरी प्रक्रिया")}</Eyebrow><h2 id={id + "-title"}>{t("How recruitment\ncomes together.", "भर्ती की प्रक्रिया\nकैसे जुड़ती है।")}</h2></div><div><p>{t("From the first requirement to ongoing support. Follow the route for professional qualifications or practical trades, then the shared selection journey.", "पहली ज़रूरत से लगातार सहयोग तक। पेशेवर योग्यता या व्यावहारिक ट्रेड का रास्ता चुनें, फिर साझा चयन प्रक्रिया समझें।")}</p><TextLink href="/find-a-job">{t("Guidance for candidates", "उम्मीदवारों के लिए मार्गदर्शन")}</TextLink></div></Reveal>
       <div className="flow-reading-guide"><div><GraduationCap size={21} aria-hidden="true" /><div><strong>{t("Choose the relevant track", "उपयुक्त रास्ता चुनें")}</strong><p>{t("Professional credentials or practical trade experience.", "पेशेवर योग्यता या व्यावहारिक ट्रेड अनुभव।")}</p></div></div><div><Users size={21} aria-hidden="true" /><div><strong>{t("Review, assess & select", "जाँच, मूल्यांकन और चयन")}</strong><p>{t("Both tracks join one employer-led selection journey.", "दोनों रास्ते नियोक्ता की साझा चयन प्रक्रिया में मिलते हैं।")}</p></div></div><div><Plane size={21} aria-hidden="true" /><div><strong>{t("Prepare for work & arrival", "काम और आगमन की तैयारी")}</strong><p>{t("Confirm documents, permissions and arrival arrangements.", "दस्तावेज़, अनुमति और आगमन की व्यवस्था जाँचें।")}</p></div></div></div>
       <div className="flow-chart" ref={root}>
         <svg className="flow-connectors" viewBox={"0 0 " + drawing.width + " " + drawing.height} aria-hidden="true"><defs><marker id={id + "-arrow"} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" /></marker></defs>{drawing.paths.map((path, i) => <path key={i} className={path.retry ? "flow-return" : ""} d={path.d} markerEnd={"url(#" + id + "-arrow)"} />)}</svg>

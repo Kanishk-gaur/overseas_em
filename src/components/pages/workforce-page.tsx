@@ -20,31 +20,31 @@ export function WorkforcePage() {
   const results = workforce.filter(role =>
     (!industry || role.industry === industry) &&
     (!type || role.type === type) &&
-    [role.title, role.description, role.details, ...role.skills].join(" ").toLowerCase().includes(query.trim().toLowerCase())
+    [role.title, role.description, role.details, ...role.skills].flatMap(value => [value, t(value)]).join(" ").toLowerCase().includes(query.trim().toLowerCase())
   );
   return <>
-    <PageHero eyebrow={t("OUR WORKFORCE", "हमारे कामगार")} title={t("Skills for\nyour next team.", "आपकी अगली टीम\nके लिए कौशल।")} description={t("Explore 18 workforce profiles, from experienced tradespeople to engineers and care professionals. Find the roles and practical skills that match your requirements.", "अनुभवी कारीगरों से इंजीनियरों और स्वास्थ्यकर्मियों तक 18 कामगार प्रोफाइल जानें। अपनी ज़रूरत के अनुसार भूमिकाएँ और व्यावहारिक कौशल जानें।")} image={photography.workforce} imageAlt={t("Precision welding in a workshop", "वर्कशॉप में सटीक वेल्डिंग")} />
+    <PageHero eyebrow={t("OUR WORKFORCE", "हमारे कामगार")} title={t("Tradespeople, technicians\nand professionals.", "कारीगर, तकनीशियन\nऔर पेशेवर।")} description={t("Explore 18 workforce profiles, from experienced tradespeople to engineers and care professionals. Find the roles and practical skills that match your requirements.", "अनुभवी कारीगरों से इंजीनियरों और स्वास्थ्यकर्मियों तक 18 कामगार प्रोफाइल जानें। अपनी ज़रूरत के अनुसार भूमिकाएँ और व्यावहारिक कौशल जानें।")} image={photography.workforce} imageAlt={t("Precision welding in a workshop", "वर्कशॉप में सटीक वेल्डिंग")} />
     <section className="section"><div className="container">
-      <div className="recruitment-tracks">{workforceCategories.map(category => <article key={category.id} lang="en">
-        <Photo src={category.id === "technical" ? photography.engineering : photography.trades} alt={category.title} /><Eyebrow>{category.tagline}</Eyebrow><h2>{category.title}</h2><p className="body-copy">{category.description}</p>
-        <ul className="recruitment-list">{category.examples.map(example => <li key={example}>{example}</li>)}</ul>
-        <p className="small muted">{category.qualificationBasis}</p>
+      <div className="recruitment-tracks">{workforceCategories.map(category => <article key={category.id}>
+        <Photo src={category.id === "technical" ? photography.engineering : photography.trades} alt={category.title} /><Eyebrow>{t(category.tagline)}</Eyebrow><h2>{t(category.title)}</h2><p className="body-copy">{t(category.description)}</p>
+        <ul className="recruitment-list">{category.examples.map(example => <li key={example}>{t(example)}</li>)}</ul>
+        <p className="small muted">{t(category.qualificationBasis)}</p>
       </article>)}</div>
     </div></section>
     <section className="section surface" id="profiles"><div className="container">
-      <div className="section-heading"><div><Eyebrow>{t("THE TALENT DIRECTORY", "प्रतिभा निर्देशिका")}</Eyebrow><h2>{t("Find the skills\nyou are looking for.", "आपकी ज़रूरत\nके अनुसार हुनर।")}</h2></div><p>{t("Profiles describe our sourcing focus. Current availability and role requirements are confirmed with our team.", "प्रोफाइल हमारे भर्ती क्षेत्रों को दर्शाती हैं। मौजूदा उपलब्धता और भूमिका की शर्तें टीम से पूछें।")}</p></div>
+      <div className="section-heading"><div><Eyebrow>{t("THE TALENT DIRECTORY", "प्रतिभा निर्देशिका")}</Eyebrow><h2>{t("Browse by role\nor specialism.", "भूमिका या विशेषज्ञता\nके अनुसार देखें।")}</h2></div><p>{t("Profiles describe our sourcing focus. Current availability and role requirements are confirmed with our team.", "प्रोफाइल हमारे भर्ती क्षेत्रों को दर्शाती हैं। मौजूदा उपलब्धता और भूमिका की शर्तें टीम से पूछें।")}</p></div>
       <div className="recruitment-filters">
         <label className="recruitment-search"><span>{t("Search roles or skills", "भूमिका या हुनर खोजें")}</span><div><Search size={18} /><input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder={t("Try welding, CNC, nursing…", "वेल्डिंग, CNC, nursing…")} /></div></label>
-        <label><span>{t("Industry", "उद्योग")}</span><select value={industry} onChange={event => setIndustry(event.target.value)}><option value="">{t("All industries", "सभी उद्योग")}</option>{[...new Set(workforce.map(role => role.industry))].map(value => <option key={value}>{value}</option>)}</select></label>
+        <label><span>{t("Industry", "उद्योग")}</span><select value={industry} onChange={event => setIndustry(event.target.value)}><option value="">{t("All industries", "सभी उद्योग")}</option>{[...new Set(workforce.map(role => role.industry))].map(value => <option key={value} value={value}>{t(value)}</option>)}</select></label>
         <label><span>{t("Workforce type", "कामगार श्रेणी")}</span><select value={type} onChange={event => setType(event.target.value)}><option value="">{t("All profiles", "सभी प्रोफाइल")}</option><option value="Technical">{t("Technical professionals", "तकनीकी पेशेवर")}</option><option value="Non-Technical">{t("Skilled & general trades", "कुशल और सामान्य कामगार")}</option></select></label>
       </div>
       <p className="recruitment-count" role="status">{results.length} {t("profiles", "प्रोफाइल")}</p>
-      <div className="workforce-grid">{results.map(role => <article className="workforce-profile" key={role.title} lang="en">
-        <Photo src={roleImages[role.title] || images.technical} alt={role.industry + " workplace"} sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw" />
-        <div className="workforce-profile-copy"><div className="recruitment-meta"><span>{role.industry}</span></div>
-          <h3>{role.title}</h3><p>{role.description}</p>
+      <div className="workforce-grid">{results.map(role => <article className="workforce-profile" key={role.title}>
+        <Photo src={roleImages[role.title] || images.technical} alt={t(role.industry)} sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw" />
+        <div className="workforce-profile-copy"><div className="recruitment-meta"><span>{t(role.industry)}</span></div>
+          <h3>{t(role.title)}</h3><p>{t(role.description)}</p>
           <details className="profile-details"><summary>{t("Skills & experience", "कौशल और अनुभव")}<Plus size={17} aria-hidden="true" /></summary>
-            <p>{role.details}</p><ul className="recruitment-tags">{role.skills.map(skill => <li key={skill}>{skill}</li>)}</ul>
+            <p>{t(role.details)}</p><ul className="recruitment-tags">{role.skills.map(skill => <li key={skill}>{t(skill)}</li>)}</ul>
           </details>
           <TextLink href={"/request-workforce?role=" + encodeURIComponent(role.title)}>{t("Discuss this role", "इस भूमिका के बारे में पूछें")}</TextLink>
         </div>

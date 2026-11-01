@@ -88,7 +88,7 @@ export const employerModels = [
     id: "direct",
     title: l("Direct placement", "सीधी नियुक्ति"),
     subtitle: l("For employees joining your organisation", "आपके संगठन से जुड़ने वाले कर्मचारियों के लिए"),
-    heading: l("Your team. Your employment relationship.", "आपकी टीम। आपका रोजगार संबंध।"),
+    heading: l("Hire directly onto your payroll.", "कर्मचारियों को सीधे अपने वेतन भुगतान पर रखें।"),
     body: l("Recruit candidates who will join your organisation under your employment contract. We coordinate the agreed sourcing and recruitment steps while you confirm the offer, employment terms and onboarding arrangements.", "उन उम्मीदवारों की भर्ती करें जो आपके रोजगार अनुबंध के अंतर्गत संगठन से जुड़ेंगे। हम तय खोज और भर्ती चरणों में समन्वय करते हैं; आप प्रस्ताव, रोजगार शर्तों और कार्यभार ग्रहण करने की व्यवस्था की पुष्टि करते हैं।"),
     points: [l("Job description and written employment terms", "काम का विवरण और लिखित रोजगार शर्तें"), l("Employer documentation and approval responsibilities", "नियोक्ता के दस्तावेज़ और स्वीकृति की ज़िम्मेदारियाँ"), l("Reporting line and joining arrangements", "रिपोर्टिंग व्यवस्था और कार्यभार ग्रहण करने की तैयारी")],
     image: photography.support,
