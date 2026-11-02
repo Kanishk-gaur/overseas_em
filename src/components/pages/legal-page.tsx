@@ -1,14 +1,14 @@
 "use client";
 import { site } from "@/config/site";
-import { useLocale } from "@/components/shared/locale-provider";
+import { useWorkforceCopy } from "@/components/workforce/use-workforce-copy";
 import { PageHero, TextLink } from "@/components/shared/ui";
 
 export function LegalPage({ kind }: { kind: "privacy" | "terms" }) {
-  const { t, d } = useLocale();
+  const { t, d, w } = useWorkforceCopy();
   const privacy = kind === "privacy";
   const sections = privacy ? [
     [t("About this policy", "इस नीति के बारे में"), t(`This policy explains the current frontend website of ${site.legalName}. It describes the information handled by the site and by the external services you may choose to open.`, `यह नीति ${site.legalName} की मौजूदा फ्रंटएंड वेबसाइट के बारे में है। इसमें वेबसाइट और आपके द्वारा खोली जाने वाली बाहरी सेवाओं में जानकारी के उपयोग को समझाया गया है।`)],
-    [t("Information on this website", "इस वेबसाइट पर जानकारी"), t("This website has no application forms, candidate accounts, payment system or database. It does not itself collect CVs, passport details or contact submissions. Please do not send sensitive documents until you have verified the recipient and understood how they will be handled.", "इस वेबसाइट पर आवेदन फॉर्म, उम्मीदवार खाते, भुगतान प्रणाली या डेटाबेस नहीं है। यह स्वयं बायोडाटा, पासपोर्ट या संपर्क आवेदन एकत्र नहीं करती। प्राप्तकर्ता और जानकारी के उपयोग की पुष्टि से पहले संवेदनशील दस्तावेज़ न भेजें।")],
+    [t("Information on this website", "इस वेबसाइट पर जानकारी"), w("formPrivacy")],
     [t("Language preference", "भाषा की पसंद"), t("Your selected language is stored in your browser’s local storage so that it can be remembered on a later visit. You can change the language in the header or clear your browser’s site data. No advertising or analytics cookies have been added to the application.", "आपकी भाषा की पसंद ब्राउज़र के लोकल स्टोरेज में रहती है ताकि अगली बार याद रखी जा सके। हेडर में भाषा बदल सकते हैं या ब्राउज़र का साइट डेटा हटा सकते हैं। ऐप में विज्ञापन या एनालिटिक्स कुकी नहीं जोड़ी गई हैं।")],
     [t("Hosting and technical data", "होस्टिंग और तकनीकी जानकारी"), t("The hosting provider may process technical request information such as IP addresses and access logs to deliver and secure the website. Its handling of this information is governed by its own policies. This website does not provide an independent analytics dashboard.", "होस्टिंग प्रदाता वेबसाइट चलाने और सुरक्षित रखने के लिए IP पता और एक्सेस लॉग जैसी तकनीकी जानकारी का उपयोग कर सकता है। इस जानकारी का उपयोग उसकी अपनी नीतियों के अनुसार होता है। वेबसाइट का कोई अलग एनालिटिक्स डैशबोर्ड नहीं है।")],
     [t("WhatsApp, phone, email and external links", "WhatsApp, फोन, ईमेल और बाहरी लिंक"), t("When configured, contact buttons open your chosen messaging, telephone or email app. Your message is sent only if you choose to send it in that service. Those services apply their own privacy terms. A configured map or social link opens an external provider; no map is embedded by default.", "संपर्क विवरण उपलब्ध होने पर बटन आपका संदेश, फोन या ईमेल ऐप खोलते हैं। संदेश तभी भेजा जाता है जब आप उस सेवा में भेजते हैं। उन सेवाओं की अपनी गोपनीयता शर्तें लागू होती हैं। नक्शा या सोशल लिंक बाहरी सेवा खोलता है; सामान्य रूप से नक्शा एम्बेड नहीं किया गया है।")],

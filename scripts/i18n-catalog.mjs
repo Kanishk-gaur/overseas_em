@@ -92,6 +92,7 @@ function collect(value, key = "") {
   else if (Array.isArray(value)) value.forEach(item => collect(item, key));
   else if (value) Object.entries(value).forEach(([key, item]) => collect(item, key));
 }
+for (const text of Object.values(JSON.parse(readFileSync(path.join(root, "src/locales/workforce/en.json"), "utf8")))) add(text);
 for (const name of contentFiles) collect(JSON.parse(readFileSync(path.join(root, `src/data/recruitment/${name}.json`), "utf8")));
 for (const member of JSON.parse(readFileSync(path.join(root, "src/data/recruitment/team.json"), "utf8")).team) { add(member.role); add(member.specialty); }
 for (const post of JSON.parse(readFileSync(path.join(root, "src/data/recruitment/blog.json"), "utf8")).posts) metadata[`/blog/${post.slug}`] = { title: post.title, description: post.excerpt };

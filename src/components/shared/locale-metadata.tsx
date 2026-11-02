@@ -2,6 +2,8 @@
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { site } from "@/config/site";
+import { workforceIndex } from "@/data/workforce-index";
+import copy from "@/locales/workforce/en.json";
 import metadata from "@/locales/generated/metadata.json";
 import { useLocale } from "./locale-provider";
 
@@ -12,7 +14,8 @@ export function LocaleMetadata() {
   const { t, language } = useLocale();
   useEffect(() => {
     const route = pathname.replace(/\/$/, "") || "/";
-    const entry = (metadata as Record<string, { title: string; description: string }>)[route];
+    const role = workforceIndex.find(item => route === `/workforce/${item.slug}`);
+    const entry = role ? { title: t(copy.detailTitle, undefined, { role: t(role.title) }), description: t(copy.detailDescription, undefined, { role: t(role.title) }) } : (metadata as Record<string, { title: string; description: string }>)[route];
     if (!entry) return;
     const title = route === "/" ? `${site.legalName} | ${t(entry.title)}` : `${t(entry.title)} | ${site.legalName}`;
     const ogLocale = { en: "en_IN", hi: "hi_IN", ar: "ar_SA", he: "he_IL", ru: "ru_RU", pt: "pt_PT", cs: "cs_CZ", de: "de_DE", ja: "ja_JP", pl: "pl_PL", ro: "ro_RO" }[language];

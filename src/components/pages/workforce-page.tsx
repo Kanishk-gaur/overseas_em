@@ -1,56 +1,39 @@
 "use client";
 import { useState } from "react";
-import { Search, Plus } from "lucide-react";
-import { images } from "@/config/site";
-import recruitmentData1 from "@/data/recruitment/workforce.json";
-import recruitmentData2 from "@/data/recruitment/workforceCategories.json";
+import Link from "next/link";
+import { ArrowUpRight, ArrowDown, Search, SlidersHorizontal } from "lucide-react";
+import { workforceIndex } from "@/data/workforce-index";
 import { roleImages, photography } from "@/data/photography";
-import { useLocale } from "@/components/shared/locale-provider";
-import { Button, Eyebrow, PageHero, Photo, TextLink } from "@/components/shared/ui";
-import { ContactCTA } from "@/components/shared/contact-cta";
-
-const { workforce } = recruitmentData1;
-const { workforceCategories } = recruitmentData2;
+import { Button, Eyebrow, Photo, TextLink } from "@/components/shared/ui";
+import { useWorkforceCopy } from "@/components/workforce/use-workforce-copy";
+import styles from "@/components/workforce/workforce.module.css";
 
 export function WorkforcePage() {
-  const { t } = useLocale();
+  const { t, w } = useWorkforceCopy();
   const [query, setQuery] = useState("");
   const [industry, setIndustry] = useState("");
   const [type, setType] = useState("");
-  const results = workforce.filter(role =>
-    (!industry || role.industry === industry) &&
-    (!type || role.type === type) &&
-    [role.title, role.description, role.details, ...role.skills].flatMap(value => [value, t(value)]).join(" ").toLowerCase().includes(query.trim().toLowerCase())
-  );
-  return <>
-    <PageHero eyebrow={t("OUR WORKFORCE", "हमारे कामगार")} title={t("Tradespeople, technicians\nand professionals.", "कारीगर, तकनीशियन\nऔर पेशेवर।")} description={t("Explore 18 workforce profiles, from experienced tradespeople to engineers and care professionals. Find the roles and practical skills that match your requirements.", "अनुभवी कारीगरों से इंजीनियरों और स्वास्थ्यकर्मियों तक 18 कामगार प्रोफाइल जानें। अपनी ज़रूरत के अनुसार भूमिकाएँ और व्यावहारिक कौशल जानें।")} image={photography.workforce} imageAlt={t("Precision welding in a workshop", "वर्कशॉप में सटीक वेल्डिंग")} />
-    <section className="section"><div className="container">
-      <div className="recruitment-tracks">{workforceCategories.map(category => <article key={category.id}>
-        <Photo src={category.id === "technical" ? photography.engineering : photography.trades} alt={category.title} /><Eyebrow>{t(category.tagline)}</Eyebrow><h2>{t(category.title)}</h2><p className="body-copy">{t(category.description)}</p>
-        <ul className="recruitment-list">{category.examples.map(example => <li key={example}>{t(example)}</li>)}</ul>
-        <p className="small muted">{t(category.qualificationBasis)}</p>
-      </article>)}</div>
+  const results = workforceIndex.filter(role => (!industry || role.industry === industry) && (!type || role.type === type) && [role.title, role.industry, role.description, role.details, ...role.skills].flatMap(value => [value, t(value)]).join(" ").toLocaleLowerCase().includes(query.trim().toLocaleLowerCase()));
+  return <div className={styles.workforce}>
+    <section className={styles.directoryHero}><div className={`container ${styles.heroGrid}`}>
+      <div><div className={styles.breadcrumbs}><Link href="/">{t("Home")}</Link><span>/</span><span>{t("Workforce directory")}</span></div><Eyebrow>{w("directoryEyebrow")}</Eyebrow><h1>{w("directoryTitle")}</h1><p className={styles.lead}>{w("directoryIntro")}</p><div className="button-row"><Button href="/request-workforce" variant="navy">{w("request")}</Button><a className={styles.inlineLink} href="#profiles">{w("browse")}<ArrowDown size={16} aria-hidden="true" /></a></div></div>
+      <div className={styles.heroPhoto}><Photo src={photography.workforce} alt="" priority sizes="(max-width: 900px) 100vw, 45vw" /><div className={styles.heroCaption}><span>01 — 18</span><strong>{t("Tradespeople, technicians\nand professionals.")}</strong></div></div>
     </div></section>
-    <section className="section surface" id="profiles"><div className="container">
-      <div className="section-heading"><div><Eyebrow>{t("THE TALENT DIRECTORY", "प्रतिभा निर्देशिका")}</Eyebrow><h2>{t("Browse by role\nor specialism.", "भूमिका या विशेषज्ञता\nके अनुसार देखें।")}</h2></div><p>{t("Profiles describe our sourcing focus. Current availability and role requirements are confirmed with our team.", "प्रोफाइल हमारे भर्ती क्षेत्रों को दर्शाती हैं। मौजूदा उपलब्धता और भूमिका की शर्तें टीम से पूछें।")}</p></div>
-      <div className="recruitment-filters">
-        <label className="recruitment-search"><span>{t("Search roles or skills", "भूमिका या हुनर खोजें")}</span><div><Search size={18} /><input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder={t("Try welding, CNC, nursing…", "वेल्डिंग, CNC, nursing…")} /></div></label>
-        <label><span>{t("Industry", "उद्योग")}</span><select value={industry} onChange={event => setIndustry(event.target.value)}><option value="">{t("All industries", "सभी उद्योग")}</option>{[...new Set(workforce.map(role => role.industry))].map(value => <option key={value} value={value}>{t(value)}</option>)}</select></label>
-        <label><span>{t("Workforce type", "कामगार श्रेणी")}</span><select value={type} onChange={event => setType(event.target.value)}><option value="">{t("All profiles", "सभी प्रोफाइल")}</option><option value="Technical">{t("Technical professionals", "तकनीकी पेशेवर")}</option><option value="Non-Technical">{t("Skilled & general trades", "कुशल और सामान्य कामगार")}</option></select></label>
+    <section className={styles.directory} id="profiles"><div className="container">
+      <div className={styles.directoryHeading}><div><Eyebrow>{t("THE TALENT DIRECTORY")}</Eyebrow><h2>{w("directoryHeading")}</h2></div><p>{w("directoryHelp")}</p></div>
+      <div className={styles.filters}>
+        <div className={styles.typeFilters} role="group" aria-label={t("Workforce type")}>{[["", w("allTypes")], ["Technical", w("technical")], ["Non-Technical", w("trades")]].map(([value, label]) => <button type="button" key={value} aria-pressed={type === value} onClick={() => setType(value)}>{label}<span>{workforceIndex.filter(role => !value || role.type === value).length}</span></button>)}</div>
+        <div className={styles.searchFilters}><label className={styles.search}><Search size={18} aria-hidden="true" /><span className="sr-only">{t("Search roles or skills")}</span><input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder={t("Search roles or skills")} /></label><label className={styles.industryFilter}><SlidersHorizontal size={16} aria-hidden="true" /><span className="sr-only">{t("Industry")}</span><select value={industry} onChange={event => setIndustry(event.target.value)}><option value="">{t("All industries")}</option>{[...new Set(workforceIndex.map(role => role.industry))].map(value => <option key={value} value={value}>{t(value)}</option>)}</select></label></div>
       </div>
-      <p className="recruitment-count" role="status">{results.length} {t("profiles", "प्रोफाइल")}</p>
-      <div className="workforce-grid">{results.map(role => <article className="workforce-profile" key={role.title}>
-        <Photo src={roleImages[role.title] || images.technical} alt={t(role.industry)} sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 33vw" />
-        <div className="workforce-profile-copy"><div className="recruitment-meta"><span>{t(role.industry)}</span></div>
-          <h3>{t(role.title)}</h3><p>{t(role.description)}</p>
-          <details className="profile-details"><summary>{t("Skills & experience", "कौशल और अनुभव")}<Plus size={17} aria-hidden="true" /></summary>
-            <p>{t(role.details)}</p><ul className="recruitment-tags">{role.skills.map(skill => <li key={skill}>{t(skill)}</li>)}</ul>
-          </details>
-          <TextLink href={"/request-workforce?role=" + encodeURIComponent(role.title)}>{t("Discuss this role", "इस भूमिका के बारे में पूछें")}</TextLink>
-        </div>
+      <p className={styles.resultCount} role="status">{w("results", { count: results.length, total: workforceIndex.length })}</p>
+      <div className={styles.roleGrid}>{results.map(role => <article className={styles.roleCard} key={role.slug}>
+        <Link className={styles.cardImage} href={`/workforce/${role.slug}/`} aria-label={`${w("explore")}: ${t(role.title)}`}><Photo src={roleImages[role.title]} alt="" sizes="(max-width: 650px) 100vw, (max-width: 1100px) 50vw, 33vw" /><span>{role.type === "Technical" ? w("technical") : w("trades")}</span></Link>
+        <div className={styles.cardCopy}><p className={styles.cardIndustry}>{t(role.industry)}</p><h3><Link href={`/workforce/${role.slug}/`}>{t(role.title)}</Link></h3><p>{t(role.description)}</p><div className={styles.cardSkills}><span>{w("capabilities")}</span><ul>{role.skills.slice(0, 3).map(skill => <li key={skill}>{t(skill)}</li>)}</ul></div><Link className={styles.cardAction} href={`/workforce/${role.slug}/`} aria-label={`${w("explore")}: ${t(role.title)}`}>{w("explore")}<ArrowUpRight size={20} aria-hidden="true" /></Link></div>
       </article>)}</div>
-      {!results.length && <div className="recruitment-empty"><h3>{t("No matching profiles", "कोई प्रोफाइल नहीं मिली")}</h3><p>{t("Try another role, skill or industry.", "दूसरी भूमिका, कौशल या उद्योग खोजें।")}</p><button className="button button-navy" onClick={() => { setQuery(""); setIndustry(""); setType(""); }}>{t("Clear filters", "फ़िल्टर हटाएँ")}</button></div>}
-      <div className="recruitment-closing"><p>{t("Looking for your next opportunity?", "अपने अगले अवसर की तलाश में हैं?")}</p><Button href="/find-a-job" variant="navy">{t("Explore candidate guidance", "उम्मीदवार मार्गदर्शन देखें")}</Button></div>
-    </div></section><ContactCTA employer />
-  </>;
+      {!results.length && <div className={styles.empty}><h3>{t("No matching profiles")}</h3><p>{t("Try another role, skill or industry.")}</p><button className="button button-navy" onClick={() => { setQuery(""); setIndustry(""); setType(""); }}>{t("Clear filters")}</button></div>}
+      <p className={styles.directoryNote}>{w("directoryNote")}</p>
+    </div></section>
+    <section className={styles.closing}><div className="container"><div><Eyebrow light>{w("atGlance")}</Eyebrow><h2>{w("formTitle")}</h2><p>{w("briefPrompt")}</p></div><div><Button href="/request-workforce">{w("request")}</Button><TextLink href="/industries" light>{t("Explore all industries")}</TextLink></div></div></section>
+    <div className={`container ${styles.candidateFoot}`}><Link href="/find-a-job">{w("candidateLink")} <ArrowUpRight size={15} aria-hidden="true" /></Link></div>
+  </div>;
 }

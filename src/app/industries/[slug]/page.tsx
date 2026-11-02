@@ -1,3 +1,4 @@
+import { workforceRoleDetails } from "@/data/workforce-role-details";
 import { notFound } from "next/navigation";
 import { industries } from "@/data/industries";
 import { industryAliases } from "@/data/recruitment";
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   if (!findItem(slug)) notFound();
-  return <IndustryPage slug={slug} />;
+  const relatedRoles = workforceRoleDetails.filter(role => role.industrySlugs.includes(findItem(slug)!.slug)).map(({ slug, title }) => ({ slug, title }));
+  return <IndustryPage slug={slug} relatedRoles={relatedRoles} />;
 }
 

@@ -3,6 +3,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { Check, ChevronDown, Globe2, LoaderCircle, X } from "lucide-react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { languages } from "@/locales/config";
+import workforceCopy from "@/locales/workforce/en.json";
 import readyLanguages from "@/locales/generated/ready.json";
 import { useLocale } from "./locale-provider";
 import styles from "./language-switcher.module.css";
@@ -40,7 +41,7 @@ export function LanguageSwitcher({ mobile = false }: { mobile?: boolean }) {
       <div className={styles.options}>{languages.filter(item => readyLanguages.includes(item.code)).map(item => <button type="button" key={item.code} data-locale={item.code} aria-pressed={language === item.code} onClick={async () => { if (await setLanguage(item.code)) { if (root.current?.contains(document.activeElement)) close(); else setOpen(false); } }}>
         <span><strong lang={item.code} dir={item.direction}>{item.nativeName}</strong><small lang="en" dir="ltr">{item.name}</small></span>{pendingLanguage === item.code ? <LoaderCircle className={styles.spinner} size={17} aria-hidden="true" /> : language === item.code ? <Check size={18} aria-hidden="true" /> : null}
       </button>)}</div>
-      <div className={styles.feedback} role="status">{languageError ? t("Could not load this language. Please try again.", "यह भाषा लोड नहीं हुई। फिर कोशिश करें।") : pendingLanguage ? t("Switching language…", "भाषा बदली जा रही है…") : t("Your language, across every page.", "हर पेज पर आपकी चुनी हुई भाषा।")}</div>
+      <div className={styles.feedback} role="status">{languageError ? t("Could not load this language. Please try again.", "यह भाषा लोड नहीं हुई। फिर कोशिश करें।") : pendingLanguage ? t("Switching language…", "भाषा बदली जा रही है…") : t(workforceCopy.languageMenuNote)}</div>
     </motion.div>}</AnimatePresence>
   </div>;
 }

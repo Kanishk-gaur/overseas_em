@@ -70,3 +70,11 @@ Use the existing `npm run build` command and deploy the generated `out` director
 - The final copy adjustments passed another 120 responsive layout checks across Arabic, Hebrew, Japanese and Polish. Production build, TypeScript and lint checks passed.
 
 These checks validate functionality and translation coverage. They do not replace the native-language editorial review described above. English remains the statically indexed language; a saved browser preference does not create separately indexed localized URLs.
+
+## Workforce extension (2 November 2026)
+
+The employer workforce UI adds 89 scoped messages in [workforce dictionaries](../src/locales/workforce/), merged into the existing locale loader. All 11 languages have the same keys and preserve interpolation placeholders. Catalog checks now include this scope without exempting existing messages.
+
+The 18 new long-form occupational guides and role-specific FAQs currently use a clearly disclosed English fallback. Content is marked with English language and left-to-right direction; surrounding headings, navigation, forms and shared recruitment stages follow the selected language. Complete reviewed role translations can be added to the [role translation registry](../src/data/workforce-role-translations.ts). Do not describe these new guides as fully translated until those records exist.
+
+See [the workforce implementation report](WORKFORCE-IMPLEMENTATION.md) for current coverage, verification and the email handoff configuration.

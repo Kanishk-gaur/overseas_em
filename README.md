@@ -1,6 +1,6 @@
 # GlobalPath Overseas
 
-A corporate recruitment website built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React and Lucide. Public pages are statically exported. The original premium visual identity is retained: navy, muted gold, warm paper surfaces, editorial typography and documentary-style photography. Navigation and shared interface copy support English and Hindi; imported long-form content retains its original English. The site is frontend only: there are no accounts, databases, payments, live job listings or contact-submission endpoints.
+A corporate recruitment website built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React and Lucide. Public pages are statically exported. The original premium visual identity is retained: navy, muted gold, warm paper surfaces, editorial typography and documentary-style photography. Navigation and shared interface copy support 11 languages. New detailed workforce guides currently retain English with a visible fallback notice. The site is frontend only: there are no accounts, databases, payments, live job listings or contact-submission endpoints.
 
 ## Run locally
 
@@ -34,11 +34,12 @@ npm start
 | `/contact` | Candidate and employer enquiry options |
 | `/privacy-policy` | Privacy policy |
 | `/terms` | Terms and conditions |
-| `/workforce` | Eighteen searchable workforce profiles with industry and qualification filters |
+| `/workforce` | Eighteen employer-focused profiles with industry, workforce-type and skill search filters |
+| `/workforce/[slug]` | Static employer role guides with skills, qualifications, assessments, FAQs and related roles |
 | `/team` | Four original team profiles and portraits |
 | `/how-we-work` | Two hiring tracks, seven employer stages and four engagement models |
 | `/find-a-job` | Twenty-five recruitment categories and candidate preparation |
-| `/request-workforce` | Employer brief guidance; selected workforce roles are retained in the URL |
+| `/request-workforce` | Role-prefilled employer form with an honest email handoff and downloadable brief |
 | `/blog` and `/blog/[slug]` | Nine original articles with search and category filters |
 | `/case-studies` | Nine clearly labelled illustrative hiring scenarios |
 | `/glossary` | Fourteen searchable visa and recruitment definitions |
@@ -61,6 +62,8 @@ Edit **`src/config/site.ts`**. It holds the display name, descriptor, full name,
 - `registration`: add only verified company identification text. It is hidden while empty.
 - `social`: real profile URLs only. Empty social links are hidden.
 - `url`: change this when using another deployment/domain; rebuild to update canonical URLs, sitemap and structured data.
+
+The workforce enquiry form has a disabled email action until `site.contact.email` is verified and configured; visitors can still prepare and download a brief. See [the workforce implementation report](docs/WORKFORCE-IMPLEMENTATION.md) for configuration, language coverage and validation.
 
 Contact fields are intentionally empty. Unconfigured actions open an accessible explanatory dialog instead of a fake link or success notification. Once configured, they open WhatsApp with separate candidate/employer messages, the telephone app or email composer. No message is sent by the website. `/contact?type=employer` selects the employer enquiry path directly.
 

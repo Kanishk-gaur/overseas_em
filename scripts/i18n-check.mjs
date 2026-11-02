@@ -9,8 +9,11 @@ const keys = Object.keys(catalog);
 const ready = JSON.parse(readFileSync("src/locales/generated/ready.json", "utf8"));
 assert.deepEqual([...ready].sort(), languages.map(item => item.code).sort(), "Every advertised locale must be complete before a production build.");
 const placeholders = text => [...text.matchAll(/\{(\w+)\}/g)].map(match => match[1]).sort();
+const workforceEnglish = JSON.parse(readFileSync("src/locales/workforce/en.json", "utf8"));
 for (const { code } of languages.filter(item => item.code !== "en")) {
-  const dictionary = JSON.parse(readFileSync(`src/locales/messages/${code}.json`, "utf8"));
+  const workforce = JSON.parse(readFileSync(`src/locales/workforce/${code}.json`, "utf8"));
+  assert.deepEqual(Object.keys(workforce).sort(), Object.keys(workforceEnglish).sort(), `${code}: workforce UI keys must be complete`);
+  const dictionary = { ...JSON.parse(readFileSync(`src/locales/messages/${code}.json`, "utf8")), ...Object.fromEntries(Object.entries(workforceEnglish).map(([key, english]) => [english, workforce[key]])) };
   const missing = keys.filter(key => typeof dictionary[key] !== "string" || !dictionary[key].trim());
   assert.equal(missing.length, 0, `${code}: missing translations: ${missing.slice(0, 8).join(" | ")}`);
   for (const key of keys) {

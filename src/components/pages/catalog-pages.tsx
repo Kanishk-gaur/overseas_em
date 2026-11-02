@@ -5,16 +5,16 @@ import { Search } from "lucide-react";
 import { industries } from "@/data/industries";
 import { industryGroups, industryGuides } from "@/data/industry-guides";
 import { photography } from "@/data/photography";
-import { useLocale } from "@/components/shared/locale-provider";
+import { useWorkforceCopy } from "@/components/workforce/use-workforce-copy";
 import { Button, Eyebrow, PageHero, Photo, TextLink } from "@/components/shared/ui";
 
 export function IndustriesPage() {
-  const { t, local } = useLocale();
+  const { t, local, w } = useWorkforceCopy();
   const [query, setQuery] = useState("");
   const [group, setGroup] = useState("all");
   const found = industries.filter(item => (group === "all" || industryGuides[item.slug].group === group) && `${item.title.en} ${item.title.hi} ${item.roles.en} ${item.roles.hi} ${local(item.title)} ${local(item.roles)}`.toLowerCase().includes(query.trim().toLowerCase()));
-  return <><PageHero eyebrow={t("INDUSTRIES", "उद्योग")} title={t("Find the work\nthat fits your skills.", "अपने हुनर के\nअनुसार काम जानें।")} description={t("Browse the sectors we recruit for, with examples of the roles, skills and preparation each involves.", "उन क्षेत्रों को देखें जिनमें हम भर्ती करते हैं, साथ में संबंधित भूमिकाओं, हुनर और तैयारी के उदाहरण जानें।")} image={photography.engineering} />
-    <section className="section catalog-section"><div className="container">
+  return <><PageHero eyebrow={t("INDUSTRIES", "उद्योग")} title={w("industryRoles")} description={w("directoryIntro")} image={photography.engineering} />
+    <section className="section catalog-section"><div className="container"><div className="button-row" style={{ marginBottom: 40 }}><Button href="/request-workforce" variant="navy">{w("request")}</Button><TextLink href="/workforce">{w("browse")}</TextLink></div>
       <div className="guide-heading"><div><Eyebrow>{t("FIND YOUR FIELD", "अपना क्षेत्र खोजें")}</Eyebrow><h2>{t("Inside the industries\nwe recruit for.", "हमारे भर्ती क्षेत्रों\nकी जानकारी।")}</h2></div><p className="catalog-intro">{t("These are industry and role guides, not current vacancies. Availability, employer requirements and individual eligibility must be confirmed for each enquiry.", "ये उद्योग और भूमिकाओं की जानकारी है, मौजूदा रिक्तियाँ नहीं। हर पूछताछ में उपलब्धता, नियोक्ता की ज़रूरत और व्यक्तिगत पात्रता की पुष्टि ज़रूरी है।")}</p></div>
       <div className="catalog-toolbar"><div className="guide-filter-pills" aria-label={t("Industry category", "उद्योग श्रेणी")}><button type="button" aria-pressed={group === "all"} onClick={() => setGroup("all")}>{t("All industries", "सभी उद्योग")}</button>{industryGroups.map(item => <button type="button" key={item.id} aria-pressed={group === item.id} onClick={() => setGroup(item.id)}>{local(item.label)}</button>)}</div><label className="guide-search"><Search size={18} aria-hidden="true" /><span className="sr-only">{t("Search industries or roles", "उद्योग या भूमिकाएँ खोजें")}</span><input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder={t("Search a role or industry", "भूमिका या उद्योग खोजें")} /></label></div>
       <p className="guide-result-count" role="status">{t("{count} of {total} industries", "{total} में से {count} उद्योग", { count: found.length, total: industries.length })}</p>

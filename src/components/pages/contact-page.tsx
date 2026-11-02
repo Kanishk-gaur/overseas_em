@@ -9,7 +9,7 @@ import { Eyebrow, PageHero } from "@/components/shared/ui";
 import { FAQ } from "@/components/shared/faq";
 import type { EnquiryType } from "@/lib/contact";
 
-export function ContactPage({ initialType = "candidate" }: { initialType?: EnquiryType }) {
+export function ContactPage({ initialType = "employer" }: { initialType?: EnquiryType }) {
   const { t, d } = useLocale();
   const [type, setType] = useState<EnquiryType>(initialType);
   const contactReady = !!(site.contact.whatsapp || site.contact.email || site.contact.phone);
