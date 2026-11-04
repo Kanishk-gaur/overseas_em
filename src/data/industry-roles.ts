@@ -2,8 +2,8 @@ import { industries } from "./industries";
 import { industryRoleAdditions } from "./industry-role-additions";
 import { l, type Localized } from "./types";
 
-// Detail-page examples supplement the existing directory without implying availability.
-export const industryDetailRoleAdditions: Record<string, Localized[]> = {
+// Shared directory and detail-page examples, not an inventory of available candidates.
+const industryRoleExtensions: Record<string, Localized[]> = {
   construction: [
     l("Construction managers", "निर्माण प्रबंधक"),
     l("Structural engineers", "स्ट्रक्चरल इंजीनियर"),
@@ -20,6 +20,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Production planners", "उत्पादन योजनाकार"),
     l("Industrial painters", "औद्योगिक पेंटर"),
     l("Packaging machine operators", "पैकेजिंग मशीन ऑपरेटर"),
+    l("Material handlers", "सामग्री सँभालने वाले"),
+    l("Quality inspectors", "गुणवत्ता निरीक्षक"),
+    l("Machine setters", "मशीन सेटिंग तकनीशियन"),
   ],
   "electrical-mechanical": [
     l("Automation technicians", "ऑटोमेशन तकनीशियन"),
@@ -29,6 +32,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Lift technicians", "लिफ्ट तकनीशियन"),
     l("Field service engineers", "फील्ड सर्विस इंजीनियर"),
     l("Pipe welders", "पाइप वेल्डर"),
+    l("Mechanical supervisors", "मैकेनिकल सुपरवाइज़र"),
+    l("Instrumentation engineers", "इंस्ट्रूमेंटेशन इंजीनियर"),
+    l("Electrical supervisors", "विद्युत सुपरवाइज़र"),
   ],
   logistics: [
     l("Warehouse managers", "वेयरहाउस प्रबंधक"),
@@ -38,6 +44,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Transport planners", "परिवहन योजनाकार"),
     l("Warehouse safety officers", "वेयरहाउस सुरक्षा अधिकारी"),
     l("Packaging machine operators", "पैकेजिंग मशीन ऑपरेटर"),
+    l("Cold storage operators", "कोल्ड स्टोरेज ऑपरेटर"),
+    l("Supply chain coordinators", "आपूर्ति श्रृंखला समन्वयक"),
+    l("Container handlers", "कंटेनर सँभालने वाले"),
   ],
   transportation: [
     l("Heavy equipment transport drivers", "भारी उपकरण परिवहन ड्राइवर"),
@@ -47,6 +56,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Transport managers", "परिवहन प्रबंधक"),
     l("Passenger transport coordinators", "यात्री परिवहन समन्वयक"),
     l("Vehicle recovery operators", "वाहन रिकवरी ऑपरेटर"),
+    l("Fleet supervisors", "फ्लीट सुपरवाइज़र"),
+    l("Bus mechanics", "बस मैकेनिक"),
+    l("Transport safety officers", "परिवहन सुरक्षा अधिकारी"),
   ],
   hospitality: [
     l("Baristas", "बरिस्ता"),
@@ -56,6 +68,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Stewards", "रसोई स्वच्छता सहायक"),
     l("Pastry chefs", "पेस्ट्री शेफ"),
     l("Food and beverage managers", "खाद्य और पेय प्रबंधक"),
+    l("Breakfast cooks", "नाश्ता बनाने वाले रसोइये"),
+    l("Catering assistants", "कैटरिंग सहायक"),
+    l("Banquet supervisors", "बैंक्वेट सुपरवाइज़र"),
   ],
   healthcare: [
     l("Registered midwives", "पंजीकृत दाइयाँ"),
@@ -65,6 +80,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Healthcare cleaners", "स्वास्थ्य संस्थान सफाई कर्मचारी"),
     l("Clinical engineers", "क्लिनिकल इंजीनियर"),
     l("Medical receptionists", "चिकित्सा रिसेप्शनिस्ट"),
+    l("Dietitians", "आहार विशेषज्ञ"),
+    l("Dialysis technicians", "डायलिसिस तकनीशियन"),
+    l("Biomedical equipment technicians", "बायोमेडिकल उपकरण तकनीशियन"),
   ],
   agriculture: [
     l("Agronomists", "कृषि वैज्ञानिक"),
@@ -74,6 +92,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Produce packing workers", "कृषि उपज पैकिंग कर्मचारी"),
     l("Beekeepers", "मधुमक्खी पालक"),
     l("Aquaculture workers", "जलीय जीव पालन कामगार"),
+    l("Combine harvester operators", "कंबाइन हार्वेस्टर ऑपरेटर"),
+    l("Mushroom cultivation workers", "मशरूम उत्पादन कामगार"),
+    l("Crop protection technicians", "फसल संरक्षण तकनीशियन"),
   ],
   energy: [
     l("Petroleum engineers", "पेट्रोलियम इंजीनियर"),
@@ -83,6 +104,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Wind turbine technicians", "पवन टरबाइन तकनीशियन"),
     l("Power plant operators", "विद्युत संयंत्र ऑपरेटर"),
     l("Pipeline inspectors", "पाइपलाइन निरीक्षक"),
+    l("Electrical supervisors", "विद्युत सुपरवाइज़र"),
+    l("Control room operators", "नियंत्रण कक्ष ऑपरेटर"),
+    l("Insulation technicians", "इन्सुलेशन तकनीशियन"),
   ],
   facilities: [
     l("Facilities managers", "सुविधा प्रबंधक"),
@@ -92,6 +116,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Swimming pool technicians", "स्विमिंग पूल तकनीशियन"),
     l("Energy management technicians", "ऊर्जा प्रबंधन तकनीशियन"),
     l("Helpdesk coordinators", "हेल्पडेस्क समन्वयक"),
+    l("Maintenance planners", "रखरखाव योजनाकार"),
+    l("Fire protection technicians", "अग्नि सुरक्षा तकनीशियन"),
+    l("Lift technicians", "लिफ्ट तकनीशियन"),
   ],
   "it-professional": [
     l("Cloud engineers", "क्लाउड इंजीनियर"),
@@ -101,6 +128,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("HR coordinators", "मानव संसाधन समन्वयक"),
     l("Finance assistants", "वित्त सहायक"),
     l("Technical writers", "तकनीकी लेखक"),
+    l("Office managers", "कार्यालय प्रबंधक"),
+    l("Recruitment coordinators", "भर्ती समन्वयक"),
+    l("Information security managers", "सूचना सुरक्षा प्रबंधक"),
   ],
   engineering: [
     l("Process engineers", "प्रक्रिया इंजीनियर"),
@@ -110,6 +140,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Project engineers", "परियोजना इंजीनियर"),
     l("BIM coordinators", "BIM समन्वयक"),
     l("Engineering technicians", "इंजीनियरिंग तकनीशियन"),
+    l("Fire protection engineers", "अग्नि सुरक्षा इंजीनियर"),
+    l("Materials engineers", "सामग्री इंजीनियर"),
+    l("Cost engineers", "लागत इंजीनियर"),
   ],
   "food-processing": [
     l("Meat processing workers", "मांस प्रसंस्करण कामगार"),
@@ -119,6 +152,9 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Food production planners", "खाद्य उत्पादन योजनाकार"),
     l("Maintenance technicians", "रखरखाव तकनीशियन"),
     l("Forklift operators", "फोर्कलिफ्ट ऑपरेटर"),
+    l("Quality engineers", "गुणवत्ता इंजीनियर"),
+    l("Refrigeration technicians", "रेफ्रिजरेशन तकनीशियन"),
+    l("Material handlers", "सामग्री सँभालने वाले"),
   ],
   "retail-sales": [
     l("Store managers", "स्टोर प्रबंधक"),
@@ -128,15 +164,18 @@ export const industryDetailRoleAdditions: Record<string, Localized[]> = {
     l("Checkout supervisors", "चेकआउट सुपरवाइज़र"),
     l("Loss prevention officers", "चोरी और नुकसान रोकथाम अधिकारी"),
     l("Delivery coordinators", "डिलीवरी समन्वयक"),
+    l("Procurement officers", "खरीद अधिकारी"),
+    l("Retail trainers", "रिटेल प्रशिक्षक"),
+    l("Merchandising coordinators", "मर्चेंडाइजिंग समन्वयक"),
   ],
 };
 
-export function getIndustryDetailRoles(slug: string): Localized[] {
+export function getIndustryRoles(slug: string): Localized[] {
   const industry = industries.find(item => item.slug === slug);
   if (!industry) return [];
   const hindi = industry.roles.hi.split(" · ");
   const original = industry.roles.en.split(" · ").map((en, index) => ({ en, hi: hindi[index] || en }));
-  const roles = [...original, ...industryRoleAdditions[slug], ...industryDetailRoleAdditions[slug]];
+  const roles = [...original, ...(industryRoleAdditions[slug] ?? []), ...(industryRoleExtensions[slug] ?? [])];
   const seen = new Set<string>();
   return roles.filter(role => {
     const key = role.en.trim().toLowerCase();

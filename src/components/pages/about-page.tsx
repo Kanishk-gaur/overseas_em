@@ -3,7 +3,6 @@ import { Compass, Eye, Heart, MessagesSquare, Scale, Users } from "lucide-react"
 import { images } from "@/config/site";
 import { useLocale } from "@/components/shared/locale-provider";
 import { Button, Eyebrow, PageHero, Photo, Reveal } from "@/components/shared/ui";
-import { RecruitmentFlow } from "@/components/shared/recruitment-flow";
 import { photography } from "@/data/photography";
 import { ContactCTA } from "@/components/shared/contact-cta";
 import { IndiaExperience } from "@/components/shared/india-experience";
@@ -24,5 +23,5 @@ export function AboutPage() {
   <IndiaExperience />
   <AboutEmployerSections />
   <CountriesSection />
-  <RecruitmentFlow /><section className="ethical-section"><div className="container editorial-split"><div><Eyebrow light>{t("OUR RECRUITMENT PHILOSOPHY", "भर्ती को लेकर हमारा नज़रिया")}</Eyebrow><h2>{t("Nothing important\nshould go unspoken.", "कोई ज़रूरी बात\nअनकही न रहे।")}</h2></div><div><p>{t("International hiring requires clear responsibilities on both sides. Set out duties, understandable contracts, cost responsibilities and any unresolved conditions before a candidate accepts.", "अंतरराष्ट्रीय भर्ती में दोनों पक्षों की ज़िम्मेदारियाँ स्पष्ट होनी चाहिए। उम्मीदवार की स्वीकृति से पहले काम, समझने योग्य अनुबंध, खर्च की ज़िम्मेदारी और लंबित शर्तें स्पष्ट करें।")}</p><p>{t("Provide verifiable company information and complete written terms. Candidate selection remains yours; recruitment coordination cannot guarantee visas or immigration approval.", "सत्यापित की जा सकने वाली कंपनी जानकारी और पूरी लिखित शर्तें दें। उम्मीदवार चयन आपका निर्णय है; भर्ती समन्वय वीज़ा या आव्रजन मंज़ूरी की गारंटी नहीं देता।")}</p><Button href="/process">{d.processCta}</Button></div></div></section><ContactCTA /></>;
+  <section className="ethical-section"><div className="container editorial-split"><div><Eyebrow light>{t("OUR RECRUITMENT PHILOSOPHY", "भर्ती को लेकर हमारा नज़रिया")}</Eyebrow><h2>{t("Nothing important\nshould go unspoken.", "कोई ज़रूरी बात\nअनकही न रहे।")}</h2></div><div><p>{t("International hiring requires clear responsibilities on both sides. Set out duties, understandable contracts, cost responsibilities and any unresolved conditions before a candidate accepts.", "अंतरराष्ट्रीय भर्ती में दोनों पक्षों की ज़िम्मेदारियाँ स्पष्ट होनी चाहिए। उम्मीदवार की स्वीकृति से पहले काम, समझने योग्य अनुबंध, खर्च की ज़िम्मेदारी और लंबित शर्तें स्पष्ट करें।")}</p><p>{t("Provide verifiable company information and complete written terms. Candidate selection remains yours; recruitment coordination cannot guarantee visas or immigration approval.", "सत्यापित की जा सकने वाली कंपनी जानकारी और पूरी लिखित शर्तें दें। उम्मीदवार चयन आपका निर्णय है; भर्ती समन्वय वीज़ा या आव्रजन मंज़ूरी की गारंटी नहीं देता।")}</p><Button href="/process">{d.processCta}</Button></div></div></section><ContactCTA /></>;
 }

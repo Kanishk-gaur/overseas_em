@@ -69,8 +69,8 @@ export function CountriesSection() {
   return <section id="countries" className={`section ${styles.section}`} aria-labelledby="countries-title">
     <div className="container">
       <div className={styles.heading}>
-        <div><Eyebrow>{t("RESEARCH YOUR HIRING MARKET", "अपने भर्ती बाज़ार को समझें")}</Eyebrow><h2 id="countries-title">{t("Understand the country\nbefore planning recruitment.", "भर्ती की योजना से पहले\nदेश को समझें।")}</h2></div>
-        <p>{t("Review hiring conditions, workforce preparation and official guidance for each destination.", "हर गंतव्य की भर्ती शर्तें, कामगारों की तैयारी और आधिकारिक निर्देश देखें।")}</p>
+        <div><Eyebrow>{t("LOOKING AHEAD", "भविष्य की ओर")}</Eyebrow><h2 id="countries-title">{t("Our Vision for\nGlobal Expansion", "वैश्विक विस्तार के लिए\nहमारा विज़न")}</h2></div>
+        <p>{t("We aim to expand our international recruitment network into new markets, connecting overseas employers with skilled, semi-skilled and general workforce talent from India. The countries below reflect our future ambitions as we develop our international presence.", "हम नए बाज़ारों में अपने अंतरराष्ट्रीय भर्ती नेटवर्क का विस्तार करना चाहते हैं, ताकि विदेशी नियोक्ताओं को भारत के कुशल, अर्ध-कुशल और सामान्य कामगारों से जोड़ सकें। नीचे दिए गए देश हमारी भविष्य की आकांक्षाओं को दर्शाते हैं, जिनकी दिशा में हम अपनी अंतरराष्ट्रीय मौजूदगी विकसित करना चाहते हैं।")}</p>
       </div>
       <div className={styles.toolbar}>
         <div className="guide-filter-pills" role="group" aria-label={t("Destination region", "गंतव्य का क्षेत्र")}>
@@ -95,11 +95,11 @@ export function CountriesSection() {
       }}>
         {found.map(item => <article className={styles.card} key={item.slug} id={item.slug} aria-labelledby={`country-${item.slug}-title`}>
           <Link href={`/countries/${item.slug}`} className={styles.imageLink} aria-label={local(item.name)}><Photo src={item.image} alt={local(item.name)} sizes="(max-width: 650px) 85vw, 390px" /><span>{local(item.region)}</span></Link>
-          <div className={styles.copy}><h3 id={`country-${item.slug}-title`}><Link href={`/countries/${item.slug}`}>{local(item.name)}</Link></h3><p>{local(item.description)}</p><div className={styles.preparation}><span>{t("BEFORE YOU PROCEED", "आगे बढ़ने से पहले")}</span><p>{local(item.caveat)}</p></div><TextLink href={`/countries/${item.slug}`}>{t("Read the destination guide", "गंतव्य मार्गदर्शिका पढ़ें")}</TextLink></div>
+          <div className={styles.copy}><h3 id={`country-${item.slug}-title`}><Link href={`/countries/${item.slug}`}>{local(item.name)}</Link></h3><p>{item.slug === "other-destinations" ? t("Other markets we may explore as our international recruitment network develops.", "हमारे अंतरराष्ट्रीय भर्ती नेटवर्क के विकास के साथ अन्य बाज़ारों में संभावनाएँ तलाशने की योजना।") : local(item.description)}</p><div className={styles.preparation}><span>{t("POTENTIAL FUTURE MARKET", "भविष्य का संभावित बाज़ार")}</span><p>{local(item.caveat)}</p></div><TextLink href={`/countries/${item.slug}`}>{t("Read the destination guide", "गंतव्य मार्गदर्शिका पढ़ें")}</TextLink></div>
         </article>)}
       </div>
       {!found.length && <div className={styles.empty}><h3>{t("No destinations found", "कोई गंतव्य नहीं मिला")}</h3><p>{t("Try another country name or reset the filters.", "दूसरा देश खोजें या फ़िल्टर हटाएँ।")}</p><button type="button" className="button button-navy" onClick={() => { setRegion("all"); setQuery(""); }}>{t("Reset filters", "फ़िल्टर हटाएँ")}</button></div>}
-      <p className={styles.note}>{t("These guides cover potential destinations, not current vacancies, offices or partnerships. Sector examples are general; permission to work and eligibility need individual checks.", "ये संभावित देशों की जानकारी है, मौजूदा रिक्तियों, कार्यालयों या साझेदारी का दावा नहीं। क्षेत्र के उदाहरण सामान्य हैं; कार्य अनुमति और पात्रता अलग से जाँचें।")}</p>
+      <p className={styles.note}>{t("These are potential future markets, not confirmed service locations. Inclusion does not imply current operations, offices, partnerships, licences or guaranteed recruitment availability. Any future services will depend on applicable requirements and our readiness to serve each market.", "ये भविष्य के संभावित बाज़ार हैं, सेवा उपलब्ध होने की पुष्टि नहीं। सूची में शामिल होने का अर्थ मौजूदा संचालन, कार्यालय, साझेदारी, लाइसेंस या भर्ती सेवा की गारंटी नहीं है। भविष्य में सेवाएँ लागू शर्तों और हर बाज़ार में सेवा देने की हमारी तैयारी पर निर्भर करेंगी।")}</p>
       <div className={styles.closing}><div><h3>{t("Planning to hire from India?", "भारत से भर्ती की योजना है?")}</h3><p>{t("Discuss roles, headcount, work locations and your recruitment plans.", "पद, संख्या, काम के स्थान और भर्ती योजना पर बात करें।")}</p></div><Button href="/request-workforce" variant="navy">{t("Discuss your workforce needs", "कामगारों की ज़रूरत बताएँ")}</Button></div>
     </div>
   </section>;
