@@ -441,6 +441,7 @@
 }
 
 /* Precision pass: preserve every color; refine proportions, rhythm and controls. */
+.studio-note, .employer-section-foot > p { font-size: 12px; }
 .launch-copy > .eyebrow { margin-top: 0; }
 .launch-copy > p:not(.eyebrow), .page-hero-description { text-wrap: pretty; }
 .page-hero .page-hero-description { font-size: 15px; }

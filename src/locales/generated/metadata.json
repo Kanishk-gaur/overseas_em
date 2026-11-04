@@ -1,7 +1,7 @@
 {
   "/about": {
     "title": "About Us",
-    "description": "People-focused international recruitment from India. Our purpose, values, international destination guides and approach to connecting workers and employers."
+    "description": "We help overseas employers recruit from India, aligning candidate sourcing, technical assessment and mobilization with their workforce requirements."
   },
   "/blog": {
     "title": "Insights & Guides",
@@ -17,7 +17,7 @@
   },
   "/contact": {
     "title": "Contact Us",
-    "description": "Talk to GlobalPath Overseas about overseas work or international workforce recruitment. Candidate and employer enquiry options."
+    "description": "Planning an international team? Share your hiring requirements. Candidates can also ask about preparing for overseas work."
   },
   "/disclaimer": {
     "title": "Disclaimer",
@@ -45,7 +45,7 @@
   },
   "/": {
     "title": "Indian Talent. Global Opportunities.",
-    "description": "Connecting Indian talent with international opportunities through people-focused recruitment at GlobalPath Overseas."
+    "description": "At GlobalPath Overseas, we define your workforce requirements, assess relevant Indian candidates and coordinate the steps towards mobilization."
   },
   "/privacy-policy": {
     "title": "Privacy Policy",
@@ -53,7 +53,7 @@
   },
   "/process": {
     "title": "Our Recruitment Process",
-    "description": "Understand the overseas recruitment process, from your first enquiry to documents, employer interviews, contracts and joining."
+    "description": "International hiring involves linked decisions. Define your requirements, review candidate evidence and coordinate each stage with our recruitment team."
   },
   "/request-workforce": {
     "title": "Request Workforce",

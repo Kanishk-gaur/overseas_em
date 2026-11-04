@@ -1,0 +1,32 @@
+.section { background: var(--surface); border-block: 1px solid var(--border); }
+.intro { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: center; margin-bottom: 42px; }
+.intro h2 { font-size: clamp(31px, 3.5vw, 49px); letter-spacing: -.035em; text-wrap: balance; }
+.lead { margin-top: 24px; font-size: 16px; line-height: 1.9; color: var(--muted); }
+.visual > div { height: 360px; border-radius: 14px; }
+.primary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.primaryCard { padding: clamp(24px, 2.5vw, 36px); background: #fff; border: 1px solid var(--border); border-radius: 12px; transition: border-color .25s, box-shadow .25s; }
+.primaryCard:first-child { background: var(--navy); color: #fff; border-color: var(--navy); }
+.primaryCard:first-child p { color: #d6e0e8; }
+.primaryCard:first-child .marker { color: var(--gold); }
+.marker { display: flex; align-items: center; justify-content: space-between; gap: 16px; color: var(--blue); margin-bottom: 22px; }
+.marker span { font-size: 11px; letter-spacing: .08em; font-variant-numeric: tabular-nums; }
+.section h3 { font-size: 22px; font-weight: 550; line-height: 1.4; text-wrap: balance; }
+.primaryCard p, .commercial p, .supportingItem p { margin-top: 15px; font-size: 14px; line-height: 1.9; color: var(--muted); }
+.detailLayout { display: grid; grid-template-columns: 1fr 2fr; gap: 36px; align-items: start; margin-top: 50px; }
+.commercial { padding: 30px; border-top: 2px solid var(--gold); background: #fff; border-radius: 0 0 12px 12px; }
+.commercial > div:last-child { height: 205px; min-height: 0; margin-top: 28px; border-radius: 8px; }
+.supporting { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
+.supportingItem { border-top: 1px solid var(--border); padding-top: 24px; }
+.supportingItem .marker { margin-bottom: 16px; }
+.supportingItem h3 { font-size: 20px; }
+.note { margin-top: 35px; color: var(--muted); font-size: 12px; max-width: 850px; }
+.cta { display: grid; grid-template-columns: 1.2fr 1fr; gap: 35px; align-items: center; background: var(--navy); color: #fff; border-radius: 14px; padding: clamp(26px, 4vw, 50px); margin-top: 38px; }
+.cta h3 { white-space: pre-line; font-size: clamp(25px, 2.6vw, 35px); letter-spacing: -.025em; }
+.cta p { font-size: 14px; line-height: 1.85; margin-top: 18px; color: #d6e0e8; }
+.actions { display: flex; flex-direction: column; gap: 14px; align-items: stretch; }
+.actions a { max-width: 100%; }
+@media (hover: hover) { .primaryCard:hover { border-color: var(--gold); box-shadow: 0 10px 24px #0b1f3309; } }
+@media (max-width: 1050px) { .primary { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; } .primaryCard { padding: 24px; } .primaryCard:first-child { grid-column: 1 / -1; } .detailLayout { grid-template-columns: 1fr; } .commercial { display: grid; grid-template-columns: 1.3fr 1fr; column-gap: 35px; } .commercial .marker, .commercial h3, .commercial p { grid-column: 1; } .commercial > div:last-child { grid-column: 2; grid-row: 1 / 4; height: 100%; min-height: 220px; margin: 0; } }
+@media (max-width: 767px) { .intro, .primary, .cta { grid-template-columns: 1fr; } .intro { gap: 28px; margin-bottom: 28px; } .visual > div { height: 280px; } .lead { font-size: 15px; } .primaryCard { padding: 26px; } .detailLayout { margin-top: 32px; gap: 32px; } .commercial { display: block; padding: 26px; } .commercial > div:last-child { height: 220px; margin-top: 24px; } .supporting { gap: 28px; } .cta { gap: 26px; } }
+@media (max-width: 560px) { .supporting { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .primaryCard { transition: none; } }

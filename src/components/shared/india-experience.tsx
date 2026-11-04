@@ -12,12 +12,12 @@ export function IndiaExperience() {
   return <section className={`section ${styles.experience}`} aria-labelledby="india-experience-title">
     <div className={`container ${styles.experienceGrid}`}>
       <div className={styles.story}>
-        <Eyebrow>{t("OUR BACKGROUND", "हमारी पृष्ठभूमि")}</Eyebrow>
-        <h2 id="india-experience-title">{t("Taking our Indian\nexperience overseas.", "भारत का अनुभव\nविदेश तक ले जाना।")}</h2>
-        <p>{t("Our move into international recruitment builds on work across Indian states. That experience informs how we discuss requirements with workers and overseas employers.", "अंतरराष्ट्रीय भर्ती में हमारा कदम भारतीय राज्यों में किए गए काम पर आधारित है। यही अनुभव कामगारों और विदेशी नियोक्ताओं से ज़रूरतों पर हमारी बातचीत को दिशा देता है।")}</p>
+        <Eyebrow>{t("OUR SOURCING FOCUS", "हमारा उम्मीदवार खोज क्षेत्र")}</Eyebrow>
+        <h2 id="india-experience-title">{t("Indian skills.\nOverseas requirements.", "भारतीय हुनर।\nविदेशी ज़रूरतें।")}</h2>
+        <p>{t("Our recruitment scope brings Indian workforce sourcing together with overseas employer requirements. Screening and trade evaluations help assess suitability for each brief.", "हमारे भर्ती दायरे में भारतीय कामगारों की खोज विदेशी नियोक्ताओं की ज़रूरतों के अनुसार होती है। स्क्रीनिंग और ट्रेड मूल्यांकन से हर भर्ती विवरण के लिए उपयुक्तता जाँची जाती है।")}</p>
         <ol className={styles.journey}>
           <li><MapPin size={21} strokeWidth={1.5} aria-hidden="true" /><div><span>{t("OUR FOUNDATION", "हमारा आधार")}</span><strong>{t("Work across India", "भारत में काम का अनुभव")}</strong></div></li>
-          <li><Globe2 size={21} strokeWidth={1.5} aria-hidden="true" /><div><span>{t("OUR NEXT STEP", "हमारा अगला कदम")}</span><strong>{t("International recruitment", "अंतरराष्ट्रीय भर्ती")}</strong></div></li>
+          <li><Globe2 size={21} strokeWidth={1.5} aria-hidden="true" /><div><span>{t("OUR RECRUITMENT SCOPE", "हमारी भर्ती का दायरा")}</span><strong>{t("International recruitment", "अंतरराष्ट्रीय भर्ती")}</strong></div></li>
         </ol>
         <TextLink href="/work-certificates">{t("Explore work certificates", "कार्य प्रमाणपत्र देखें")}</TextLink>
       </div>

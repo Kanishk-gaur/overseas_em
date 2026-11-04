@@ -69,8 +69,8 @@ export function CountriesSection() {
   return <section id="countries" className={`section ${styles.section}`} aria-labelledby="countries-title">
     <div className="container">
       <div className={styles.heading}>
-        <div><Eyebrow>{t("RESEARCH YOUR DESTINATION", "गंतव्य के बारे में जानें")}</Eyebrow><h2 id="countries-title">{t("Get to know the country\nbefore making plans.", "योजना बनाने से पहले\nदेश को जानें।")}</h2></div>
-        <p>{t("Browse local working conditions, preparation advice and official sources for each destination.", "हर देश की काम की स्थितियाँ, तैयारी संबंधी सलाह और आधिकारिक स्रोत देखें।")}</p>
+        <div><Eyebrow>{t("RESEARCH YOUR HIRING MARKET", "अपने भर्ती बाज़ार को समझें")}</Eyebrow><h2 id="countries-title">{t("Understand the country\nbefore planning recruitment.", "भर्ती की योजना से पहले\nदेश को समझें।")}</h2></div>
+        <p>{t("Review hiring conditions, workforce preparation and official guidance for each destination.", "हर गंतव्य की भर्ती शर्तें, कामगारों की तैयारी और आधिकारिक निर्देश देखें।")}</p>
       </div>
       <div className={styles.toolbar}>
         <div className="guide-filter-pills" role="group" aria-label={t("Destination region", "गंतव्य का क्षेत्र")}>
@@ -100,7 +100,7 @@ export function CountriesSection() {
       </div>
       {!found.length && <div className={styles.empty}><h3>{t("No destinations found", "कोई गंतव्य नहीं मिला")}</h3><p>{t("Try another country name or reset the filters.", "दूसरा देश खोजें या फ़िल्टर हटाएँ।")}</p><button type="button" className="button button-navy" onClick={() => { setRegion("all"); setQuery(""); }}>{t("Reset filters", "फ़िल्टर हटाएँ")}</button></div>}
       <p className={styles.note}>{t("These guides cover potential destinations, not current vacancies, offices or partnerships. Sector examples are general; permission to work and eligibility need individual checks.", "ये संभावित देशों की जानकारी है, मौजूदा रिक्तियों, कार्यालयों या साझेदारी का दावा नहीं। क्षेत्र के उदाहरण सामान्य हैं; कार्य अनुमति और पात्रता अलग से जाँचें।")}</p>
-      <div className={styles.closing}><div><h3>{t("Which experience will you bring?", "आप कौन-सा अनुभव लेकर आएँगे?")}</h3><p>{t("Organise your experience and questions before discussing a destination.", "देश पर चर्चा करने से पहले अपना अनुभव और सवाल व्यवस्थित करें।")}</p></div><Button href="/find-a-job" variant="navy">{t("Prepare for your enquiry", "पूछताछ की तैयारी करें")}</Button></div>
+      <div className={styles.closing}><div><h3>{t("Planning to hire from India?", "भारत से भर्ती की योजना है?")}</h3><p>{t("Discuss roles, headcount, work locations and your recruitment plans.", "पद, संख्या, काम के स्थान और भर्ती योजना पर बात करें।")}</p></div><Button href="/request-workforce" variant="navy">{t("Discuss your workforce needs", "कामगारों की ज़रूरत बताएँ")}</Button></div>
     </div>
   </section>;
 }

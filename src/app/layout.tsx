@@ -19,7 +19,7 @@ const devanagari = Noto_Sans_Devanagari({ subsets: ["devanagari"], variable: "--
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.legalName} | Indian Talent. Global Opportunities.`, template: `%s | ${site.legalName}` },
-  description: "People-focused overseas manpower recruitment from India. Explore skilled, technical and general workforce services for Indian workers and international employers.",
+  description: "We help overseas employers recruit from India, aligning candidate sourcing, technical assessment and mobilization with their workforce requirements.",
   openGraph: { type: "website", siteName: site.legalName, locale: "en_IN", images: [{ url: "/images/hero-workshop.webp", width: 1448, height: 1086, alt: "Indian skilled manufacturing professionals at work" }] },
   twitter: { card: "summary_large_image" },
 };

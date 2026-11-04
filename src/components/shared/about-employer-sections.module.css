@@ -1,0 +1,23 @@
+.benefits { background: var(--paper, #f8f8f3); border-block: 1px solid var(--border); }
+.introduction { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; margin-bottom: 50px; }
+.introduction h2, .offerIntro h2 { font-size: clamp(30px, 3.5vw, 48px); line-height: 1.2; letter-spacing: -.035em; text-wrap: balance; white-space: pre-line; }
+.lead { color: var(--navy); font-size: 17px; line-height: 1.8; margin-top: 24px; }
+.note { font-size: 13px; color: var(--muted); line-height: 1.9; margin-top: 20px; }
+.visual > div { height: 350px; border-radius: var(--card-radius, 15px); }
+.benefitGrid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 24px; }
+.benefit { grid-column: span 2; padding: 26px; background: #fff; border: 1px solid var(--border); border-radius: var(--card-radius, 15px); }
+.benefit:nth-child(-n+2) { grid-column: span 3; background: transparent; border: 0; border-top: 2px solid var(--gold); border-radius: 0; padding-inline: 0; margin-bottom: 8px; }
+.cardTop { display: flex; align-items: center; justify-content: space-between; gap: 16px; color: var(--gold-dark, #8b682e); margin-bottom: 24px; }
+.cardTop span { font-size: 11px; font-variant-numeric: tabular-nums; letter-spacing: .08em; }
+.benefit h3, .capabilities h3 { font-family: var(--heading); font-size: 21px; font-weight: 550; line-height: 1.4; text-wrap: balance; }
+.benefit p, .capabilities p { color: var(--muted); font-size: 14px; line-height: 1.85; margin-top: 13px; }
+.offerLayout { display: grid; grid-template-columns: .85fr 1.35fr; gap: clamp(35px, 5vw, 80px); align-items: start; }
+.offerIntro > div { height: 265px; border-radius: var(--card-radius, 15px); margin-top: 30px; }
+.capabilities { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 30px; row-gap: 32px; }
+.capabilities li { min-width: 0; border-top: 1px solid var(--border); padding-top: 20px; }
+.number { display: block; color: var(--gold-dark, #8b682e); font-size: 11px; font-variant-numeric: tabular-nums; margin-bottom: 13px; }
+.action { margin-top: 38px; border-top: 1px solid var(--border); padding-top: 30px; }
+.action > a { max-width: 100%; white-space: normal; text-align: start; }
+.action svg { flex-shrink: 0; }
+@media (max-width: 1000px) { .benefit { grid-column: span 3; } .offerLayout { grid-template-columns: 1fr; } .offerIntro { max-width: 760px; } .offerIntro > div { height: 330px; } }
+@media (max-width: 767px) { .introduction { grid-template-columns: 1fr; gap: 30px; margin-bottom: 30px; } .visual > div { height: 280px; } .benefitGrid { grid-template-columns: 1fr; gap: 20px; } .benefit, .benefit:nth-child(-n+2) { grid-column: auto; } .benefit { padding: 24px; } .lead { font-size: 15px; } .capabilities { grid-template-columns: 1fr; gap: 26px; } .capabilities h3, .benefit h3 { font-size: 22px; } .offerIntro > div { height: 270px; } }
