@@ -76,7 +76,7 @@ for (const locale of locales) {
   for (const role of workforceRoleDetails) {
     if (!roles[role.slug]) { note(locale, "structure", `${file} → ${role.slug}: role missing`); continue; }
     roleCoverage[locale]++;
-    compare(locale, `roles/${locale}/${role.slug}`, Object.fromEntries(roleFields.map(field => [field, role[field]])), roles[role.slug], skip);
+    compare(locale, `roles/${locale}/${role.slug}`, { ...Object.fromEntries(roleFields.map(field => [field, role[field]])), sourceLabels: role.sources.map(source => source.label) }, roles[role.slug], skip);
   }
   for (const slug of Object.keys(roles)) if (!workforceRoleDetails.some(role => role.slug === slug)) note(locale, "structure", `${file} → ${slug}: not an English role`);
 }

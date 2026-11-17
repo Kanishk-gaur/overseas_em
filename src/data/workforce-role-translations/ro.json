@@ -1,0 +1,300 @@
+{
+  "welder": {
+    "overview": "Sudorii îmbină componente metalice pentru structuri, produse fabricate și conducte. O cerere de recrutare bună precizează materialul, procedeul de sudare, tipul îmbinării și condițiile de producție. Fabricația în atelier și sudarea conductelor pe șantier cer dovezi diferite, chiar dacă candidații au aceeași denumire a postului. Stabiliți cum va fi evaluată calitatea sudurii înainte de a selecta un candidat.",
+    "responsibilities": [
+      "Citește desenul și instrucțiunile de sudare primite, identifică îmbinarea și verifică dacă materialele și consumabilele corespund pachetului de lucru.",
+      "Pregătește marginile, ajută la asamblare și verifică alinierea înainte de sudare; semnalează problemele de pregătire care ar putea afecta îmbinarea finală.",
+      "Execută rândurile de sudură conform procedurii aprobate și în limitele sarcinii primite, menținând o tehnică constantă când se schimbă accesul și poziția.",
+      "Curăță lucrarea finalizată, face verificările vizuale atribuite și înregistrează marcajele sau informațiile despre reparații pentru procesul de inspecție al angajatorului."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Cunoașterea procedeelor și materialelor",
+        "body": "Evaluați lucrul real cu SMAW, GTAW/TIG sau GMAW/MIG. Cereți candidaților să explice grosimile de material, consumabilele și limitele procedeelor cu care au lucrat, în loc să acceptați o listă de denumiri de procedee drept dovadă."
+      },
+      {
+        "title": "Desen și pregătirea îmbinării",
+        "body": "Folosiți un desen simplu pentru a discuta simbolurile de sudură, accesul la îmbinare și verificările de asamblare. Distingeți pregătirea făcută independent de lucrul realizat cu un lăcătuș-montator sau sub supraveghere atentă."
+      },
+      {
+        "title": "Atenția la calitate",
+        "body": "Discutați defectele vizibile, modul de raportare a unei suduri suspecte și cine aprobă reparațiile. Verificările vizuale ale sudorului sprijină sistemul de calitate, dar nu înlocuiesc inspecția sau încercările obligatorii."
+      }
+    ],
+    "qualificationGuidance": "Formarea profesională și autorizațiile recente pentru anumite procedee pot fi preferințe ale angajatorului sau cerințe ale proiectului. Verificați, după caz, organismul emitent, domeniul autorizației și valabilitatea ei. Regulile țării de destinație și standardul de fabricație al proiectului trebuie verificate separat; un certificat nu este o permisiune universală de a suda orice îmbinare.",
+    "experienceGuidance": "Analizați materiale, poziții și condiții de acces comparabile printr-o discuție despre experiența profesională și o probă practică. Nu înlocuiți cu un număr fix de ani dovada că acel candidat poate executa constant îmbinarea specificată. La selecția inițială, un angajator poate prefera 2–3 ani pe procedee de sudare comparabile pentru lucru independent în producție; tratați aceasta ca pe o preferință ajustabilă și lăsați evaluarea practică să stabilească potrivirea.",
+    "workforceLevels": [
+      {
+        "title": "Sudor de producție sub supraveghere",
+        "body": "Execută o gamă definită de îmbinări repetitive, cu supraveghere disponibilă și instrucțiuni de reglaj stabilite."
+      },
+      {
+        "title": "Sudor specialist sau șef de echipă",
+        "body": "Execută îmbinări complexe evaluate sau ajută la coordonarea lucrărilor de sudură; autoritatea de inspecție și de supraveghere este atribuită explicit."
+      }
+    ],
+    "equipmentEnvironment": "Precizați sursele de sudare, pistoletele, polizoarele, sistemele de exhaustare, dispozitivele de poziționare și calibrele de inspecție. Menționați dacă lucrul se face într-o hală de fabricație, în aer liber, la înălțime sau într-un spațiu cu control special.",
+    "safetyItems": [
+      "Planificarea controlului fumului de sudură și a protecției respiratorii potrivite sarcinii, pe baza evaluării expunerii făcute de angajator.",
+      "Asigurarea protecției adecvate a ochilor și pielii, a paravanelor de sudură și a măsurilor care protejează lucrătorii din apropiere de radiația arcului.",
+      "Stabilirea, înainte de începerea sarcinii, a măsurilor pentru lucrul cu foc deschis, a manipulării buteliilor și a pazei împotriva incendiilor."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Planificarea echipei de sudori",
+        "body": "Estimați numărul de persoane după volumul de îmbinări, combinația de procedee și punctele de oprire pentru inspecție, inclusiv lăcătuși-montatori și supraveghere unde este nevoie. Clarificați acoperirea turelor, durata contractului și limba de lucru pentru desene, permise și predarea turelor."
+      },
+      {
+        "title": "Stabilirea îmbinării de probă",
+        "body": "Comunicați evaluatorului procedeul, materialul, grosimea, poziția și criteriile de acceptare. Înregistrați separat pregătirea, tehnica și rezultatul final."
+      },
+      {
+        "title": "Verificarea potrivirii pentru producție",
+        "body": "Discutați mărimea loturilor, procedurile de reparație și modificările de desen. Folosiți un exemplu de problemă de asamblare pentru a evalua când candidatul se oprește și cere lămuriri."
+      },
+      {
+        "title": "Confirmarea legăturii cu inspecția",
+        "body": "Stabiliți cine eliberează lucrarea, cere încercări și aprobă reparațiile. Includeți în cererea de recrutare așteptările privind trasabilitatea și predarea turelor."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "O autorizație 6G acoperă orice lucrare de sudură?",
+        "answer": "Nu. Domeniul autorizației depinde de sistemul aplicabil și de variabile precum procedeul și materialul. Comparați documentul real cu lucrarea propusă."
+      },
+      {
+        "question": "Poate o singură probă să evalueze abilitățile TIG și MIG?",
+        "answer": "O probă la un procedeu nu dovedește competența la altul. Evaluați fiecare procedeu pe care lucrătorul îl va folosi efectiv."
+      },
+      {
+        "question": "Ar trebui ca sudorii să facă și inspecția finală?",
+        "answer": "Separați autoverificările de rutină de recepția formală. Inspecția finală poate necesita personal independent sau calificări suplimentare, conform regulilor de calitate ale proiectului."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Sudori, debitori, lipitori și brazori",
+      "OSHA: Sudare, tăiere și brazare"
+    ]
+  },
+  "electrician": {
+    "overview": "Electricienii instalează și întrețin sisteme electrice și investighează defectele. Angajatorii ar trebui să distingă lucrările de instalare de întreținere, verificări și punere în funcțiune, apoi să stabilească domeniul de tensiune și mediul clădirii sau al instalației industriale. Domeniul de activitate permis și regulile de supraveghere contează la fel de mult ca familiaritatea cu tablourile, traseele de cabluri și schemele electrice.",
+    "responsibilities": [
+      "Interpretează schemele de circuite și instrucțiunile de instalare aprobate, verifică identificarea echipamentelor și semnalează neconcordanțele înainte de a continua.",
+      "Instalează traseele, cablurile, accesoriile sau conexiunile de tablou atribuite, folosind materialele specificate și metode autorizate.",
+      "Investighează defectele semnalate printr-o succesiune planificată de verificări, documentează constatările și transmite mai departe lucrările care depășesc autoritatea atribuită.",
+      "Finalizează verificările și înregistrările atribuite rolului și predă lucrarea cu identificarea clară a defectelor rămase."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Calitatea execuției",
+        "body": "Discutați identificarea cablurilor, traseele, calitatea terminațiilor și protecția echipamentelor instalate. Evaluarea ar trebui să reflecte tipul de instalații al angajatorului, fără a presupune că experiența rezidențială și cea industrială sunt interschimbabile."
+      },
+      {
+        "title": "Diagnosticarea defectelor",
+        "body": "Folosiți un scenariu de instruire fără tensiune pentru a discuta simptomele, cauzele posibile și o succesiune eficientă de verificări. Căutați un raționament solid și recunoașterea limitelor, nu disponibilitatea de a lucra sub tensiune."
+      },
+      {
+        "title": "Verificări și documentare",
+        "body": "Verificați înțelegerea privind alegerea aparatelor, rezultatele înregistrate și listele de circuite. Clarificați dacă electricianul face verificările, asistă la ele sau are autoritatea de a certifica instalația."
+      }
+    ],
+    "qualificationGuidance": "O ucenicie în domeniul electric, o diplomă profesională sau o dovadă echivalentă pot sprijini selecția. Autorizarea locală, recunoașterea diplomelor obținute în străinătate și permisiunea pentru anumite lucrări trebuie verificate la autoritatea competentă. Cunoașterea unui standard internațional nu stabilește, în sine, eligibilitatea locală sau dreptul de semnătură.",
+    "experienceGuidance": "Cereți exemple din clădiri sau instalații comparabile, inclusiv responsabilitățile exacte ale candidatului la instalare și la depistarea defectelor. Selectați după nivelul de independență cerut și planificați supraveghere acolo unde echipamentele sau practicile locale sunt necunoscute. O preferință orientativă este de 2–4 ani de instalare sau întreținere comparabilă pentru un post independent, împreună cu o autorizare verificată. Traseele de intrare sub supraveghere au nevoie de o altă cerere de recrutare și nu pot fi evaluate după același prag.",
+    "workforceLevels": [
+      {
+        "title": "Instalator electric sub supraveghere",
+        "body": "Execută sarcini de instalare definite, sub supravegherea și cu autorizarea cerute pentru lucrare."
+      },
+      {
+        "title": "Electrician de întreținere sau de verificări",
+        "body": "Execută sarcini de diagnosticare sau verificare evaluate, într-un domeniu permis documentat clar."
+      }
+    ],
+    "equipmentEnvironment": "Enumerați tablourile de distribuție, panourile de comandă, sistemele de cabluri și aparatele de verificare aprobate. Descrieți clădirile ocupate, zonele de șantier, sălile tehnice, echipamentele de acces și eventualele lucrări la opriri în afara programului.",
+    "safetyItems": [
+      "Stabilirea separării și verificării lipsei tensiunii înainte de lucrul electric, cu persoane autorizate care controlează repunerea sub tensiune.",
+      "Evaluarea riscurilor de electrocutare și de arc pentru sistemul real; probele de recrutare obișnuite nu ar trebui să ceară lucru la părți active neprotejate.",
+      "Coordonarea scărilor, platformelor de acces și traseelor de cabluri, astfel încât lucrările electrice să nu creeze riscuri de cădere sau împiedicare."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Planificarea opririlor și a acoperirii turelor",
+        "body": "La estimarea numărului de persoane, separați instalarea pe șantier de intervențiile de întreținere. Precizați durata proiectului, ferestrele de oprire, restricțiile de acces și cum vor fi disponibile, în fiecare tură, sprijin tehnic autorizat și instrucțiuni ușor de înțeles."
+      },
+      {
+        "title": "Definirea domeniului electric",
+        "body": "Precizați tensiunea sistemului, echipamentele și dacă sarcinile sunt de instalare sau de întreținere. Identificați lucrările rezervate personalului autorizat sau cu permisiune specifică."
+      },
+      {
+        "title": "Evaluarea unui defect realist",
+        "body": "Oferiți o schemă de circuit și un simptom simulat. Cereți succesiunea de diagnosticare, măsurile de separare și informațiile necesare înainte de repunerea echipamentului în funcțiune."
+      },
+      {
+        "title": "Verificarea calității predării",
+        "body": "Analizați o fișă de verificare sau o listă de tablou fictivă. Evaluați lizibilitatea, trasabilitatea și disponibilitatea de a consemna problemele nerezolvate, în loc de a presupune recepția."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Un certificat profesional din străinătate înlocuiește o autorizație locală?",
+        "answer": "Recunoașterea diferă în funcție de destinație și de domeniul lucrărilor. Verificați traseul de autorizare și eventualele examene sau practica supravegheată înainte de a atribui sarcini reglementate."
+      },
+      {
+        "question": "Este suficientă experiența de cablare a tablourilor pentru punerea în funcțiune?",
+        "answer": "Nu, în sine. Punerea în funcțiune poate necesita cunoștințe suplimentare despre sistem, aparate, proceduri și autoritate, care trebuie evaluate separat."
+      },
+      {
+        "question": "Poate un electrician să întrețină echipamente HVAC?",
+        "answer": "Experiența electrică poate acoperi unele componente. Lucrul cu agenți frigorifici, partea mecanică și automatizarea necesită verificări proprii de competență și autorizare."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Electricieni",
+      "OSHA: Controlul energiilor periculoase"
+    ]
+  },
+  "nurse": {
+    "overview": "Asistenții medicali contribuie la evaluarea clinică, îngrijirea planificată, monitorizarea și comunicarea, în limitele practicii autorizate. O secție de spital, un serviciu ambulatoriu și o unitate de îngrijire pe termen lung au cerințe diferite. Cererea de recrutare a angajatorului ar trebui să precizeze mediul clinic, grupul de pacienți și modelul de supraveghere, pentru ca recrutarea să evalueze practica relevantă, nu să trateze îngrijirea medicală ca pe un set unic și interschimbabil de competențe.",
+    "responsibilities": [
+      "Evaluează și documentează informațiile despre pacient atribuite rolului de asistent medical și identifică schimbările care trebuie transmise echipei clinice.",
+      "Acordă îngrijirile convenite în limitele înregistrării profesionale, competenței și protocoalelor locale, verificând consimțământul și identitatea pacientului după cum se cere.",
+      "Se coordonează cu alți clinicieni și cu personalul auxiliar, ținând o evidență clară a îngrijirilor, observațiilor și acțiunilor rămase.",
+      "Sprijină pacienții și familiile cu informații potrivite planului de îngrijire și organizează o predare structurată la tranziții."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Judecata clinică",
+        "body": "Folosiți un scenariu potrivit specialității pentru a evalua stabilirea priorităților, culegerea informațiilor și escaladarea. Cereți candidaților să explice incertitudinea și limitele, în loc să recompensați încrederea nejustificată."
+      },
+      {
+        "title": "Siguranța medicației și a procedurilor",
+        "body": "Evaluarea ar trebui concepută de coordonatorii clinici ai angajatorului, pornind de la sarcinile efectiv permise. Analizați obiceiurile de verificare, documentarea și reacția la o eroare sau la o instrucțiune neclară."
+      },
+      {
+        "title": "Comunicarea în echipă",
+        "body": "O predare de tură simulată poate arăta dacă observațiile, îngrijorările și pașii următori sunt comunicați concis. Includeți comunicarea cu pacienții care au nevoie de sprijin suplimentar."
+      }
+    ],
+    "qualificationGuidance": "Verificați calificarea în nursing, istoricul înregistrării și traseul de recunoaștere la autoritatea de reglementare din țara de destinație înainte de angajarea clinică. Autoritatea competentă poate cere dovada limbii, examene sau o perioadă de adaptare supravegheată. Preferința angajatorului pentru un curs de specialitate nu înlocuiește înregistrarea, iar o ofertă de recrutare nu garantează eligibilitatea.",
+    "experienceGuidance": "Analizați practica clinică recentă, grupurile de pacienți și dovezile de competență pentru secția vizată. Dacă angajatorul cere un anumit număr de ani, corelați-l cu independența așteptată și complexitatea cazurilor. Un asistent medical care își schimbă specialitatea poate avea nevoie de o integrare structurată, chiar cu o experiență generală bogată. Pentru un post care cere practică recentă și independentă în secție, angajatorul poate prefera inițial 1–2 ani într-un mediu comparabil. Traseele pentru absolvenți necesită un model de sprijin explicit; niciunul dintre aceste intervale nu schimbă cerințele de înregistrare.",
+    "workforceLevels": [
+      {
+        "title": "Asistent medical într-un mediu nou",
+        "body": "Lucrează în limitele înregistrării confirmate și ale unui plan de integrare convenit, cu sprijin pentru sisteme și rutine clinice necunoscute."
+      },
+      {
+        "title": "Asistent medical de specialitate sau senior",
+        "body": "Aduce competență de specialitate sau experiență de coordonare verificate; practica avansată și autoritatea de supraveghere necesită confirmare separată."
+      }
+    ],
+    "equipmentEnvironment": "Precizați sistemul de documentare clinică, echipamentele de monitorizare și dispozitivele de specialitate relevante pentru post. Explicați accesul la formatori, farmacie, evaluarea clinică de nivel superior și sprijinul în urgențe în toate turele propuse.",
+    "safetyItems": [
+      "Asigurarea instruirii locale privind prevenirea infecțiilor, siguranța la instrumentele ascuțite și raportarea incidentelor.",
+      "Verificarea competenței înainte de atribuirea unor dispozitive, medicamente sau proceduri de specialitate necunoscute.",
+      "Planificarea, împreună cu serviciul clinic, a mobilizării pacienților, a gestionării oboselii și a modului de escaladare."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Stabilirea criteriilor clinice de selecție",
+        "body": "Cereți unui coordonator clinic potrivit să definească evaluarea și competențele esențiale. Păstrați interviurile de recrutare separate de deciziile autorității de reglementare."
+      },
+      {
+        "title": "Planificarea combinației de competențe",
+        "body": "Stabiliți personalul în funcție de gravitatea cazurilor, acoperirea necesară și modelul aprobat al serviciului. Includeți integrarea, supravegherea și înlocuirile în concedii, în loc să considerați fiecare nou angajat independent din prima zi."
+      },
+      {
+        "title": "Ordonarea verificării documentelor",
+        "body": "Identificați responsabilii pentru documente și etapele de recunoaștere înainte de a propune date de începere. Comunicați clar ce condiții trebuie îndeplinite înainte de începerea sarcinilor clinice."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Înregistrarea în India permite practica în străinătate?",
+        "answer": "Autorizarea în țara de destinație trebuie verificată separat. Deciziile de recunoaștere și autorizare aparțin autorității de reglementare competente."
+      },
+      {
+        "question": "Experiența într-o secție generală acoperă terapia intensivă?",
+        "answer": "Nu dovedește, în sine, competența de specialitate. Echipa clinică a angajatorului trebuie să evalueze abilitățile relevante și eventuala nevoie de tranziție supravegheată."
+      },
+      {
+        "question": "Cine ar trebui să evalueze candidații pentru posturi de asistent medical?",
+        "answer": "Evaluările clinice ar trebui conduse de personal calificat corespunzător, pe baza cerințelor serviciului și a domeniului legal de practică."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Asistenți medicali autorizați"
+    ]
+  },
+  "driver": {
+    "overview": "Șoferii transportă persoane sau mărfuri cu o categorie de vehicul și un tipar de rute atribuite. Recrutarea trebuie să distingă transportul de persoane, livrările ușoare și transportul greu de mărfuri. Stăpânirea vehiculului, responsabilitatea pentru încărcătură sau pasageri și permisul de conducere la destinație influențează potrivirea; un istoric general de condus nu ajunge pentru a dovedi pregătirea pentru o anumită flotă.",
+    "responsibilities": [
+      "Face verificările dinaintea plecării și semnalează defectele înainte de a scoate vehiculul în cursă, conform procedurii de eliberare a flotei.",
+      "Planifică și respectă rutele autorizate, comunică întârzierile în siguranță și ține evidențele de cursă sau de livrare cerute de sarcină.",
+      "Îndeplinește responsabilitățile convenite privind pasagerii, încărcarea sau verificarea încărcăturii, conform procedurilor angajatorului și cu ajutorul disponibil.",
+      "Raportează prompt incidentele, daunele și problemele nerezolvate ale vehiculului și predă cheile, documentele și echipamentele prin procesul flotei."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Stăpânirea vehiculului",
+        "body": "Folosiți o evaluare supravegheată corespunzător, în categoria de vehicul relevantă. Analizați observarea traficului, poziționarea și manevrele în condiții realiste, fără a introduce riscuri evitabile pe drumurile publice."
+      },
+      {
+        "title": "Judecata pe drum",
+        "body": "Discutați o livrare întârziată sau un acces nepotrivit. Urmăriți replanificarea sigură și comunicarea, nu presiunea de a recupera timpul prin condus riscant."
+      },
+      {
+        "title": "Evidențe și verificări",
+        "body": "Cereți candidatului să identifice un defect fictiv al vehiculului și să explice decizia de a-l raporta. Potriviți documentele de livrare, de pasageri sau de încărcătură cu postul real."
+      }
+    ],
+    "qualificationGuidance": "Confirmați la autoritatea responsabilă categoria permisului în țara de destinație, traseul de recunoaștere sau preschimbare și eventualele cerințe de medicina muncii sau pentru șoferii profesioniști. Pentru transportul de persoane sau anumite încărcături se pot aplica permisiuni suplimentare. Nu presupuneți că un permis străin sau un permis internațional de conducere este suficient pentru o angajare în transport comercial.",
+    "experienceGuidance": "Analizați dimensiunea vehiculului, tipul cutiei de viteze, tipul rutelor și experiența în condiții de operare comparabile. Experiența cu vehicule ușoare nu dovedește competența pentru vehicule grele. Discutați practica recentă de condus și evidențele verificate printr-un proces adecvat, bazat pe consimțământ, apoi planificați familiarizarea cu rutele locale și cu flota. Pentru o rută comercială operată independent, un angajator poate prefera inițial 2–3 ani în aceeași categorie de vehicul. Aceasta este o preferință de selecție, nu o regulă de autorizare, iar o evaluare supravegheată a condusului rămâne esențială.",
+    "workforceLevels": [
+      {
+        "title": "Șofer în flota locală",
+        "body": "Conduce un vehicul autorizat pe rute definite, cu sprijin de dispecerat și de raportare a defectelor."
+      },
+      {
+        "title": "Șofer pentru transport specializat",
+        "body": "Operează o categorie de vehicul sau de încărcătură evaluată, cu condiția instruirii și permisiunilor suplimentare relevante pentru acea sarcină."
+      }
+    ],
+    "equipmentEnvironment": "Precizați categoria vehiculului, tipul încărcăturii, sistemul de navigație sau dispecerat și eventualele mijloace de livrare. Menționați dacă rutele sunt urbane sau pe distanțe lungi, dacă există curse peste noapte, ce se așteaptă la încărcare și dacă se lucrează în locuri cu temperatură controlată sau izolate.",
+    "safetyItems": [
+      "Planificarea orelor de muncă și de condus conform regulilor aplicabile, riscurilor de oboseală și duratelor realiste ale cursei.",
+      "Asigurarea manevrelor sigure de mers înapoi și a separării pietonilor în depouri și la locurile de livrare.",
+      "Stabilirea sarcinilor privind fixarea încărcăturii, siguranța pasagerilor și reacția la incidente pentru vehiculul și serviciul reale."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Precizarea nevoilor flotei",
+        "body": "Furnizați specificațiile vehiculelor, tiparele rutelor și categoria de permis cerută. Indicați separat permisiunile pentru încărcătură sau pasageri."
+      },
+      {
+        "title": "Evaluarea sub supraveghere calificată",
+        "body": "Folosiți un evaluator autorizat și un vehicul potrivit. Includeți verificările dinaintea plecării și scenarii de judecată pe lângă stăpânirea vehiculului, cu criterii de acceptare clare."
+      },
+      {
+        "title": "Planificarea schimburilor și a dispeceratului",
+        "body": "Estimați numărul de persoane din programul rutelor, regimurile legale de muncă și înlocuirea absențelor. Explicați înainte de selecție limba dispeceratului, spațiile de odihnă și cazarea peste noapte."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Poate un șofer folosi în străinătate permisul indian existent?",
+        "answer": "Depinde de regulile țării de destinație, de recunoașterea permisului și de munca propusă. Verificați eligibilitatea pentru condus comercial înainte de a face planuri operaționale."
+      },
+      {
+        "question": "Pot șoferii de marfă să transporte și pasageri?",
+        "answer": "Transportul de persoane poate cere altă categorie de vehicul, altă instruire sau altă autorizare. Evaluați-l ca domeniu separat."
+      },
+      {
+        "question": "Ar trebui încărcarea să facă parte din postul de șofer?",
+        "answer": "Precizați-o explicit, inclusiv echipamentele, limitele de manipulare și sprijinul de la fața locului. Nu presupuneți că fiecare șofer este instruit să opereze echipamente de ridicat."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Șoferi de camioane grele și de autotrenuri"
+    ]
+  }
+}

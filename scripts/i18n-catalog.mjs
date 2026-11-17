@@ -77,6 +77,9 @@ const jobGuides = declared("src/data/job-category-guides.ts", "guides");
 for (const category of jobCategories) add(category.name, jobGuides[category.id][1]);
 for (const [data, name, aliases] of [["countries", "name", "countryAliases"], ["industries", "title", "industryAliases"]]) {
   const items = declared(`src/data/${data}.ts`, data);
+  // Industry role chips split the joined "A · B · C" string at runtime (src/data/industry-roles.ts),
+  // so each role name is its own dictionary key and must be catalogued individually.
+  if (data === "industries") for (const item of items) { const hindi = item.roles.hi.split(" · "); item.roles.en.split(" · ").forEach((role, index) => add(role, hindi[index])); }
   for (const item of items) metadata[`/${data}/${item.slug}`] = { title: item[name].en, description: item.description.en };
   for (const [alias, slug] of Object.entries(declared("src/data/recruitment.ts", aliases))) metadata[`/${data}/${alias}`] = metadata[`/${data}/${slug}`];
 }

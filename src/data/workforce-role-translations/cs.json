@@ -1,0 +1,300 @@
+{
+  "welder": {
+    "overview": "Svářeči spojují kovové díly konstrukcí, výrobků a potrubí. Dobré zadání náboru uvádí materiál, metodu svařování, typ spoje a výrobní podmínky. Dílenská výroba a svařování potrubí na stavbě vyžadují jiné doklady o způsobilosti, i když mají uchazeči stejný název pozice. Před výběrem uchazeče si stanovte, jak bude hodnocena kvalita svarů.",
+    "responsibilities": [
+      "Přečíst přidělený výkres a svařovací postup, určit spoj a ověřit, že materiály a přídavné materiály odpovídají pracovnímu balíčku.",
+      "Připravit hrany, pomoci se sestavením a před svařováním zkontrolovat ustavení; nahlásit nedostatky přípravy, které by mohly ovlivnit hotový spoj.",
+      "Provádět svarové housenky v rámci schváleného postupu a přiděleného rozsahu a udržovat stálou techniku i při změně přístupu a polohy.",
+      "Očistit hotovou práci, provést přidělené vizuální kontroly a zaznamenat označení nebo údaje o opravách pro kontrolní proces zaměstnavatele."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Znalost metod a materiálů",
+        "body": "Posuďte skutečnou práci metodami SMAW, GTAW/TIG nebo GMAW/MIG. Nechte uchazeče vysvětlit dosavadní tloušťky materiálů, přídavné materiály a omezení metod, místo abyste za důkaz považovali seznam názvů metod."
+      },
+      {
+        "title": "Výkres a příprava spoje",
+        "body": "Na jednoduchém výkresu proberte svarové značky, přístup ke spoji a kontroly při sestavení. Odlište samostatnou přípravu od práce prováděné se zámečníkem nebo pod přímým dohledem."
+      },
+      {
+        "title": "Povědomí o kvalitě",
+        "body": "Proberte viditelné vady, způsob hlášení podezřelého svaru a to, kdo schvaluje opravy. Vizuální kontroly svářeče podporují systém kvality, ale nenahrazují předepsanou kontrolu ani zkoušky."
+      }
+    ],
+    "qualificationGuidance": "Odborné vzdělání a aktuální osvědčení pro konkrétní metody mohou být preferencí zaměstnavatele nebo požadavkem projektu. Je-li to relevantní, ověřte vydávající orgán, rozsah osvědčení a jeho trvající platnost. Předpisy cílové země a výrobní norma projektu se musí ověřit zvlášť; osvědčení není univerzálním povolením svařovat jakýkoli spoj.",
+    "experienceGuidance": "Posuďte srovnatelné materiály, polohy a podmínky přístupu pomocí rozhovoru o pracovní historii a praktické zkoušky. Pevný počet let nenahrazuje doklad, že uchazeč dokáže požadovaný spoj spolehlivě opakovaně provést. Při prvotním výběru může zaměstnavatel u samostatné výrobní práce upřednostnit 2–3 roky se srovnatelnými metodami svařování; berte to jako upravitelnou preferenci a o vhodnosti nechte rozhodnout praktické hodnocení.",
+    "workforceLevels": [
+      {
+        "title": "Výrobní svářeč pod dohledem",
+        "body": "Provádí vymezený okruh opakovaných spojů s dostupným dohledem a stanovenými pokyny pro seřízení."
+      },
+      {
+        "title": "Specializovaný nebo vedoucí svářeč",
+        "body": "Provádí ověřené složité spoje nebo pomáhá koordinovat svářečské práce; kontrolní a dozorové pravomoci jsou výslovně přiděleny."
+      }
+    ],
+    "equipmentEnvironment": "Upřesněte svařovací zdroje, hořáky, brusky, odsávání, polohovadla a kontrolní měrky. Uveďte, zda se pracuje ve výrobní hale, venku, ve výšce nebo ve zvlášť kontrolovaném prostoru.",
+    "safetyItems": [
+      "Naplánovat odsávání svařovacích dýmů a vhodnou ochranu dýchacích cest na základě hodnocení expozice provedeného zaměstnavatelem.",
+      "Zajistit vhodnou ochranu očí a kůže, svařovací zástěny a opatření chránící okolní pracovníky před zářením oblouku.",
+      "Před zahájením práce stanovit opatření pro práce se zvýšeným požárním nebezpečím, manipulaci s tlakovými lahvemi a požární hlídku."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Naplánovat svářečskou četu",
+        "body": "Počet pracovníků odhadněte podle objemu spojů, kombinace metod a kontrolních bodů, včetně zámečníků a dohledu tam, kde jsou potřeba. Ujasněte pokrytí směn, délku smlouvy a pracovní jazyk pro výkresy, povolení a předávání."
+      },
+      {
+        "title": "Určit zkušební spoj",
+        "body": "Sdělte hodnotiteli metodu, materiál, tloušťku, polohu a kritéria přijatelnosti. Přípravu, techniku a výsledek zaznamenávejte zvlášť."
+      },
+      {
+        "title": "Ověřit vhodnost pro výrobu",
+        "body": "Proberte velikost dávek, postupy oprav a změny výkresů. Na příkladu problému se sestavením posuďte, kdy uchazeč práci přeruší a požádá o vysvětlení."
+      },
+      {
+        "title": "Potvrdit návaznost na kontrolu",
+        "body": "Určete, kdo práci uvolňuje, požaduje zkoušky a schvaluje opravy. Do zadání náboru zahrňte požadavky na sledovatelnost a předávání směn."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Pokrývá osvědčení 6G každou svářečskou práci?",
+        "answer": "Ne. Rozsah osvědčení závisí na příslušném systému a na proměnných, jako je metoda a materiál. Porovnejte skutečný doklad s navrhovanou prací."
+      },
+      {
+        "question": "Může jedna zkouška ověřit dovednosti TIG i MIG?",
+        "answer": "Zkouška v jedné metodě nedokládá způsobilost v jiné. Posuďte každou metodu, kterou bude pracovník skutečně používat."
+      },
+      {
+        "question": "Měli by svářeči provádět i výstupní kontrolu?",
+        "answer": "Oddělte běžné vlastní kontroly od formální přejímky. Výstupní kontrola může podle pravidel kvality projektu vyžadovat nezávislé pracovníky nebo další kvalifikaci."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Svářeči, řezači a páječi (měkké i tvrdé pájení)",
+      "OSHA: Svařování, řezání a tvrdé pájení"
+    ]
+  },
+  "electrician": {
+    "overview": "Elektrikáři instalují a udržují elektrické systémy a hledají v nich poruchy. Zaměstnavatel by měl odlišit instalační práce od údržby, revizí a uvádění do provozu a poté určit napěťový rozsah a prostředí budovy či provozu. Povolený rozsah činnosti a pravidla dohledu jsou stejně důležité jako znalost rozváděčů, kabelových tras a schémat zapojení.",
+    "responsibilities": [
+      "Vykládat schválená schémata obvodů a instalační pokyny, kontrolovat označení zařízení a hlásit nesrovnalosti před pokračováním.",
+      "Instalovat přidělené kabelové trasy, kabely, příslušenství nebo připojení rozváděčů z určených materiálů a povolenými postupy.",
+      "Vyhledávat nahlášené poruchy v plánovaném sledu kontrol, dokumentovat zjištění a předávat práce přesahující přidělenou pravomoc.",
+      "Dokončit zkoušky a záznamy přidělené pozici a předat práci se zřetelným označením neodstraněných vad."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Kvalita instalace",
+        "body": "Proberte označování kabelů, vedení tras, kvalitu zakončení a ochranu instalovaných zařízení. Hodnocení by mělo odpovídat typu instalací u zaměstnavatele, místo předpokladu, že zkušenosti z bytové a průmyslové výstavby jsou zaměnitelné."
+      },
+      {
+        "title": "Diagnostika poruch",
+        "body": "Na cvičném scénáři bez napětí proberte příznaky, možné příčiny a efektivní postup měření. Hledejte rozumný úsudek a uvědomění si hranic, nikoli ochotu pracovat pod napětím."
+      },
+      {
+        "title": "Zkoušky a dokumentace",
+        "body": "Ověřte porozumění vhodnosti přístrojů, zaznamenaným výsledkům a soupisům obvodů. Ujasněte, zda elektrikář zkoušky provádí, je u nich přítomen, nebo má oprávnění instalaci osvědčit."
+      }
+    ],
+    "qualificationGuidance": "Výběr může podpořit vyučení v oboru elektro, odborný diplom nebo rovnocenný doklad. Místní oprávnění, uznání zahraniční kvalifikace a oprávnění k určitým pracím je nutné ověřit u příslušného orgánu. Znalost mezinárodní normy sama o sobě nezakládá místní způsobilost ani podpisové oprávnění.",
+    "experienceGuidance": "Požádejte o příklady ze srovnatelných budov nebo provozů včetně přesných povinností uchazeče při instalaci a hledání poruch. Vybírejte podle požadované míry samostatnosti a tam, kde je zařízení nebo místní praxe neznámá, naplánujte dohled. Ilustrativní preferencí jsou 2–4 roky srovnatelné instalační nebo údržbářské práce pro samostatnou pozici spolu s ověřeným oprávněním. Vstupní cesty pod dohledem vyžadují jiné zadání a nelze je posuzovat stejnou hranicí.",
+    "workforceLevels": [
+      {
+        "title": "Elektromontér pod dohledem",
+        "body": "Provádí vymezené instalační úkoly pod dohledem a s oprávněním, které práce vyžaduje."
+      },
+      {
+        "title": "Elektrikář pro údržbu nebo revize",
+        "body": "Vykonává ověřené diagnostické nebo zkušební úkoly v jasně zdokumentovaném povoleném rozsahu."
+      }
+    ],
+    "equipmentEnvironment": "Uveďte rozvodnice, řídicí rozváděče, kabelové systémy a schválené měřicí přístroje. Popište užívané budovy, staveniště, technické místnosti, prostředky pro práci ve výšce a případné práce při odstávkách mimo pracovní dobu.",
+    "safetyItems": [
+      "Před elektrickými pracemi stanovit postup odpojení a ověření beznapěťového stavu; opětovné zapnutí řídí oprávněné osoby.",
+      "Posoudit rizika úrazu elektrickým proudem a oblouku pro skutečnou instalaci; běžné náborové zkoušky by neměly vyžadovat práci na odkrytých živých částech.",
+      "Koordinovat žebříky, pracovní plošiny a kabelové trasy tak, aby elektrické práce nevytvářely riziko pádu nebo zakopnutí."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Naplánovat odstávky a pokrytí směn",
+        "body": "Při odhadu počtu pracovníků oddělte montáž na stavbě od zásahů v rámci údržby. Uveďte délku projektu, okna odstávek, omezení přístupu a to, jak bude na každé směně k dispozici oprávněná technická podpora a srozumitelné pokyny."
+      },
+      {
+        "title": "Vymezit elektrický rozsah",
+        "body": "Uveďte napětí soustavy, zařízení a to, zda jde o instalaci nebo údržbu. Označte práce vyhrazené osobám s oprávněním nebo zvláštním pověřením."
+      },
+      {
+        "title": "Posoudit realistickou poruchu",
+        "body": "Poskytněte schéma obvodu a simulovaný příznak. Požádejte o postup diagnostiky, opatření při odpojení a informace potřebné před uvedením zařízení zpět do provozu."
+      },
+      {
+        "title": "Ověřit kvalitu předání",
+        "body": "Projděte fiktivní protokol o zkouškách nebo soupis rozváděče. Posuďte čitelnost, sledovatelnost a ochotu zaznamenat nevyřešené body místo předpokladu převzetí."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Nahrazuje zahraniční odborné osvědčení místní oprávnění?",
+        "answer": "Uznávání se liší podle cílové země a rozsahu práce. Před přidělením regulovaných úkolů ověřte cestu k získání oprávnění a případné zkoušky nebo praxi pod dohledem."
+      },
+      {
+        "question": "Stačí zkušenost se zapojováním rozváděčů pro uvádění do provozu?",
+        "answer": "Sama o sobě ne. Uvádění do provozu může vyžadovat další znalost systému, přístroje, postupy a oprávnění, které je třeba posoudit zvlášť."
+      },
+      {
+        "question": "Může elektrikář udržovat zařízení HVAC?",
+        "answer": "Elektrotechnická praxe může pokrýt některé komponenty. Práce s chladivy, mechanikou a regulací vyžadují vlastní ověření způsobilosti a oprávnění."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Elektrikáři",
+      "OSHA: Kontrola nebezpečné energie"
+    ]
+  },
+  "nurse": {
+    "overview": "Všeobecné sestry přispívají v rámci svého oprávnění ke klinickému posouzení, plánované péči, monitorování a komunikaci. Nemocniční oddělení, ambulantní služba a zařízení dlouhodobé péče kladou odlišné nároky. Zadání zaměstnavatele by mělo uvádět klinické prostředí, skupinu pacientů a model dohledu, aby nábor hodnotil relevantní praxi a nepovažoval ošetřovatelství za jednu zaměnitelnou sadu dovedností.",
+    "responsibilities": [
+      "Posuzovat a dokumentovat informace o pacientovi přidělené ošetřovatelské roli a rozpoznávat změny, které je třeba eskalovat přes klinický tým.",
+      "Poskytovat dohodnutou ošetřovatelskou péči v rámci registrace, způsobilosti a místních protokolů a podle požadavků ověřovat souhlas a totožnost pacienta.",
+      "Spolupracovat s dalšími zdravotníky a pomocným personálem a vést jasný záznam o péči, pozorováních a nevyřízených úkonech.",
+      "Podporovat pacienty a rodiny informacemi odpovídajícími plánu péče a při přechodech zajistit strukturované předání."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Klinický úsudek",
+        "body": "Na scénáři odpovídajícím oboru posuďte stanovení priorit, sběr informací a eskalaci. Nechte uchazeče vysvětlit nejistotu a hranice, místo abyste odměňovali nepodloženou sebejistotu."
+      },
+      {
+        "title": "Bezpečnost léčiv a výkonů",
+        "body": "Hodnocení by měli navrhnout kliničtí vedoucí zaměstnavatele podle skutečně povolených činností. Posuďte kontrolní návyky, dokumentaci a reakci na chybu nebo nejasný pokyn."
+      },
+      {
+        "title": "Komunikace v týmu",
+        "body": "Simulované předání služby ukáže, zda jsou pozorování, obavy a potřebné navazující kroky sdělovány stručně. Zahrňte komunikaci s pacienty, kteří potřebují další podporu."
+      }
+    ],
+    "qualificationGuidance": "Před klinickým zaměstnáním ověřte ošetřovatelskou kvalifikaci, historii registrace a postup uznání u regulačního orgánu cílové země. Příslušný orgán může vyžadovat doklad o jazyce, zkoušky nebo adaptační praxi pod dohledem. Preference zaměstnavatele pro specializační kurz nenahrazuje registraci a nabídka náboru nezaručuje způsobilost.",
+    "experienceGuidance": "Posuďte aktuální klinickou praxi, skupiny pacientů a doklady způsobilosti pro zamýšlené oddělení. Pokud zaměstnavatel požaduje určitý počet let, propojte ho s očekávanou samostatností a složitostí případů. Sestra, která mění obor, může i při rozsáhlé celkové praxi potřebovat strukturované zaškolení. U pozice vyžadující samostatnou aktuální praxi na oddělení může zaměstnavatel zpočátku upřednostnit 1–2 roky ve srovnatelném prostředí. Cesty pro absolventy vyžadují výslovný model podpory; žádné z těchto rozpětí nemění požadavky na registraci.",
+    "workforceLevels": [
+      {
+        "title": "Sestra v novém prostředí",
+        "body": "Pracuje v rámci potvrzené registrace a dohodnutého plánu zaškolení s podporou u neznámých systémů a klinických postupů."
+      },
+      {
+        "title": "Specializovaná nebo vedoucí sestra",
+        "body": "Přináší ověřenou oborovou způsobilost nebo zkušenost s koordinací; rozšířená praxe a dozorové pravomoci vyžadují samostatné potvrzení."
+      }
+    ],
+    "equipmentEnvironment": "Uveďte systém klinické dokumentace, monitorovací techniku a specializované přístroje důležité pro pozici. Vysvětlete dostupnost školitelů, lékárny, posouzení zkušeným lékařem a pohotovostní podpory na všech plánovaných směnách.",
+    "safetyItems": [
+      "Zajistit místní vstupní školení o prevenci infekcí, bezpečnosti při práci s ostrými předměty a hlášení mimořádných událostí.",
+      "Před přidělením neznámých přístrojů, léčiv nebo specializovaných výkonů ověřit způsobilost.",
+      "Společně s klinickou službou naplánovat manipulaci s pacienty, zvládání únavy a postup eskalace."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Stanovit klinická kritéria výběru",
+        "body": "Hodnocení a klíčové kompetence by měl stanovit vhodný klinický vedoucí. Náborové pohovory oddělte od rozhodnutí regulačního orgánu."
+      },
+      {
+        "title": "Naplánovat skladbu kvalifikací",
+        "body": "Personální obsazení odvozujte od náročnosti péče, požadovaného pokrytí a schváleného modelu služby. Počítejte se zaškolením, dohledem a zástupem za dovolené, místo abyste každou novou posilu považovali za okamžitě samostatnou."
+      },
+      {
+        "title": "Seřadit ověřování dokladů",
+        "body": "Před návrhem nástupních termínů určete odpovědné osoby za dokumenty a kroky uznání. Jasně sdělte, které podmínky musí být splněny před zahájením klinické činnosti."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Opravňuje registrace v Indii k výkonu povolání v zahraničí?",
+        "answer": "Oprávnění v cílové zemi je nutné ověřit zvlášť. O uznání a povolení k výkonu povolání rozhoduje příslušný regulační orgán."
+      },
+      {
+        "question": "Pokrývá praxe na standardním oddělení intenzivní péči?",
+        "answer": "Sama o sobě nedokládá oborovou způsobilost. Klinický tým zaměstnavatele musí posoudit potřebné dovednosti a případnou potřebu přechodu pod dohledem."
+      },
+      {
+        "question": "Kdo by měl hodnotit uchazeče o pozici sestry?",
+        "answer": "Klinická hodnocení by měli vést náležitě kvalifikovaní pracovníci podle požadavků služby a zákonného rozsahu praxe."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Registrované všeobecné sestry"
+    ]
+  },
+  "driver": {
+    "overview": "Řidiči přepravují osoby nebo zboží vozidly přidělené kategorie na stanovených trasách. Nábor musí odlišit osobní dopravu, lehké rozvážky a těžkou nákladní dopravu. Vhodnost ovlivňuje ovládání vozidla, odpovědnost za náklad nebo cestující i řidičské oprávnění v cílové zemi; obecná řidičská praxe nestačí k prokázání připravenosti pro konkrétní vozový park.",
+    "responsibilities": [
+      "Provést přidělené kontroly před jízdou a nahlásit závady před nasazením vozidla, podle postupu vozového parku pro uvolnění vozidel.",
+      "Plánovat a dodržovat povolené trasy, bezpečně hlásit zpoždění a vést záznamy o jízdách nebo doručení požadované pro danou zakázku.",
+      "Plnit dohodnuté povinnosti vůči cestujícím, při nakládce nebo kontrole nákladu podle postupů zaměstnavatele a s dostupnou pomocí.",
+      "Neprodleně hlásit nehody, poškození a nevyřešené problémy s vozidlem a předávat klíče, záznamy a vybavení podle postupu vozového parku."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Ovládání vozidla",
+        "body": "Proveďte náležitě dozorované hodnocení v příslušné kategorii vozidla. Posuďte sledování okolí, umístění na vozovce a manévrování v reálných podmínkách, aniž by vznikalo zbytečné riziko na veřejných komunikacích."
+      },
+      {
+        "title": "Úsudek na cestě",
+        "body": "Proberte zpožděnou zásilku nebo nevhodný příjezd. Hledejte bezpečné přeplánování a komunikaci místo tlaku dohnat čas riskantní jízdou."
+      },
+      {
+        "title": "Záznamy a kontroly",
+        "body": "Požádejte uchazeče, aby rozpoznal fiktivní závadu vozidla a vysvětlil rozhodnutí o jejím nahlášení. Doklady k doručení, cestujícím nebo nákladu přizpůsobte skutečné práci."
+      }
+    ],
+    "qualificationGuidance": "U příslušného orgánu ověřte skupinu řidičského oprávnění v cílové zemi, postup uznání nebo výměny a případné pracovnělékařské požadavky či požadavky na profesní řidiče. Pro osobní dopravu nebo určité náklady mohou platit další povolení. Nelze předpokládat, že zahraniční řidičský průkaz nebo mezinárodní řidičský průkaz stačí pro výdělečné zaměstnání.",
+    "experienceGuidance": "Posuďte velikost vozidla, typ převodovky, druh tras a zkušenosti ve srovnatelných provozních podmínkách. Praxe s lehkými vozidly nedokládá způsobilost pro těžká vozidla. Proberte aktuální řidičskou praxi a ověřené záznamy vhodným postupem založeným na souhlasu a poté naplánujte seznámení s místními trasami a vozovým parkem. Pro samostatně obsluhovanou komerční trasu může zaměstnavatel zpočátku upřednostnit 2–3 roky ve stejné kategorii vozidla. Jde o preferenci při výběru, ne o pravidlo pro řidičská oprávnění, a dozorované hodnocení jízdy zůstává nezbytné.",
+    "workforceLevels": [
+      {
+        "title": "Řidič místního vozového parku",
+        "body": "Řídí schválené vozidlo na stanovených trasách s podporou dispečinku a hlášení závad."
+      },
+      {
+        "title": "Řidič specializované přepravy",
+        "body": "Obsluhuje ověřenou kategorii vozidla nebo nákladu za podmínky dalšího školení a povolení, která daná zakázka vyžaduje."
+      }
+    ],
+    "equipmentEnvironment": "Upřesněte kategorii vozidla, druh nákladu, navigační nebo dispečerský systém a případné pomůcky pro doručování. Uveďte, zda jde o městské nebo dálkové trasy, noční jízdy, očekávání při nakládce a práci na místech s řízenou teplotou nebo odlehlých lokalitách.",
+    "safetyItems": [
+      "Plánovat pracovní dobu a dobu řízení podle platných předpisů, rizika únavy a reálných jízdních dob.",
+      "Zajistit bezpečné couvání a oddělení chodců v depech a na místech doručení.",
+      "Stanovit povinnosti pro zajištění nákladu, bezpečnost cestujících a postup při nehodách pro skutečné vozidlo a službu."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Uvést požadavky vozového parku",
+        "body": "Uveďte specifikace vozidel, schémata tras a požadovanou skupinu řidičského oprávnění. Povolení pro náklad nebo cestující uveďte zvlášť."
+      },
+      {
+        "title": "Hodnotit pod kvalifikovaným dohledem",
+        "body": "Využijte oprávněného hodnotitele a vhodné vozidlo. Vedle ovládání vozidla zahrňte kontroly před jízdou a situace prověřující úsudek, s jasnými kritérii přijatelnosti."
+      },
+      {
+        "title": "Naplánovat střídání a dispečink",
+        "body": "Počet pracovníků odhadněte z rozpisů tras, zákonných režimů pracovní doby a zástupů za nepřítomnost. Před výběrem vysvětlete jazyk dispečinku, zázemí pro odpočinek a ubytování při nočních jízdách."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Může řidič v zahraničí používat svůj indický řidičský průkaz?",
+        "answer": "Záleží na předpisech cílové země, uznávání řidičského průkazu a navrhované práci. Před plánováním provozu ověřte způsobilost k výdělečnému řízení."
+      },
+      {
+        "question": "Mohou řidiči nákladní dopravy vozit i cestující?",
+        "answer": "Osobní doprava může vyžadovat jinou kategorii vozidla, školení nebo povolení. Posuďte ji jako samostatný rozsah."
+      },
+      {
+        "question": "Měla by nakládka patřit k práci řidiče?",
+        "answer": "Uveďte to výslovně včetně vybavení, limitů manipulace a podpory na místě. Nepředpokládejte, že je každý řidič vyškolen k obsluze zdvihacích zařízení."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Řidiči těžkých nákladních vozidel a tahačů s návěsem"
+    ]
+  }
+}

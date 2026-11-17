@@ -1,0 +1,300 @@
+{
+  "welder": {
+    "overview": "Schweißer verbinden Metallbauteile für Konstruktionen, gefertigte Produkte und Rohrleitungen. Ein aussagekräftiges Anforderungsprofil nennt Werkstoff, Schweißverfahren, Nahtform und Fertigungsbedingungen. Werkstattfertigung und Rohrschweißen auf der Baustelle erfordern unterschiedliche Nachweise, auch wenn die Bewerber dieselbe Berufsbezeichnung tragen. Legen Sie vor der Auswahl fest, wie die Schweißqualität beurteilt wird.",
+    "responsibilities": [
+      "Die zugewiesene Zeichnung und Schweißanweisung lesen, die Verbindung bestimmen und prüfen, ob Werkstoffe und Zusatzwerkstoffe zum Arbeitspaket passen.",
+      "Kanten vorbereiten, beim Heften und Ausrichten mitwirken und die Lage vor dem Schweißen prüfen; Vorbereitungsmängel melden, die die fertige Verbindung beeinträchtigen könnten.",
+      "Schweißlagen im Rahmen des freigegebenen Verfahrens und des zugewiesenen Umfangs ausführen und die Technik auch bei wechselndem Zugang und wechselnder Position gleichmäßig halten.",
+      "Fertige Arbeiten reinigen, die zugewiesenen Sichtprüfungen durchführen und Kennzeichnungs- oder Reparaturangaben für das Prüfverfahren des Arbeitgebers dokumentieren."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Verfahrens- und Werkstoffkenntnisse",
+        "body": "Beurteilen Sie die tatsächlich anfallenden Arbeiten mit SMAW, GTAW/TIG oder GMAW/MIG. Lassen Sie sich frühere Materialstärken, Zusatzwerkstoffe und Grenzen der Verfahren erklären, statt eine Liste von Verfahrensnamen als Nachweis zu werten."
+      },
+      {
+        "title": "Zeichnungen und Nahtvorbereitung",
+        "body": "Besprechen Sie anhand einer einfachen Zeichnung Schweißsymbole, Zugänglichkeit der Naht und Prüfungen beim Heften. Unterscheiden Sie eigenständige Vorbereitung von Arbeiten, die mit einem Monteur oder unter enger Aufsicht erledigt wurden."
+      },
+      {
+        "title": "Qualitätsbewusstsein",
+        "body": "Sprechen Sie über sichtbare Fehler, die Meldung einer zweifelhaften Naht und darüber, wer Reparaturen freigibt. Die Sichtprüfung des Schweißers unterstützt das Qualitätssystem, ersetzt aber keine vorgeschriebene Prüfung."
+      }
+    ],
+    "qualificationGuidance": "Fachausbildung und aktuelle verfahrensbezogene Qualifikationsnachweise können Präferenzen des Arbeitgebers oder Projektanforderungen sein. Prüfen Sie gegebenenfalls ausstellende Stelle, Geltungsbereich und fortlaufende Gültigkeit der Qualifikation. Vorschriften des Ziellandes und die im Projekt geltende Fertigungsnorm sind gesondert zu prüfen; ein Zertifikat ist keine allgemeine Erlaubnis, jede Verbindung zu schweißen.",
+    "experienceGuidance": "Prüfen Sie vergleichbare Werkstoffe, Positionen und Zugangsbedingungen anhand eines Gesprächs über den beruflichen Werdegang und einer praktischen Prüfung. Ersetzen Sie den Nachweis, dass der Bewerber die vorgegebene Verbindung zuverlässig ausführen kann, nicht durch eine feste Zahl von Jahren. Für die Vorauswahl kann ein Arbeitgeber für eigenständige Fertigungsarbeit 2–3 Jahre mit vergleichbaren Schweißverfahren bevorzugen; behandeln Sie dies als anpassbare Präferenz und lassen Sie die praktische Prüfung über die Eignung entscheiden.",
+    "workforceLevels": [
+      {
+        "title": "Fertigungsschweißer unter Aufsicht",
+        "body": "Führt einen festgelegten Bereich wiederkehrender Verbindungen mit verfügbarer Aufsicht und festgelegten Einrichtanweisungen aus."
+      },
+      {
+        "title": "Spezialist oder leitender Schweißer",
+        "body": "Übernimmt geprüfte komplexe Verbindungen oder unterstützt die Koordination der Schweißarbeiten; Prüf- und Aufsichtsbefugnisse werden ausdrücklich zugewiesen."
+      }
+    ],
+    "equipmentEnvironment": "Klären Sie Schweißstromquellen, Brenner, Schleifgeräte, Absaugung, Positionierhilfen und Prüflehren. Geben Sie an, ob in einer Fertigungshalle, im Freien, in der Höhe oder in einem besonders überwachten Bereich gearbeitet wird.",
+    "safetyItems": [
+      "Absaugung von Schweißrauch und geeigneten Atemschutz auf Grundlage der Expositionsbeurteilung des Arbeitgebers planen.",
+      "Geeigneten Augen- und Hautschutz, Schweißschutzwände und Maßnahmen bereitstellen, die Personen in der Nähe vor Lichtbogenstrahlung schützen.",
+      "Vorkehrungen für Heißarbeiten, den Umgang mit Gasflaschen und die Brandwache vor Beginn der Arbeit festlegen."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Den Schweißtrupp planen",
+        "body": "Schätzen Sie die Personalstärke nach Nahtvolumen, Verfahrensmix und Prüfhaltepunkten, einschließlich Monteuren und Aufsicht, wo nötig. Klären Sie Schichtabdeckung, Vertragsdauer und die Arbeitssprache für Zeichnungen, Genehmigungen und Übergaben."
+      },
+      {
+        "title": "Die Prüfnaht festlegen",
+        "body": "Nennen Sie dem Prüfer Verfahren, Werkstoff, Materialstärke, Position und Annahmekriterien. Dokumentieren Sie Vorbereitung, Technik und fertiges Ergebnis getrennt."
+      },
+      {
+        "title": "Die Eignung für die Fertigung prüfen",
+        "body": "Besprechen Sie Losgröße, Reparaturverfahren und Zeichnungsänderungen. Beurteilen Sie anhand eines Beispiels für ein Heftproblem, wann der Bewerber die Arbeit unterbricht und Klärung sucht."
+      },
+      {
+        "title": "Schnittstellen zur Prüfung klären",
+        "body": "Legen Sie fest, wer Arbeiten freigibt, Prüfungen anfordert und Reparaturen genehmigt. Nehmen Sie Rückverfolgbarkeit und Erwartungen an die Schichtübergabe in das Anforderungsprofil auf."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Deckt eine 6G-Qualifikation jede Schweißarbeit ab?",
+        "answer": "Nein. Der Geltungsbereich einer Qualifikation hängt vom anwendbaren Regelwerk und von Variablen wie Verfahren und Werkstoff ab. Vergleichen Sie den tatsächlichen Nachweis mit der vorgesehenen Arbeit."
+      },
+      {
+        "question": "Kann eine einzige Prüfung TIG- und MIG-Kenntnisse belegen?",
+        "answer": "Eine Prüfung in einem Verfahren belegt keine Kompetenz in einem anderen. Prüfen Sie jedes Verfahren, das die Fachkraft tatsächlich einsetzen wird."
+      },
+      {
+        "question": "Sollten Schweißer auch die Endprüfung übernehmen?",
+        "answer": "Trennen Sie routinemäßige Eigenkontrollen von der förmlichen Abnahme. Die Endprüfung kann nach den Qualitätsregeln des Projekts unabhängiges Personal oder zusätzliche Qualifikationen erfordern."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Schweißer, Brennschneider, Weichlöter und Hartlöter",
+      "OSHA: Schweißen, Schneiden und Hartlöten"
+    ]
+  },
+  "electrician": {
+    "overview": "Elektriker installieren elektrische Anlagen, halten sie instand und suchen Fehler. Arbeitgeber sollten Installationsarbeiten von Instandhaltung, Prüfung und Inbetriebnahme unterscheiden und anschließend Spannungsbereich sowie Gebäude- oder Anlagenumgebung festlegen. Der zulässige Tätigkeitsumfang und die Aufsichtsregelungen sind ebenso wichtig wie Erfahrung mit Verteilern, Kabelführung und Schaltplänen.",
+    "responsibilities": [
+      "Freigegebene Stromlaufpläne und Installationsanweisungen auslegen, die Kennzeichnung der Betriebsmittel prüfen und Abweichungen vor dem Weiterarbeiten melden.",
+      "Zugewiesene Kabelwege, Kabel, Installationsmaterial oder Verteileranschlüsse mit den vorgegebenen Materialien und zugelassenen Methoden installieren.",
+      "Gemeldete Fehler in einer geplanten Prüfabfolge untersuchen, Befunde dokumentieren und Arbeiten außerhalb der zugewiesenen Befugnis weiterleiten.",
+      "Die der Funktion zugewiesenen Prüfungen und Protokolle erledigen und Arbeiten mit eindeutiger Kennzeichnung offener Mängel übergeben."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Installationsqualität",
+        "body": "Besprechen Sie Kabelkennzeichnung, Leitungsführung, Qualität der Anschlüsse und den Schutz installierter Betriebsmittel. Die Beurteilung sollte die Installationsart des Arbeitgebers widerspiegeln, statt Wohnungs- und Industrieerfahrung als austauschbar anzusehen."
+      },
+      {
+        "title": "Fehlersuche",
+        "body": "Besprechen Sie anhand eines spannungsfreien Übungsszenarios Symptome, mögliche Ursachen und eine effiziente Prüfabfolge. Achten Sie auf schlüssiges Vorgehen und das Erkennen von Grenzen, nicht auf die Bereitschaft, unter Spannung zu arbeiten."
+      },
+      {
+        "title": "Prüfung und Dokumentation",
+        "body": "Prüfen Sie das Verständnis für geeignete Messgeräte, dokumentierte Ergebnisse und Stromkreislisten. Klären Sie, ob der Elektriker Prüfungen durchführt, ihnen beiwohnt oder befugt ist, die Anlage abzunehmen."
+      }
+    ],
+    "qualificationGuidance": "Eine Elektrikerlehre, ein Fachdiplom oder ein gleichwertiger Nachweis kann die Auswahl stützen. Örtliche Zulassungen, die Anerkennung ausländischer Abschlüsse und die Befugnis für bestimmte Arbeiten sind bei der zuständigen Stelle zu prüfen. Kenntnisse einer internationalen Norm begründen für sich genommen weder die örtliche Zulassung noch eine Unterschriftsbefugnis.",
+    "experienceGuidance": "Fragen Sie nach Beispielen aus vergleichbaren Gebäuden oder Anlagen, einschließlich der genauen Aufgaben des Bewerbers bei Installation und Fehlersuche. Wählen Sie nach dem erforderlichen Grad an Selbstständigkeit aus und planen Sie Aufsicht ein, wo Betriebsmittel oder örtliche Gepflogenheiten neu sind. Eine beispielhafte Präferenz sind 2–4 Jahre vergleichbare Installations- oder Instandhaltungsarbeit für eine eigenständige Stelle, zusammen mit einer geprüften Befugnis. Einstiegswege unter Aufsicht brauchen ein anderes Profil und lassen sich nicht mit derselben Schwelle beurteilen.",
+    "workforceLevels": [
+      {
+        "title": "Elektroinstallateur unter Aufsicht",
+        "body": "Führt festgelegte Installationsaufgaben unter der für die Arbeit erforderlichen Aufsicht und Befugnis aus."
+      },
+      {
+        "title": "Elektriker für Instandhaltung oder Prüfung",
+        "body": "Übernimmt geprüfte Diagnose- oder Prüfaufgaben innerhalb eines klar dokumentierten zulässigen Umfangs."
+      }
+    ],
+    "equipmentEnvironment": "Nennen Sie Verteiler, Schaltschränke, Kabelsysteme und zugelassene Prüfgeräte. Beschreiben Sie genutzte Gebäude, Baustellen, Technikräume, Zugangstechnik und etwaige Abschaltarbeiten außerhalb der regulären Arbeitszeit.",
+    "safetyItems": [
+      "Freischaltung und Prüfung auf Spannungsfreiheit vor Elektroarbeiten regeln; das Wiedereinschalten wird von befugten Personen gesteuert.",
+      "Gefährdungen durch elektrischen Schlag und Lichtbogen für die tatsächliche Anlage beurteilen; reguläre Auswahlprüfungen sollten keine Arbeiten an offenen, unter Spannung stehenden Teilen erfordern.",
+      "Leitern, Hubarbeitsbühnen und Kabelwege so abstimmen, dass Elektroarbeiten keine Absturz- oder Stolpergefahren verursachen."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Abschaltungen und Schichtabdeckung planen",
+        "body": "Trennen Sie bei der Personalplanung die Installation auf der Baustelle vom Instandhaltungs- und Störungsdienst. Nennen Sie Projektdauer, Abschaltfenster, Zugangsbeschränkungen und wie in jeder Schicht befugte technische Unterstützung und verständliche Anweisungen verfügbar sind."
+      },
+      {
+        "title": "Den elektrischen Umfang festlegen",
+        "body": "Nennen Sie Anlagenspannung, Betriebsmittel und ob es um Installation oder Instandhaltung geht. Kennzeichnen Sie Arbeiten, die zugelassenem oder eigens befugtem Personal vorbehalten sind."
+      },
+      {
+        "title": "Einen realistischen Fehler prüfen",
+        "body": "Stellen Sie einen Stromlaufplan und ein simuliertes Fehlerbild bereit. Fragen Sie nach der Diagnosereihenfolge, den Freischaltmaßnahmen und den Informationen, die vor der Wiederinbetriebnahme nötig sind."
+      },
+      {
+        "title": "Die Qualität der Übergabe prüfen",
+        "body": "Lassen Sie ein fiktives Prüfprotokoll oder eine Verteilerbelegung prüfen. Beurteilen Sie Lesbarkeit, Rückverfolgbarkeit und die Bereitschaft, ungelöste Punkte zu dokumentieren, statt eine Abnahme vorauszusetzen."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Ersetzt ein ausländisches Fachzertifikat eine örtliche Zulassung?",
+        "answer": "Die Anerkennung hängt vom Zielland und vom Arbeitsumfang ab. Prüfen Sie den Zulassungsweg und etwaige Prüfungs- oder Praxisanforderungen unter Aufsicht, bevor Sie regulierte Aufgaben übertragen."
+      },
+      {
+        "question": "Reicht Erfahrung in der Schaltschrankverdrahtung für die Inbetriebnahme?",
+        "answer": "Für sich genommen nicht. Die Inbetriebnahme kann zusätzliche Systemkenntnisse, Messgeräte, Verfahren und Befugnisse erfordern, die gesondert zu beurteilen sind."
+      },
+      {
+        "question": "Kann ein Elektriker HVAC-Anlagen warten?",
+        "answer": "Elektrische Erfahrung kann einige Komponenten abdecken. Arbeiten an Kältemittelkreisläufen, Mechanik und Regelungstechnik erfordern eigene Kompetenz- und Befugnisnachweise."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Elektriker",
+      "OSHA: Kontrolle gefährlicher Energien"
+    ]
+  },
+  "nurse": {
+    "overview": "Pflegefachkräfte tragen im Rahmen ihrer zugelassenen Berufsausübung zur klinischen Einschätzung, geplanten Pflege, Überwachung und Kommunikation bei. Eine Krankenhausstation, eine ambulante Einrichtung und eine Langzeitpflegeeinrichtung stellen unterschiedliche Anforderungen. Ein Anforderungsprofil des Arbeitgebers sollte das klinische Umfeld, die Patientengruppe und das Aufsichtsmodell nennen, damit die Auswahl die relevante Praxis bewertet und Pflege nicht als einheitliche, austauschbare Qualifikation behandelt.",
+    "responsibilities": [
+      "Die der Pflegefunktion zugewiesenen Patienteninformationen erheben und dokumentieren und Veränderungen erkennen, die eine Weiterleitung über das klinische Team erfordern.",
+      "Vereinbarte Pflege im Rahmen von Zulassung, Kompetenz und örtlichen Vorgaben erbringen und Einwilligung sowie Patientenidentität wie vorgeschrieben prüfen.",
+      "Mit anderen Fachkräften und Hilfspersonal zusammenarbeiten und Pflege, Beobachtungen und offene Maßnahmen eindeutig dokumentieren.",
+      "Patienten und Angehörige mit Informationen passend zum Pflegeplan unterstützen und bei Übergängen eine strukturierte Übergabe organisieren."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Klinisches Urteilsvermögen",
+        "body": "Beurteilen Sie anhand eines fachgerechten Szenarios Priorisierung, Informationssammlung und Weiterleitung. Lassen Sie Bewerber Unsicherheiten und Grenzen erklären, statt unbegründete Selbstsicherheit zu belohnen."
+      },
+      {
+        "title": "Sicherheit bei Medikamenten und Maßnahmen",
+        "body": "Die Prüfung sollte von den klinischen Leitungen des Arbeitgebers anhand der tatsächlich zulässigen Aufgaben gestaltet werden. Betrachten Sie Kontrollgewohnheiten, Dokumentation und den Umgang mit einem Fehler oder einer unklaren Anweisung."
+      },
+      {
+        "title": "Kommunikation im Team",
+        "body": "Eine simulierte Übergabe kann zeigen, ob Beobachtungen, Bedenken und erforderliche Folgemaßnahmen knapp vermittelt werden. Beziehen Sie die Kommunikation mit Patienten ein, die zusätzliche Unterstützung brauchen."
+      }
+    ],
+    "qualificationGuidance": "Prüfen Sie die Pflegequalifikation, den bisherigen Registrierungsverlauf und den Anerkennungsweg der zuständigen Stelle im Zielland, bevor eine klinische Beschäftigung beginnt. Die zuständige Stelle kann Sprachnachweise, Prüfungen oder eine Anpassung unter Aufsicht verlangen. Die Präferenz eines Arbeitgebers für eine Fachweiterbildung ersetzt keine Registrierung, und ein Stellenangebot garantiert keine Berechtigung.",
+    "experienceGuidance": "Prüfen Sie aktuelle klinische Praxis, Patientengruppen und Kompetenznachweise für die vorgesehene Station. Wenn Arbeitgeber eine Anzahl von Jahren verlangen, verknüpfen Sie diese mit der erwarteten Selbstständigkeit und Komplexität der Fälle. Eine Pflegefachkraft, die das Fachgebiet wechselt, kann trotz umfangreicher Gesamterfahrung eine strukturierte Einarbeitung brauchen. Für eine Stelle mit eigenständiger, aktueller Stationspraxis kann ein Arbeitgeber zunächst 1–2 Jahre in einem vergleichbaren Umfeld bevorzugen. Wege für Berufseinsteiger erfordern ein ausdrückliches Unterstützungsmodell; keine dieser Spannen ändert die Registrierungsvoraussetzungen.",
+    "workforceLevels": [
+      {
+        "title": "Pflegefachkraft in einem neuen Umfeld",
+        "body": "Arbeitet im Rahmen der bestätigten Registrierung und eines vereinbarten Einarbeitungsplans, mit Unterstützung bei ungewohnten Systemen und klinischen Abläufen."
+      },
+      {
+        "title": "Fach- oder leitende Pflegefachkraft",
+        "body": "Bringt geprüfte Fachkompetenz oder Koordinationserfahrung mit; erweiterte Berufsausübung und Aufsichtsbefugnisse bedürfen einer gesonderten Bestätigung."
+      }
+    ],
+    "equipmentEnvironment": "Nennen Sie das klinische Dokumentationssystem, die Überwachungsgeräte und die für die Stelle relevanten Spezialgeräte. Erläutern Sie, wie in allen vorgesehenen Schichten Praxisanleiter, Apotheke, ärztliche Rücksprache und Notfallunterstützung erreichbar sind.",
+    "safetyItems": [
+      "Eine örtliche Einweisung zu Infektionsschutz, Umgang mit spitzen Gegenständen und Meldung von Vorfällen durchführen.",
+      "Die Kompetenz prüfen, bevor ungewohnte Geräte, Arzneimittel oder spezielle Maßnahmen übertragen werden.",
+      "Patientenhandling, Umgang mit Ermüdung und Eskalationswege gemeinsam mit dem klinischen Dienst planen."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Klinische Auswahlkriterien festlegen",
+        "body": "Lassen Sie eine geeignete klinische Leitung die Prüfung und die wesentlichen Kompetenzen festlegen. Halten Sie Auswahlgespräche getrennt von Entscheidungen der zuständigen Stelle."
+      },
+      {
+        "title": "Den Qualifikationsmix planen",
+        "body": "Richten Sie die Besetzung nach Pflegeaufwand, erforderlicher Abdeckung und dem genehmigten Modell der Einrichtung aus. Berücksichtigen Sie Einarbeitung, Aufsicht und Urlaubsvertretung, statt jede neue Kraft sofort als selbstständig einzuplanen."
+      },
+      {
+        "title": "Nachweisprüfungen in der richtigen Reihenfolge",
+        "body": "Klären Sie Verantwortliche für Dokumente und Anerkennungsschritte, bevor Sie Starttermine vorschlagen. Teilen Sie klar mit, welche Bedingungen vor Beginn klinischer Aufgaben erfüllt sein müssen."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Berechtigt eine Registrierung in Indien zur Berufsausübung im Ausland?",
+        "answer": "Die Berechtigung im Zielland ist gesondert zu prüfen. Entscheidungen über Anerkennung und Zulassung trifft die zuständige Stelle."
+      },
+      {
+        "question": "Deckt Erfahrung auf einer Allgemeinstation die Intensivpflege ab?",
+        "answer": "Für sich genommen belegt sie keine Fachkompetenz. Das klinische Team des Arbeitgebers muss die relevanten Fähigkeiten und einen etwaigen Übergang unter Aufsicht beurteilen."
+      },
+      {
+        "question": "Wer sollte Bewerber in der Pflege beurteilen?",
+        "answer": "Klinische Prüfungen sollten von entsprechend qualifiziertem Personal geleitet werden, auf Grundlage der Anforderungen der Einrichtung und des gesetzlich zulässigen Tätigkeitsumfangs."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Registrierte Pflegefachkräfte"
+    ]
+  },
+  "driver": {
+    "overview": "Fahrer befördern Personen oder Güter mit einer zugewiesenen Fahrzeugklasse und einem festgelegten Routenmuster. Bei der Auswahl ist zwischen Personenbeförderung, leichter Zustellung und Schwertransport zu unterscheiden. Fahrzeugbeherrschung, Verantwortung für Ladung oder Fahrgäste und die Fahrerlaubnis im Zielland beeinflussen die Eignung; eine allgemeine Fahrpraxis reicht nicht aus, um die Bereitschaft für einen bestimmten Fuhrpark festzustellen.",
+    "responsibilities": [
+      "Die vorgeschriebenen Abfahrtskontrollen durchführen und Mängel melden, bevor das Fahrzeug eingesetzt wird, gemäß dem Freigabeverfahren des Fuhrparks.",
+      "Genehmigte Routen planen und einhalten, Verzögerungen auf sichere Weise melden und die für den Auftrag erforderlichen Fahrt- oder Zustellnachweise führen.",
+      "Die vereinbarten Aufgaben bei Fahrgästen, Beladung oder Ladungskontrolle nach den Verfahren des Arbeitgebers und mit der verfügbaren Unterstützung erledigen.",
+      "Vorfälle, Schäden und ungelöste Fahrzeugprobleme umgehend melden und Schlüssel, Unterlagen und Ausrüstung über das Verfahren des Fuhrparks übergeben."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Fahrzeugbeherrschung",
+        "body": "Führen Sie eine angemessen beaufsichtigte Prüfung in der relevanten Fahrzeugklasse durch. Beurteilen Sie Beobachtung, Positionierung und Rangieren unter realistischen Bedingungen, ohne vermeidbare Risiken im öffentlichen Straßenverkehr zu schaffen."
+      },
+      {
+        "title": "Urteilsvermögen unterwegs",
+        "body": "Besprechen Sie eine verspätete Zustellung oder eine ungeeignete Zufahrt. Achten Sie auf sichere Neuplanung und Kommunikation statt auf Druck, Zeit durch riskantes Fahren aufzuholen."
+      },
+      {
+        "title": "Unterlagen und Kontrollen",
+        "body": "Lassen Sie den Bewerber einen fiktiven Fahrzeugmangel erkennen und die Entscheidung zur Meldung erklären. Passen Sie die Zustell-, Fahrgast- oder Ladungsdokumente an die tatsächliche Aufgabe an."
+      }
+    ],
+    "qualificationGuidance": "Klären Sie Führerscheinklasse im Zielland, Anerkennungs- oder Umschreibungsweg sowie etwaige arbeitsmedizinische Anforderungen oder Anforderungen an Berufskraftfahrer mit der zuständigen Behörde. Für Personenbeförderung oder bestimmte Ladungen können zusätzliche Genehmigungen gelten. Es ist nicht davon auszugehen, dass ein ausländischer Führerschein oder ein internationaler Führerschein für eine gewerbliche Beschäftigung ausreicht.",
+    "experienceGuidance": "Prüfen Sie Fahrzeuggröße, Getriebeart, Routentyp und Erfahrung unter vergleichbaren Einsatzbedingungen. Erfahrung mit leichten Fahrzeugen belegt keine Kompetenz für schwere Fahrzeuge. Besprechen Sie aktuelle Fahrpraxis und geprüfte Unterlagen über ein geeignetes, einwilligungsbasiertes Verfahren und planen Sie anschließend die Einweisung in örtliche Routen und den Fuhrpark. Für eine eigenständig gefahrene gewerbliche Route kann ein Arbeitgeber zunächst 2–3 Jahre in derselben Fahrzeugklasse bevorzugen. Dies ist eine Präferenz für die Vorauswahl, keine Zulassungsvorschrift, und eine beaufsichtigte Fahrprüfung bleibt unerlässlich.",
+    "workforceLevels": [
+      {
+        "title": "Fahrer im örtlichen Fuhrpark",
+        "body": "Fährt ein zugelassenes Fahrzeug auf festgelegten Routen mit Unterstützung durch Disposition und Mängelmeldung."
+      },
+      {
+        "title": "Fahrer für Spezialtransporte",
+        "body": "Übernimmt eine geprüfte Fahrzeug- oder Ladungskategorie, vorbehaltlich der für diesen Einsatz relevanten zusätzlichen Schulungen und Genehmigungen."
+      }
+    ],
+    "equipmentEnvironment": "Geben Sie Fahrzeugklasse, Ladungsart, Navigations- oder Dispositionssystem und etwaige Zustellhilfen an. Nennen Sie Stadt- oder Fernverkehrsrouten, Übernachtungsfahrten, Erwartungen an das Be- und Entladen sowie Einsätze an temperaturgeführten oder abgelegenen Standorten.",
+    "safetyItems": [
+      "Arbeits- und Lenkzeiten anhand der geltenden Vorschriften, der Ermüdungsrisiken und realistischer Fahrzeiten planen.",
+      "An Depots und Zustellorten sicheres Rückwärtsfahren und die Trennung von Fußgängern organisieren.",
+      "Ladungssicherung, Fahrgastsicherheit und Pflichten bei Vorfällen für das tatsächliche Fahrzeug und den Dienst festlegen."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Den Fuhrparkbedarf benennen",
+        "body": "Nennen Sie Fahrzeugspezifikationen, Routenmuster und die erforderliche Führerscheinklasse. Führen Sie Genehmigungen für Ladung oder Fahrgäste gesondert auf."
+      },
+      {
+        "title": "Mit qualifizierter Aufsicht prüfen",
+        "body": "Setzen Sie einen befugten Prüfer und ein geeignetes Fahrzeug ein. Beziehen Sie neben der Fahrzeugbeherrschung auch Abfahrtskontrollen und Situationen zur Urteilsfähigkeit ein, mit klaren Annahmekriterien."
+      },
+      {
+        "title": "Ablösung und Disposition planen",
+        "body": "Schätzen Sie die Personalstärke anhand von Tourenplänen, rechtmäßigen Arbeitszeitregelungen und Abwesenheitsvertretung. Erläutern Sie vor der Auswahl die Sprache der Disposition, Ruheräume und Übernachtungsmöglichkeiten."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kann ein Fahrer einen bestehenden indischen Führerschein im Ausland nutzen?",
+        "answer": "Das hängt von den Vorschriften des Ziellandes, der Anerkennung des Führerscheins und der vorgesehenen Tätigkeit ab. Prüfen Sie die Berechtigung zum gewerblichen Fahren, bevor Sie den Einsatz planen."
+      },
+      {
+        "question": "Können Güterkraftfahrer auch Fahrgäste befördern?",
+        "answer": "Die Personenbeförderung kann eine andere Fahrzeugklasse, Schulung oder Genehmigung erfordern. Beurteilen Sie sie als gesonderten Aufgabenbereich."
+      },
+      {
+        "question": "Sollte das Be- und Entladen zur Fahrertätigkeit gehören?",
+        "answer": "Legen Sie es ausdrücklich fest, einschließlich Ausrüstung, Belastungsgrenzen und Unterstützung vor Ort. Gehen Sie nicht davon aus, dass jeder Fahrer für die Bedienung von Hebezeugen geschult ist."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Lkw-Fahrer im Schwer- und Sattelzugverkehr"
+    ]
+  }
+}

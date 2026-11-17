@@ -1,0 +1,300 @@
+{
+  "welder": {
+    "overview": "Spawacze łączą elementy metalowe konstrukcji, wyrobów i rurociągów. Dobry opis zapotrzebowania określa materiał, metodę spawania, rodzaj złącza i warunki produkcji. Prefabrykacja w warsztacie i spawanie rurociągów na budowie wymagają innych dowodów kompetencji, nawet jeśli kandydaci mają tę samą nazwę stanowiska. Przed wyborem kandydata ustalcie Państwo, jak będzie oceniana jakość spoin.",
+    "responsibilities": [
+      "Odczytanie przydzielonego rysunku i instrukcji spawania, określenie złącza i sprawdzenie, czy materiały i materiały dodatkowe odpowiadają pakietowi prac.",
+      "Przygotowanie krawędzi, pomoc przy składaniu i sprawdzenie ustawienia przed spawaniem; zgłaszanie problemów z przygotowaniem, które mogą wpłynąć na gotowe złącze.",
+      "Wykonywanie ściegów zgodnie z zatwierdzoną procedurą i przydzielonym zakresem, z zachowaniem stałej techniki przy zmianie dostępu i pozycji.",
+      "Oczyszczenie wykonanej pracy, przeprowadzenie przydzielonych kontroli wizualnych i zapisanie oznaczeń lub informacji o naprawach na potrzeby procesu kontroli pracodawcy."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Znajomość metod i materiałów",
+        "body": "Proszę ocenić rzeczywiste prace metodami SMAW, GTAW/TIG lub GMAW/MIG. Warto poprosić kandydatów o wyjaśnienie dotychczasowych grubości materiałów, materiałów dodatkowych i ograniczeń metod, zamiast traktować listę nazw metod jako dowód."
+      },
+      {
+        "title": "Rysunek i przygotowanie złącza",
+        "body": "Na prostym rysunku proszę omówić symbole spawalnicze, dostęp do złącza i kontrole przy składaniu. Należy odróżnić samodzielne przygotowanie od pracy wykonywanej z monterem lub pod ścisłym nadzorem."
+      },
+      {
+        "title": "Świadomość jakości",
+        "body": "Proszę omówić widoczne wady, sposób zgłaszania wątpliwej spoiny oraz to, kto zatwierdza naprawy. Kontrole wizualne spawacza wspierają system jakości, ale nie zastępują wymaganych badań i kontroli."
+      }
+    ],
+    "qualificationGuidance": "Szkolenie zawodowe i aktualne uprawnienia do konkretnych metod mogą być preferencją pracodawcy lub wymogiem projektu. W stosownych przypadkach należy sprawdzić instytucję wydającą, zakres uprawnień i ich aktualną ważność. Przepisy kraju docelowego i normę wytwarzania obowiązującą w projekcie trzeba sprawdzić osobno; certyfikat nie jest uniwersalnym pozwoleniem na spawanie każdego złącza.",
+    "experienceGuidance": "Proszę przeanalizować porównywalne materiały, pozycje i warunki dostępu podczas rozmowy o przebiegu pracy i testu praktycznego. Stała liczba lat nie zastąpi dowodu, że kandydat potrafi powtarzalnie wykonać wymagane złącze. Na etapie wstępnej selekcji pracodawca może preferować 2–3 lata pracy porównywalnymi metodami przy samodzielnej produkcji; należy traktować to jako elastyczną preferencję, a o przydatności powinna rozstrzygnąć ocena praktyczna.",
+    "workforceLevels": [
+      {
+        "title": "Spawacz produkcyjny pod nadzorem",
+        "body": "Wykonuje określony zakres powtarzalnych złączy przy dostępnym nadzorze i ustalonych instrukcjach przygotowania stanowiska."
+      },
+      {
+        "title": "Spawacz specjalista lub brygadzista",
+        "body": "Wykonuje ocenione złożone złącza lub pomaga koordynować prace spawalnicze; uprawnienia kontrolne i nadzorcze są wyraźnie przypisane."
+      }
+    ],
+    "equipmentEnvironment": "Proszę określić źródła prądu spawania, uchwyty, szlifierki, odciągi, pozycjonery i sprawdziany kontrolne. Należy podać, czy praca odbywa się w hali prefabrykacji, na zewnątrz, na wysokości, czy w specjalnie nadzorowanej przestrzeni.",
+    "safetyItems": [
+      "Zaplanowanie odciągu dymów spawalniczych i odpowiedniej ochrony dróg oddechowych na podstawie oceny narażenia przeprowadzonej przez pracodawcę.",
+      "Zapewnienie odpowiedniej ochrony oczu i skóry, parawanów spawalniczych oraz środków chroniących pracowników w pobliżu przed promieniowaniem łuku.",
+      "Ustalenie przed rozpoczęciem pracy środków ostrożności przy pracach pożarowo niebezpiecznych, obchodzenia się z butlami i dozoru przeciwpożarowego."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Zaplanowanie zespołu spawaczy",
+        "body": "Liczbę osób należy oszacować na podstawie liczby złączy, zestawu metod i punktów kontrolnych, uwzględniając w razie potrzeby monterów i nadzór. Proszę ustalić obsadę zmian, czas trwania umowy i język pracy dla rysunków, zezwoleń i przekazań zmian."
+      },
+      {
+        "title": "Określenie złącza próbnego",
+        "body": "Egzaminator powinien znać metodę, materiał, grubość, pozycję i kryteria akceptacji. Przygotowanie, technikę i efekt końcowy należy odnotować osobno."
+      },
+      {
+        "title": "Sprawdzenie przydatności do produkcji",
+        "body": "Proszę omówić wielkość partii, procedury napraw i zmiany rysunków. Na przykładzie problemu ze składaniem można ocenić, kiedy kandydat przerywa pracę i prosi o wyjaśnienie."
+      },
+      {
+        "title": "Potwierdzenie styku z kontrolą",
+        "body": "Należy wskazać, kto zwalnia pracę, zleca badania i zatwierdza naprawy. W opisie zapotrzebowania warto ująć wymagania dotyczące identyfikowalności i przekazania zmiany."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Czy uprawnienia 6G obejmują każdą pracę spawalniczą?",
+        "answer": "Nie. Zakres uprawnień zależy od obowiązującego systemu i zmiennych, takich jak metoda i materiał. Należy porównać faktyczny dokument z planowaną pracą."
+      },
+      {
+        "question": "Czy jeden test może ocenić umiejętności TIG i MIG?",
+        "answer": "Test w jednej metodzie nie potwierdza kompetencji w innej. Należy ocenić każdą metodę, którą pracownik faktycznie będzie stosować."
+      },
+      {
+        "question": "Czy spawacze powinni też wykonywać kontrolę końcową?",
+        "answer": "Rutynowe kontrole własne należy oddzielić od formalnego odbioru. Kontrola końcowa może wymagać niezależnego personelu lub dodatkowych kwalifikacji zgodnie z zasadami jakości projektu."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Spawacze, przecinacze, lutowacze i lutownicy twardzi",
+      "OSHA: Spawanie, cięcie i lutowanie twarde"
+    ]
+  },
+  "electrician": {
+    "overview": "Elektrycy instalują i konserwują instalacje elektryczne oraz wyszukują w nich usterki. Pracodawca powinien odróżnić prace instalacyjne od konserwacji, pomiarów i rozruchu, a następnie określić zakres napięć oraz rodzaj budynku lub zakładu. Dopuszczalny zakres pracy i zasady nadzoru są równie ważne jak znajomość rozdzielnic, tras kablowych i schematów.",
+    "responsibilities": [
+      "Interpretowanie zatwierdzonych schematów i instrukcji montażu, sprawdzanie oznaczeń urządzeń i zgłaszanie rozbieżności przed kontynuowaniem pracy.",
+      "Montaż przydzielonych tras kablowych, kabli, osprzętu lub podłączeń rozdzielnic z użyciem określonych materiałów i dozwolonych metod.",
+      "Wyszukiwanie zgłoszonych usterek według zaplanowanej kolejności sprawdzeń, dokumentowanie ustaleń i przekazywanie prac wykraczających poza przydzielone uprawnienia.",
+      "Wykonanie pomiarów i dokumentacji przypisanych do stanowiska oraz przekazanie pracy z wyraźnym oznaczeniem nieusuniętych usterek."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Jakość wykonania instalacji",
+        "body": "Proszę omówić oznaczanie kabli, prowadzenie tras, jakość zakończeń i ochronę zamontowanych urządzeń. Ocena powinna odzwierciedlać rodzaj instalacji u pracodawcy, a nie zakładać, że doświadczenie mieszkaniowe i przemysłowe są zamienne."
+      },
+      {
+        "title": "Diagnozowanie usterek",
+        "body": "Na scenariuszu szkoleniowym bez napięcia proszę omówić objawy, możliwe przyczyny i sprawną kolejność pomiarów. Liczy się rzetelne rozumowanie i świadomość ograniczeń, a nie gotowość do pracy pod napięciem."
+      },
+      {
+        "title": "Pomiary i dokumentacja",
+        "body": "Proszę sprawdzić rozumienie doboru przyrządów, zapisywanych wyników i zestawień obwodów. Należy ustalić, czy elektryk wykonuje pomiary, jest przy nich obecny, czy ma uprawnienia do odbioru instalacji."
+      }
+    ],
+    "qualificationGuidance": "Wybór może wspierać nauka zawodu elektryka, dyplom zawodowy lub równoważny dowód. Lokalne uprawnienia, uznanie zagranicznych kwalifikacji i upoważnienie do określonych prac należy sprawdzić we właściwym urzędzie. Znajomość normy międzynarodowej sama w sobie nie daje lokalnych uprawnień ani prawa podpisu.",
+    "experienceGuidance": "Proszę poprosić o przykłady z porównywalnych budynków lub zakładów, z dokładnym opisem obowiązków kandydata przy montażu i wyszukiwaniu usterek. Wybór powinien zależeć od wymaganego stopnia samodzielności, a tam, gdzie urządzenia lub lokalne praktyki są nowe, należy zaplanować nadzór. Przykładową preferencją są 2–4 lata porównywalnej pracy montażowej lub konserwacyjnej na samodzielnym stanowisku, wraz ze sprawdzonymi uprawnieniami. Ścieżki wejścia pod nadzorem wymagają innego opisu i nie można ich oceniać tym samym progiem.",
+    "workforceLevels": [
+      {
+        "title": "Monter instalacji elektrycznych pod nadzorem",
+        "body": "Wykonuje określone prace montażowe pod nadzorem i z upoważnieniem wymaganym dla danej pracy."
+      },
+      {
+        "title": "Elektryk konserwator lub pomiarowiec",
+        "body": "Wykonuje ocenione zadania diagnostyczne lub pomiarowe w jasno udokumentowanym dopuszczalnym zakresie."
+      }
+    ],
+    "equipmentEnvironment": "Proszę wymienić rozdzielnice, szafy sterownicze, systemy kablowe i zatwierdzone przyrządy pomiarowe. Należy opisać użytkowane budynki, tereny budowy, pomieszczenia techniczne, sprzęt do pracy na wysokości i ewentualne prace przy wyłączeniach poza godzinami pracy.",
+    "safetyItems": [
+      "Ustalenie zasad odłączania i sprawdzania braku napięcia przed pracami elektrycznymi, przy czym ponowne załączenie kontrolują osoby upoważnione.",
+      "Ocena zagrożeń porażeniem i łukiem elektrycznym dla rzeczywistej instalacji; rutynowe testy rekrutacyjne nie powinny wymagać pracy przy odsłoniętych częściach pod napięciem.",
+      "Skoordynowanie drabin, podestów i tras kablowych tak, aby prace elektryczne nie powodowały ryzyka upadku ani potknięcia."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Zaplanowanie wyłączeń i obsady zmian",
+        "body": "Przy szacowaniu liczby osób należy oddzielić montaż na budowie od reagowania na awarie w ramach utrzymania ruchu. Proszę podać czas trwania projektu, okna wyłączeń, ograniczenia dostępu oraz sposób zapewnienia na każdej zmianie upoważnionego wsparcia technicznego i zrozumiałych instrukcji."
+      },
+      {
+        "title": "Określenie zakresu elektrycznego",
+        "body": "Proszę podać napięcie instalacji, urządzenia oraz to, czy chodzi o montaż, czy o konserwację. Należy wskazać prace zastrzeżone dla osób z uprawnieniami lub specjalnym upoważnieniem."
+      },
+      {
+        "title": "Ocena realistycznej usterki",
+        "body": "Proszę dostarczyć schemat obwodu i symulowany objaw. Kandydat powinien przedstawić kolejność diagnozy, środki odłączenia i informacje potrzebne przed ponownym uruchomieniem urządzenia."
+      },
+      {
+        "title": "Sprawdzenie jakości przekazania",
+        "body": "Proszę przejrzeć fikcyjny protokół pomiarów lub zestawienie rozdzielnicy. Należy ocenić czytelność, identyfikowalność i gotowość do zapisywania nierozwiązanych spraw zamiast zakładania odbioru."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Czy zagraniczny certyfikat zawodowy zastępuje lokalne uprawnienia?",
+        "answer": "Uznawanie zależy od kraju docelowego i zakresu pracy. Przed powierzeniem zadań regulowanych należy sprawdzić ścieżkę uzyskania uprawnień oraz ewentualne egzaminy lub praktykę pod nadzorem."
+      },
+      {
+        "question": "Czy doświadczenie w okablowaniu szaf wystarcza do rozruchu?",
+        "answer": "Samo w sobie nie. Rozruch może wymagać dodatkowej wiedzy o systemie, przyrządów, procedur i uprawnień, które należy ocenić osobno."
+      },
+      {
+        "question": "Czy elektryk może konserwować urządzenia HVAC?",
+        "answer": "Doświadczenie elektryczne może obejmować niektóre podzespoły. Prace z czynnikami chłodniczymi, mechaniką i automatyką wymagają osobnej weryfikacji kompetencji i uprawnień."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Elektrycy",
+      "OSHA: Kontrola energii niebezpiecznych"
+    ]
+  },
+  "nurse": {
+    "overview": "Pielęgniarki i pielęgniarze odpowiadają za ocenę kliniczną, zaplanowaną opiekę, monitorowanie i komunikację w zakresie swoich uprawnień zawodowych. Oddział szpitalny, poradnia i placówka opieki długoterminowej stawiają różne wymagania. Opis zapotrzebowania pracodawcy powinien określać środowisko kliniczne, grupę pacjentów i model nadzoru, tak aby rekrutacja oceniała odpowiednią praktykę, a nie traktowała pielęgniarstwa jako jednego, wymiennego zestawu umiejętności.",
+    "responsibilities": [
+      "Ocena i dokumentowanie informacji o pacjencie przypisanych do stanowiska pielęgniarskiego oraz rozpoznawanie zmian wymagających przekazania do zespołu klinicznego.",
+      "Sprawowanie uzgodnionej opieki pielęgniarskiej w granicach prawa wykonywania zawodu, kompetencji i lokalnych procedur, ze sprawdzeniem zgody i tożsamości pacjenta zgodnie z wymogami.",
+      "Współpraca z innymi specjalistami i personelem pomocniczym oraz prowadzenie jasnej dokumentacji opieki, obserwacji i zadań do wykonania.",
+      "Wspieranie pacjentów i rodzin informacjami odpowiednimi do planu opieki oraz organizowanie uporządkowanego przekazania przy zmianach."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Osąd kliniczny",
+        "body": "Na scenariuszu właściwym dla specjalności proszę ocenić ustalanie priorytetów, zbieranie informacji i eskalację. Warto prosić kandydatów o wyjaśnienie niepewności i ograniczeń, zamiast nagradzać nieuzasadnioną pewność siebie."
+      },
+      {
+        "title": "Bezpieczeństwo leków i procedur",
+        "body": "Ocenę powinni zaprojektować kierownicy kliniczni pracodawcy na podstawie faktycznie dozwolonych zadań. Proszę przyjrzeć się nawykom sprawdzania, dokumentacji i reakcji na błąd lub niejasne polecenie."
+      },
+      {
+        "title": "Komunikacja w zespole",
+        "body": "Symulowane przekazanie dyżuru pozwala sprawdzić, czy obserwacje, obawy i wymagane działania są przekazywane zwięźle. Warto uwzględnić komunikację z pacjentami potrzebującymi dodatkowego wsparcia."
+      }
+    ],
+    "qualificationGuidance": "Przed zatrudnieniem klinicznym należy sprawdzić kwalifikacje pielęgniarskie, historię rejestracji i ścieżkę uznania kwalifikacji przez organ kraju docelowego. Właściwy organ może wymagać potwierdzenia znajomości języka, egzaminów lub stażu adaptacyjnego pod nadzorem. Preferencja pracodawcy dotycząca kursu specjalistycznego nie zastępuje rejestracji, a oferta rekrutacyjna nie gwarantuje uprawnień.",
+    "experienceGuidance": "Proszę przeanalizować aktualną praktykę kliniczną, grupy pacjentów i dowody kompetencji dla planowanego oddziału. Jeśli pracodawca wymaga określonej liczby lat, należy powiązać ją z oczekiwaną samodzielnością i złożonością przypadków. Pielęgniarka zmieniająca specjalność może potrzebować uporządkowanego wdrożenia nawet przy dużym ogólnym doświadczeniu. Na stanowisko wymagające samodzielnej, aktualnej praktyki oddziałowej pracodawca może początkowo preferować 1–2 lata w porównywalnym środowisku. Ścieżki dla absolwentów wymagają wyraźnego modelu wsparcia; żaden z tych przedziałów nie zmienia wymogów rejestracji.",
+    "workforceLevels": [
+      {
+        "title": "Pielęgniarka w nowym środowisku",
+        "body": "Pracuje w ramach potwierdzonej rejestracji i uzgodnionego planu wdrożenia, ze wsparciem w nieznanych systemach i procedurach klinicznych."
+      },
+      {
+        "title": "Pielęgniarka specjalistka lub starsza pielęgniarka",
+        "body": "Wnosi sprawdzone kompetencje specjalistyczne lub doświadczenie w koordynacji; praktyka zaawansowana i uprawnienia nadzorcze wymagają osobnego potwierdzenia."
+      }
+    ],
+    "equipmentEnvironment": "Proszę wskazać system dokumentacji klinicznej, sprzęt do monitorowania i urządzenia specjalistyczne istotne dla stanowiska. Należy wyjaśnić dostęp do edukatorów, apteki, konsultacji starszego lekarza i pomocy w nagłych przypadkach na wszystkich planowanych zmianach.",
+    "safetyItems": [
+      "Zapewnienie lokalnego szkolenia wstępnego z zapobiegania zakażeniom, bezpieczeństwa przy ostrych narzędziach i zgłaszania zdarzeń.",
+      "Sprawdzenie kompetencji przed powierzeniem nieznanych urządzeń, leków lub procedur specjalistycznych.",
+      "Zaplanowanie z placówką kliniczną przemieszczania pacjentów, zarządzania zmęczeniem i ścieżek eskalacji."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Ustalenie klinicznych kryteriów wyboru",
+        "body": "Ocenę i kluczowe kompetencje powinien określić odpowiedni kierownik kliniczny. Rozmowy rekrutacyjne należy oddzielić od decyzji organu nadzoru."
+      },
+      {
+        "title": "Zaplanowanie struktury kompetencji",
+        "body": "Obsadę należy oprzeć na stanie pacjentów, wymaganym pokryciu dyżurów i zatwierdzonym modelu placówki. Proszę uwzględnić wdrożenie, nadzór i zastępstwa urlopowe, zamiast traktować każdą nową osobę jako od razu samodzielną."
+      },
+      {
+        "title": "Ustalenie kolejności weryfikacji dokumentów",
+        "body": "Przed zaproponowaniem dat rozpoczęcia należy wskazać osoby odpowiedzialne za dokumenty i etapy uznania kwalifikacji. Proszę jasno przekazać, jakie warunki muszą zostać spełnione przed rozpoczęciem pracy klinicznej."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Czy rejestracja w Indiach pozwala pracować w zawodzie za granicą?",
+        "answer": "Uprawnienia w kraju docelowym należy sprawdzić osobno. Decyzje o uznaniu kwalifikacji i prawie wykonywania zawodu należą do właściwego organu."
+      },
+      {
+        "question": "Czy doświadczenie z oddziału ogólnego obejmuje intensywną terapię?",
+        "answer": "Samo w sobie nie potwierdza kompetencji specjalistycznych. Zespół kliniczny pracodawcy musi ocenić odpowiednie umiejętności i ewentualną potrzebę okresu przejściowego pod nadzorem."
+      },
+      {
+        "question": "Kto powinien oceniać kandydatów na pielęgniarki?",
+        "answer": "Oceny kliniczne powinien prowadzić odpowiednio wykwalifikowany personel, w oparciu o wymagania placówki i prawnie dozwolony zakres praktyki."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Pielęgniarki dyplomowane"
+    ]
+  },
+  "driver": {
+    "overview": "Kierowcy przewożą osoby lub towary pojazdami przypisanej kategorii na ustalonych trasach. W rekrutacji należy odróżnić przewóz osób, lekkie dostawy i transport ciężki. O przydatności decydują prowadzenie pojazdu, odpowiedzialność za ładunek lub pasażerów oraz prawo jazdy w kraju docelowym; ogólny staż za kierownicą nie wystarcza, by potwierdzić gotowość do pracy w konkretnej flocie.",
+    "responsibilities": [
+      "Wykonanie przydzielonych kontroli przed jazdą i zgłoszenie usterek przed wprowadzeniem pojazdu do eksploatacji, zgodnie z procedurą wydawania pojazdów we flocie.",
+      "Planowanie i przestrzeganie dozwolonych tras, bezpieczne informowanie o opóźnieniach oraz prowadzenie wymaganej dokumentacji przejazdów lub dostaw.",
+      "Wykonywanie uzgodnionych obowiązków wobec pasażerów, przy załadunku lub kontroli ładunku według procedur pracodawcy i z dostępną pomocą.",
+      "Niezwłoczne zgłaszanie zdarzeń, szkód i nierozwiązanych problemów z pojazdem oraz przekazywanie kluczyków, dokumentów i wyposażenia zgodnie z procedurą floty."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Panowanie nad pojazdem",
+        "body": "Proszę przeprowadzić odpowiednio nadzorowaną ocenę w danej kategorii pojazdu. Należy ocenić obserwację, ustawienie na drodze i manewrowanie w realistycznych warunkach, bez stwarzania niepotrzebnego ryzyka na drogach publicznych."
+      },
+      {
+        "title": "Ocena sytuacji w trasie",
+        "body": "Proszę omówić opóźnioną dostawę lub nieodpowiedni dojazd. Liczy się bezpieczne przeplanowanie i komunikacja, a nie presja, by odrobić czas ryzykowną jazdą."
+      },
+      {
+        "title": "Dokumentacja i kontrole",
+        "body": "Proszę poprosić kandydata o wskazanie fikcyjnej usterki pojazdu i wyjaśnienie decyzji o jej zgłoszeniu. Dokumentację dostaw, przewozu osób lub ładunku należy dopasować do rzeczywistej pracy."
+      }
+    ],
+    "qualificationGuidance": "Kategorię prawa jazdy w kraju docelowym, ścieżkę uznania lub wymiany oraz ewentualne wymogi medycyny pracy lub dla kierowców zawodowych należy potwierdzić we właściwym urzędzie. Przewóz osób lub niektórych ładunków może wymagać dodatkowych uprawnień. Nie należy zakładać, że zagraniczne prawo jazdy lub międzynarodowe prawo jazdy wystarczy do zatrudnienia w transporcie zarobkowym.",
+    "experienceGuidance": "Proszę przeanalizować wielkość pojazdu, rodzaj skrzyni biegów, typ tras i doświadczenie w porównywalnych warunkach. Doświadczenie z pojazdami lekkimi nie potwierdza kompetencji w pojazdach ciężkich. Należy omówić aktualną praktykę za kierownicą i sprawdzone dokumenty w odpowiednim procesie opartym na zgodzie, a następnie zaplanować zapoznanie z lokalnymi trasami i flotą. Na samodzielnie obsługiwanej trasie zarobkowej pracodawca może początkowo preferować 2–3 lata w tej samej kategorii pojazdu. To preferencja na etapie selekcji, nie przepis dotyczący uprawnień, a nadzorowana ocena jazdy pozostaje niezbędna.",
+    "workforceLevels": [
+      {
+        "title": "Kierowca floty lokalnej",
+        "body": "Prowadzi dopuszczony pojazd na ustalonych trasach ze wsparciem dyspozytora i zgłaszania usterek."
+      },
+      {
+        "title": "Kierowca transportu specjalistycznego",
+        "body": "Obsługuje ocenioną kategorię pojazdu lub ładunku, pod warunkiem dodatkowych szkoleń i uprawnień właściwych dla danego zadania."
+      }
+    ],
+    "equipmentEnvironment": "Proszę określić kategorię pojazdu, rodzaj ładunku, system nawigacji lub dyspozycji oraz ewentualne pomoce do dostaw. Należy podać, czy trasy są miejskie, czy dalekobieżne, czy obejmują noclegi w trasie, jakie są oczekiwania co do załadunku i czy praca odbywa się w miejscach z kontrolowaną temperaturą lub oddalonych.",
+    "safetyItems": [
+      "Planowanie czasu pracy i jazdy zgodnie z obowiązującymi przepisami, ryzykiem zmęczenia i realnym czasem przejazdu.",
+      "Zapewnienie bezpiecznego cofania i oddzielenia pieszych w bazach i miejscach dostaw.",
+      "Określenie obowiązków dotyczących zabezpieczenia ładunku, bezpieczeństwa pasażerów i reagowania na zdarzenia dla rzeczywistego pojazdu i usługi."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Określenie potrzeb floty",
+        "body": "Proszę podać specyfikację pojazdów, schematy tras i wymaganą kategorię prawa jazdy. Uprawnienia dotyczące ładunku lub przewozu osób należy wskazać osobno."
+      },
+      {
+        "title": "Ocena pod wykwalifikowanym nadzorem",
+        "body": "Należy zaangażować upoważnionego egzaminatora i odpowiedni pojazd. Obok panowania nad pojazdem warto uwzględnić kontrole przed jazdą i scenariusze oceny sytuacji, z jasnymi kryteriami akceptacji."
+      },
+      {
+        "title": "Zaplanowanie zmienników i dyspozycji",
+        "body": "Liczbę osób należy oszacować na podstawie rozkładów tras, zgodnych z prawem systemów czasu pracy i zastępstw za nieobecności. Przed wyborem proszę wyjaśnić język dyspozycji, zaplecze socjalne i noclegi w trasie."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Czy kierowca może korzystać za granicą z indyjskiego prawa jazdy?",
+        "answer": "To zależy od przepisów kraju docelowego, uznawania prawa jazdy i proponowanej pracy. Przed planowaniem operacyjnym należy sprawdzić uprawnienia do jazdy zarobkowej."
+      },
+      {
+        "question": "Czy kierowcy przewożący towary mogą też przewozić pasażerów?",
+        "answer": "Przewóz osób może wymagać innej kategorii pojazdu, szkolenia lub uprawnień. Należy go oceniać jako odrębny zakres."
+      },
+      {
+        "question": "Czy załadunek powinien należeć do obowiązków kierowcy?",
+        "answer": "Proszę to jasno określić, wraz ze sprzętem, limitami obciążeń i wsparciem na miejscu. Nie należy zakładać, że każdy kierowca jest przeszkolony do obsługi urządzeń dźwigowych."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Kierowcy ciężarówek i ciągników siodłowych"
+    ]
+  }
+}

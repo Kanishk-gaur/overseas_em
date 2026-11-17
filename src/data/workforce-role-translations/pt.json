@@ -1,0 +1,300 @@
+{
+  "welder": {
+    "overview": "Os soldadores unem componentes metálicos para estruturas, produtos fabricados e tubagens. Um bom caderno de recrutamento identifica o material, o processo de soldadura, a configuração da junta e as condições de produção. A fabricação em oficina e a soldadura de tubagem em obra exigem provas diferentes, mesmo quando os candidatos têm o mesmo título profissional. Acorde como será avaliada a qualidade da soldadura antes de selecionar um candidato.",
+    "responsibilities": [
+      "Ler o desenho atribuído e as instruções de soldadura, identificar a junta e verificar se os materiais e consumíveis correspondem ao pacote de trabalho.",
+      "Preparar as arestas, ajudar no ajuste e verificar o alinhamento antes de soldar; comunicar problemas de preparação que possam afetar a junta final.",
+      "Executar os cordões de soldadura dentro do procedimento aprovado e do âmbito atribuído, mantendo uma técnica consistente quando o acesso e a posição mudam.",
+      "Limpar o trabalho concluído, fazer as verificações visuais atribuídas e registar a identificação ou as reparações para o processo de inspeção do empregador."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Conhecimento de processos e materiais",
+        "body": "Avalie o trabalho real com SMAW, GTAW/TIG ou GMAW/MIG. Peça aos candidatos que expliquem as espessuras de material, os consumíveis e as limitações dos processos com que já trabalharam, em vez de aceitar uma lista de nomes de processos como prova."
+      },
+      {
+        "title": "Desenho e preparação da junta",
+        "body": "Use um desenho simples para analisar símbolos de soldadura, acesso à junta e verificações de ajuste. Distinga a preparação feita de forma autónoma do trabalho realizado com um serralheiro ou sob supervisão próxima."
+      },
+      {
+        "title": "Consciência da qualidade",
+        "body": "Fale sobre defeitos visíveis, como se comunica uma soldadura suspeita e quem autoriza as reparações. As verificações visuais do soldador apoiam o sistema de qualidade, mas não substituem a inspeção ou os ensaios exigidos."
+      }
+    ],
+    "qualificationGuidance": "A formação profissional e registos recentes de qualificação por processo podem ser preferências do empregador ou requisitos do projeto. Verifique a entidade emissora, o âmbito da qualificação e a validade em vigor, quando aplicável. As regras do país de destino e a norma de fabricação do projeto devem ser verificadas à parte; um certificado não é uma autorização universal para soldar qualquer junta.",
+    "experienceGuidance": "Analise materiais, posições e condições de acesso comparáveis através de uma conversa sobre o percurso profissional e de um teste prático. Não substitua por um número fixo de anos a prova de que o candidato consegue executar a junta especificada de forma consistente. Na triagem inicial, um empregador pode preferir 2–3 anos em processos de soldadura comparáveis para trabalho de produção autónomo; trate isto como uma preferência ajustável e deixe a avaliação prática determinar a adequação.",
+    "workforceLevels": [
+      {
+        "title": "Soldador de produção supervisionado",
+        "body": "Executa um conjunto definido de juntas repetitivas com supervisão disponível e instruções de preparação estabelecidas."
+      },
+      {
+        "title": "Soldador especialista ou chefe de equipa",
+        "body": "Executa juntas complexas já avaliadas ou ajuda a coordenar o trabalho de soldadura; a autoridade de inspeção e de supervisão é atribuída de forma explícita."
+      }
+    ],
+    "equipmentEnvironment": "Indique as fontes de energia de soldadura, tochas, rebarbadoras, sistemas de extração, auxiliares de posicionamento e calibres de inspeção. Diga se o trabalho decorre numa nave de fabricação, ao ar livre, em altura ou num espaço com controlo especial.",
+    "safetyItems": [
+      "Planear o controlo de fumos e a proteção respiratória adequada à tarefa com base na avaliação de exposição do empregador.",
+      "Fornecer proteção adequada para olhos e pele, biombos de soldadura e medidas que protejam os trabalhadores próximos da radiação do arco.",
+      "Definir as precauções para trabalhos a quente, o manuseamento de garrafas de gás e a vigilância contra incêndios antes do início da tarefa."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Planear a equipa de soldadura",
+        "body": "Estime o número de pessoas pelo volume de juntas, a combinação de processos e os pontos de paragem para inspeção, incluindo serralheiros e supervisão quando necessário. Esclareça a cobertura de turnos, a duração do contrato e a língua de trabalho para desenhos, autorizações e passagens de turno."
+      },
+      {
+        "title": "Especificar a junta de teste",
+        "body": "Indique ao avaliador o processo, o material, a espessura, a posição e os critérios de aceitação. Registe separadamente a preparação, a técnica e o resultado final."
+      },
+      {
+        "title": "Verificar a adequação à produção",
+        "body": "Fale sobre a dimensão dos lotes, os procedimentos de reparação e as alterações aos desenhos. Use um exemplo de problema de ajuste para avaliar quando o candidato interrompe o trabalho e pede esclarecimentos."
+      },
+      {
+        "title": "Confirmar as interfaces com a inspeção",
+        "body": "Identifique quem liberta o trabalho, pede ensaios e aprova reparações. Inclua no caderno de recrutamento as expectativas de rastreabilidade e de passagem de turno."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Uma qualificação 6G cobre qualquer trabalho de soldadura?",
+        "answer": "Não. O âmbito da qualificação depende do esquema aplicável e de variáveis como o processo e o material. Compare o registo real com o trabalho proposto."
+      },
+      {
+        "question": "Um único teste pode avaliar a aptidão em TIG e MIG?",
+        "answer": "Um teste num processo não comprova competência noutro. Avalie cada processo que o trabalhador vai efetivamente usar."
+      },
+      {
+        "question": "Os soldadores devem também fazer a inspeção final?",
+        "answer": "Distinga as autoverificações de rotina da aceitação formal. A inspeção final pode exigir pessoal independente ou qualificações adicionais, segundo as regras de qualidade do projeto."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Soldadores, cortadores, soldadores a estanho e brasadores",
+      "OSHA: Soldadura, corte e brasagem"
+    ]
+  },
+  "electrician": {
+    "overview": "Os eletricistas instalam e mantêm sistemas elétricos e investigam avarias. Os empregadores devem distinguir o trabalho de instalação da manutenção, dos ensaios e do comissionamento, e depois identificar a gama de tensão e o ambiente do edifício ou da instalação industrial. O âmbito de atuação permitido e as regras de supervisão contam tanto como a experiência com quadros, calhas e esquemas elétricos.",
+    "responsibilities": [
+      "Interpretar esquemas de circuitos e instruções de instalação aprovados, verificando a identificação do equipamento e comunicando discrepâncias antes de avançar.",
+      "Instalar as calhas, cabos, acessórios ou ligações de quadros atribuídos, usando os materiais especificados e métodos autorizados.",
+      "Investigar as avarias comunicadas através de uma sequência planeada de verificações, documentar as conclusões e encaminhar o trabalho que exceda a autoridade atribuída.",
+      "Concluir os ensaios e registos atribuídos à função e entregar o trabalho com identificação clara dos defeitos pendentes."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Qualidade de instalação",
+        "body": "Analise a identificação de cabos, o encaminhamento, a qualidade das terminações e a proteção do equipamento instalado. A avaliação deve refletir o tipo de instalação do empregador, em vez de assumir que a experiência doméstica e a industrial são intercambiáveis."
+      },
+      {
+        "title": "Diagnóstico de avarias",
+        "body": "Use um cenário de formação sem tensão para falar de sintomas, causas possíveis e uma sequência de ensaio eficiente. Procure um raciocínio sólido e o reconhecimento de limites, não a disponibilidade para trabalhar em tensão."
+      },
+      {
+        "title": "Ensaios e documentação",
+        "body": "Verifique a compreensão sobre a adequação dos instrumentos, os resultados registados e as tabelas de circuitos. Esclareça se o eletricista faz os ensaios, os testemunha ou tem autoridade para certificar a instalação."
+      }
+    ],
+    "qualificationGuidance": "Uma aprendizagem em eletricidade, um diploma profissional ou prova equivalente podem apoiar a seleção. O licenciamento local, o reconhecimento de diplomas estrangeiros e a autorização para trabalhos específicos devem ser verificados junto da autoridade competente. O conhecimento de uma norma internacional não estabelece, por si só, elegibilidade local nem autoridade para assinar.",
+    "experienceGuidance": "Peça exemplos de edifícios ou instalações comparáveis, incluindo as responsabilidades exatas do candidato na instalação e na deteção de avarias. Selecione pelo nível de autonomia exigido e planeie supervisão quando o equipamento ou as práticas locais forem desconhecidos. Uma preferência ilustrativa é de 2–4 anos de instalação ou manutenção comparável para um posto autónomo, juntamente com autorização verificada. Os percursos de entrada supervisionados precisam de outro caderno de recrutamento e não podem ser avaliados pelo mesmo limiar.",
+    "workforceLevels": [
+      {
+        "title": "Instalador elétrico supervisionado",
+        "body": "Executa tarefas de instalação definidas sob a supervisão e a autorização exigidas para o trabalho."
+      },
+      {
+        "title": "Eletricista de manutenção ou de ensaios",
+        "body": "Realiza tarefas de diagnóstico ou de ensaio já avaliadas, dentro de um âmbito permitido e claramente documentado."
+      }
+    ],
+    "equipmentEnvironment": "Liste quadros de distribuição, painéis de comando, sistemas de cablagem e instrumentos de ensaio aprovados. Descreva edifícios ocupados, zonas de obra, salas técnicas, equipamento de acesso e eventuais trabalhos de paragem fora do horário normal.",
+    "safetyItems": [
+      "Definir o isolamento e a verificação da ausência de tensão antes do trabalho elétrico, com pessoas autorizadas a controlar a reposição da energia.",
+      "Avaliar os riscos de choque elétrico e de arco para o sistema real; os testes de recrutamento de rotina não devem exigir trabalho com partes em tensão expostas.",
+      "Coordenar escadas, plataformas de acesso e percursos de cabos para que as tarefas elétricas não criem riscos de queda ou tropeço."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Planear paragens e cobertura de turnos",
+        "body": "Separe a instalação em obra da resposta de manutenção ao estimar o número de pessoas. Indique a duração do projeto, as janelas de paragem, as restrições de acesso e como haverá apoio técnico autorizado e instruções compreensíveis em cada turno."
+      },
+      {
+        "title": "Definir o âmbito elétrico",
+        "body": "Indique a tensão do sistema, o equipamento e se as tarefas são de instalação ou de manutenção. Identifique o trabalho reservado a pessoal licenciado ou especificamente autorizado."
+      },
+      {
+        "title": "Avaliar uma avaria realista",
+        "body": "Forneça um esquema de circuito e um sintoma simulado. Peça a sequência de diagnóstico, as precauções de isolamento e a informação necessária antes de repor o equipamento em serviço."
+      },
+      {
+        "title": "Verificar a qualidade da entrega",
+        "body": "Analise uma folha de ensaio ou tabela de quadro fictícia. Avalie a legibilidade, a rastreabilidade e a disponibilidade para registar questões por resolver, em vez de presumir a aceitação."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Um certificado profissional estrangeiro substitui uma licença local?",
+        "answer": "O reconhecimento varia consoante o destino e o âmbito do trabalho. Verifique o percurso de licenciamento e eventuais exames ou prática supervisionada antes de atribuir tarefas regulamentadas."
+      },
+      {
+        "question": "A experiência em cablagem de quadros chega para o comissionamento?",
+        "answer": "Por si só, não. O comissionamento pode exigir conhecimentos adicionais do sistema, instrumentos, procedimentos e autoridade, que devem ser avaliados à parte."
+      },
+      {
+        "question": "Um eletricista pode fazer a manutenção de equipamento HVAC?",
+        "answer": "A experiência elétrica pode cobrir alguns componentes. O trabalho com fluidos frigorigéneos, mecânica e controlo exige verificações próprias de competência e autorização."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Eletricistas",
+      "OSHA: Controlo de energias perigosas"
+    ]
+  },
+  "nurse": {
+    "overview": "Os enfermeiros contribuem com avaliação clínica, cuidados planeados, monitorização e comunicação, dentro do exercício profissional autorizado. Uma enfermaria hospitalar, um serviço de ambulatório e uma unidade de cuidados continuados colocam exigências diferentes. O caderno de recrutamento do empregador deve indicar o contexto clínico, o grupo de doentes e o modelo de supervisão, para que o recrutamento avalie a prática relevante em vez de tratar a enfermagem como um conjunto único e intercambiável de competências.",
+    "responsibilities": [
+      "Avaliar e documentar a informação do doente atribuída à função de enfermagem, identificando alterações que exijam escalonamento através da equipa clínica.",
+      "Prestar os cuidados de enfermagem acordados dentro da inscrição profissional, da competência e dos protocolos locais, verificando o consentimento e a identidade do doente conforme exigido.",
+      "Coordenar com outros profissionais de saúde e pessoal de apoio, mantendo um registo claro dos cuidados, observações e ações pendentes.",
+      "Apoiar doentes e famílias com informação adequada ao plano de cuidados e organizar uma passagem de turno estruturada nas transições."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Julgamento clínico",
+        "body": "Use um cenário adequado à especialidade para avaliar a priorização, a recolha de informação e o escalonamento. Peça aos candidatos que expliquem a incerteza e os limites, em vez de premiar uma confiança sem fundamento."
+      },
+      {
+        "title": "Segurança na medicação e nos procedimentos",
+        "body": "A avaliação deve ser concebida pelos responsáveis clínicos do empregador em torno das funções efetivamente permitidas. Analise os hábitos de verificação, a documentação e a resposta a um erro ou a uma instrução pouco clara."
+      },
+      {
+        "title": "Comunicação em equipa",
+        "body": "Uma passagem de turno simulada pode mostrar se as observações, preocupações e o seguimento necessário são comunicados de forma concisa. Inclua a comunicação com doentes que precisam de apoio adicional."
+      }
+    ],
+    "qualificationGuidance": "Verifique a qualificação em enfermagem, o historial de inscrição e o percurso de reconhecimento junto do regulador do destino antes do emprego clínico. O regulador competente pode exigir prova de língua, exames ou adaptação supervisionada. A preferência do empregador por um curso de especialidade não substitui a inscrição, e uma oferta de recrutamento não garante a elegibilidade.",
+    "experienceGuidance": "Analise a prática clínica recente, os grupos de doentes e as provas de competência para a unidade prevista. Quando o empregador pede um número de anos, relacione-o com a autonomia esperada e a complexidade dos casos. Um enfermeiro que muda de especialidade pode precisar de uma integração estruturada, mesmo com bastante experiência geral. Para um posto que exige prática recente e autónoma em enfermaria, o empregador pode preferir inicialmente 1–2 anos num contexto comparável. Os percursos para recém-formados exigem um modelo de apoio explícito; nenhum destes intervalos altera os requisitos de inscrição.",
+    "workforceLevels": [
+      {
+        "title": "Enfermeiro a iniciar num novo contexto",
+        "body": "Trabalha dentro da inscrição confirmada e de um plano de integração acordado, com apoio em sistemas e rotinas clínicas pouco conhecidos."
+      },
+      {
+        "title": "Enfermeiro especialista ou sénior",
+        "body": "Traz competência de especialidade ou experiência de coordenação verificadas; a prática avançada e a autoridade de supervisão exigem confirmação separada."
+      }
+    ],
+    "equipmentEnvironment": "Indique o sistema de registo clínico, o equipamento de monitorização e os dispositivos de especialidade relevantes para o posto. Explique o acesso a formadores, farmácia, avaliação clínica sénior e apoio de emergência em todos os turnos previstos.",
+    "safetyItems": [
+      "Garantir a integração local sobre prevenção de infeções, segurança com cortantes e notificação de incidentes.",
+      "Verificar a competência antes de atribuir dispositivos, medicamentos ou procedimentos especializados desconhecidos.",
+      "Planear com o serviço clínico a mobilização de doentes, a gestão da fadiga e os circuitos de escalonamento."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Definir critérios de seleção clínica",
+        "body": "Peça a um responsável clínico adequado que defina a avaliação e as competências essenciais. Mantenha as entrevistas de recrutamento separadas das decisões do regulador."
+      },
+      {
+        "title": "Planear a combinação de competências",
+        "body": "Baseie a dotação na complexidade dos doentes, na cobertura exigida e no modelo aprovado do serviço. Inclua integração, supervisão e cobertura de férias, em vez de contar cada novo profissional como imediatamente autónomo."
+      },
+      {
+        "title": "Ordenar as verificações de credenciais",
+        "body": "Identifique os responsáveis pelos documentos e as etapas de reconhecimento antes de propor datas de início. Comunique claramente que condições têm de estar cumpridas antes de começarem as funções clínicas."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "A inscrição na Índia permite exercer no estrangeiro?",
+        "answer": "A autorização no país de destino tem de ser verificada à parte. As decisões de reconhecimento e licenciamento cabem ao regulador competente."
+      },
+      {
+        "question": "A experiência em enfermaria geral cobre os cuidados intensivos?",
+        "answer": "Por si só, não comprova competência de especialidade. A equipa clínica do empregador deve avaliar as competências relevantes e eventuais necessidades de transição supervisionada."
+      },
+      {
+        "question": "Quem deve avaliar os candidatos de enfermagem?",
+        "answer": "As avaliações clínicas devem ser conduzidas por pessoal devidamente qualificado, com base nos requisitos do serviço e no âmbito legal de exercício."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Enfermeiros registados"
+    ]
+  },
+  "driver": {
+    "overview": "Os motoristas transportam pessoas ou mercadorias numa classe de veículo e num padrão de rotas atribuídos. O recrutamento deve distinguir o transporte de passageiros, as entregas ligeiras e o transporte pesado de mercadorias. O domínio do veículo, a responsabilidade pela carga ou pelos passageiros e a carta de condução no destino influenciam a adequação; um historial genérico de condução não basta para comprovar a preparação para uma frota específica.",
+    "responsibilities": [
+      "Fazer as verificações prévias atribuídas e comunicar defeitos antes de pôr o veículo em serviço, seguindo o procedimento de libertação da frota.",
+      "Planear e seguir as rotas autorizadas, comunicar atrasos em segurança e manter os registos de viagem ou de entrega exigidos pelo serviço.",
+      "Cumprir as responsabilidades acordadas com passageiros, carregamento ou verificação da carga, seguindo os procedimentos do empregador e com a ajuda disponível.",
+      "Comunicar de imediato incidentes, danos e problemas por resolver no veículo, e entregar chaves, registos e equipamento através do processo da frota."
+    ],
+    "competencyGroups": [
+      {
+        "title": "Domínio do veículo",
+        "body": "Faça uma avaliação devidamente supervisionada na classe de veículo relevante. Analise a observação, o posicionamento e as manobras em condições realistas, sem criar riscos evitáveis na via pública."
+      },
+      {
+        "title": "Discernimento durante a viagem",
+        "body": "Fale sobre uma entrega atrasada ou um acesso inadequado. Procure um replaneamento seguro e boa comunicação, em vez de pressão para recuperar tempo com condução arriscada."
+      },
+      {
+        "title": "Registos e verificações",
+        "body": "Peça ao candidato que identifique um defeito fictício no veículo e explique a decisão de o comunicar. Adapte a documentação de entrega, de passageiros ou de carga à função real."
+      }
+    ],
+    "qualificationGuidance": "Confirme junto da autoridade responsável a categoria da carta de condução no destino, o percurso de reconhecimento ou troca e eventuais requisitos médicos ocupacionais ou de motorista profissional. Podem aplicar-se autorizações adicionais ao transporte de passageiros ou a determinadas cargas. Não se deve presumir que uma carta estrangeira ou uma licença internacional de condução bastem para um emprego comercial.",
+    "experienceGuidance": "Analise o tamanho do veículo, a transmissão, o tipo de rota e a experiência em condições de operação comparáveis. A experiência com veículos ligeiros não comprova competência em veículos pesados. Discuta a prática de condução recente e registos verificados através de um processo adequado e com consentimento, e depois planeie a familiarização com as rotas locais e a frota. Para uma rota comercial operada de forma autónoma, um empregador pode preferir inicialmente 2–3 anos na mesma classe de veículo. Trata-se de uma preferência de triagem, não de uma regra de licenciamento, e uma avaliação de condução supervisionada continua a ser essencial.",
+    "workforceLevels": [
+      {
+        "title": "Motorista de frota local",
+        "body": "Conduz um veículo autorizado em rotas definidas, com apoio de despacho e de comunicação de defeitos."
+      },
+      {
+        "title": "Motorista de transporte especializado",
+        "body": "Opera uma categoria de veículo ou de carga já avaliada, sujeita à formação e às autorizações adicionais relevantes para esse serviço."
+      }
+    ],
+    "equipmentEnvironment": "Especifique a classe do veículo, o tipo de carga, o sistema de navegação ou de despacho e eventuais auxiliares de entrega. Indique se as rotas são urbanas ou de longo curso, se há viagens noturnas, as expectativas de carregamento e a exposição a locais com temperatura controlada ou remotos.",
+    "safetyItems": [
+      "Planear os horários de trabalho e de condução de acordo com as regras aplicáveis, os riscos de fadiga e tempos de viagem realistas.",
+      "Organizar manobras de marcha-atrás seguras e a separação de peões nos depósitos e locais de entrega.",
+      "Definir as funções de fixação da carga, segurança dos passageiros e resposta a incidentes para o veículo e o serviço reais."
+    ],
+    "hiringConsiderations": [
+      {
+        "title": "Indicar as necessidades da frota",
+        "body": "Forneça as especificações dos veículos, os padrões de rotas e a categoria de carta exigida. Identifique à parte as autorizações para carga ou passageiros."
+      },
+      {
+        "title": "Avaliar com supervisão qualificada",
+        "body": "Use um avaliador autorizado e um veículo adequado. Inclua as verificações prévias e cenários de discernimento a par do domínio do veículo, com critérios de aceitação claros."
+      },
+      {
+        "title": "Planear rendições e despacho",
+        "body": "Estime o número de pessoas a partir dos horários das rotas, de regimes de trabalho legais e da cobertura de ausências. Explique antes da seleção a língua de despacho, as instalações de descanso e o alojamento para pernoitas."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Um motorista pode usar a carta de condução indiana no estrangeiro?",
+        "answer": "Depende das regras do destino, do reconhecimento da carta e do trabalho proposto. Verifique a elegibilidade para condução comercial antes de fazer planos operacionais."
+      },
+      {
+        "question": "Os motoristas de mercadorias podem também transportar passageiros?",
+        "answer": "O transporte de passageiros pode exigir outra categoria de veículo, formação ou autorização. Avalie-o como um âmbito separado."
+      },
+      {
+        "question": "O carregamento deve fazer parte da função de motorista?",
+        "answer": "Indique-o de forma explícita, incluindo o equipamento, os limites de manuseamento e o apoio no local. Não presuma que todos os motoristas têm formação para operar equipamento de elevação."
+      }
+    ],
+    "sourceLabels": [
+      "BLS: Motoristas de camiões pesados e de semirreboques"
+    ]
+  }
+}
