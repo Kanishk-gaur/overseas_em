@@ -32,7 +32,7 @@ export function WorkCertificatesPage() {
                 <p>{local(certificate.description)}</p>
                 <ul>{certificate.fields.en.map((field, index) => <li key={field}>{t(field, certificate.fields.hi[index])}</li>)}</ul>
                 <div className={styles.documentActions}>
-                  <a href={file} download={`globalpath-${certificate.id}-draft.svg`} className="button button-navy"><Download size={16} aria-hidden="true" />{t("Download draft", "प्रारूप डाउनलोड करें")}</a>
+                  <a href={file} download={`aaroham-overseas-${certificate.id}-draft.svg`} className="button button-navy"><Download size={16} aria-hidden="true" />{t("Download draft", "प्रारूप डाउनलोड करें")}</a>
                   <a href={file} target="_blank" rel="noopener noreferrer" className={styles.fullSize}>{t("View full size", "पूरे आकार में देखें")}<ArrowUpRight size={17} aria-hidden="true" /><span className="sr-only">{t("(opens in a new tab)", "(नए टैब में)")}</span></a>
                 </div>
                 <span className={styles.fileDetails}>{t("Editable SVG · A4 landscape proportions", "संपादन योग्य SVG · A4 लैंडस्केप अनुपात")}</span>

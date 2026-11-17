@@ -17,7 +17,7 @@ export function LocaleMetadata() {
     const role = workforceIndex.find(item => route === `/workforce/${item.slug}`);
     const entry = role ? { title: t(copy.detailTitle, undefined, { role: t(role.title) }), description: t(copy.detailDescription, undefined, { role: t(role.title) }) } : (metadata as Record<string, { title: string; description: string }>)[route];
     if (!entry) return;
-    const title = route === "/" ? `${site.legalName} | ${t(entry.title)}` : `${t(entry.title)} | ${site.legalName}`;
+    const title = route === "/" ? `${site.brandName} | ${t(entry.title)}` : `${t(entry.title)} | ${site.brandName}`;
     const ogLocale = { en: "en_IN", hi: "hi_IN", ar: "ar_SA", he: "he_IL", ru: "ru_RU", pt: "pt_PT", cs: "cs_CZ", de: "de_DE", ja: "ja_JP", pl: "pl_PL", ro: "ro_RO" }[language];
     const values = { 'meta[name="description"]': t(entry.description), 'meta[property="og:title"]': title, 'meta[property="og:description"]': t(entry.description), 'meta[property="og:locale"]': ogLocale };
     const apply = () => {

@@ -26,7 +26,7 @@ Shared languages appear once. Visitors choose freely; the site does not infer a 
 - The existing locale provider translates both inline English/Hindi pairs and the original content data.
 - Only the selected non-English dictionary is imported, as a static JavaScript chunk. Successfully loaded dictionaries are cached in memory.
 - A selection is applied only after its complete dictionary loads. Failed loads preserve the previous language and offer a retry. Rapid selections cannot apply an older response over the latest choice.
-- The preference uses `localStorage` under `globalpath-language`. Access is guarded. If storage is blocked, selection still works and survives client-side navigation in memory; persistence across a full refresh cannot be provided when the browser forbids storage.
+- The preference uses `localStorage` under `aaroham-language`. A value saved under the pre-rebrand key is moved to it once and the old key is removed. Access is guarded. If storage is blocked, selection still works and survives client-side navigation in memory; persistence across a full refresh cannot be provided when the browser forbids storage.
 - English server output and the initial client snapshot match. The saved preference is restored after hydration. English is the fallback for absent or blank translations.
 - The document language and direction follow the selection. Arabic and Hebrew use RTL layouts, mirrored carousel controls and a matching recruitment-flow return path.
 - Filter values, route slugs, query parameters and external links remain stable. Visible labels and search matching support the selected language.

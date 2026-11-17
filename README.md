@@ -1,4 +1,4 @@
-# GlobalPath Overseas
+# Aaroham Overseas
 
 A corporate recruitment website built with Next.js App Router, TypeScript, Tailwind CSS, Motion for React and Lucide. Public pages are statically exported. The original premium visual identity is retained: navy, muted gold, warm paper surfaces, editorial typography and documentary-style photography. Navigation and shared interface copy support 11 languages. New detailed workforce guides currently retain English with a visible fallback notice. The site is frontend only: there are no accounts, databases, payments, live job listings or contact-submission endpoints.
 
@@ -122,4 +122,4 @@ The initial development dependency audit reports an advisory through the ESLint 
 
 ## Hosting
 
-The website can be hosted on any static host using **`out/`** as the document root. `.openai/hosting.json` records the private Sites preview identity and static directory. Keep that project identity when updating this preview. There are no runtime environment variables or credentials required by the website.
+The website can be hosted on any static host using **`out/`** as the document root. `.openai/hosting.json` records the private Sites preview identity and static directory. The production domain is https://www.aarohamoverseas.com, set once as `SITE_URL` in `src/config/site.ts` (override with `NEXT_PUBLIC_SITE_URL`, see `.env.example`). Configure aarohamoverseas.in at the host as a permanent redirect to the .com address. Keep that project identity when updating this preview. There are no runtime environment variables or credentials required by the website.

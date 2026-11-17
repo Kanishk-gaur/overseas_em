@@ -8,7 +8,7 @@ const en = {
   heroNote: "INTERNATIONAL MANPOWER RECRUITMENT",
   people: "People at the heart.", possibilities: "Possibilities without borders.",
   who: "WHO WE ARE", whoTitle: "Recruitment shaped\nby your requirements.",
-  whoBody: "At GlobalPath Overseas, we define your workforce requirements, assess relevant Indian candidates and coordinate the steps towards mobilization.",
+  whoBody: "At Aaroham Overseas, we define your workforce requirements, assess relevant Indian candidates and coordinate the steps towards mobilization.",
   whoBody2: "From skilled trades to technical and professional roles, we help you understand the next step — with clarity, care and respect for your ambitions.",
   aboutCta: `Discover ${site.name}`, principle1: "People-first approach", principle2: "Clear communication", principle3: "Opportunities across industries",
   services: "WHAT WE DO", servicesTitle: "The work behind\ninternational hiring.", servicesBody: "The right skills. The right conversation. Recruitment support for workers and employers at every stage.", allServices: "View all services",

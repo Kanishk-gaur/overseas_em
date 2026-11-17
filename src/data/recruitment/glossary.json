@@ -56,9 +56,89 @@
       "definition": "An Israeli work-visa category. Confirm the prior approval and occupation-specific procedure; caregiving has a separate process from the general consular guidance."
     },
     {
+      "term": "Qatar ID (QID)",
+      "country": "Qatar",
+      "definition": "The residence identity card issued in Qatar once the residence permit is completed. Confirm the employer’s responsibilities and the steps required after arrival."
+    },
+    {
+      "term": "Labour Clearance",
+      "country": "Oman",
+      "definition": "An approval the employer obtains in Oman before an employment visa is requested for a specific profession. Check that the profession on the documents matches the job offered."
+    },
+    {
+      "term": "Article 18 Residence",
+      "country": "Kuwait",
+      "definition": "A term commonly used for private-sector work residence in Kuwait. Confirm the current category and the employer’s work permit through official channels."
+    },
+    {
+      "term": "LMRA Work Permit",
+      "country": "Bahrain",
+      "definition": "A work permit issued by Bahrain’s Labour Market Regulatory Authority. Workers can verify their permit status with the authority; a visit visa is not permission to work."
+    },
+    {
+      "term": "AIMA",
+      "country": "Portugal",
+      "definition": "Portugal’s agency for integration, migration and asylum, which handles residence permits. Confirm the current appointment and document requirements through official channels."
+    },
+    {
+      "term": "Employee Card",
+      "country": "Czech Republic",
+      "definition": "A Czech permit that combines residence and permission to work in a specific job. A change of job or employer may need to be notified or approved."
+    },
+    {
+      "term": "Work Authorisation (Aviz de muncă)",
+      "country": "Romania",
+      "definition": "An approval the employer obtains in Romania before the worker applies for a long-stay employment visa. Check the current process with the Romanian authorities."
+    },
+    {
+      "term": "Certificate of Sponsorship (CoS)",
+      "country": "United Kingdom",
+      "definition": "An electronic record that a licensed UK sponsor assigns to a worker for a specific job. It is a requirement for the application, not a visa or a guarantee of approval."
+    },
+    {
+      "term": "Skilled Worker Visa (UK)",
+      "country": "United Kingdom",
+      "definition": "A UK work route for eligible occupations with a licensed sponsor. Check the current occupation, salary and English-language rules on GOV.UK."
+    },
+    {
+      "term": "Work Visa Invitation",
+      "country": "Russia",
+      "definition": "An official invitation arranged by the employer in Russia, needed to apply for a work visa. Confirm the invitation and work permit details with the consular authority."
+    },
+    {
+      "term": "Attestation",
+      "country": "General",
+      "definition": "Official confirmation that a document is genuine so it can be used abroad. The authorities involved depend on the document and the destination."
+    },
+    {
+      "term": "Apostille",
+      "country": "General",
+      "definition": "A certificate that authenticates a public document for use in countries that are party to the Hague Apostille Convention. Whether an apostille or embassy attestation applies depends on the destination."
+    },
+    {
+      "term": "PCC (Police Clearance Certificate)",
+      "country": "General",
+      "definition": "A certificate about a person’s criminal record status, requested by many destinations. Confirm which issuing authority and validity period the destination accepts."
+    },
+    {
+      "term": "ECR / ECNR",
+      "country": "General",
+      "definition": "Indian passport categories: Emigration Check Required and Emigration Check Not Required. ECR passport holders need emigration clearance before travelling for work to certain notified countries."
+    },
+    {
+      "term": "Emigration Clearance",
+      "country": "General",
+      "definition": "An approval from India’s Protector of Emigrants, processed through the eMigrate system, for ECR passport holders travelling for work to notified countries."
+    },
+    {
+      "term": "Medical Fitness",
+      "country": "General",
+      "definition": "A health examination required by many destinations before a work or residence permit is issued. The tests and approved centres are set by the destination."
+    },
+    {
       "term": "Employer of Record (EOR)",
       "country": "General",
-      "definition": "An arrangement in which a separate entity is the legal employer under applicable local rules. This definition does not establish that GlobalPath offers an EOR service."
+      "definition": "An arrangement in which a separate entity is the legal employer under applicable local rules. This definition does not establish that Aaroham offers an EOR service."
     },
     {
       "term": "Replacement Guarantee",

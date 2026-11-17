@@ -1,22 +1,39 @@
 import { photography } from "@/data/photography";
 
+/**
+ * Canonical site address. Every absolute URL (canonical links, Open Graph,
+ * JSON-LD, sitemap.xml and robots.txt) is built from this one value.
+ * Override it per environment with NEXT_PUBLIC_SITE_URL (see .env.example).
+ * aarohamoverseas.in redirects to this domain at the host; never use it here.
+ */
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.aarohamoverseas.com").replace(/\/+$/, "");
+
 export const site = {
-  name: "GlobalPath",
+  /** Wordmark shown in the header and footer logo: "Aaroham. OVERSEAS". */
+  name: "Aaroham",
   descriptor: "OVERSEAS",
-  legalName: "GlobalPath Overseas",
+  /** Brand name for page titles, Open Graph and general copy. */
+  brandName: "Aaroham Overseas",
+  /** Registered company name. Use only for the copyright line, legal pages, contact page and structured data. */
+  legalName: "AAROHAM OVERSEAS PRIVATE LIMITED",
   tagline: "Indian Talent. Global Opportunities.",
   taglineHi: "भारतीय प्रतिभा। दुनिया भर में अवसर।",
-  url: "https://globalpath-overseas.yummy-bead-8936.chatgpt.site",
+  url: SITE_URL,
+  /** Company registration details. Each one is displayed only once filled in. */
+  company: {
+    registeredOffice: "", // TODO(owner): registered office address, as on the certificate of incorporation.
+    cin: "", // TODO(owner): Corporate Identification Number (CIN).
+    raLicence: "", // TODO(owner): MEA Recruiting Agent (RA) licence number.
+  },
   contact: {
-    phone: "",
-    whatsapp: "",
-    email: "",
-    address: "",
+    phone: "", // TODO(owner): verified phone number, e.g. "+91 …".
+    whatsapp: "", // TODO(owner): verified WhatsApp number in international format.
+    email: "", // TODO(owner): confirm the mailbox, e.g. "contact@aarohamoverseas.com", before adding it.
+    address: "", // TODO(owner): office address shown on the contact page.
     officeHours: "",
     mapUrl: "",
   },
   social: { linkedin: "", facebook: "", instagram: "" },
-  registration: "",
 };
 
 export const images = {

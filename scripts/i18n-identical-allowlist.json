@@ -1,0 +1,19 @@
+{
+  "note": "English keys whose translation may legitimately equal the English text. Used by scripts/check-translations.mjs. Add a key here only after confirming the value is correct in that language (brand names, country names, acronyms, technical terms, loanwords).",
+  "all": [
+    "AAROHAM",
+    "en_IN",
+    "Git & Agile",
+    "JavaScript & React",
+    "AutoCAD / SolidWorks",
+    "Windows / Linux",
+    "Active Directory",
+    "Iqama"
+  ],
+  "locales": {
+    "pt": ["Baristas", "Concierges", "Curriculum vitae", "Global", "Israel", "Kuwait", "Portugal"],
+    "de": ["Apostille", "Bahrain", "Baristas", "Concierges", "Employer of Record (EOR)", "Global", "Israel", "Japan", "Kuwait", "Optional", "Portugal"],
+    "pl": ["Apostille", "Oman"],
+    "ro": ["Bahrain", "Curriculum vitae", "Electrician", "Global", "Israel", "Oman", "Qatar", "Specialist"]
+  }
+}

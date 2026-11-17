@@ -14,7 +14,10 @@ export const languages = [
 export type Locale = typeof languages[number]["code"];
 export type Messages = Record<string, string>;
 export const defaultLocale: Locale = "en";
-export const languageStorageKey = "globalpath-language";
+export const languageStorageKey = "aaroham-language";
+// Key used before the rebrand. Read once, copied to languageStorageKey and removed
+// so returning visitors keep their language. Safe to delete after a few months.
+export const legacyLanguageStorageKey = "globalpath-language";
 export const isLocale = (value: unknown): value is Locale => languages.some(language => language.code === value);
 export const isRTL = (locale: Locale) => locale === "ar" || locale === "he";
 // Shared languages appear once. Hindi remains available for the Indian audience.

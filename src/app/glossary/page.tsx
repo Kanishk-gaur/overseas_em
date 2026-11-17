@@ -1,5 +1,4 @@
 import { pageMetadata } from "@/lib/metadata";
-import { GlossaryPage } from "@/components/pages/resources-pages";
-export const metadata = pageMetadata("Recruitment Glossary", "Understand common visa, documentation and international recruitment terminology.", "/glossary");
-export default function Page() { return <GlossaryPage />; }
-
+import { VisaGuidePage } from "@/components/pages/visa-guide-page";
+export const metadata = pageMetadata("Visa & Work Permit Guide", "Understand work visas, work permits and residence permits for 15 destinations: common routes, typical documents, process steps, fraud warnings, FAQs and a glossary.", "/glossary");
+export default function Page() { return <VisaGuidePage />; }

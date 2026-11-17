@@ -1,5 +1,5 @@
 {
-  "name": "globalpath-overseas",
+  "name": "aaroham-overseas",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "i18n:catalog": "node scripts/i18n-catalog.mjs",
     "i18n:check": "npm run i18n:catalog && node scripts/i18n-check.mjs",
     "i18n:certificates": "node scripts/i18n-certificates.mjs",
+    "check:i18n": "npm run i18n:catalog --silent > /dev/null && node scripts/check-translations.mjs",
     "images:prepare": "node scripts/prepare-responsive-images.mjs",
     "predev": "npm run images:prepare",
     "prebuild": "npm run i18n:check && npm run i18n:certificates && npm run images:prepare"

@@ -1,4 +1,4 @@
-# GlobalPath Overseas — final local refinement report
+# Aaroham Overseas — final local refinement report
 
 Reviewed 25 October 2026. Preview: **http://localhost:3000/**, running from the development server in the target project. All work stays local. No commit, push, publication or deployment was performed. The original overseas project was not modified.
 

@@ -1,4 +1,4 @@
-/* Additional content uses the existing GlobalPath palette and typography. */
+/* Additional content uses the existing Aaroham Overseas palette and typography. */
 .recruitment-tracks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 80px; }
 .recruitment-tracks > article + article { border-inline-start: 1px solid var(--border); padding-inline-start: 70px; }
 .recruitment-tracks h2 { font-size: clamp(30px, 3vw, 43px); }

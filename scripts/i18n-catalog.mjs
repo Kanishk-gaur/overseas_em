@@ -5,7 +5,8 @@ import path from "node:path";
 const root = process.cwd();
 const walk = directory => readdirSync(directory, { withFileTypes: true }).flatMap(entry => entry.isDirectory() ? walk(path.join(directory, entry.name)) : [path.join(directory, entry.name)]);
 const messages = new Map(), hints = new Map(), dynamic = [], raw = [], metadata = {};
-const site = { name: "GlobalPath", legalName: "GlobalPath Overseas", tagline: "Indian Talent. Global Opportunities.", taglineHi: "भारतीय प्रतिभा। दुनिया भर में अवसर।", descriptor: "OVERSEAS" };
+// Brand values come from the site configuration so templates such as `${site.brandName}` resolve to the current brand.
+const site = declared("src/config/site.ts", "site");
 function value(node) {
   if (!node) return undefined;
   if (ts.isStringLiteral(node) || ts.isNoSubstitutionTemplateLiteral(node)) return node.text;
@@ -82,7 +83,7 @@ for (const [data, name, aliases] of [["countries", "name", "countryAliases"], ["
 const decodeXML = text => text.replaceAll("&amp;", "&").replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&apos;", "'").replaceAll("&quot;", '"');
 for (const file of ["work-completion", "service-experience"]) {
   const svg = readFileSync(path.join(root, `public/certificates/${file}-draft.svg`), "utf8");
-  for (const match of svg.matchAll(/<(?:text|title|desc)\b[^>]*>([^<]+)<\//g)) if (!["GlobalPath", "OVERSEAS"].includes(match[1])) add(decodeXML(match[1]));
+  for (const match of svg.matchAll(/<(?:text|title|desc)\b[^>]*>([^<]+)<\//g)) if (![site.name, site.descriptor].includes(match[1])) add(decodeXML(match[1]));
 }
 const contentFiles = ["blog", "cases", "glossary", "jobCategories", "workforce", "workforceCategories"];
 const ignoreKeys = new Set(["id", "slug", "image", "photo", "date", "reviewedDate", "linkedin", "email", "phone", "icon", "categoryId", "experience", "years"]);
@@ -95,6 +96,10 @@ function collect(value, key = "") {
 for (const text of Object.values(JSON.parse(readFileSync(path.join(root, "src/locales/workforce/en.json"), "utf8")))) add(text);
 for (const name of contentFiles) collect(JSON.parse(readFileSync(path.join(root, `src/data/recruitment/${name}.json`), "utf8")));
 for (const member of JSON.parse(readFileSync(path.join(root, "src/data/recruitment/team.json"), "utf8")).team) { add(member.role); add(member.specialty); }
+// Visa guide country tabs: plain English data, translated through the same dictionaries as other content.
+for (const country of declared("src/data/visaCountries.ts", "visaCountries")) {
+  for (const field of ["name", "routes", "audienceNote", "documents", "steps", "languageNote", "feesAndTiming"]) add(country[field]);
+}
 for (const post of JSON.parse(readFileSync(path.join(root, "src/data/recruitment/blog.json"), "utf8")).posts) metadata[`/blog/${post.slug}`] = { title: post.title, description: post.excerpt };
 mkdirSync(path.join(root, "src/locales/generated"), { recursive: true });
 writeFileSync(path.join(root, "src/locales/generated/en.json"), JSON.stringify(Object.fromEntries([...messages].sort(([a],[b]) => a.localeCompare(b))), null, 2) + "\n");

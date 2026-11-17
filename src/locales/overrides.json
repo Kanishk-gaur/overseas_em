@@ -229,7 +229,7 @@
     "cs": "Řidičské oprávnění LMV / HMV"
   },
   "SSW (Specified Skilled Worker)": {
-    "cs": "SSW (pracovník se specifickými dovednostmi)"
+    "cs": "SSW (pracovník se specifikovanou kvalifikací)"
   },
   "Lock-out / tag-out": {
     "pt": "Bloqueio e sinalização de segurança",
@@ -946,8 +946,8 @@
     "pl": "MEA · Zalecenia dotyczące rekrutacji za granicę"
   },
   "TITP (Technical Intern Training Program)": {
-    "pl": "TITP (program praktyk technicznych)",
-    "ja": "TITP（技能実習制度）"
+    "pl": "TITP (program szkolenia stażystów technicznych)",
+    "ja": "TITP(技能実習制度)"
   },
   "UAE Hiring: The Offer, Contract & Work Permission": {
     "pl": "Praca w ZEA: oferta, umowa i zezwolenie na pracę"
@@ -966,33 +966,11 @@
   "Poland: Work-Visa Documents & Employer Checks": {
     "ru": "Польша: документы для рабочей визы и проверка работодателя"
   },
-  "An arrangement in which a separate entity is the legal employer under applicable local rules. This definition does not establish that GlobalPath offers an EOR service.": {
-    "ru": "Модель, при которой отдельная организация является юридическим работодателем в соответствии с местным законодательством. Это определение не означает, что GlobalPath предоставляет услугу EOR."
+  "Connecting Indian talent with international opportunities through people-focused recruitment at Aaroham Overseas.": {
+    "ru": "Aaroham Overseas помогает специалистам из Индии находить международные возможности, ставя людей в центр процесса подбора персонала."
   },
-  "GlobalPath Overseas certificate design template. All project, state, client and date fields are blank placeholders. No signature, seal or issuer approval has been supplied. This draft is not evidence of completed work.": {
-    "ar": "نموذج تصميم شهادة GlobalPath Overseas. جميع خانات المشروع والولاية والعميل والتاريخ فارغة. لم يُقدَّم توقيع أو ختم أو اعتماد من الجهة المصدرة. هذه المسودة ليست دليلًا على أعمال منجزة.",
-    "he": "תבנית לעיצוב תעודה של GlobalPath Overseas. כל שדות הפרויקט, המדינה בהודו, הלקוח והתאריך ריקים. לא צורפו חתימה, חותמת או אישור של הגוף המנפיק. טיוטה זו אינה ראיה לעבודה שבוצעה.",
-    "ru": "Шаблон оформления сертификата GlobalPath Overseas. Все поля проекта, штата Индии, клиента и даты оставлены пустыми. Подпись, печать и одобрение выдающей стороны отсутствуют. Этот черновик не подтверждает выполненную работу."
-  },
-  "Read the privacy policy for the GlobalPath Overseas website.": {
-    "ru": "Ознакомьтесь с политикой конфиденциальности сайта GlobalPath Overseas."
-  },
-  "Read the terms and conditions for the GlobalPath Overseas website.": {
-    "ru": "Ознакомьтесь с условиями использования сайта GlobalPath Overseas."
-  },
-  "Connecting Indian talent with international opportunities through people-focused recruitment at GlobalPath Overseas.": {
-    "ru": "GlobalPath Overseas помогает специалистам из Индии находить международные возможности, ставя людей в центр процесса подбора персонала."
-  },
-  "Talk to GlobalPath Overseas about overseas work or international workforce recruitment. Candidate and employer enquiry options.": {
-    "ru": "Обсудите с GlobalPath Overseas работу за рубежом или международный подбор персонала. Варианты обращения для кандидатов и работодателей."
-  },
-  "This policy explains the current frontend website of GlobalPath Overseas. It describes the information handled by the site and by the external services you may choose to open.": {
-    "ru": "Эта политика описывает текущую клиентскую версию сайта GlobalPath Overseas, информацию, обрабатываемую сайтом, и внешние сервисы, которые вы можете открыть."
-  },
-  "This website introduces GlobalPath Overseas and its proposed recruitment focus. It provides general information for people exploring overseas work and employers discussing workforce requirements. It is not a job marketplace or an application portal.": {
-    "ru": "Этот сайт представляет GlobalPath Overseas и планируемые направления подбора персонала. Он содержит общую информацию для людей, изучающих работу за рубежом, и работодателей, обсуждающих потребности в персонале. Сайт не является биржей вакансий или порталом подачи заявлений.",
-    "ar": "يعرّف هذا الموقع بشركة GlobalPath Overseas وتوجهها المقترح في التوظيف. ويقدم معلومات عامة لمن يبحثون في فرص العمل بالخارج ولأصحاب العمل الذين يناقشون احتياجاتهم من العمالة. وهو ليس سوقًا للوظائف أو بوابة لتقديم الطلبات.",
-    "he": "אתר זה מציג את GlobalPath Overseas ואת תחומי הגיוס המוצעים שלה. הוא מספק מידע כללי למי שבוחנים עבודה בחו״ל ולמעסיקים הדנים בצורכי כוח אדם. האתר אינו לוח משרות או פורטל להגשת מועמדות."
+  "Talk to Aaroham Overseas about overseas work or international workforce recruitment. Candidate and employer enquiry options.": {
+    "ru": "Обсудите с Aaroham Overseas работу за рубежом или международный подбор персонала. Варианты обращения для кандидатов и работодателей."
   },
   "A closer look\nat the trades.": {
     "hi": "ट्रेड और हुनर को\nकरीब से जानें।",
@@ -1102,17 +1080,17 @@
     "pl": "Ocena dopasowana do stanowiska",
     "ro": "Evaluare potrivită rolului"
   },
-  "At GlobalPath Overseas, we ask about experience, expectations and working conditions before discussing a possible match.": {
-    "hi": "GlobalPath Overseas में हम किसी संभावित नियुक्ति पर बात करने से पहले अनुभव, अपेक्षाओं और काम की स्थितियों के बारे में पूछते हैं।",
-    "ar": "في GlobalPath Overseas، نسأل عن الخبرة والتوقعات وظروف العمل قبل مناقشة مدى ملاءمة المرشح للوظيفة.",
-    "he": "ב-GlobalPath Overseas אנחנו שואלים על ניסיון, ציפיות ותנאי עבודה לפני שנדון בהתאמה אפשרית.",
-    "ru": "В GlobalPath Overseas мы спрашиваем об опыте, ожиданиях и условиях труда, прежде чем обсуждать возможное трудоустройство.",
-    "pt": "Na GlobalPath Overseas, perguntamos sobre experiência, expectativas e condições de trabalho antes de discutir uma possível correspondência.",
-    "cs": "V GlobalPath Overseas se nejprve ptáme na zkušenosti, očekávání a pracovní podmínky. Teprve potom probíráme možné pracovní spojení.",
-    "de": "Bei GlobalPath Overseas fragen wir nach Erfahrung, Erwartungen und Arbeitsbedingungen, bevor wir eine mögliche Vermittlung besprechen.",
-    "ja": "GlobalPath Overseasでは、候補者と職務の適合を検討する前に、経験、希望、労働条件を伺います。",
-    "pl": "W GlobalPath Overseas pytamy o doświadczenie, oczekiwania i warunki pracy, zanim omówimy możliwość dopasowania kandydata do stanowiska.",
-    "ro": "La GlobalPath Overseas, întrebăm despre experiență, așteptări și condiții de muncă înainte de a discuta o posibilă potrivire."
+  "At Aaroham Overseas, we ask about experience, expectations and working conditions before discussing a possible match.": {
+    "hi": "Aaroham Overseas में हम किसी संभावित नियुक्ति पर बात करने से पहले अनुभव, अपेक्षाओं और काम की स्थितियों के बारे में पूछते हैं।",
+    "ar": "في Aaroham Overseas، نسأل عن الخبرة والتوقعات وظروف العمل قبل مناقشة مدى ملاءمة المرشح للوظيفة.",
+    "he": "ב-Aaroham Overseas אנחנו שואלים על ניסיון, ציפיות ותנאי עבודה לפני שנדון בהתאמה אפשרית.",
+    "ru": "В Aaroham Overseas мы спрашиваем об опыте, ожиданиях и условиях труда, прежде чем обсуждать возможное трудоустройство.",
+    "pt": "Na Aaroham Overseas, perguntamos sobre experiência, expectativas e condições de trabalho antes de discutir uma possível correspondência.",
+    "cs": "V Aaroham Overseas se nejprve ptáme na zkušenosti, očekávání a pracovní podmínky. Teprve potom probíráme možné pracovní spojení.",
+    "de": "Bei Aaroham Overseas fragen wir nach Erfahrung, Erwartungen und Arbeitsbedingungen, bevor wir eine mögliche Vermittlung besprechen.",
+    "ja": "Aaroham Overseasでは、候補者と職務の適合を検討する前に、経験、希望、労働条件を伺います。",
+    "pl": "W Aaroham Overseas pytamy o doświadczenie, oczekiwania i warunki pracy, zanim omówimy możliwość dopasowania kandydata do stanowiska.",
+    "ro": "La Aaroham Overseas, întrebăm despre experiență, așteptări și condiții de muncă înainte de a discuta o posibilă potrivire."
   },
   "Based in India · International recruitment": {
     "hi": "भारत में स्थित · अंतरराष्ट्रीय भर्ती",
@@ -3717,18 +3695,6 @@
     "ja": "貴社の要件に\n沿った採用。",
     "pl": "Rekrutacja zgodna\nz Twoimi wymaganiami.",
     "ro": "Recrutare adaptată\ncerințelor dvs."
-  },
-  "At GlobalPath Overseas, we define your workforce requirements, assess relevant Indian candidates and coordinate the steps towards mobilization.": {
-    "hi": "GlobalPath Overseas में हम आपकी कामगार ज़रूरतें तय करते हैं, संबंधित भारतीय उम्मीदवारों का मूल्यांकन करते हैं और तैनाती तक के चरणों का समन्वय करते हैं।",
-    "ar": "في GlobalPath Overseas، نحدّد احتياجاتكم من القوى العاملة ونقيّم المرشحين الهنود المناسبين وننسّق المراحل وصولًا إلى انتقالهم للعمل.",
-    "he": "ב-GlobalPath Overseas אנו מגדירים את צורכי כוח האדם שלכם, מעריכים מועמדים מתאימים מהודו ומתאמים את השלבים עד המעבר לעבודה.",
-    "ru": "В GlobalPath Overseas мы определяем ваши кадровые потребности, оцениваем подходящих индийских кандидатов и координируем этапы до выезда.",
-    "pt": "Na GlobalPath Overseas, definimos as suas necessidades de pessoal, avaliamos candidatos indianos relevantes e coordenamos as etapas até à mobilização.",
-    "cs": "V GlobalPath Overseas vymezíme vaše personální potřeby, posoudíme relevantní indické uchazeče a koordinujeme kroky k mobilizaci.",
-    "de": "Bei GlobalPath Overseas definieren wir Ihren Personalbedarf, bewerten passende indische Bewerber und koordinieren die Schritte bis zum Einsatz.",
-    "ja": "GlobalPath Overseasでは、貴社の人員要件を定義し、適切なインド人候補者を評価し、赴任までの各段階を調整します。",
-    "pl": "W GlobalPath Overseas określamy Twoje potrzeby kadrowe, oceniamy odpowiednich indyjskich kandydatów i koordynujemy etapy do mobilizacji.",
-    "ro": "La GlobalPath Overseas, definim necesarul dumneavoastră de personal, evaluăm candidați indieni relevanți și coordonăm etapele până la mobilizare."
   },
   "The work behind\ninternational hiring.": {
     "hi": "अंतरराष्ट्रीय भर्ती\nके पीछे का काम।",
@@ -8361,5 +8327,45 @@
     "ja": "朝食調理師",
     "pl": "Kucharze śniadaniowi",
     "ro": "Bucătari pentru micul dejun"
+  },
+  "An arrangement in which a separate entity is the legal employer under applicable local rules. This definition does not establish that Aaroham offers an EOR service.": {
+    "ru": "Модель, при которой отдельная организация является юридическим работодателем в соответствии с местным законодательством. Это определение не означает, что Aaroham предоставляет услугу EOR."
+  },
+  "At Aaroham Overseas, we define your workforce requirements, assess relevant Indian candidates and coordinate the steps towards mobilization.": {
+    "hi": "Aaroham Overseas में हम आपकी कामगार ज़रूरतें तय करते हैं, संबंधित भारतीय उम्मीदवारों का मूल्यांकन करते हैं और तैनाती तक के चरणों का समन्वय करते हैं।",
+    "ar": "في Aaroham Overseas، نحدّد احتياجاتكم من القوى العاملة ونقيّم المرشحين الهنود المناسبين وننسّق المراحل وصولًا إلى انتقالهم للعمل.",
+    "he": "ב-Aaroham Overseas אנו מגדירים את צורכי כוח האדם שלכם, מעריכים מועמדים מתאימים מהודו ומתאמים את השלבים עד המעבר לעבודה.",
+    "ru": "В Aaroham Overseas мы определяем ваши кадровые потребности, оцениваем подходящих индийских кандидатов и координируем этапы до выезда.",
+    "pt": "Na Aaroham Overseas, definimos as suas necessidades de pessoal, avaliamos candidatos indianos relevantes e coordenamos as etapas até à mobilização.",
+    "cs": "V Aaroham Overseas vymezíme vaše personální potřeby, posoudíme relevantní indické uchazeče a koordinujeme kroky k mobilizaci.",
+    "de": "Bei Aaroham Overseas definieren wir Ihren Personalbedarf, bewerten passende indische Bewerber und koordinieren die Schritte bis zum Einsatz.",
+    "ja": "Aaroham Overseasでは、貴社の人員要件を定義し、適切なインド人候補者を評価し、赴任までの各段階を調整します。",
+    "pl": "W Aaroham Overseas określamy Twoje potrzeby kadrowe, oceniamy odpowiednich indyjskich kandydatów i koordynujemy etapy do mobilizacji.",
+    "ro": "La Aaroham Overseas, definim necesarul dumneavoastră de personal, evaluăm candidați indieni relevanți și coordonăm etapele până la mobilizare."
+  },
+  "Aaroham Overseas certificate design template. All project, state, client and date fields are blank placeholders. No signature, seal or issuer approval has been supplied. This draft is not evidence of completed work.": {
+    "ar": "نموذج تصميم شهادة Aaroham Overseas. جميع خانات المشروع والولاية والعميل والتاريخ فارغة. لم يُقدَّم توقيع أو ختم أو اعتماد من الجهة المصدرة. هذه المسودة ليست دليلًا على أعمال منجزة.",
+    "he": "תבנית לעיצוב תעודה של Aaroham Overseas. כל שדות הפרויקט, המדינה בהודו, הלקוח והתאריך ריקים. לא צורפו חתימה, חותמת או אישור של הגוף המנפיק. טיוטה זו אינה ראיה לעבודה שבוצעה.",
+    "ru": "Шаблон оформления сертификата Aaroham Overseas. Все поля проекта, штата Индии, клиента и даты оставлены пустыми. Подпись, печать и одобрение выдающей стороны отсутствуют. Этот черновик не подтверждает выполненную работу.",
+    "hi": "Aaroham Overseas प्रमाणपत्र का डिज़ाइन टेम्पलेट। परियोजना, राज्य, ग्राहक और तारीख के सभी फ़ील्ड खाली हैं। कोई हस्ताक्षर, मुहर या जारीकर्ता की स्वीकृति नहीं दी गई है। यह ड्राफ़्ट पूरे किए गए काम का प्रमाण नहीं है।",
+    "ja": "Aaroham Overseasの証明書デザインテンプレートです。プロジェクト、州、顧客、日付の各欄はすべて空欄です。署名、印章、発行者の承認はありません。この下書きは、作業完了の証拠ではありません。"
+  },
+  "Read the privacy policy for the Aaroham Overseas website.": {
+    "ru": "Ознакомьтесь с политикой конфиденциальности сайта Aaroham Overseas.",
+    "hi": "Aaroham Overseas वेबसाइट की गोपनीयता नीति पढ़ें।",
+    "ja": "Aaroham Overseasウェブサイトのプライバシーポリシーをお読みください。"
+  },
+  "Read the terms and conditions for the Aaroham Overseas website.": {
+    "ru": "Ознакомьтесь с условиями использования сайта Aaroham Overseas.",
+    "hi": "Aaroham Overseas वेबसाइट के नियम और शर्तें पढ़ें।",
+    "ja": "Aaroham Overseasウェブサイトの利用規約をお読みください。"
+  },
+  "This policy explains the current frontend website of AAROHAM OVERSEAS PRIVATE LIMITED. It describes the information handled by the site and by the external services you may choose to open.": {
+    "ru": "Эта политика описывает текущую клиентскую версию сайта AAROHAM OVERSEAS PRIVATE LIMITED, информацию, обрабатываемую сайтом, и внешние сервисы, которые вы можете открыть."
+  },
+  "This website introduces AAROHAM OVERSEAS PRIVATE LIMITED and its proposed recruitment focus. It provides general information for people exploring overseas work and employers discussing workforce requirements. It is not a job marketplace or an application portal.": {
+    "ru": "Этот сайт представляет AAROHAM OVERSEAS PRIVATE LIMITED и планируемые направления подбора персонала. Он содержит общую информацию для людей, изучающих работу за рубежом, и работодателей, обсуждающих потребности в персонале. Сайт не является биржей вакансий или порталом подачи заявлений.",
+    "ar": "يعرّف هذا الموقع بشركة AAROHAM OVERSEAS PRIVATE LIMITED وتوجهها المقترح في التوظيف. ويقدم معلومات عامة لمن يبحثون في فرص العمل بالخارج ولأصحاب العمل الذين يناقشون احتياجاتهم من العمالة. وهو ليس سوقًا للوظائف أو بوابة لتقديم الطلبات.",
+    "he": "אתר זה מציג את AAROHAM OVERSEAS PRIVATE LIMITED ואת תחומי הגיוס המוצעים שלה. הוא מספק מידע כללי למי שבוחנים עבודה בחו״ל ולמעסיקים הדנים בצורכי כוח אדם. האתר אינו לוח משרות או פורטל להגשת מועמדות."
   }
 }

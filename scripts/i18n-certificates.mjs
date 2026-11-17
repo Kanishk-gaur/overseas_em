@@ -14,7 +14,7 @@ for (const { code, direction } of languages.filter(item => item.code !== "en" &&
     svg = svg.replace('<svg ', `<svg lang="${code}" xml:lang="${code}" `);
     svg = svg.replace(/<(text|title|desc)\b([^>]*)>([^<]+)<\/(text|title|desc)>/g, (original, tag, attributes, raw) => {
       const source = decode(raw);
-      if (["GlobalPath", "OVERSEAS"].includes(source)) return original;
+      if (["Aaroham", "OVERSEAS"].includes(source)) return original;
       const translated = dictionary[source];
       if (!translated) throw Error(`Missing ${code} certificate text: ${source}`);
       if (tag === "text") {

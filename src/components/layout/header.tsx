@@ -12,7 +12,7 @@ import { BrandMark } from "@/components/shared/brand-mark";
 
 export function Logo({ light = false }: { light?: boolean }) {
   const { t } = useLocale();
-  return <Link href="/" className={`brand ${light ? "brand-light" : ""}`} aria-label={`${site.legalName} — ${t("Home", "होम")}`}><BrandMark /><span><strong>{site.name}<span className="brand-dot">.</span></strong><small>{site.descriptor}</small></span></Link>;
+  return <Link href="/" className={`brand ${light ? "brand-light" : ""}`} aria-label={`${site.brandName} — ${t("Home", "होम")}`}><BrandMark /><span><strong>{site.name}<span className="brand-dot">.</span></strong><small>{site.descriptor}</small></span></Link>;
 }
 export function Header() {
   const { d, t } = useLocale();

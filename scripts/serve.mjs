@@ -20,4 +20,4 @@ const server = createServer(async (request, response) => {
     try { response.end(await readFile(join(root, "404.html"))); } catch { response.end("Run npm run build before starting the preview."); }
   }
 });
-server.listen(port, "127.0.0.1", () => console.log(`GlobalPath production preview: http://localhost:${port}`));
+server.listen(port, "127.0.0.1", () => console.log(`Aaroham Overseas production preview: http://localhost:${port}`));
