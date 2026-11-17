@@ -154,3 +154,60 @@
 @media (prefers-reduced-motion: reduce) {
   .compare article, .tabs button { transition: none; }
 }
+
+/* Hero actions (any-visa intro) */
+.heroActions { margin-top: 28px; gap: 12px; }
+.heroNote { display: flex; align-items: flex-start; gap: 9px; max-width: 520px; margin-top: 16px; color: #5d6c70; font-size: 12px; line-height: 1.8; }
+.heroNote svg { color: var(--teal); margin-top: 4px; }
+
+/* Visa services for every purpose */
+.services { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; }
+.services li { display: flex; flex-direction: column; min-width: 0; padding: 24px 22px; background: #fff; border: 1px solid #d8e2da; border-radius: var(--card-radius, 15px); transition: border-color .2s ease; }
+.services li > svg { color: var(--teal); margin-bottom: 20px; }
+.services h3 { font-size: 17px; line-height: 1.4; font-weight: 550; margin-bottom: 8px; }
+.services p { color: var(--muted); font-size: 13px; line-height: 1.75; }
+.servicesFoot { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 18px 30px; margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--border); }
+.servicesFoot p { max-width: 640px; color: var(--muted); font-size: 13px; line-height: 1.8; }
+
+/* What we do for you */
+.support { background: var(--paper); border-block: 1px solid var(--border); }
+.supportList { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.supportList li { display: flex; align-items: flex-start; gap: 13px; min-width: 0; padding: 20px 22px; background: #fff; border: 1px solid #dbe2d8; border-radius: 12px; font-size: 14px; line-height: 1.7; color: #31464c; }
+.supportList li > svg { color: var(--teal); margin-top: 3px; }
+.supportNote { margin-top: 28px; }
+
+/* Which countries? (top of the country guide section) */
+.whichCountries { display: grid; grid-template-columns: 1.2fr 1fr; align-items: end; gap: 80px; padding-bottom: 46px; margin-bottom: 46px; border-bottom: 1px solid var(--border); }
+.whichCountries p { color: var(--muted); font-size: 15px; line-height: 1.85; }
+.whichCountries :global(.text-link) { margin-top: 22px; }
+
+@media (hover: hover) and (pointer: fine) {
+  .services li:hover { border-color: #a7bdb0; }
+}
+@media (max-width: 1199px) {
+  .services { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .whichCountries { gap: 45px; }
+}
+@media (max-width: 1023px) {
+  .services { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .supportList { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .whichCountries { gap: 30px; grid-template-columns: 1.15fr 1fr; }
+}
+@media (max-width: 767px) {
+  .heroActions { flex-direction: column; align-items: stretch; }
+  .heroNote { font-size: 13px; }
+  .services { gap: 12px; }
+  .services li { padding: 20px 18px; }
+  .services h3 { font-size: 16px; }
+  .supportList { grid-template-columns: 1fr; gap: 10px; }
+  .supportList li { padding: 17px 18px; }
+  .whichCountries { grid-template-columns: 1fr; gap: 20px; padding-bottom: 36px; margin-bottom: 36px; }
+  .whichCountries p { font-size: 14px; }
+  .servicesFoot { flex-direction: column; align-items: stretch; }
+}
+@media (max-width: 479px) {
+  .services { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .services li { transition: none; }
+}

@@ -63,5 +63,5 @@ export const resourceLinks = [
   { href: "/blog", en: "Insights & guides", hi: "लेख और मार्गदर्शन" },
   { href: "/case-studies", en: "Hiring scenarios", hi: "भर्ती के उदाहरण" },
   { href: "/compliance", en: "Recruitment standards", hi: "भर्ती के मानक" },
-  { href: "/glossary", en: "Visa guide", hi: "वीज़ा मार्गदर्शिका" },
+  { href: "/glossary", en: "Visa services", hi: "वीज़ा सेवाएँ" },
 ];

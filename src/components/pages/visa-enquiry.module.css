@@ -1,0 +1,13 @@
+/* Visa enquiry form and the three-option enquiry tabs on /contact/.
+   Form fields reuse src/components/workforce/workforce.module.css. */
+
+.form { margin-top: 28px; }
+.title { font-size: .9rem; letter-spacing: .06em; margin: 0; }
+/* Full-width fields must not pick up the link styling that .fullField carries
+   for the role link in the employer form (doubled class to win on specificity). */
+.fieldReset.fieldReset { margin-top: 0; text-decoration: none; color: inherit; font-size: inherit; display: flex; flex-direction: column; align-items: stretch; gap: 8px; }
+
+.threeTabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 599px) {
+  .threeTabs { grid-template-columns: 1fr; }
+}

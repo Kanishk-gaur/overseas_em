@@ -14,14 +14,51 @@ export const visaDisclaimer = l(
 );
 
 export const visaSections = [
+  { href: "#visa-services", label: l("Visa services", "वीज़ा सेवाएँ") },
+  { href: "#what-we-do", label: l("What we do", "हम क्या करते हैं") },
+  { href: "#how-it-works", label: l("How it works", "यह कैसे काम करता है") },
+  { href: "#which-countries", label: l("Countries", "देश") },
   { href: "#visa-types", label: l("Visa or permit?", "वीज़ा या परमिट?") },
-  { href: "#country-guide", label: l("By country", "देश के अनुसार") },
-  { href: "#visa-process", label: l("The process", "प्रक्रिया") },
-  { href: "#visa-documents", label: l("Documents", "दस्तावेज़") },
+  { href: "#country-guide", label: l("Work visas by country", "देश के अनुसार कार्य वीज़ा") },
+  { href: "#documents", label: l("Documents", "दस्तावेज़") },
   { href: "#visa-safety", label: l("Stay safe", "सुरक्षित रहें") },
   { href: "#visa-faq", label: l("Visa FAQs", "वीज़ा के सवाल") },
   { href: "#glossary", label: l("Glossary", "शब्दावली") },
 ];
+
+// "Visa services for every purpose": ids are also the visa-type values used by
+// the contact form at /contact/?type=visa.
+export const visaServiceTypes = [
+  { id: "work", title: l("Work visa & work permit", "कार्य वीज़ा और कार्य परमिट"), body: l("For job offers abroad, whether or not we recruited you.", "विदेश में नौकरी के प्रस्ताव के लिए, चाहे आपकी भर्ती हमने की हो या नहीं।") },
+  { id: "tourist", title: l("Tourist / visit visa", "पर्यटक / विज़िट वीज़ा"), body: l("For holidays and visiting friends abroad.", "छुट्टियों और विदेश में दोस्तों से मिलने के लिए।") },
+  { id: "business", title: l("Business visa", "बिज़नेस वीज़ा"), body: l("For meetings, conferences, trade fairs and client visits.", "मीटिंग, सम्मेलन, व्यापार मेले और ग्राहकों से मिलने के लिए।") },
+  { id: "student", title: l("Student visa", "स्टूडेंट वीज़ा"), body: l("For universities, colleges and language courses abroad.", "विदेश में विश्वविद्यालय, कॉलेज और भाषा पाठ्यक्रमों के लिए।") },
+  { id: "family", title: l("Family & dependent visa", "परिवार और आश्रित वीज़ा"), body: l("To join a spouse, parent or child living abroad.", "विदेश में रहने वाले जीवनसाथी, माता-पिता या बच्चे के पास जाने के लिए।") },
+  { id: "schengen", title: l("Schengen visa", "शेंगेन वीज़ा"), body: l("One application for travel across the Schengen countries in Europe.", "यूरोप के शेंगेन देशों में यात्रा के लिए एक ही आवेदन।") },
+  { id: "medical", title: l("Medical visa", "मेडिकल वीज़ा"), body: l("For treatment abroad, with the patient and an attendant.", "विदेश में इलाज के लिए, मरीज़ और साथ जाने वाले व्यक्ति के लिए।") },
+  { id: "transit", title: l("Transit visa", "ट्रांज़िट वीज़ा"), body: l("For journeys with a stop in another country, where required.", "जहाँ ज़रूरी हो, किसी दूसरे देश में रुककर जाने वाली यात्राओं के लिए।") },
+  { id: "extension", title: l("Visa extension & renewal", "वीज़ा विस्तार और नवीनीकरण"), body: l("When you need to stay longer or renew a permit.", "जब आपको ज़्यादा समय रुकना हो या परमिट का नवीनीकरण करना हो।") },
+  { id: "other", title: l("Residence & other visas", "निवास और अन्य वीज़ा"), body: l("For other categories, ask us and we’ll guide you.", "अन्य श्रेणियों के लिए हमसे पूछें, हम आपका मार्गदर्शन करेंगे।") },
+] as const;
+
+export const visaSupportServices = [
+  l("Advise which visa type fits your purpose and destination", "आपके उद्देश्य और गंतव्य के लिए सही वीज़ा प्रकार की सलाह"),
+  l("Prepare a personalised document checklist", "आपके लिए दस्तावेज़ों की व्यक्तिगत सूची तैयार करना"),
+  l("Review your documents for mistakes before submission", "जमा करने से पहले दस्तावेज़ों में गलतियों की जाँच"),
+  l("Help fill in application forms correctly", "आवेदन फ़ॉर्म सही तरीके से भरने में मदद"),
+  l("Book embassy / VFS / BLS appointments where available", "जहाँ उपलब्ध हो, दूतावास / VFS / BLS अपॉइंटमेंट बुक करना"),
+  l("Arrange document attestation, apostille and translation", "दस्तावेज़ों का सत्यापन, अपोस्टिल और अनुवाद करवाना"),
+  l("Guide you on travel insurance, flight and hotel bookings required for the application", "आवेदन के लिए ज़रूरी यात्रा बीमा, फ़्लाइट और होटल बुकिंग पर मार्गदर्शन"),
+  l("Prepare you for the visa interview", "वीज़ा इंटरव्यू की तैयारी"),
+  l("Help you track your application status", "आवेदन की स्थिति जानने में मदद"),
+];
+
+export const visaHowItWorks = [
+  { id: "trip", title: l("Tell us your trip", "अपनी यात्रा बताएँ"), body: l("Destination, purpose and travel dates.", "गंतव्य, उद्देश्य और यात्रा की तारीखें।") },
+  { id: "checklist", title: l("Get your checklist", "अपनी सूची पाएँ"), body: l("We tell you exactly which documents you need.", "हम बताते हैं कि आपको ठीक-ठीक कौन-से दस्तावेज़ चाहिए।") },
+  { id: "prepare", title: l("We check & prepare", "हम जाँचते और तैयार करते हैं"), body: l("Documents reviewed, forms filled, appointment booked.", "दस्तावेज़ों की जाँच, फ़ॉर्म भरना और अपॉइंटमेंट बुक करना।") },
+  { id: "track", title: l("Submit & track", "जमा करें और स्थिति देखें"), body: l("You attend the appointment; we help you follow up.", "आप अपॉइंटमेंट पर जाते हैं; हम आगे की जानकारी लेने में मदद करते हैं।") },
+] as const;
 
 export const permissionTypes = [
   {
@@ -103,10 +140,38 @@ export const visaVerification = [
 
 export const visaFaqs = [
   {
-    question: l("How long does a work visa take?", "कार्य वीज़ा में कितना समय लगता है?"),
+    question: l("Do I need to take a job through Aaroham Overseas to get visa help?", "क्या वीज़ा सहायता के लिए Aaroham Overseas से नौकरी लेना ज़रूरी है?"),
     answer: l(
-      "It varies by destination, route, season and how complete your documents are. Ask for an indicative timeline for your case and treat it as an estimate, not a guarantee. Confirm current processing times with the official source.",
-      "यह गंतव्य, वीज़ा श्रेणी, मौसम और आपके दस्तावेज़ों की पूर्णता पर निर्भर करता है। अपने मामले के लिए अनुमानित समय पूछें और उसे अनुमान मानें, गारंटी नहीं। मौजूदा प्रक्रिया समय की पुष्टि आधिकारिक स्रोत से करें।",
+      "No. Our visa services are available on their own for any purpose, such as tourism, business, study, family visits or work.",
+      "नहीं। हमारी वीज़ा सेवाएँ किसी भी उद्देश्य के लिए अलग से उपलब्ध हैं, जैसे पर्यटन, व्यापार, पढ़ाई, परिवार से मिलना या काम।",
+    ),
+  },
+  {
+    question: l("Can you guarantee my visa?", "क्या आप मेरे वीज़ा की गारंटी दे सकते हैं?"),
+    answer: l(
+      "No one can honestly guarantee a visa. The decision is made only by the embassy or immigration authority. We help you submit a complete and correct application, which avoids common reasons for refusal.",
+      "कोई भी ईमानदारी से वीज़ा की गारंटी नहीं दे सकता। फैसला केवल दूतावास या आव्रजन प्राधिकरण करता है। हम आपको पूरा और सही आवेदन जमा करने में मदद करते हैं, जिससे अस्वीकृति के आम कारणों से बचा जा सकता है।",
+    ),
+  },
+  {
+    question: l("Can you help if my visa was refused before?", "अगर पहले मेरा वीज़ा अस्वीकार हुआ था, तो क्या आप मदद कर सकते हैं?"),
+    answer: l(
+      "Yes. Share the refusal letter and we’ll explain the reasons given and help you prepare a stronger new application, where reapplying is allowed.",
+      "हाँ। अस्वीकृति पत्र साझा करें; हम उसमें दिए गए कारण समझाएँगे और जहाँ दोबारा आवेदन की अनुमति हो, वहाँ बेहतर नया आवेदन तैयार करने में मदद करेंगे।",
+    ),
+  },
+  {
+    question: l("How much do your visa services cost?", "आपकी वीज़ा सेवाओं का शुल्क कितना है?"),
+    answer: l(
+      "It depends on the visa type and destination. We share our service fee in writing before starting. Embassy and government fees are separate.",
+      "यह वीज़ा के प्रकार और गंतव्य पर निर्भर करता है। काम शुरू करने से पहले हम अपना सेवा शुल्क लिखित में बताते हैं। दूतावास और सरकारी शुल्क अलग होते हैं।",
+    ),
+  },
+  {
+    question: l("How long does a visa take?", "वीज़ा में कितना समय लगता है?"),
+    answer: l(
+      "It varies by country, visa type and season. We tell you the current official processing time for your destination when we start.",
+      "यह देश, वीज़ा के प्रकार और मौसम के अनुसार अलग होता है। काम शुरू करते समय हम आपको आपके गंतव्य के लिए मौजूदा आधिकारिक प्रक्रिया समय बताते हैं।",
     ),
   },
   {

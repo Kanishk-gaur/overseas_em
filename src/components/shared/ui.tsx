@@ -23,10 +23,10 @@ export function Photo({ src, alt, className = "", priority = false, sizes = "(ma
   const description = imageDescriptions[src];
   return <div className={`photo ${className}`}><Image src={src} alt={alt && description ? local(description) : t(alt)} fill sizes={sizes} preload={priority} style={{ objectPosition: description?.position }} /></div>;
 }
-export function PageHero({ eyebrow, title, description, image, imageAlt }: { eyebrow: string; title: string; description: string; image?: string; imageAlt?: string }) {
+export function PageHero({ eyebrow, title, description, image, imageAlt, children }: { eyebrow: string; title: string; description: string; image?: string; imageAlt?: string; children?: React.ReactNode }) {
   const { d, local, t } = useLocale();
   const descriptionImage = image ? imageDescriptions[image] : undefined;
   return <section className={`page-hero ${image ? "page-hero-image" : ""}`}>
-    <div className="container page-hero-content"><div className="breadcrumbs"><Link href="/">{d.nav[0]}</Link><ChevronRight size={12} /><span>{eyebrow}</span></div><div className="page-hero-grid"><div className="page-hero-editorial"><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="page-hero-description">{description}</p><div className="page-hero-signature">{t(site.tagline)}</div></div>{image && <div className="page-hero-visual"><Image src={image} alt={descriptionImage ? local(descriptionImage) : t(imageAlt || "")} fill preload sizes="(max-width: 767px) 100vw, 42vw" style={{ objectPosition: descriptionImage?.position }} /></div>}</div></div>
+    <div className="container page-hero-content"><div className="breadcrumbs"><Link href="/">{d.nav[0]}</Link><ChevronRight size={12} /><span>{eyebrow}</span></div><div className="page-hero-grid"><div className="page-hero-editorial"><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="page-hero-description">{description}</p>{children}<div className="page-hero-signature">{t(site.tagline)}</div></div>{image && <div className="page-hero-visual"><Image src={image} alt={descriptionImage ? local(descriptionImage) : t(imageAlt || "")} fill preload sizes="(max-width: 767px) 100vw, 42vw" style={{ objectPosition: descriptionImage?.position }} /></div>}</div></div>
   </section>;
 }
