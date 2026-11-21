@@ -5,7 +5,8 @@ import { useLocale } from "@/components/shared/locale-provider";
 import { Button, Eyebrow, PageHero, Photo, Reveal } from "@/components/shared/ui";
 import { photography } from "@/data/photography";
 import { ContactCTA } from "@/components/shared/contact-cta";
-import { IndiaExperience } from "@/components/shared/india-experience";
+// Work certificates section hidden for now — uncomment to restore.
+// import { IndiaExperience } from "@/components/shared/india-experience";
 import { CountriesSection } from "@/components/shared/countries-section";
 import { AboutEmployerSections } from "@/components/shared/about-employer-sections";
 
@@ -20,7 +21,7 @@ export function AboutPage() {
     [Scale,t("Responsibility", "ज़िम्मेदारी"),t("Encourage written terms, careful checks and informed decisions at each stage.", "हर चरण में लिखित शर्तों, सावधानी से जाँच और जानकारी के आधार पर फैसलों को बढ़ावा दें।")],
     [Users,t("Human connection", "लोगों से जुड़ाव"),t("Recognise the person behind a CV and the people behind a workforce requirement.", "बायोडाटा के पीछे के इंसान और भर्ती ज़रूरत के पीछे की टीम को समझें।")],
   ].map(([Icon,title,body],i) => { const ValueIcon = Icon as typeof Heart; return <Reveal className="value-item" key={i}><ValueIcon strokeWidth={1.3} size={28}/><h3>{title as string}</h3><p>{body as string}</p></Reveal>; })}</div></div></section>
-  <IndiaExperience />
+  {/* <IndiaExperience /> */}
   <AboutEmployerSections />
   <CountriesSection />
   <section className="ethical-section"><div className="container editorial-split"><div><Eyebrow light>{t("OUR RECRUITMENT PHILOSOPHY", "भर्ती को लेकर हमारा नज़रिया")}</Eyebrow><h2>{t("Nothing important\nshould go unspoken.", "कोई ज़रूरी बात\nअनकही न रहे।")}</h2></div><div><p>{t("International hiring requires clear responsibilities on both sides. Set out duties, understandable contracts, cost responsibilities and any unresolved conditions before a candidate accepts.", "अंतरराष्ट्रीय भर्ती में दोनों पक्षों की ज़िम्मेदारियाँ स्पष्ट होनी चाहिए। उम्मीदवार की स्वीकृति से पहले काम, समझने योग्य अनुबंध, खर्च की ज़िम्मेदारी और लंबित शर्तें स्पष्ट करें।")}</p><p>{t("Provide verifiable company information and complete written terms. Candidate selection remains yours; recruitment coordination cannot guarantee visas or immigration approval.", "सत्यापित की जा सकने वाली कंपनी जानकारी और पूरी लिखित शर्तें दें। उम्मीदवार चयन आपका निर्णय है; भर्ती समन्वय वीज़ा या आव्रजन मंज़ूरी की गारंटी नहीं देता।")}</p><Button href="/process">{d.processCta}</Button></div></div></section><ContactCTA /></>;
